@@ -16,7 +16,7 @@ import { NOTIFY_LABELS } from "./i18n.ts";
 import { normalizeHighlights } from "./notify.ts";
 import type { ReportHighlights } from "./prompts-data.ts";
 
-const PAGES_URL_DEFAULT = "https://duanyytop.github.io/agents-radar";
+const PAGES_URL_DEFAULT = "https://yaojiejia.github.io/agents-radar";
 
 function getWebhookUrls(): string[] {
   const raw = process.env["FEISHU_WEBHOOK_URLS"] ?? process.env["FEISHU_WEBHOOK_URL"] ?? "";

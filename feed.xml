@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>agents-radar</title>
-    <link>https://duanyytop.github.io/agents-radar</link>
+    <link>https://yaojiejia.github.io/agents-radar</link>
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
-    <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 28 Aug 2026 02:20:19 +0000</lastBuildDate>
+    <atom:link href="https://yaojiejia.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Fri, 28 Aug 2026 02:33:37 +0000</lastBuildDate>
     <item>
       <title>AI Ecosystem Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-digest</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-digest</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-digest</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-digest</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>📡 AI Ecosystem Digest — 2026-08-28 Generated 2026-08-28 02:19 UTC by yaojiejia/agents-radar 📊 24h Snapshot Repo ⭐ Stars New Issues Closed Merged PRs Releases Claude Code 143,208 12 1 0 2 OpenAI Codex 119,231 24 1 47 5 Gemini CLI 106,719 1 0 0 1 GitHub Copilot CLI 11,122 16 4 0 3 OpenCode 201,980 23 13 18 0 Pi 98,340 32 36 3 0 Qwen Code 27,437 34 13 2 0 OpenClaw 387,851 150 95 143 0 Hermes Agent 237,357 34 4 1 1 IronClaw 12,604 20 20 14 1 QwenPaw 34,574 9 4 10 1 ZeroClaw 32,667 5 6 2 0 vLLM 90,...</description>
       <content:encoded><![CDATA[<h1>📡 AI Ecosystem Digest — 2026-08-28</h1>
@@ -849,8 +849,8 @@
     </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-cli</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-cli</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-cli</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI CLI 工具社区动态日报 2026-08-28 生成时间: 2026-08-28 00:44 UTC | 覆盖工具: 7 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI OpenCode Pi Qwen Code Claude Code Skills 横向对比 AI CLI 工具交叉比较报告（2026年8月28日） 生态系统概述 AI CLI 工具的领域经历了显著的发展，涌现出众多工具以满足不同的开发需求和工作流程。社区参与度仍然很高，安全性、性能和可用性等问题占据了讨论的主导地位。各个平台最近添加的功能表明，大家正协同推进增强的定制性、可访问性和会话管理。同时，开发者对直观界面和强大的集成功能的需求日益增长。 活动比较 工具 问题数量 PR数量 讨论数量 发布状态 Claude Code 10 1 N/A v2.1.248（2026年8月27日） OpenAI Codex 10 10 N/A rust-v0.150.1（2026年8月28日） Gemini CLI 10 6 N/A v0.59.0-nightly...</description>
       <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-08-28</h1>
@@ -1394,8 +1394,8 @@
     </item>
     <item>
       <title>AI CLI Tools Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-cli-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-cli-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-cli-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-cli-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI CLI Tools Community Digest 2026-08-28 Generated: 2026-08-28 00:44 UTC | Tools covered: 7 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI OpenCode Pi Qwen Code Claude Code Skills Cross-Tool Comparison Cross-Tool Comparison Report on AI CLI Tools (August 28, 2026) Ecosystem Overview The AI CLI tools landscape has seen significant evolution, with numerous tools catering to various development needs and workflows. Community engagement remains high, with issues around security, performance,...</description>
       <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-08-28</h1>
@@ -1939,8 +1939,8 @@
     </item>
     <item>
       <title>AI Agents 生态日报 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-agents</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-agents</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-agents</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-agents</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>OpenClaw 生态日报 2026-08-28 Issues: 500 | PRs: 500 | 覆盖项目: 5 个 | 生成时间: 2026-08-28 00:44 UTC OpenClaw Hermes Agent IronClaw QwenPaw ZeroClaw OpenClaw 项目深度报告 OpenClaw 项目摘要 - 2026-08-28 今日概览 截至2026年8月28日，OpenClaw 展现出活跃的活动，过去24小时内更新了500个问题和500个拉取请求（PR）。目前项目没有新版本发布，但持续的讨论表明用户参与度显著。积极的问题解决和PR管理的增加显示出有强大的贡献者基础致力于提升平台的能力。 发布 今天没有新的版本发布。 项目进展 最近共合并或关闭了162个PR，显示出在各个方面取得了显著进展。关键PR包括： Fix(telegram): 在审计中保留论坛入场身份 (#131293)。 Feat(gateway): 引入重放安全的会话目标协议 (#131245)。 Fix(ui): 统一工具提示的外观和消失方式 (#131335)。 这些更改共同推进了 Ope...</description>
       <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-08-28</h1>
@@ -2342,8 +2342,8 @@
     </item>
     <item>
       <title>AI Agents Ecosystem Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-agents-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-agents-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-agents-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-agents-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>OpenClaw Ecosystem Digest 2026-08-28 Issues: 500 | PRs: 500 | Projects covered: 5 | Generated: 2026-08-28 00:44 UTC OpenClaw Hermes Agent IronClaw QwenPaw ZeroClaw OpenClaw Deep Dive OpenClaw Project Digest - 2026-08-28 Today&amp;#39;s Overview As of August 28, 2026, OpenClaw is showing vibrant activity with 500 issues and 500 pull requests (PRs) being updated in the past 24 hours. The project currently has no new releases but ongoing discussions indicate significant user engagement. The increase in...</description>
       <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-08-28</h1>
@@ -2744,8 +2744,8 @@ Despite these challenges, community responsiveness and collaborative feature enh
     </item>
     <item>
       <title>AI 基础设施日报 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-infra</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-infra</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-infra</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-infra</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI 基础设施日报 2026-08-28 生成时间: 2026-08-28 00:44 UTC | 覆盖项目: 6 个 vLLM SGLang llama.cpp Ollama LiteLLM Unsloth 横向对比 人工智能基础设施生态系统跨项目比较报告 - 2026年8月28日 1. 生态系统概述 人工智能基础设施领域正在快速演变，重点关注模型效率、可扩展性和增强的终端用户体验。关键项目正积极解决稳定性问题、兼容性改进和性能优化，以满足对高级推理能力日益增长的需求。开发者特别关注多GPU配置、多样化硬件兼容性和用户界面增强，这些都是部署人工智能解决方案的重要因素。 2. 活动比较 项目 问题数量 PR 数量 发布状态 vLLM 6 3 没有新版本 SGLang 5 3 没有新版本 Llama.cpp 3 5 1 个新版本 Ollama 4 1 1 个新版本 LiteLLM 3 2 没有新版本 Unsloth 2 0 1 个新版本 3. 模型支持竞赛 以下项目最近交付了对重要新模型的支持： vLLM：引入了对 Qwen3.8-Flash-Next 的支持。 Llama.cpp：为 ...</description>
       <content:encoded><![CDATA[<h1>AI 基础设施日报 2026-08-28</h1>
@@ -3033,8 +3033,8 @@ Despite these challenges, community responsiveness and collaborative feature enh
     </item>
     <item>
       <title>AI Infrastructure Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-infra-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-infra-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-infra-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-infra-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI Infrastructure Digest 2026-08-28 Generated: 2026-08-28 00:44 UTC | Projects covered: 6 vLLM SGLang llama.cpp Ollama LiteLLM Unsloth Cross-Project Comparison Cross-Project Comparison Report on AI Infrastructure Ecosystem - August 28, 2026 1. Ecosystem Overview The AI infrastructure landscape is experiencing rapid evolution, marked by a strong focus on model efficiency, scalability, and enhanced end-user experience. Key projects are actively addressing stability issues, compatibility improvemen...</description>
       <content:encoded><![CDATA[<h1>AI Infrastructure Digest 2026-08-28</h1>
@@ -3320,8 +3320,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Official AI Content Report 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-web</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-web</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-web</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-web</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>Official AI Content Report 2026-08-28 Today&amp;#39;s update | New content: 1 articles | Generated: 2026-08-28 02:13 UTC Sources: Anthropic: anthropic.com — 1 new articles (sitemap total: 439) OpenAI: openai.com — 0 new articles (sitemap total: 929) AI Official Content Tracking Report - August 28, 2026 1. Today&amp;#39;s Highlights Anthropic has announced an important development with the publication of a research preview on the Model Hardware Standard (MHS), designed to enable AI agents to interface wi...</description>
       <content:encoded><![CDATA[<h1>Official AI Content Report 2026-08-28</h1>
@@ -3382,8 +3382,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Official AI Content Report 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-web-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-web-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-web-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-web-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>Official AI Content Report 2026-08-28 Today&amp;#39;s update | New content: 21 articles | Generated: 2026-08-28 00:44 UTC Sources: Anthropic: anthropic.com — 19 new articles (sitemap total: 439) OpenAI: openai.com — 2 new articles (sitemap total: 929) AI Official Content Tracking Report (August 28, 2026) Today&amp;#39;s Highlights Today, Anthropic has released several significant updates, emphasizing its dedication to scientific research and education through a series of initiatives like the expansion o...</description>
       <content:encoded><![CDATA[<h1>Official AI Content Report 2026-08-28</h1>
@@ -3486,8 +3486,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI Open Source Trends 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-trending</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-trending</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI Open Source Trends 2026-08-28 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 02:19 UTC AI Open Source Trends Report (2026-08-28) Step 1: Filtered Projects Filtered AI/ML Projects Trending Repositories: Selected repositories relevant to AI and Machine Learning were sourced from today’s GitHub trends. Step 2: Categorized Projects 🔧 AI Infrastructure Project Lang Stars (total / today) Summary JetBrains/go-modern-guidelines Go 0 (+300) This repository provides guidelines to...</description>
       <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-08-28</h1>
@@ -3629,8 +3629,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI Open Source Trends 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-trending-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-trending-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI Open Source Trends 2026-08-28 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 01:11 UTC AI Open Source Trends Report - August 28, 2026 Today&amp;#39;s Highlights Today&amp;#39;s trending repositories reflect significant advancements in the AI open-source ecosystem. Notably, freestylefly/awesome-gpt-image-2 has gained immense traction, highlighting a repository dedicated to crafting intricate prompts for generating images via GPT-Image2. The K-Dense-AI/scientific-agent-skills proj...</description>
       <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-08-28</h1>
@@ -3761,8 +3761,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Hacker News AI Community Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-hn</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-hn</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>Hacker News AI Community Digest 2026-08-28 Source: Hacker News | 30 stories | Generated: 2026-08-28 02:19 UTC Hacker News AI Community Digest - August 28, 2026 Today&amp;#39;s Highlights The Hacker News AI community is buzzing with discussions on the recent advancements and implications of AI technology, particularly regarding model releases and their capabilities. Users are particularly engaged with Google&amp;#39;s Gemini series and controversial news about AI&amp;#39;s role in the workplace. There&amp;#39;s ...</description>
       <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-28</h1>
@@ -3886,8 +3886,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Hacker News AI Community Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-hn-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-hn-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>Hacker News AI Community Digest 2026-08-28 Source: Hacker News | 30 stories | Generated: 2026-08-28 01:11 UTC Today&amp;#39;s Hacker News AI Community Digest - August 28, 2026 Today&amp;#39;s Highlights Today, the Hacker News AI community is buzzing over several key developments, including new AI model releases and debates on best practices in AI use. The conversation is particularly focused on the implications of AI in various sectors, such as education and healthcare, with strong interest in how these...</description>
       <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-28</h1>
@@ -3998,8 +3998,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>ArXiv AI Research Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-arxiv</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-arxiv</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>ArXiv AI Research Digest 2026-08-28 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 02:19 UTC ArXiv AI Research Digest — August 28, 2026 Today&amp;#39;s Highlights Recent AI research has demonstrated significant advancements in the fields of large language models (LLMs) and their application in real-world scenarios. Notable directions include enhancing the integration of visual and textual information in inference tasks, developing agent-based systems for multi-faceted proble...</description>
       <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-08-28</h1>
@@ -4113,8 +4113,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>ArXiv AI Research Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-arxiv-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>ArXiv AI Research Digest 2026-08-28 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 01:11 UTC ArXiv AI Research Digest - 2026-08-28 Today&amp;#39;s Highlights Recent submissions to ArXiv reflect a strong focus on enhancing efficiency and robustness in AI systems, particularly in multimodal contexts and large language models (LLMs). Researchers are emphasizing novel frameworks for continuous learning, better interpretability, and reduced bias in AI applications. Notably, advan...</description>
       <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-08-28</h1>
@@ -4225,8 +4225,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Tech Community AI Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-community</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-community</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>Tech Community AI Digest 2026-08-28 Sources: Dev.to (30 articles) + Lobste.rs (3 stories) | Generated: 2026-08-28 02:19 UTC Tech Community AI Digest - August 28, 2026 Today&amp;#39;s Highlights The AI landscape is buzzing with discussions surrounding the balance between rapid deployment and maintenance costs, as highlighted by Dev.to&amp;#39;s focus on AI&amp;#39;s impact on productivity. Articles delve into the integrity of AI outputs, emphasizing the importance of quality control in machine learning and p...</description>
       <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-28</h1>
@@ -4321,8 +4321,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Tech Community AI Digest 2026-08-28</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-community-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-28/ai-community-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <description>Tech Community AI Digest 2026-08-28 Sources: Dev.to (30 articles) + Lobste.rs (3 stories) | Generated: 2026-08-28 01:11 UTC AI Digest - August 28, 2026 Today&amp;#39;s Highlights The tech community is buzzing with discussions about the role of AI in software development, particularly the practicality of AI tools in code review and debugging. Articles are highlighting the dichotomy between rapid delivery of AI solutions and their long-term maintenance costs. Developers are also critically evaluating ...</description>
       <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-28</h1>
@@ -4417,8 +4417,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-cli</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-cli</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-cli</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI CLI 工具社区动态日报 2026-08-27 生成时间: 2026-08-27 04:07 UTC | 覆盖工具: 9 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI OpenCode Pi Qwen Code CodeWhale DeepSeek Harness Claude Code Skills 横向对比 AI CLI 工具生态横向对比分析报告 日期：2026-08-27分析师：技术洞察组 · AI 开发工具专项 1. 生态全景 当前主流 AI CLI 工具已从“功能可用性”阶段全面迈入“工程稳定性与可信度建设”新纪元。用户不再满足于模型能力的展示，而是高度关注系统健壮性、跨平台一致性、资源控制力与行为可预测性。社区反馈集中于 性能退化、后台崩溃、权限模糊、上下文管理失效 等核心痛点，反映出开发者对“可靠交付”的强烈诉求。与此同时，多工具正加速向企业级部署、多智能体协作与安全隔离演进，预示着下一代 AI 工具链将更强调 可审计、可控制、可集成 的工程范式。 2. 各工具活跃度对比 工具名称 今日 Issue...</description>
       <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-08-27</h1>
@@ -6779,8 +6779,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI CLI Tools Digest 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-cli-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-cli-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-cli-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-cli-en</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI CLI Tools Community Digest 2026-08-27 Generated: 2026-08-27 04:07 UTC | Tools covered: 9 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI OpenCode Pi Qwen Code CodeWhale DeepSeek Harness Claude Code Skills Cross-Tool Comparison Cross-Tool AI CLI Ecosystem Comparison Report Generated: 2026-08-27 | Data Source: GitHub Community Digests 1. Ecosystem Overview The AI CLI developer tools landscape in Q3 2026 is characterized by rapid evolution toward agent-centric, multi-session workflows wit...</description>
       <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-08-27</h1>
@@ -8394,8 +8394,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI Agents 生态日报 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-agents</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-agents</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-agents</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-agents</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>OpenClaw 生态日报 2026-08-27 Issues: 500 | PRs: 500 | 覆盖项目: 12 个 | 生成时间: 2026-08-27 04:07 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 OpenClaw 项目日报 日期：2026-08-27开源项目分析师 | 基于 GitHub 数据的实时动态分析 1. 今日速览 过去24小时，OpenClaw 社区活跃度达到峰值：500条新 Issue 更新（394个新开/活跃，106个关闭），500条新 PR 提交（248个待合并，252个已合并或关闭），显示项目正处于高强度迭代与问题排查阶段。当前无新版本发布，但 v2026.8.1-beta.3 已进入反馈期，社区正集中验证稳定性。核心焦点集中在多代理协调、内存管理、身份认证与通道交付可靠性等关键领域，反映出项目在向生产级系统演进过程中的深度挑战。 2. 版...</description>
       <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-08-27</h1>
@@ -11209,8 +11209,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI Agents Ecosystem Digest 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-agents-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-agents-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-agents-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-agents-en</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>OpenClaw Ecosystem Digest 2026-08-27 Issues: 500 | PRs: 500 | Projects covered: 12 | Generated: 2026-08-27 04:07 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive OpenClaw Project Digest Date: 2026-08-27Source: GitHub Repository openclaw/openclaw 1. Today&amp;#39;s Overview OpenClaw remains highly active with 500 issues and 500 pull requests updated in the last 24 hours, indicating sustained momentum in development and ...</description>
       <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-08-27</h1>
@@ -12885,8 +12885,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI 基础设施日报 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-infra</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-infra</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-infra</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-infra</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI 基础设施日报 2026-08-27 生成时间: 2026-08-27 04:07 UTC | 覆盖项目: 6 个 vLLM SGLang llama.cpp Ollama LiteLLM Unsloth 横向对比 AI 基础设施生态横向对比分析报告（2026-08-27） 1. 生态全景 当前 AI 基础设施正从“单点性能优化”迈向“全栈异构兼容与可靠性攻坚”的新阶段。vLLM、SGLang、llama.cpp 在推理引擎层面加速融合算子、支持新型硬件（如 GB10、MI325X），推动吞吐与延迟双突破；Ollama、LiteLLM 作为网关/运行时层，聚焦于跨平台体验与安全合规，尤其强化本地部署与云服务的分离策略；Unsloth 则以开发者友好性为核心，构建面向 Agent 的长会话、断连恢复等高级能力。整体态势呈现：高性能引擎下沉 + 安全可控边界上移 + 长周期应用支撑前置。 2. 各项目活跃度对比 项目 今日 Issues（新增/总） 今日 PR（新增/合并） 是否发布新版本 主要活跃方向 vLLM 12 / 487 18 / 14 ✅ v0.28.0 性能优化、分布式死...</description>
       <content:encoded><![CDATA[<h1>AI 基础设施日报 2026-08-27</h1>
@@ -14065,8 +14065,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI Infrastructure Digest 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-infra-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-infra-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-infra-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-infra-en</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI Infrastructure Digest 2026-08-27 Generated: 2026-08-27 04:07 UTC | Projects covered: 6 vLLM SGLang llama.cpp Ollama LiteLLM Unsloth Cross-Project Comparison Cross-Project AI Infrastructure Ecosystem Report – 2026-08-27 1. Ecosystem Overview The AI inference infrastructure landscape in mid-2026 is characterized by rapid convergence on hybrid Mamba/attention models, aggressive kernel-level optimization, and a growing emphasis on agent-native reliability. Projects are increasingly focused on dis...</description>
       <content:encoded><![CDATA[<h1>AI Infrastructure Digest 2026-08-27</h1>
@@ -14820,8 +14820,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Official AI Content Report 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-web</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-web</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-web</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-web</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI 官方内容追踪报告 2026-08-27 今日更新 | 新增内容: 35 篇 | 生成时间: 2026-08-27 01:21 UTC 数据来源: Anthropic: anthropic.com — 新增 30 篇（sitemap 共 437 条） OpenAI: openai.com — 新增 5 篇（sitemap 共 927 条） AI 官方内容追踪报告（2026-08-27） 1. 今日速览 Anthropic 今日发布多项关键进展：涵盖机器人控制、核安全风险监测、人格向量建模与恶意使用防御等前沿研究，标志着其从“模型能力”向“系统级可信部署”的战略跃迁。 首次披露与美国能源部合作开发的核安全分类器，实现96%准确率，展现其在国家级安全议题上的深度参与和主动合规姿态。 企业生态持续扩张：LLNL全实验室部署、SKT/Accenture/AWS等多领域战略合作深化，体现Claude在政府与工业界“可信代理”角色的实质性落地。 OpenAI仅更新元数据：三篇同名文章指向“Hugging Face事件”，但无正文内容，可能预示重大安全或供应链事件，需密切关注后续披露。 2. A...</description>
       <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-08-27</h1>
@@ -15111,8 +15111,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Official AI Content Report 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-web-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-web-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-web-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-web-en</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>Official AI Content Report 2026-08-27 Today&amp;#39;s update | New content: 35 articles | Generated: 2026-08-27 01:21 UTC Sources: Anthropic: anthropic.com — 30 new articles (sitemap total: 437) OpenAI: openai.com — 5 new articles (sitemap total: 927) AI Official Content Tracking Report Date: 2026-08-27 | Source: Anthropic (claude.com / anthropic.com) &amp;amp; OpenAI (openai.com) 1. Today&amp;#39;s Highlights Anthropic has released a suite of high-impact research and policy updates signaling a strategic pi...</description>
       <content:encoded><![CDATA[<h1>Official AI Content Report 2026-08-27</h1>
@@ -15263,8 +15263,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI Open Source Trends 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-trending</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-trending</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-trending</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI 开源趋势日报 2026-08-27 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-27 04:07 UTC AI 开源趋势日报（2026-08-27） 1. 今日速览 今日 AI 开源领域呈现“智能体工具链爆发”态势，以 Claude Code 为核心的 Agent 框架与技能生态迅速升温。Alishahryar1/free-claude-code 和 MadsLorentzen/ai-job-search 等项目凭借本地化部署、免费使用和高实用性快速吸睛。K-Dense-AI/scientific-agent-skills 等专业技能库受科学界追捧，反映垂直领域 Agent 正从通用走向专业化。同时，VoltAgent/awesome-agent-skills 与 ConardLi/garden-skills 等开源技能集合持续扩张，表明 Agent Skills 已成为可复用的基础设施。 2. 各维度热门项目 🔧 AI 基础工具（框架、SDK、CLI） 项目 语言 Stars（总量 / 今日） 简要说明 ...</description>
       <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-27</h1>
@@ -15441,8 +15441,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>AI Open Source Trends 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-trending-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-trending-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-trending-en</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>AI Open Source Trends 2026-08-27 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-27 04:07 UTC AI Open Source Trends Report – 2026-08-27 1. Today&amp;#39;s Highlights The AI open-source ecosystem is witnessing explosive momentum around agent-centric tooling, particularly in the form of Agent Skills libraries, persistent memory systems, and local-first agent frameworks. Notably, freestylefly/awesome-gpt-image-2 surged with +4,050 stars today—driven by industrial-grade prompt engineer...</description>
       <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-08-27</h1>
@@ -15663,8 +15663,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Hacker News AI Community Digest 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-hn</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-hn</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-hn</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>Hacker News AI 社区动态日报 2026-08-27 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-27 04:07 UTC Hacker News AI 社区动态日报（2026-08-27） 今日速览 今日 HN AI 社区聚焦于大模型性能突破、开源生态崛起与产业落地争议。多条高分帖子指向中国厂商在推理效率与模型架构上的快速迭代，尤其是 GLM-5.3-Flash 和 Qwen3.8-Flash-Next 引发广泛讨论。社区情绪呈现“技术乐观”与“组织焦虑”并存：一方面为模型速度和成本优势欢呼，另一方面对裁员、AI代理失控等治理问题高度警惕。开发者自主性与人类角色的再定义成为核心议题。 热门新闻与讨论 🔬 模型与研究（新模型发布、论文、基准测试） 标题 分数 评论 简要说明 GLM-5.3-Flash · HN 926 464 该模型以极低延迟实现强推理能力，被视作中文大模型在“快而准”方向的重大突破，社区热议其对英伟达硬件依赖的挑战。 Qwen3.8-Flash-Next · HN 646 209 阿里通义千问推出新一代超快推理...</description>
       <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-27</h1>
@@ -15819,8 +15819,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Hacker News AI Community Digest 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-hn-en</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-hn-en</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-hn-en</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>Hacker News AI Community Digest 2026-08-27 Source: Hacker News | 30 stories | Generated: 2026-08-27 04:07 UTC Today&amp;#39;s Highlights The AI community on Hacker News is buzzing with reactions to a bold narrative: a fired CEO’s replacement by an open-source AI executive, sparking debate about human-AI leadership dynamics. Meanwhile, the release of GLM-5.3-Flash and Qwen3.8-Flash-Next has ignited intense discussion around ultra-fast inference models, particularly their implications for edge deploym...</description>
       <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-27</h1>
@@ -15968,8 +15968,8 @@ These issues are currently being investigated, and some may have pending fix PRs
     </item>
     <item>
       <title>Product Hunt AI Products Digest 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-ph</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-ph</guid>
+      <link>https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-ph</link>
+      <guid isPermaLink="true">https://yaojiejia.github.io/agents-radar/#2026-08-27/ai-ph</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <description>Product Hunt AI 产品日报 2026-08-27 数据来源: Product Hunt | 共 16 个产品 | 生成时间: 2026-08-27 04:07 UTC 📅 Product Hunt AI 产品日报｜2026-08-27 ✅ 今日速览 今日共发布16款AI相关产品，集中于开发者工具与智能体应用，反映“AI Agent化”与“开发效率跃迁”的双重趋势。多个产品聚焦于大模型使用瓶颈的优化（如限流、状态管理），体现对实际落地场景的深度打磨。akta.pro 和 Diet Claude 等工具直击开发者痛点，投票破400，显示市场对“可预测、可控制”的AI基础设施需求强烈。 🤖 AI 智能体与助手 产品 投票 评论 简要说明 Ninjō AI · 官网 122 12 基于Claude Code构建跨渠道的AI销售代理，实现自动化客户触达与转化，降低销售团队人力成本。 Purchase API by Agentcard · 官网 131 4 通过一个API调用，让AI代理完成线上购物全流程，是迈向“自主经济行为”的关键一步。 注：coolplugz、Diet Cl...</description>
       <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-08-27</h1>
