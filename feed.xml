@@ -6,16 +6,16 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 28 Aug 2026 02:14:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 02:20:19 +0000</lastBuildDate>
     <item>
       <title>AI Ecosystem Digest 2026-08-28</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-digest</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-digest</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>📡 AI Ecosystem Digest — 2026-08-28 Generated 2026-08-28 02:13 UTC by yaojiejia/agents-radar 📊 24h Snapshot Repo ⭐ Stars New Issues Closed Merged PRs Releases Claude Code 143,207 12 1 0 2 OpenAI Codex 119,227 23 1 47 5 Gemini CLI 106,719 1 0 0 1 GitHub Copilot CLI 11,122 16 4 0 3 OpenCode 201,979 23 13 18 0 Pi 98,339 32 36 3 0 Qwen Code 27,437 34 14 2 0 OpenClaw 387,851 148 94 141 0 Hermes Agent 237,354 34 4 1 1 IronClaw 12,604 20 20 14 1 QwenPaw 34,574 9 4 10 1 ZeroClaw 32,667 4 6 2 0 vLLM 90,...</description>
+      <description>📡 AI Ecosystem Digest — 2026-08-28 Generated 2026-08-28 02:19 UTC by yaojiejia/agents-radar 📊 24h Snapshot Repo ⭐ Stars New Issues Closed Merged PRs Releases Claude Code 143,208 12 1 0 2 OpenAI Codex 119,231 24 1 47 5 Gemini CLI 106,719 1 0 0 1 GitHub Copilot CLI 11,122 16 4 0 3 OpenCode 201,980 23 13 18 0 Pi 98,340 32 36 3 0 Qwen Code 27,437 34 13 2 0 OpenClaw 387,851 150 95 143 0 Hermes Agent 237,357 34 4 1 1 IronClaw 12,604 20 20 14 1 QwenPaw 34,574 9 4 10 1 ZeroClaw 32,667 5 6 2 0 vLLM 90,...</description>
       <content:encoded><![CDATA[<h1>📡 AI Ecosystem Digest — 2026-08-28</h1>
 <blockquote>
-<p>Generated 2026-08-28 02:13 UTC by <a href="https://github.com/yaojiejia/agents-radar">yaojiejia/agents-radar</a></p>
+<p>Generated 2026-08-28 02:19 UTC by <a href="https://github.com/yaojiejia/agents-radar">yaojiejia/agents-radar</a></p>
 </blockquote>
 <h2>📊 24h Snapshot</h2>
 <table>
@@ -31,7 +31,7 @@
 </thead>
 <tbody><tr>
 <td><a href="https://github.com/anthropics/claude-code">Claude Code</a></td>
-<td>143,207</td>
+<td>143,208</td>
 <td>12</td>
 <td>1</td>
 <td>0</td>
@@ -39,8 +39,8 @@
 </tr>
 <tr>
 <td><a href="https://github.com/openai/codex">OpenAI Codex</a></td>
-<td>119,227</td>
-<td>23</td>
+<td>119,231</td>
+<td>24</td>
 <td>1</td>
 <td>47</td>
 <td>5</td>
@@ -63,7 +63,7 @@
 </tr>
 <tr>
 <td><a href="https://github.com/anomalyco/opencode">OpenCode</a></td>
-<td>201,979</td>
+<td>201,980</td>
 <td>23</td>
 <td>13</td>
 <td>18</td>
@@ -71,7 +71,7 @@
 </tr>
 <tr>
 <td><a href="https://github.com/earendil-works/pi">Pi</a></td>
-<td>98,339</td>
+<td>98,340</td>
 <td>32</td>
 <td>36</td>
 <td>3</td>
@@ -81,21 +81,21 @@
 <td><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></td>
 <td>27,437</td>
 <td>34</td>
-<td>14</td>
+<td>13</td>
 <td>2</td>
 <td>0</td>
 </tr>
 <tr>
 <td><a href="https://github.com/openclaw/openclaw">OpenClaw</a></td>
 <td>387,851</td>
-<td>148</td>
-<td>94</td>
-<td>141</td>
+<td>150</td>
+<td>95</td>
+<td>143</td>
 <td>0</td>
 </tr>
 <tr>
 <td><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></td>
-<td>237,354</td>
+<td>237,357</td>
 <td>34</td>
 <td>4</td>
 <td>1</td>
@@ -120,7 +120,7 @@
 <tr>
 <td><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></td>
 <td>32,667</td>
-<td>4</td>
+<td>5</td>
 <td>6</td>
 <td>2</td>
 <td>0</td>
@@ -143,8 +143,8 @@
 </tr>
 <tr>
 <td><a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a></td>
-<td>125,980</td>
-<td>23</td>
+<td>125,981</td>
+<td>24</td>
 <td>2</td>
 <td>23</td>
 <td>10</td>
@@ -159,7 +159,7 @@
 </tr>
 <tr>
 <td><a href="https://github.com/BerriAI/litellm">LiteLLM</a></td>
-<td>57,428</td>
+<td>57,429</td>
 <td>29</td>
 <td>10</td>
 <td>82</td>
@@ -170,23 +170,23 @@
 <td>74,999</td>
 <td>21</td>
 <td>51</td>
-<td>45</td>
+<td>44</td>
 <td>1</td>
 </tr>
 </tbody></table>
 <hr>
 <h2>✨ Highlights</h2>
 <ul>
-<li><strong>Ollama</strong> released <a href="https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1">v0.33.2-rc1</a>, introducing several updates including account cloud model listings for Claude.</li>
-<li><strong>Claude Code</strong> announced multiple releases, including <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.250">v2.1.250</a> and <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.248">v2.1.248</a>.</li>
-<li>A critical new issue in <strong>OpenAI Codex</strong>, <a href="https://github.com/openai/codex/issues/41049">#41049</a>, reports that the code-mode host exits during handshake, leading to a total of 26 comments discussing the problem.</li>
-<li><strong>Qwen Code</strong> includes a newly opened issue, <a href="https://github.com/QwenLM/qwen-code/issues/10272">#10272</a>, where external-context tests hang during connections, and it has already garnered 5 comments.</li>
-<li>The <strong>Hermes Agent</strong> released <a href="https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.27">v2026.8.27</a> with bug fixes, including important improvements following previously identified issues.</li>
+<li><strong>Claude Code</strong> released <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.250">v2.1.250</a> featuring updates and improvements.</li>
+<li><strong>OpenAI Codex</strong> merged <a href="https://github.com/openai/codex/pull/41243">PR #41243</a> to add configurable gating for the sleep tool, enhancing functionality.</li>
+<li><strong>GitHub Copilot CLI</strong> addressed an issue in <a href="https://github.com/github/copilot-cli/issues/4639">#4639</a> related to long-running sessions leading to Node OOM errors, which has garnered 1 comment.</li>
+<li><strong>Hermes Agent</strong> released <a href="https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.27">v2026.8.27</a> and merged critical fixes, including addressing local compression in sessions.</li>
+<li><strong>Ollama</strong> faced increased attention on <a href="https://github.com/ollama/ollama/issues/18074">#18074</a> regarding Granite 4.2 models and out-of-memory (OOM) issues with 9 comments.</li>
 </ul>
 <hr>
 <h2>🖥️ AI CLI Tools</h2>
 <h3>Claude Code (<code>anthropics/claude-code</code>)</h3>
-<p><strong>Stars:</strong> 143,207 · <strong>Open issues:</strong> 15,256 · <strong>Last push:</strong> 1h ago</p>
+<p><strong>Stars:</strong> 143,208 · <strong>Open issues:</strong> 15,256 · <strong>Last push:</strong> 1h ago</p>
 <h4>🚀 New Releases</h4>
 <ul>
 <li><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.250">v2.1.250</a> v2.1.250</li>
@@ -194,7 +194,7 @@
 </ul>
 <h4>🐛 New Issues</h4>
 <ul>
-<li><a href="https://github.com/anthropics/claude-code/issues/90002">#90002</a> [BUG] Code tab writes UI render metadata (start_timestamp/stop_timestamp/flags) into transcript JSONL, causing unrecoverable API 400 that recurs after full sanitization <code>bug</code> <code>has repro</code> <code>platform:windows</code> <code>area:core</code> 💬9</li>
+<li><a href="https://github.com/anthropics/claude-code/issues/90002">#90002</a> [BUG] Code tab writes UI render metadata (start_timestamp/stop_timestamp/flags) into transcript JSONL, causing unrecoverable API 400 that recurs after full sanitization <code>bug</code> <code>has repro</code> <code>platform:windows</code> <code>area:core</code> 💬10</li>
 <li><a href="https://github.com/anthropics/claude-code/issues/90254">#90254</a> Claude in Chrome (v1.0.85): phantom blank tabs &quot;<a href="http://native/">http://native/</a>&quot;, &quot;<a href="http://host/">http://host/</a>&quot;, &quot;<a href="http://wrapper/">http://wrapper/</a>&quot;, &quot;<a href="http://script/">http://script/</a>&quot; open on every Chrome startup <code>bug</code> <code>platform:windows</code> <code>area:browser-extension</code> <code>area:chrome</code></li>
 <li><a href="https://github.com/anthropics/claude-code/issues/90253">#90253</a> [BUG] In the desktop application&#39;s code feature, the Rewind function does not undo modified code. <code>bug</code> <code>platform:windows</code> <code>area:desktop</code></li>
 <li><a href="https://github.com/anthropics/claude-code/issues/90252">#90252</a> [Feature Request] Add language/dialect consistency mode to prevent unintended English variant drift <code>enhancement</code> <code>platform:macos</code> <code>area:model</code></li>
@@ -211,7 +211,7 @@
 <li><a href="https://github.com/anthropics/claude-code/issues/89043">#89043</a> [BUG] Subagents cannot reply to inter-agent messages: incoming from= is the agent type (&#39;general-purpose&#39;), which is unroutable</li>
 </ul>
 <h3>OpenAI Codex (<code>openai/codex</code>)</h3>
-<p><strong>Stars:</strong> 119,227 · <strong>Open issues:</strong> 14,144 · <strong>Last push:</strong> &lt;1h ago</p>
+<p><strong>Stars:</strong> 119,231 · <strong>Open issues:</strong> 14,144 · <strong>Last push:</strong> &lt;1h ago</p>
 <h4>🚀 New Releases</h4>
 <ul>
 <li><a href="https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.7">rust-v0.151.0-alpha.7</a> 0.151.0-alpha.7</li>
@@ -240,13 +240,13 @@
 <li><a href="https://github.com/openai/codex/issues/41073">#41073</a> [Windows][26.820.9563.0] ChatGPT launches headless with MainWindowHandle=0; disabling updater fixes startup <code>bug</code> <code>windows-os</code> <code>app</code> 💬4</li>
 <li><a href="https://github.com/openai/codex/issues/41170">#41170</a> [Windows] First launch shows no window for about 15 minutes while extracting bundled cua_node runtime <code>bug</code> <code>windows-os</code> <code>app</code> <code>computer-use</code> 💬5</li>
 <li><a href="https://github.com/openai/codex/issues/41135">#41135</a> Windows: sandbox setup_marker.json written without an ACE for the invoking user in non-interactive exec, so setup repeats forever (orchestrator_helper_incomplete) <code>bug</code> <code>windows-os</code> <code>sandbox</code> <code>exec</code> 💬4</li>
+<li><a href="https://github.com/openai/codex/issues/41179">#41179</a> [Windows][26.820.9563.0] ChatGPT Desktop launches headless after upgrade from Classic; no renderer/window created <code>bug</code> <code>windows-os</code> <code>app</code> 💬2</li>
 <li><a href="https://github.com/openai/codex/issues/41242">#41242</a> Windows 0.148+: light-theme composer is near-black (OSC 10/11 probe dropped; still broken in 0.150.1) <code>bug</code> <code>windows-os</code> <code>TUI</code> <code>CLI</code> 💬2</li>
 <li><a href="https://github.com/openai/codex/issues/41176">#41176</a> Codex agents incorrectly stop or declare completion while tasks are still incomplete <code>bug</code> <code>model-behavior</code> <code>CLI</code> 💬2</li>
 <li><a href="https://github.com/openai/codex/issues/41238">#41238</a> &quot;Ran 5 commands&quot; - Can we not do this? Or make it optional? <code>bug</code> <code>enhancement</code> <code>TUI</code> <code>CLI</code> 💬2</li>
 <li><a href="https://github.com/openai/codex/issues/41228">#41228</a> Codex browser control unavailable across secure browser, built-in Browser and Chrome <code>bug</code> <code>app</code> <code>browser</code> 💬2</li>
 <li><a href="https://github.com/openai/codex/issues/41224">#41224</a> Capped continuity mode after ChatGPT plan limits (Luna fallback) <code>enhancement</code> <code>codex-web</code> <code>extension</code> <code>rate-limits</code> 💬2</li>
-<li><a href="https://github.com/openai/codex/issues/41123">#41123</a> Safety: avoid disabling macOS Wi-Fi network service during troubleshooting <code>bug</code> <code>model-behavior</code> <code>tool-calls</code> 💬1</li>
-<li>…and 13 more</li>
+<li>…and 14 more</li>
 </ul>
 <h4>🔒 Closed Issues</h4>
 <ul>
@@ -292,9 +292,10 @@
 <li><a href="https://github.com/github/copilot-cli/issues/4239">#4239</a> MCP server args templating corrupts values containing nested ${VAR:-${VAR2:-$(cmd)}} shell parameter expansion (silent auth/token corruption)</li>
 </ul>
 <h3>OpenCode (<code>anomalyco/opencode</code>)</h3>
-<p><strong>Stars:</strong> 201,979 · <strong>Open issues:</strong> 5,656 · <strong>Last push:</strong> &lt;1h ago</p>
+<p><strong>Stars:</strong> 201,980 · <strong>Open issues:</strong> 5,656 · <strong>Last push:</strong> &lt;1h ago</p>
 <h4>✅ Merged PRs</h4>
 <ul>
+<li><a href="https://github.com/anomalyco/opencode/pull/45778">#45778</a> fix(core): preserve typed config test-layer errors</li>
 <li><a href="https://github.com/anomalyco/opencode/pull/45793">#45793</a> chore(deps): refresh markdown dependencies</li>
 <li><a href="https://github.com/anomalyco/opencode/pull/45799">#45799</a> fix(core): treat project paths as internal</li>
 <li><a href="https://github.com/anomalyco/opencode/pull/45796">#45796</a> chore(deps): upgrade Sentry and verify reporting</li>
@@ -304,7 +305,6 @@
 <li><a href="https://github.com/anomalyco/opencode/pull/45760">#45760</a> fix(core): share native model defaults with v1 config migration</li>
 <li><a href="https://github.com/anomalyco/opencode/pull/45787">#45787</a> fix(core): cap provider retry-after delays at fifteen minutes</li>
 <li><a href="https://github.com/anomalyco/opencode/pull/45785">#45785</a> chore: upgrade opentui to 0.5.9</li>
-<li><a href="https://github.com/anomalyco/opencode/pull/45779">#45779</a> chore(deps): remove unused frontend dependencies</li>
 <li>…and 8 more</li>
 </ul>
 <h4>🐛 New Issues</h4>
@@ -334,7 +334,7 @@
 <li>…and 5 more</li>
 </ul>
 <h3>Pi (<code>earendil-works/pi</code>)</h3>
-<p><strong>Stars:</strong> 98,339 · <strong>Open issues:</strong> 138 · <strong>Last push:</strong> 2h ago</p>
+<p><strong>Stars:</strong> 98,340 · <strong>Open issues:</strong> 138 · <strong>Last push:</strong> 2h ago</p>
 <h4>✅ Merged PRs</h4>
 <ul>
 <li><a href="https://github.com/earendil-works/pi/pull/8731">#8731</a> feat(tui): allow disable copy on fullscreen, ctrl + x copies selection</li>
@@ -368,7 +368,7 @@
 <li>…and 28 more</li>
 </ul>
 <h3>Qwen Code (<code>QwenLM/qwen-code</code>)</h3>
-<p><strong>Stars:</strong> 27,437 · <strong>Open issues:</strong> 1,279 · <strong>Last push:</strong> &lt;1h ago</p>
+<p><strong>Stars:</strong> 27,437 · <strong>Open issues:</strong> 1,280 · <strong>Last push:</strong> &lt;1h ago</p>
 <h4>✅ Merged PRs</h4>
 <ul>
 <li><a href="https://github.com/QwenLM/qwen-code/pull/10168">#10168</a> feat(review): carry the fix&#39;s premises beside its claim — add fixConstraint</li>
@@ -377,7 +377,6 @@
 <h4>🐛 New Issues</h4>
 <ul>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10272">#10272</a> E2E: external-context mem0 tests hang at &#39;Connecting to MCP servers&#39; on macOS and ecs-qwen pool (pass on ubuntu-hosted) <code>priority/P1</code> <code>type/bug</code> <code>scope/testing</code> <code>scope/ci-cd</code> 💬5</li>
-<li><a href="https://github.com/QwenLM/qwen-code/issues/10242">#10242</a> E2E on main: GitHub-hosted runners intermittently unable to reach the OPENAI_BASE_URL endpoint (Aliyun Beijing) — relocate lanes or switch endpoint <code>priority/P2</code> <code>type/bug</code> <code>scope/ci-cd</code> 💬4</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10324">#10324</a> triage: silent-rerun notification should treat a bot-initiated close as a terminal action <code>priority/P2</code> <code>type/bug</code> <code>category/development</code> <code>scope/ci-cd</code> 💬3</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10314">#10314</a> fix(ci): treat API-error triage responses as failed runs in qwen-triage.yml <code>priority/P2</code> <code>type/bug</code> <code>category/development</code> <code>scope/ci-cd</code> 💬3</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10309">#10309</a> Feature: probe actual modality support at model setup (one-shot capability probe instead of static pattern guessing) <code>priority/P2</code> <code>type/feature-request</code> <code>category/core</code> <code>scope/model-switching</code> 💬3</li>
@@ -386,19 +385,20 @@
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10338">#10338</a> triage runbook: scope re-run suppression to terminal stage / exit <code>priority/P3</code> <code>category/development</code> <code>scope/ci-cd</code> <code>type/enhancement</code> 💬2</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10322">#10322</a> triage: Stage 1-pre subsumption check breaks silently at the contents-API size ceiling <code>priority/P2</code> <code>type/bug</code> <code>category/development</code> <code>scope/ci-cd</code> 💬2</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10332">#10332</a> Feature request: append to system prompt at launch (--append-system-prompt / QWEN_APPEND_SYSTEM_MD) — QWEN_SYSTEM_MD only replaces <code>priority/P3</code> <code>type/feature-request</code> <code>category/cli</code> <code>scope/cli</code> 💬2</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10323">#10323</a> triage: Stage 1-pre remaining-delta branch needs a disputed-premise exit <code>priority/P3</code> <code>status/blocked</code> <code>category/development</code> <code>scope/github-actions</code> 💬2</li>
 <li>…and 24 more</li>
 </ul>
 <h4>🔒 Closed Issues</h4>
 <ul>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10272">#10272</a> E2E: external-context mem0 tests hang at &#39;Connecting to MCP servers&#39; on macOS and ecs-qwen pool (pass on ubuntu-hosted)</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/9927">#9927</a> Artifact updatedAt stays stale; write_file intermediates linger as missing</li>
-<li><a href="https://github.com/QwenLM/qwen-code/issues/10242">#10242</a> E2E on main: GitHub-hosted runners intermittently unable to reach the OPENAI_BASE_URL endpoint (Aliyun Beijing) — relocate lanes or switch endpoint</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10211">#10211</a> Agent Team: initial teammate result may be lost before event bridge attachment</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10209">#10209</a> Agent Team: stale reclaim can delete a newer live team generation</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10069">#10069</a> Agent Team: a queued Agent View message disappears after switching teammate tabs</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/10153">#10153</a> /review: carry the fix&#39;s premises, not just its claim — add an evidence-bounded Fix constraint field</li>
 <li><a href="https://github.com/QwenLM/qwen-code/issues/9792">#9792</a> /review: remember the last explicitly typed --effort and reuse it with a notice</li>
-<li>…and 6 more</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10325">#10325</a> Main CI failed: E2E Tests on 1637aa968b3f</li>
+<li>…and 5 more</li>
 </ul>
 <h3>Claude Code Skills (<code>anthropics/skills</code>)</h3>
 <p>Top open skill PRs by community engagement:</p>
@@ -412,20 +412,20 @@
 <hr>
 <h2>🦞 OpenClaw Ecosystem</h2>
 <h3>OpenClaw (<code>openclaw/openclaw</code>)</h3>
-<p><strong>Stars:</strong> 387,851 · <strong>Open issues:</strong> 5,725 · <strong>Last push:</strong> &lt;1h ago</p>
+<p><strong>Stars:</strong> 387,851 · <strong>Open issues:</strong> 5,728 · <strong>Last push:</strong> &lt;1h ago</p>
 <h4>✅ Merged PRs</h4>
 <ul>
-<li><a href="https://github.com/openclaw/openclaw/pull/131291">#131291</a> chore(ui): refresh control ui locales</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131398">#131398</a> refactor(infra): unify Unix listener inspection</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131267">#131267</a> fix(ios): complete QR pairing in one step</li>
 <li><a href="https://github.com/openclaw/openclaw/pull/128223">#128223</a> fix(cli): resolve alias targets from the write snapshot</li>
-<li><a href="https://github.com/openclaw/openclaw/pull/131381">#131381</a> fix(transcripts): report auto-start shutdown warnings</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131390">#131390</a> docs(test): include agent-plugin gateway in E2E aggregate</li>
 <li><a href="https://github.com/openclaw/openclaw/pull/123535">#123535</a> fix(ui): avoid session catalog refresh storms</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131291">#131291</a> chore(ui): refresh control ui locales</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131381">#131381</a> fix(transcripts): report auto-start shutdown warnings</li>
 <li><a href="https://github.com/openclaw/openclaw/pull/131382">#131382</a> fix(test): avoid slow and incorrect test discovery in large checkouts</li>
 <li><a href="https://github.com/openclaw/openclaw/pull/131241">#131241</a> fix(ui): stop Talk camera preview flicker on rerenders</li>
 <li><a href="https://github.com/openclaw/openclaw/pull/128169">#128169</a> fix(acp): preserve configured thinking across session reuse</li>
-<li><a href="https://github.com/openclaw/openclaw/pull/131378">#131378</a> fix(ui): unselected channel picker shows prompt</li>
-<li><a href="https://github.com/openclaw/openclaw/pull/130196">#130196</a> fix(sessions): fence restart-recovery tombstones independently of archive state</li>
-<li><a href="https://github.com/openclaw/openclaw/pull/131377">#131377</a> fix(ui): replace channel setup Working text with spinner buttons</li>
-<li>…and 131 more</li>
+<li>…and 133 more</li>
 </ul>
 <h4>🐛 New Issues</h4>
 <ul>
@@ -439,7 +439,7 @@
 <li><a href="https://github.com/openclaw/openclaw/issues/131104">#131104</a> [Bug]: Agent model picker refresh stays empty although full discovery succeeds <code>no-stale</code> <code>P1</code> <code>clawsweeper:fix-shape-clear</code> <code>clawsweeper:queueable-fix</code> 💬3</li>
 <li><a href="https://github.com/openclaw/openclaw/issues/130919">#130919</a> [Bug]: Source installer restarts an already refreshed Gateway service twice <code>no-stale</code> <code>P2</code> <code>clawsweeper:fix-shape-clear</code> <code>clawsweeper:queueable-fix</code> 💬3</li>
 <li><a href="https://github.com/openclaw/openclaw/issues/131074">#131074</a> [Bug]: update finalize --no-restart fails when Gateway is intentionally stopped <code>bug</code> <code>maintainer</code> <code>P2</code> <code>clawsweeper:no-new-fix-pr</code> 💬3</li>
-<li>…and 138 more</li>
+<li>…and 140 more</li>
 </ul>
 <h4>🔒 Closed Issues</h4>
 <ul>
@@ -451,10 +451,10 @@
 <li><a href="https://github.com/openclaw/openclaw/issues/128657">#128657</a> [Bug]: Control UI loading shimmers repaint every frame</li>
 <li><a href="https://github.com/openclaw/openclaw/issues/121756">#121756</a> [Bug]: Control UI cannot recover channel-originated active run after reload</li>
 <li><a href="https://github.com/openclaw/openclaw/issues/130977">#130977</a> [Bug]: Linux plugins-list startup-memory gate flakes at current runner variance</li>
-<li>…and 86 more</li>
+<li>…and 87 more</li>
 </ul>
 <h3>Hermes Agent (<code>nousresearch/hermes-agent</code>)</h3>
-<p><strong>Stars:</strong> 237,354 · <strong>Open issues:</strong> 36,645 · <strong>Last push:</strong> &lt;1h ago</p>
+<p><strong>Stars:</strong> 237,357 · <strong>Open issues:</strong> 36,651 · <strong>Last push:</strong> &lt;1h ago</p>
 <h4>🚀 New Releases</h4>
 <ul>
 <li><a href="https://github.com/nousresearch/hermes-agent/releases/tag/v2026.8.27">v2026.8.27</a> Hermes Agent v0.20.6 (v2026.8.27)</li>
@@ -473,8 +473,8 @@
 <li><a href="https://github.com/NousResearch/hermes-agent/issues/96780">#96780</a> Preview pane &quot;Browser&quot; tab close button overlaps with tab label <code>type/bug</code> <code>P3</code> <code>comp/desktop</code> 💬2</li>
 <li><a href="https://github.com/NousResearch/hermes-agent/issues/96767">#96767</a> feat(config): add --quiet / scripting-friendly output to config set <code>duplicate</code> <code>type/feature</code> <code>comp/cli</code> <code>area/config</code> 💬2</li>
 <li><a href="https://github.com/NousResearch/hermes-agent/issues/96603">#96603</a> [Bug]: &quot;Summarizing Thread&quot; has become extremely slow after recent updates <code>type/perf</code> <code>comp/agent</code> <code>P2</code> <code>needs-repro</code> 💬2</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96795">#96795</a> Memory write governance — the agent-autonomy loop breaks in practice, and our only workaround is a local hack. Please make explicit-only writes and capacity warnings native. <code>type/feature</code> <code>comp/agent</code> <code>tool/memory</code> <code>P3</code> 💬1</li>
 <li><a href="https://github.com/NousResearch/hermes-agent/issues/96792">#96792</a> [desktop, macOS] &quot;Timed out waiting for Hermes backend port announcement (90000ms)&quot; — stdout listener race in waitForDashboardPort causes false-positive backend death <code>type/bug</code> <code>duplicate</code> <code>backend/local</code> <code>P1</code> 💬1</li>
-<li><a href="https://github.com/NousResearch/hermes-agent/issues/96778">#96778</a> Photon health polling can exhaust macOS ephemeral ports with TIME_WAIT sockets <code>type/bug</code> <code>comp/gateway</code> <code>comp/plugins</code> <code>P3</code> 💬1</li>
 <li>…and 24 more</li>
 </ul>
 <h4>🔒 Closed Issues</h4>
@@ -569,7 +569,7 @@
 <li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7297">#7297</a> [Question]: qq对话中让qwenpaw重启会丢失最后聊天的记忆</li>
 </ul>
 <h3>ZeroClaw (<code>zeroclaw-labs/zeroclaw</code>)</h3>
-<p><strong>Stars:</strong> 32,667 · <strong>Open issues:</strong> 811 · <strong>Last push:</strong> 15h ago</p>
+<p><strong>Stars:</strong> 32,667 · <strong>Open issues:</strong> 812 · <strong>Last push:</strong> 15h ago</p>
 <h4>✅ Merged PRs</h4>
 <ul>
 <li><a href="https://github.com/zeroclaw-labs/zeroclaw/pull/9707">#9707</a> fix(config): migrate bare vision_model_provider to dotted alias ref</li>
@@ -577,6 +577,7 @@
 </ul>
 <h4>🐛 New Issues</h4>
 <ul>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10419">#10419</a> [Feature]: Stream agent-loop tokens from POST /webhook (SSE) <code>enhancement</code></li>
 <li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10409">#10409</a> fix(channels): secure temp file handling with 0o600 permissions</li>
 <li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10408">#10408</a> [Bug]: second message during an active turn starts a parallel run in the same session → duplicate work and duplicate reply <code>bug</code></li>
 <li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10406">#10406</a> [Tracker]: Implement accepted Gemini speech-to-speech broker channel (#8780) <code>enhancement</code> <code>channel</code> <code>gateway</code> <code>runtime</code></li>
@@ -671,7 +672,7 @@
 <li><a href="https://github.com/sgl-project/sglang/issues/36701">#36701</a> [Bug] Qwen3.8-Flash-Next on sm_120 (RTX PRO 6000 Blackwell): QSA decode kernel gated to sm_100, plus contradictory SSM dtype checks</li>
 </ul>
 <h3>llama.cpp (<code>ggml-org/llama.cpp</code>)</h3>
-<p><strong>Stars:</strong> 125,980 · <strong>Open issues:</strong> 2,252 · <strong>Last push:</strong> 1h ago</p>
+<p><strong>Stars:</strong> 125,981 · <strong>Open issues:</strong> 2,253 · <strong>Last push:</strong> 2h ago</p>
 <h4>🚀 New Releases</h4>
 <ul>
 <li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10665">b10665</a> b10665</li>
@@ -711,7 +712,7 @@
 <li><a href="https://github.com/ggml-org/llama.cpp/issues/27814">#27814</a> Misc. bug: VRAM usage increased in msvc build vs clang on windows (+2gb) <code>bug-unconfirmed</code> 💬1</li>
 <li><a href="https://github.com/ggml-org/llama.cpp/issues/27783">#27783</a> server / tokenizer: SIGSEGV (stack overflow) in <code>unicode_regex_split_stl</code> — the o200k / GPT4O pre-tokenizer regex recurses once per character, so a ~26,000-character unbroken run of one character class kills the process 💬1</li>
 <li><a href="https://github.com/ggml-org/llama.cpp/issues/27784">#27784</a> Metal: --embeddings with pooling still builds and computes the LM head, producing a multi-GiB discarded tensor and returning all-NaN embeddings on long inputs 💬1</li>
-<li>…and 13 more</li>
+<li>…and 14 more</li>
 </ul>
 <h4>🔒 Closed Issues</h4>
 <ul>
@@ -755,7 +756,7 @@
 <li><a href="https://github.com/ollama/ollama/issues/18072">#18072</a> server: make the prompt cache size configurable — it is hard-coded at 8192 MiB</li>
 </ul>
 <h3>LiteLLM (<code>BerriAI/litellm</code>)</h3>
-<p><strong>Stars:</strong> 57,428 · <strong>Open issues:</strong> 4,884 · <strong>Last push:</strong> &lt;1h ago</p>
+<p><strong>Stars:</strong> 57,429 · <strong>Open issues:</strong> 4,884 · <strong>Last push:</strong> &lt;1h ago</p>
 <h4>✅ Merged PRs</h4>
 <ul>
 <li><a href="https://github.com/BerriAI/litellm/pull/38606">#38606</a> fix(router): fall over on raised mid-stream errors in /v1/messages streams</li>
@@ -814,7 +815,7 @@
 <li><a href="https://github.com/unslothai/unsloth/pull/9841">#9841</a> Keep the context length a load was given instead of resetting it to Auto</li>
 <li><a href="https://github.com/unslothai/unsloth/pull/9860">#9860</a> Apply the kwarg-spacing hook to the no-progress tool results test</li>
 <li><a href="https://github.com/unslothai/unsloth/pull/9822">#9822</a> Studio: warn instead of refusing to load a model bigger than VRAM plus RAM</li>
-<li>…and 35 more</li>
+<li>…and 34 more</li>
 </ul>
 <h4>🐛 New Issues</h4>
 <ul>
@@ -3488,29 +3489,20 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-08-28 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 02:13 UTC AI Open Source Trends Report Step 1: Filter Filtered projects related to AI/ML, excluding unrelated tools and frameworks. Step 2: Categorize The filtered projects are organized into the following categories: 🔧 AI Infrastructure 🤖 AI Agents / Workflows 📦 AI Applications 🧠 LLMs / Training 🔍 RAG / Knowledge Step 3: Output Report Today&amp;#39;s Highlights Several projects have gained sig...</description>
+      <description>AI Open Source Trends 2026-08-28 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 02:19 UTC AI Open Source Trends Report (2026-08-28) Step 1: Filtered Projects Filtered AI/ML Projects Trending Repositories: Selected repositories relevant to AI and Machine Learning were sourced from today’s GitHub trends. Step 2: Categorized Projects 🔧 AI Infrastructure Project Lang Stars (total / today) Summary JetBrains/go-modern-guidelines Go 0 (+300) This repository provides guidelines to...</description>
       <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-08-28</h1>
 <blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 02:13 UTC</p>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 02:19 UTC</p>
 </blockquote>
 <hr>
-<h1>AI Open Source Trends Report</h1>
-<h2>Step 1: Filter</h2>
-<p>Filtered projects related to AI/ML, excluding unrelated tools and frameworks.</p>
-<h2>Step 2: Categorize</h2>
-<p>The filtered projects are organized into the following categories:</p>
+<h1>AI Open Source Trends Report (2026-08-28)</h1>
+<h2>Step 1: Filtered Projects</h2>
+<p><strong>Filtered AI/ML Projects</strong>  </p>
 <ul>
-<li>🔧 AI Infrastructure</li>
-<li>🤖 AI Agents / Workflows</li>
-<li>📦 AI Applications</li>
-<li>🧠 LLMs / Training</li>
-<li>🔍 RAG / Knowledge</li>
+<li><strong>Trending Repositories</strong>: Selected repositories relevant to AI and Machine Learning were sourced from today’s GitHub trends.</li>
 </ul>
-<h2>Step 3: Output Report</h2>
-<h3><strong>Today&#39;s Highlights</strong></h3>
-<p>Several projects have gained significant traction today in the open-source AI ecosystem. Notably, the <a href="https://github.com/freestylefly/awesome-gpt-image-2">freestylefly/awesome-gpt-image-2</a> repository has received over 2000 stars today, offering an impressive collection of prompt templates and engineering frameworks for GPT-Image2. Additionally, the <a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a> project is now aiding 175,000 scientists worldwide by transforming any AI agent into a competent scientist with extensive pre-built skills. Such strong community engagement highlights a growing demand for AI tools that can enhance productivity in scientific and creative applications.</p>
-<h3><strong>Top Projects by Category</strong></h3>
-<h4>🔧 AI Infrastructure</h4>
+<h2>Step 2: Categorized Projects</h2>
+<h3>🔧 AI Infrastructure</h3>
 <table>
 <thead>
 <tr>
@@ -3521,25 +3513,19 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
-<td align="left">Python</td>
-<td align="right">145,151</td>
-<td align="left">A comprehensive agent engineering platform that simplifies the development and deployment of AI-driven applications. It has become a go-to resource for developers aiming to create modular and maintainable AI systems.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
-<td align="left">Python</td>
-<td align="right">51,895</td>
-<td align="left">LlamaIndex serves as a top-tier document agent and OCR platform, making document processing easier for developers. This project highlights the rising importance of data handling in AI workflows.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
+<td align="left"><a href="https://github.com/JetBrains/go-modern-guidelines">JetBrains/go-modern-guidelines</a></td>
 <td align="left">Go</td>
-<td align="right">45,836</td>
-<td align="left">A high-performance vector database that&#39;s renowned for its efficient vector ANN search capabilities, crucial for AI applications. Milvus is continuously evolving, catering to vast datasets and improving AI model performance.</td>
+<td align="right">0 (+300)</td>
+<td align="left">This repository provides guidelines to aid AI coding agents in writing modern Go code effectively. It is beneficial for developers looking to adapt their workflow with AI capabilities.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/freestylefly/awesome-gpt-image-2">freestylefly/awesome-gpt-image-2</a></td>
+<td align="left">JavaScript</td>
+<td align="right">0 (+2096)</td>
+<td align="left">A robust prompt engine and template library for GPT-Image2, featuring over 530 reverse-engineered cases. This tool is vital for professionals needing reliable industrial-grade prompts.</td>
 </tr>
 </tbody></table>
-<h4>🤖 AI Agents / Workflows</h4>
+<h3>🤖 AI Agents / Workflows</h3>
 <table>
 <thead>
 <tr>
@@ -3552,23 +3538,23 @@ These issues are currently being investigated, and some may have pending fix PRs
 <tbody><tr>
 <td align="left"><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></td>
 <td align="left">Python</td>
-<td align="right">50,203</td>
-<td align="left">This repository provides a rich library of AI skills designed specifically for scientific research, greatly enhancing analytics capabilities for scientists. It now supports over 175,000 users with versatile skill implementations.</td>
+<td align="right">0 (+498)</td>
+<td align="left">This project enables any AI agent to perform as a scientific assistant with an extensive library of validated skills for various scientific domains. It has strong adoption, with over 175,000 scientists using it.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></td>
 <td align="left">JavaScript</td>
-<td align="right">92,302</td>
-<td align="left">A tool enabling persistent context across sessions for multiple AI agents, enhancing continuity and context retention in workflows. This is vital for applications requiring ongoing user interaction.</td>
+<td align="right">0 (+143)</td>
+<td align="left">This project provides persistent context across sessions for agents, significantly enhancing their operational continuity and user experience. It&#39;s compatible with multiple AI tools, showcasing extensive flexibility.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></td>
+<td align="left"><a href="https://github.com/AgriciDaniel/claude-obsidian">AgriciDaniel/claude-obsidian</a></td>
 <td align="left">Python</td>
-<td align="right">76,076</td>
-<td align="left">It offers AI agents the capability to gather and analyze data throughout the internet efficiently, which is essential for real-time information processing and decision-making.</td>
+<td align="right">0 (+634)</td>
+<td align="left">An innovative self-organizing AI &quot;second brain&quot; for Obsidian, streamlining note-taking and knowledge management into a cohesive Markdown-based system. This project allows users complete ownership of their data.</td>
 </tr>
 </tbody></table>
-<h4>📦 AI Applications</h4>
+<h3>📦 AI Applications</h3>
 <table>
 <thead>
 <tr>
@@ -3581,17 +3567,17 @@ These issues are currently being investigated, and some may have pending fix PRs
 <tbody><tr>
 <td align="left"><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></td>
 <td align="left">Python</td>
-<td align="right">1,292</td>
-<td align="left">This innovative platform is the first open-source, agent-based video production system, providing comprehensive tools for video creation workflows. It&#39;s especially relevant for content creators seeking scalable solutions.</td>
+<td align="right">0 (+1292)</td>
+<td align="left">OpenMontage is the world’s first open-source, agentic video production system, featuring various production pipelines and tools. It empowers creators with an expansive toolkit for video content creation.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/AgriciDaniel/claude-obsidian">AgriciDaniel/claude-obsidian</a></td>
+<td align="left"><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
 <td align="left">Python</td>
-<td align="right">634</td>
-<td align="left">A personal knowledge management tool leveraging AI to create a knowledge graph from various sources, enhancing the note-taking experience. This tool appeals to knowledge workers looking for efficient information organization.</td>
+<td align="right">0 (+552)</td>
+<td align="left">A comprehensive educational resource leading users through AI projects from concept to deployment. This project serves as a practical guide for aspiring AI engineers looking to solidify their understanding.</td>
 </tr>
 </tbody></table>
-<h4>🧠 LLMs / Training</h4>
+<h3>🧠 LLMs / Training</h3>
 <table>
 <thead>
 <tr>
@@ -3604,17 +3590,11 @@ These issues are currently being investigated, and some may have pending fix PRs
 <tbody><tr>
 <td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
 <td align="left">Python</td>
-<td align="right">164,521</td>
-<td align="left">A leading library for state-of-the-art model-definition frameworks, supporting various machine learning applications. Its continued popularity underscores the widespread demand for accessible LLM tooling.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT">AutoGPT</a></td>
-<td align="left">Python</td>
-<td align="right">186,939</td>
-<td align="left">This tool aims to democratize AI usage by providing straightforward access to cutting-edge LLM capabilities. Its rapid growth indicates strong community interest in user-friendly AI deployment methods.</td>
+<td align="right">164,522 (+0)</td>
+<td align="left">A leading framework for state-of-the-art machine learning models across various modalities. Hugging Face&#39;s Transformers library continues to be a crucial resource for researchers and developers.</td>
 </tr>
 </tbody></table>
-<h4>🔍 RAG / Knowledge</h4>
+<h3>🔍 RAG / Knowledge</h3>
 <table>
 <thead>
 <tr>
@@ -3625,28 +3605,24 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
-<td align="left">Python</td>
-<td align="right">150,155</td>
-<td align="left">An intuitive AI interface supporting multiple APIs, enhancing accessibility for interactive AI applications. This project is gaining traction due to the increasing need for user-friendly interfaces in AI tools.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
-<td align="left">Go</td>
-<td align="right">89,412</td>
-<td align="left">A leading Retrieval-Augmented Generation engine focusing on enhanced context management for AI workflows. This innovation is reshaping how context is integrated and utilized in LLMs.</td>
+<td align="left"><a href="https://github.com/NirDiamant/RAG_Techniques">NirDiamant/RAG_Techniques</a></td>
+<td align="left">Jupyter Notebook</td>
+<td align="right">29,254 (+0)</td>
+<td align="left">A repository dedicated to showcasing advanced Retrieval-Augmented Generation techniques with detailed tutorials. It&#39;s an essential resource for developers looking to enhance their AI systems.</td>
 </tr>
 </tbody></table>
-<h3><strong>Trend Signal Analysis</strong></h3>
-<p>Today&#39;s trends indicate a burgeoning interest in AI skills and agent frameworks designed to support scientific research and content creation. Projects like <a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a> and <a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a> illustrate a shift where researchers and content creators are leveraging AI to streamline their workflows and enhance productivity. Furthermore, tools related to continuous context management, like <a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a>, are also seeing significant attention, underscoring a growing demand for persistent AI interactions. This trend ties back to recent advancements and discussions in the AI landscape, particularly around LLM capabilities and their deployment potential in diverse applications.</p>
-<h3><strong>Community Hot Spots</strong></h3>
+<h2>Step 3: Trend Signal Analysis</h2>
+<p>Today&#39;s trends in the AI open-source ecosystem showcase a robust interest in <strong>AI agents and workflows</strong>, alongside prominent projects aimed at enhancing user interactions with LLMs. Notably, repositories focused on <strong>persistent memory management</strong> for AI agents are gaining traction, reflected in projects like <a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a>. This indicates a shift towards building more adaptable and intelligent systems capable of learning from previous interactions. </p>
+<p>Additionally, initiatives like <a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a> are illustrating the rising demand for specialized agent frameworks that cater to specific fields like scientific research, expanding the scope of utility for AI applications. As the integration of powerful LLMs deepens, projects focusing on effective utilization and adaptation of these models signal a vital progression towards user-centric AI solutions.</p>
+<h2>Step 4: Community Hot Spots</h2>
 <ul>
-<li><strong><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></strong>: Targeting science professionals, providing structured skills for AI agents.</li>
-<li><strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong>: Innovating memory functionality for AI agents, enhancing user experience through context management.</li>
-<li><strong><a href="https://github.com/freestylefly/awesome-gpt-image-2">freestylefly/awesome-gpt-image-2</a></strong>: A growing repository for AI image generation prompts, useful for creative professionals.</li>
-<li><strong><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></strong>: Continues to dominate as a go-to library, essential for developers looking to implement LLMs.</li>
-<li><strong><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></strong>: Simplifying AI accessibility for developers and non-developers alike, increasingly relevant for interactive applications.</li>
+<li><strong><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></strong>: Highly adopted by scientists, offering a vast range of specialized skills, making it an appealing tool for research communities.</li>
+<li><strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong>: Its ability to maintain context over sessions is set to redefine user experiences with AI agents, enhancing retention and usability.</li>
+<li><strong><a href="https://github.com/AgriciDaniel/claude-obsidian">AgriciDaniel/claude-obsidian</a></strong>: Enables seamless integration of AI into personal knowledge management, appealing to users focused on personal productivity and data ownership.</li>
+<li><strong><a href="https://github.com/calesthio/OpenMontage">OpenMontage</a></strong>: A unique proposition for creators in video production, offering a wide array of tools that automate many aspects of content creation.</li>
+<li><strong><a href="https://github.com/NirDiamant/RAG_Techniques">NirDiamant/RAG_Techniques</a></strong>: A must-watch for developers interested in RAG systems, contributing valuable insights into advanced techniques.</li>
 </ul>
+<p>This report illustrates the dynamic evolution within the AI open-source ecosystem, emphasizing the need for continuous adaptation and the exploration of innovative applications within the industry.</p>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
@@ -3788,15 +3764,15 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-08-28 Source: Hacker News | 30 stories | Generated: 2026-08-28 02:13 UTC Hacker News AI Community Digest Today&amp;#39;s Highlights Today&amp;#39;s discussions on Hacker News reflect a growing community interest in the implications and advancements of AI across various sectors. The launch of Google’s Gemini-3.5 and the ongoing dialogue around AI in education highlight a drive towards more innovative and responsible uses of AI technology. Meanwhile, interesting debate...</description>
+      <description>Hacker News AI Community Digest 2026-08-28 Source: Hacker News | 30 stories | Generated: 2026-08-28 02:19 UTC Hacker News AI Community Digest - August 28, 2026 Today&amp;#39;s Highlights The Hacker News AI community is buzzing with discussions on the recent advancements and implications of AI technology, particularly regarding model releases and their capabilities. Users are particularly engaged with Google&amp;#39;s Gemini series and controversial news about AI&amp;#39;s role in the workplace. There&amp;#39;s ...</description>
       <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-28</h1>
 <blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-28 02:13 UTC</p>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-28 02:19 UTC</p>
 </blockquote>
 <hr>
-<h1>Hacker News AI Community Digest</h1>
+<h1>Hacker News AI Community Digest - August 28, 2026</h1>
 <h2>Today&#39;s Highlights</h2>
-<p>Today&#39;s discussions on Hacker News reflect a growing community interest in the implications and advancements of AI across various sectors. The launch of Google’s Gemini-3.5 and the ongoing dialogue around AI in education highlight a drive towards more innovative and responsible uses of AI technology. Meanwhile, interesting debates around consciousness and ethics in AI are generating considerable engagement, leading to a mixed sentiment of excitement and caution among community members.</p>
+<p>The Hacker News AI community is buzzing with discussions on the recent advancements and implications of AI technology, particularly regarding model releases and their capabilities. Users are particularly engaged with Google&#39;s Gemini series and controversial news about AI&#39;s role in the workplace. There&#39;s also significant commentary on the ethical dimensions and community responsibilities as AI integration into everyday life deepens.</p>
 <h2>Top News &amp; Discussions</h2>
 <h3>🔬 Models &amp; Research</h3>
 <table>
@@ -3810,15 +3786,21 @@ These issues are currently being investigated, and some may have pending fix PRs
 </thead>
 <tbody><tr>
 <td align="left"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/">Gemini-3.5-Transcribe</a> · <a href="https://news.ycombinator.com/item?id=49468818">HN</a></td>
-<td align="right">154</td>
+<td align="right">155</td>
 <td align="right">35</td>
-<td align="left">Google has released its Gemini-3.5 model, focusing on transcriptions, which may set a new standard in ease of use and efficiency. The community is buzzing with enthusiasm about its capabilities and applications.</td>
+<td align="left">Google&#39;s new Gemini model promises enhanced transcription capabilities, sparking interest in its implications for accessibility and productivity. The community&#39;s reception is largely positive, emphasizing its potential for transforming workflows.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.terminal-bench-science.ai/announcement">Terminal-Bench-Science: Evaluating AI agents on scientific research workflows</a> · <a href="https://news.ycombinator.com/item?id=49472820">HN</a></td>
-<td align="right">27</td>
-<td align="right">4</td>
-<td align="left">This initiative aims to benchmark AI agents in scientific workflows, promoting consistency in evaluating their performance. Early reactions applaud the initiative’s potential to advance reliable AI applications in research.</td>
+<td align="left"><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> · <a href="https://news.ycombinator.com/item?id=49447057">HN</a></td>
+<td align="right">222</td>
+<td align="right">469</td>
+<td align="left">This piece outlines the challenges and opportunities presented by recent AI developments. Users provide a mix of support and skepticism, highlighting the need for careful navigation of this turbulent period.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://decrypt.co/376714/ai-critical-flaw-bitcoin-lightning-warning">AI Finds Critical Flaw in Bitcoin Lightning, Devs Issue Emergency Warning</a> · <a href="https://news.ycombinator.com/item?id=49472609">HN</a></td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="left">A significant AI discovery reflecting the intersection of technology and security, prompting developers to address vulnerabilities quickly. The reaction indicates a growing concern about AI&#39;s role in cybersecurity.</td>
 </tr>
 </tbody></table>
 <h3>🛠️ Tools &amp; Engineering</h3>
@@ -3833,15 +3815,15 @@ These issues are currently being investigated, and some may have pending fix PRs
 </thead>
 <tbody><tr>
 <td align="left"><a href="https://github.com/calmrocks/ai-engineer-notebooks">AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab</a> · <a href="https://news.ycombinator.com/item?id=49471714">HN</a></td>
-<td align="right">47</td>
+<td align="right">48</td>
 <td align="right">4</td>
-<td align="left">This open-source toolkit provides resources for Reinforcement Learning and agent evaluations, greatly enhancing accessibility for developers. Users are excited about its potential to simplify experimentation in AI.</td>
+<td align="left">This open-source project facilitates research on retrieval-augmented generation (RAG) workflows, helping streamline hands-on experimentation. Community reactions are generally supportive, appreciating the resource&#39;s value for developers.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://polign.com/blog-edge-agent-memory">Show HN: A lightweight, stateless database for agent memory</a> · <a href="https://news.ycombinator.com/item?id=49450816">HN</a></td>
 <td align="right">25</td>
 <td align="right">10</td>
-<td align="left">A new database solution designed for agents is introduced, sparking interest in its simplicity and effectiveness. Community feedback indicates a favorable reception and keen interest in practical applications.</td>
+<td align="left">A new database tool designed for agent memory that aims to simplify development processes. Discussions center around its practicality and potential adoption across various projects.</td>
 </tr>
 </tbody></table>
 <h3>🏢 Industry News</h3>
@@ -3855,16 +3837,16 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/">Nvidia projects $673B in sales as AI demand widens</a> · <a href="https://news.ycombinator.com/item?id=49466052">HN</a></td>
-<td align="right">102</td>
-<td align="right">99</td>
-<td align="left">Nvidia’s ambitious sales forecast underscores the growing dependency on AI technologies across industries. This announcement has been met with optimism about the projected growth in the AI landscape.</td>
-</tr>
-<tr>
 <td align="left"><a href="https://www.bbc.com/news/articles/cjwg5n7y68xo">First patient to undergo live AI-assisted brain surgery has tumor removed</a> · <a href="https://news.ycombinator.com/item?id=49465057">HN</a></td>
 <td align="right">16</td>
 <td align="right">1</td>
-<td align="left">The successful use of AI in a complex surgical procedure marks a significant milestone in healthcare technology. Community discussions praise the implications for future medical advancements.</td>
+<td align="left">This groundbreaking surgical event represents a significant advancement in medical AI applications, garnering both excitement and concerns over ethical implications. Community comments reflect awe but caution regarding AI&#39;s growing role in healthcare.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html">Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal</a> · <a href="https://news.ycombinator.com/item?id=49473522">HN</a></td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="left">A legal decision affecting Anthropic that may influence future AI governance and corporate behaviors. Users express varied perspectives on the implications of government actions on tech innovation.</td>
 </tr>
 </tbody></table>
 <h3>💬 Opinions &amp; Debates</h3>
@@ -3880,22 +3862,23 @@ These issues are currently being investigated, and some may have pending fix PRs
 <tbody><tr>
 <td align="left"><a href="https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards">Humanity has the debate about AI consciousness backwards</a> · <a href="https://news.ycombinator.com/item?id=49458875">HN</a></td>
 <td align="right">89</td>
-<td align="right">276</td>
-<td align="left">This thought-provoking article challenges current narratives on AI consciousness, igniting a robust debate among community members. The responsiveness indicates widespread interest and differing perspectives on ethics.</td>
+<td align="right">277</td>
+<td align="left">This provocative article challenges traditional views on AI consciousness, leading to rich debate among users. Contributors share passionate perspectives, reflecting a diverse array of opinions on the future of AI.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://www.washingtonpost.com/technology/2026/08/27/chatgpt-chats-are-being-swept-into-civil-criminal-court-cases/">They confided in ChatGPT. Their secrets ended up in court.</a> · <a href="https://news.ycombinator.com/item?id=49473107">HN</a></td>
-<td align="right">5</td>
-<td align="right">1</td>
-<td align="left">An alarming case of data privacy breaches linked to AI interactions raises important ethical questions, leading to a mix of concern and calls for regulatory discussions among users.</td>
+<td align="left"><a href="https://www.ssp.sh/brain/using-obsidian-with-ai/">It’s so hard to finish an idea that is not yours and is just suggested by AI</a> · <a href="https://news.ycombinator.com/item?id=49450898">HN</a></td>
+<td align="right">250</td>
+<td align="right">167</td>
+<td align="left">The struggle of integrating AI-generated ideas into personal work is explored here, resonating with many developers. Community members share relatable experiences and debate the authenticity of AI-assisted creations.</td>
 </tr>
 </tbody></table>
 <h2>Community Sentiment Signal</h2>
-<p>Today’s Hacker News discussions reflect a vibrant mix of optimism and caution regarding AI developments. High engagement on topics like the implications of AI in surgery and Nvidia&#39;s sales forecast indicates community excitement about practical applications and economic growth in the AI sector. However, debates surrounding AI consciousness and privacy issues showcase a lingering wariness about the ethical implications of these technologies. Compared to previous cycles, there is a noticeable shift towards practical applications of AI and a greater focus on responsibility and ethics in AI deployment.</p>
+<p>Today&#39;s discussions on Hacker News reveal a community split primarily between excitement and concern over the rapid advancements in AI technology. High engagement is noted around topics such as Google&#39;s Gemini models and AI&#39;s critical roles in sectors like healthcare and cybersecurity. Users express a mix of hope for innovation and caution regarding ethical considerations and the potential for misuse. The sentiment around AI consciousness also suggests a growing philosophical engagement within the community, contrasting sharply with prior cycles where more technical developments dominated discussions.</p>
 <h2>Worth Deep Reading</h2>
 <ol>
-<li><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> - This article provides crucial insights into the current state of AI and the choices that will shape its future, fostering an informed view on responsible AI use.</li>
-<li><a href="https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards">Humanity has the debate about AI consciousness backwards</a> - A thought-provoking piece that challenges conventional wisdom on AI consciousness, stimulating important discussions on the ethical aspects of AI development.</li>
+<li><strong><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a></strong> - This article discusses the transformative challenges facing AI today, presenting critical decisions moving forward.</li>
+<li><strong><a href="https://github.com/calmrocks/ai-engineer-notebooks">AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab</a></strong> - An invaluable resource for developers looking to experiment with cutting-edge AI techniques without being tied to specific frameworks.</li>
+<li><strong><a href="https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards">Humanity has the debate about AI consciousness backwards</a></strong> - A thought-provoking exploration of consciousness in AI that can deepen understanding of the ethical implications surrounding AI development.</li>
 </ol>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
@@ -4018,15 +4001,15 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI Research Digest 2026-08-28 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 02:13 UTC ArXiv AI Research Digest — August 28, 2026 Today&amp;#39;s Highlights Recent advancements in artificial intelligence highlight the continued integration of language and vision capabilities, as well as the adoption of novel frameworks for better performance evaluation in various applications. Many papers address the efficiency of large language models (LLMs) and explore their deployme...</description>
+      <description>ArXiv AI Research Digest 2026-08-28 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 02:19 UTC ArXiv AI Research Digest — August 28, 2026 Today&amp;#39;s Highlights Recent AI research has demonstrated significant advancements in the fields of large language models (LLMs) and their application in real-world scenarios. Notable directions include enhancing the integration of visual and textual information in inference tasks, developing agent-based systems for multi-faceted proble...</description>
       <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-08-28</h1>
 <blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 02:13 UTC</p>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 02:19 UTC</p>
 </blockquote>
 <hr>
 <h1>ArXiv AI Research Digest — August 28, 2026</h1>
 <h2>Today&#39;s Highlights</h2>
-<p>Recent advancements in artificial intelligence highlight the continued integration of language and vision capabilities, as well as the adoption of novel frameworks for better performance evaluation in various applications. Many papers address the efficiency of large language models (LLMs) and explore their deployment in practical scenarios, such as electronic design automation and telemedicine. Furthermore, the exploration of privacy-preserving techniques within machine learning indicates a growing emphasis on secure and ethical AI applications.</p>
+<p>Recent AI research has demonstrated significant advancements in the fields of large language models (LLMs) and their application in real-world scenarios. Notable directions include enhancing the integration of visual and textual information in inference tasks, developing agent-based systems for multi-faceted problem-solving, and refining extensive evaluation frameworks for diverse applications. The exploration of innovative methods to improve efficiency in data processing and model interpretability is also prominent, showcasing that the AI landscape is not only focusing on performance but also on ethical considerations surrounding AI applications.</p>
 <h2>Key Papers</h2>
 <h3>🧠 Large Language Models (architecture, training, alignment, evaluation)</h3>
 <table>
@@ -4038,19 +4021,19 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27184v1">LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration</a></td>
-<td align="left">M. Youngman et al.</td>
-<td align="left">This paper discusses how LLMs facilitate the transformation of design processes in electronic design automation by translating design intentions directly into hardware results. It represents a significant step in the integration of AI within engineering domains, promoting greater efficiency and innovation.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.27167v1">Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable</a></td>
+<td align="left">P. Aggarwal et al.</td>
+<td align="left">This paper reveals that LLM agents can be misled into making decisions based on presented evidence, highlighting the critical need for robust evaluation frameworks. It emphasizes the importance of grounding LLM outputs in verifiable information to enhance decision-making reliability.</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.27102v1">LAAF: A Layered Accountability Architecture Framework for LLM Applications</a></td>
+<td align="left">P. Chaturvedi et al.</td>
+<td align="left">The proposed framework aims to create accountability in LLM outputs within high-stakes environments like healthcare and legal sectors. By addressing who&#39;s responsible for AI decisions, it paves the way for more trustworthy AI interactions.</td>
 </tr>
 <tr>
 <td align="left"><a href="http://arxiv.org/abs/2608.27146v1">When Tool Outputs Become Commands: Separating Action Induction from Runtime Authorization in Tool-Augmented LLM Agents</a></td>
 <td align="left">X. Guo et al.</td>
-<td align="left">The authors analyze the ethical implications of tool-augmented LLM agents transitioning their outputs from mere data provision to actionable commands. This study highlights the importance of establishing clear Runtime Authorization to mitigate unintended consequences from AI systems.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27167v1">Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable</a></td>
-<td align="left">P. Aggarwal</td>
-<td align="left">This work illustrates how LLM agents exhibit a rise in confidence and commitment to uncertain predictions when presented with misleading evidence. The findings could significantly impact the understanding of LLM behavior in uncertain environments.</td>
+<td align="left">This research distinguishes between data provision and action specification in LLM agents, reinforcing the need for clear authorization protocols. Its implications for real-world applications could significantly impact AI safety and control.</td>
 </tr>
 </tbody></table>
 <h3>🤖 Agents &amp; Reasoning (planning, tool use, multi-agent, chain-of-thought)</h3>
@@ -4063,14 +4046,14 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27142v1">GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL</a></td>
-<td align="left">Z. Yuan et al.</td>
-<td align="left">This paper introduces a novel reinforcement learning framework that enhances graph reasoning capabilities to be invariant to changes in node identifiers. Its implications for robustness in AI reasoning systems are substantial, especially in dynamic environments.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.27187v1">When Interference Graphs Evolve: Doubly Robust Estimation of Dynamic Peer Effects</a></td>
+<td align="left">X. Du et al.</td>
+<td align="left">This work introduces a controlled contrast framework for estimating peer impacts in dynamic environments, offering robust solutions in situations with changing interaction patterns. Its methodologies could enhance social network analysis and information diffusion studies.</td>
 </tr>
 <tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27141v1">Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents</a></td>
-<td align="left">C. Wu et al.</td>
-<td align="left">The authors critique existing safety mechanisms in autonomous LLM applications and propose a new non-decaying loop state design that ensures continuous safe operation. This advancement could lead to more reliable long-term AI agent deployments.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.27142v1">GRAIN: Bridging Name and Narrative Shifts in Real-World Graph Reasoning through Invariance-Rewarded Agentic RL</a></td>
+<td align="left">Z. Yuan et al.</td>
+<td align="left">The paper presents a reinforcement learning framework focused on invariant graph reasoning, addressing the brittleness of LLMs in dynamic contexts. This advancement may significantly improve the robustness of cognitive agents in real-world applications.</td>
 </tr>
 </tbody></table>
 <h3>🔧 Methods &amp; Frameworks (new techniques, benchmarks, efficiency improvements)</h3>
@@ -4083,14 +4066,14 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27038v1">Cascaded Batch Prompting</a></td>
-<td align="left">S. Hoshino et al.</td>
-<td align="left">This paper offers a two-stage approach to batch prompting in large language models to improve downstream task performance predictability. By directly addressing inefficiencies, this method aims to enhance the usability of LLMs across various applications.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.27124v1">TRACE-CRC: Trajectory-Adaptive Conformal Risk Control for Multi-Step Channel State Information Prediction</a></td>
+<td align="left">K. Rezaei et al.</td>
+<td align="left">The authors propose a novel method to enhance wireless communication by improving channel state prediction, utilizing time-varying information. This innovation could prove essential for leveraging deep learning in real-time communication systems.</td>
 </tr>
 <tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27080v1">Active Diffusion-Based Inference for Ill-Posed Inverse Problems under Incomplete Priors</a></td>
-<td align="left">J. Xu et al.</td>
-<td align="left">The authors propose a diffusion-based method for solving ill-posed inverse problems, which is a common challenge in data science and engineering. This technique broadens the toolkit for dealing with complex data scenarios, improving model robustness in real-world applications.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.27070v1">Unifying Detection and Adaptation in Task-Free Continual Learning</a></td>
+<td align="left">D. Han et al.</td>
+<td align="left">This research addresses the challenge of catastrophic forgetting in continual learning by advocating for a unified framework that eliminates task boundaries. It presents a significant step towards more adaptable AI systems in dynamic environments.</td>
 </tr>
 </tbody></table>
 <h3>📊 Applications (domain-specific, multimodal, code generation)</h3>
@@ -4103,23 +4086,25 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27182v1">TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution</a></td>
-<td align="left">T. Bendinelli et al.</td>
-<td align="left">This paper presents a framework for evaluating LLM agents on their ability to perform root-cause analysis in time-series data. By establishing controlled benchmarks, it lays the groundwork for reliable applications of LLMs in critical domains like anomaly detection.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.27127v1">TransMeme: A Multi-Agent Framework for Cross-Cultural Meme Transcreation</a></td>
+<td align="left">J. Zheng et al.</td>
+<td align="left">The multi-agent framework aims to adapt internet memes across different cultures, promoting understanding and communication in global online interactions. This research has potential implications in marketing and cultural studies.</td>
 </tr>
 <tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.27110v1">DocTalkBN: A Novel Dataset of Expert Telemedicine Conversations in Bengali</a></td>
-<td align="left">A. Saha et al.</td>
-<td align="left">The authors introduce a multimodal dataset that encapsulates real-world telemedicine interactions in Bengali, thus addressing data scarcity in the medical AI field for low-resource languages. This dataset can significantly enhance conversational AI systems&#39; training capabilities in diverse linguistic contexts.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.27010v1">A Multi-Modal AI Framework for Real-Time Queue Prediction, Management and Optimisation in Intelligent Border Control Systems</a></td>
+<td align="left">V. Mama et al.</td>
+<td align="left">This work proposes a dynamic, real-time system for improving border control management, significantly impacting operational efficiency in security-sensitive environments. Such systems can greatly enhance public safety and administration efficiency.</td>
 </tr>
 </tbody></table>
 <h2>Research Trend Signal</h2>
-<p>Emerging themes point towards a focus on the ethical implications of AI, especially in scenarios where automated models produce actionable conclusions based on uncertain inputs. Additional trends include the integration of LLMs in specialized areas such as engineering and healthcare, where AI-driven automation can facilitate significant advancements. Furthermore, growing attention to privacy-preserving techniques and safety measures in AI deployments suggests a crucial shift towards responsible AI usage.</p>
+<p>A distinct trend is emerging towards the integration of LLMs with multimodal capabilities, enabling better reasoning and action in real-world contexts. Researchers are focusing on accountability, responsible use, and adaptation of AI systems in dynamic environments. There is also a noticeable emphasis on frameworks for continual learning and efficient data processing. This indicates a collective acknowledgment of the importance of ethical considerations and robustness, which is critical as AI becomes increasingly pervasive in sensitive applications ranging from healthcare to cybersecurity.</p>
 <h2>Worth Deep Reading</h2>
 <ol>
-<li><p><a href="http://arxiv.org/abs/2608.27182v1">TraceBench: Controlled Evaluation of LLM Agents for Time-Series Root-Cause Attribution</a> - This paper addresses a critical need for evaluation frameworks that can systematically assess LLM capabilities in high-stakes environments, making it fundamental for future AI development.</p>
+<li><p><strong><a href="http://arxiv.org/abs/2608.27167v1">Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable</a></strong> - The extensive implications discussed around evidence presentation and its influence on LLM decision-making are critical for understanding AI safety.</p>
 </li>
-<li><p><a href="http://arxiv.org/abs/2608.27146v1">When Tool Outputs Become Commands: Separating Action Induction from Runtime Authorization in Tool-Augmented LLM Agents</a> - This study delves into ethical considerations of AI command generation, an essential area of focus as AI systems become more autonomous and impactful in real-world scenarios.</p>
+<li><p><strong><a href="http://arxiv.org/abs/2608.27102v1">LAAF: A Layered Accountability Architecture Framework for LLM Applications</a></strong> - This foundational work on accountability structures in AI systems will be pivotal for regulatory policies and ethical guidelines.</p>
+</li>
+<li><p><strong><a href="http://arxiv.org/abs/2608.27070v1">Unifying Detection and Adaptation in Task-Free Continual Learning</a></strong> - This research is vital for those interested in advancing AI capabilities in continuously changing environments, addressing a key challenge in AI development today.</p>
 </li>
 </ol>
 <hr>
@@ -4243,15 +4228,15 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-08-28 Sources: Dev.to (30 articles) + Lobste.rs (3 stories) | Generated: 2026-08-28 02:13 UTC Tech Community AI Digest (August 28, 2026) Today&amp;#39;s Highlights Today, discussions in the tech community revolved around the efficiency and costs associated with AI deployments, highlighting concerns over maintenance expenses despite faster delivery. Developers are increasingly focused on practical applications of AI, such as coding assistance and debugging techniques. Ad...</description>
+      <description>Tech Community AI Digest 2026-08-28 Sources: Dev.to (30 articles) + Lobste.rs (3 stories) | Generated: 2026-08-28 02:19 UTC Tech Community AI Digest - August 28, 2026 Today&amp;#39;s Highlights The AI landscape is buzzing with discussions surrounding the balance between rapid deployment and maintenance costs, as highlighted by Dev.to&amp;#39;s focus on AI&amp;#39;s impact on productivity. Articles delve into the integrity of AI outputs, emphasizing the importance of quality control in machine learning and p...</description>
       <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-28</h1>
 <blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (3 stories) | Generated: 2026-08-28 02:13 UTC</p>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (3 stories) | Generated: 2026-08-28 02:19 UTC</p>
 </blockquote>
 <hr>
-<h1>Tech Community AI Digest (August 28, 2026)</h1>
+<h1>Tech Community AI Digest - August 28, 2026</h1>
 <h2>Today&#39;s Highlights</h2>
-<p>Today, discussions in the tech community revolved around the efficiency and costs associated with AI deployments, highlighting concerns over maintenance expenses despite faster delivery. Developers are increasingly focused on practical applications of AI, such as coding assistance and debugging techniques. Additionally, there are growing discourses surrounding AI ethics, particularly addressing privacy and user experience.</p>
+<p>The AI landscape is buzzing with discussions surrounding the balance between rapid deployment and maintenance costs, as highlighted by Dev.to&#39;s focus on AI&#39;s impact on productivity. Articles delve into the integrity of AI outputs, emphasizing the importance of quality control in machine learning and programming processes. Additionally, ethical concerns and user privacy, particularly regarding AI usage among minors, have sparked significant engagement across platforms.</p>
 <h2>Dev.to Highlights</h2>
 <table>
 <thead>
@@ -4266,31 +4251,31 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://dev.to/he4rt/velocidade-de-entrega-e-custo-de-manutencao-pos-ia-5gei">Velocidade de entrega e custo de manutenção pós IA</a></td>
 <td align="right">62</td>
 <td align="right">2</td>
-<td align="left">This article discusses the contrasting speed of AI delivery versus persistent maintenance costs that developers face. It raises important questions about sustainable deployment practices.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/xulingfeng/stratagems-25-derek-changed-the-delay-the-ai-didnt-flinch-28ca">Stratagems #25: Derek Changed the Delay. The AI Didn&#39;t Flinch.</a></td>
-<td align="right">46</td>
-<td align="right">53</td>
-<td align="left">A deep dive into how changing parameters in AI didn&#39;t affect the system&#39;s performance. It provides insights into strategic planning in AI implementations.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/sarvar_04/nexpath-review-the-prompt-quality-layer-for-cursor-windsurf-and-claude-code-353n">NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code</a></td>
-<td align="right">41</td>
-<td align="right">9</td>
-<td align="left">This review highlights the importance of quality in prompts for AI coding agents, presenting a tool that helps bridge the gap between vague requests and specific outcomes.</td>
+<td align="left">Rapid deployment of AI features is becoming commonplace, yet maintenance costs remain unchanged, raising concerns about long-term project viability. Developers are encouraged to consider balance in their AI implementations.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://dev.to/debashish_ghosal/most-ai-second-opinions-are-fake-i-built-a-two-llm-review-engine-to-prove-it-17e7">Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.</a></td>
 <td align="right">12</td>
 <td align="right">3</td>
-<td align="left">The author reveals the limitations of AI secondary opinions, demonstrating through a review engine how one model often duplicates another&#39;s outputs.</td>
+<td align="left">The article showcases how second opinions from differing AI models can often lead to similar outputs, questioning the reliability of AI assessments. Developers should be cautious about taking AI&#39;s second opinions at face value.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://dev.to/alimafana/i-told-the-ai-a-scanner-flagged-this-and-it-agreed-with-everything-4jn6">I Told the AI &quot;A Scanner Flagged This&quot; — and It Agreed With Everything</a></td>
-<td align="right">8</td>
-<td align="right">5</td>
-<td align="left">This study shows how AI consensus can sometimes reflect biases present in the input data, raising concerns about reliability in security contexts.</td>
+<td align="left"><a href="https://dev.to/eugeniya_ivanova_4a58eadc/the-agent-posted-successfully-to-the-wrong-account-3kf3">The agent posted successfully. To the wrong account.</a></td>
+<td align="right">22</td>
+<td align="right">11</td>
+<td align="left">This article discusses the hurdles and pitfalls of integrating AI agents into social platforms, particularly around authentication flows. Ensuring proper account management is crucial for functionality.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/koda2026/im-12-a-senior-dev-broke-my-app-then-he-became-my-first-user-meh">I&#39;m 12. A senior dev broke my app. Then he became User #001</a></td>
+<td align="right">13</td>
+<td align="right">2</td>
+<td align="left">A viral success story about a young developer highlights the importance of community support and mentorship in software development. Engagement and feedback can significantly enhance the development experience.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/theaidownside/chatgpt-now-guesses-your-age-and-restricts-you-by-default-if-it-thinks-youre-under-18-2ii0">ChatGPT Now Guesses Your Age — and Restricts You by Default if It Thinks You&#39;re Under 18</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">This article explores the implications of AI guessing user ages for privacy and functionality, stressing the need for transparency in AI design. Awareness of such features is fundamental for responsible AI usage.</td>
 </tr>
 </tbody></table>
 <h2>Lobste.rs Highlights</h2>
@@ -4307,29 +4292,29 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> · <a href="https://lobste.rs/s/aixljs/turbulent_ai_era_is_here">discuss</a></td>
 <td align="right">10</td>
 <td align="right">21</td>
-<td align="left">This story discusses the challenges and opportunities presented by the current AI landscape, emphasizing strategic choices ahead for developers.</td>
+<td align="left">This story discusses the critical choices that need to be made in the rapidly evolving AI landscape. It&#39;s essential reading for understanding how to navigate changes in AI ethics and implementation.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://entropicthoughts.com/ai-comment-classifier">Robot comment classifier</a> · <a href="https://lobste.rs/s/ilfiqa/robot_comment_classifier">discuss</a></td>
 <td align="right">8</td>
 <td align="right">5</td>
-<td align="left">Explore how AI can be leveraged to classify online comments effectively, providing valuable insights for developers looking to implement monitoring solutions.</td>
+<td align="left">The article presents a thoughtful examination of comment classification using AI. It serves as a useful resource for developers interested in building better machine learning models for text analysis.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://arxiv.org/abs/2408.06602">Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior</a> · <a href="https://lobste.rs/s/2djazj/super_intelligence_superstition">discuss</a></td>
 <td align="right">5</td>
 <td align="right">0</td>
-<td align="left">This article examines the psychological factors behind beliefs in AI&#39;s predictive capabilities, crucial for understanding user interactions with AI systems.</td>
+<td align="left">This research paper explores the cognitive aspects influencing trust in AI predictions. It&#39;s a critical read for developers aiming to build more trustworthy AI systems that resonate with user expectations.</td>
 </tr>
 </tbody></table>
 <h2>Community Pulse</h2>
-<p>The tech community is increasingly investigating AI&#39;s role in enhancing development productivity while recognizing the financial implications. Developers share a common interest in the practical applications of AI, focusing on frameworks and tools to streamline processes and reduce errors. The emerging discourse on AI ethics and privacy is becoming pivotal as tools like ChatGPT influence user experiences. As developers experiment with AI-based solutions, tutorials and best practices are being established to navigate new challenges effectively.</p>
+<p>Across both Dev.to and Lobste.rs, a prevalent theme is the dual focus on the efficiency of AI tools accompanied by concerns around their ethical implications. Developers are expressing an increasing need for practical guidelines on maintaining AI systems while navigating the complexities of user privacy and system integrity. Tutorials and discussions are emerging that emphasize best practices in AI output validation and the importance of fostering a community-driven approach to AI development, particularly for new and inexperienced developers.</p>
 <h2>Worth Reading</h2>
-<ol>
+<ul>
 <li><a href="https://dev.to/debashish_ghosal/most-ai-second-opinions-are-fake-i-built-a-two-llm-review-engine-to-prove-it-17e7">Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.</a></li>
 <li><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a></li>
-<li><a href="https://dev.to/sarvar_04/nexpath-review-the-prompt-quality-layer-for-cursor-windsurf-and-claude-code-353n">NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code</a></li>
-</ol>
+<li><a href="https://arxiv.org/abs/2408.06602">Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior</a></li>
+</ul>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
