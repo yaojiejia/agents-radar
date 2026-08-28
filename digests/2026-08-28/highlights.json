@@ -1,50 +1,50 @@
 {
   "ai-digest": [
-    "Claude Code released v2.1.250 with updates.",
-    "OpenAI Codex merged PR #41243 with 47 PRs merged.",
-    "OpenClaw has 150 new issues and 143 merged PRs.",
-    "Hermes Agent has 34 new issues since last update.",
-    "llama.cpp gained 24 new issues, 2 closed.",
-    "Unsloth closed 51 issues with 44 PRs merged."
+    "Claude Code released versions v2.1.250 and v2.1.248.",
+    "OpenAI Codex merged 47 PRs and released 4 new versions.",
+    "OpenClaw saw 160 new issues and 101 closed this week.",
+    "Hermes Agent logged 34 new issues and merged 4 PRs.",
+    "llama.cpp reached 125,987 stars with 23 merged PRs.",
+    "Unsloth closed 49 issues and released 1 new version."
   ],
   "ai-trending": [
-    "JetBrains/go-modern-guidelines gained 300 stars today.",
-    "awesome-gpt-image-2 earned 2096 stars today.",
-    "K-Dense-AI/scientific-agent-skills gained 498 stars.",
-    "claude-mem project added 143 stars today.",
-    "claude-obsidian increased by 634 stars today.",
-    "AI agents show strong adoption for scientific tasks."
+    "K-Dense-AI/scientific-agent-skills gains 175,000 stars.",
+    "freestylefly/awesome-gpt-image-2 adds 2,000 stars today.",
+    "JetBrains/go-modern-guidelines gains 300 stars today.",
+    "open-webui/open-webui rises with 478 new stars today.",
+    "Panniantong/Agent-Reach attracts 652 new stars today.",
+    "hugohe3/ppt continues to trend in AI discussion forums."
   ],
   "ai-web": [
-    "Anthropic previewed the Model Hardware Standard.",
-    "MHS aims to enhance AI device interoperability.",
-    "Standard reduces integration times for AI agents.",
-    "Collaborates with HHMI Janelia Research Campus.",
-    "Autonomous experiments supported by real-time AI.",
-    "No new content published by OpenAI today."
+    "Anthropic introduced Model Hardware Standard for AI.",
+    "MHS simplifies AI integration for scientific tools.",
+    "AI agents can autonomously manage experiments now.",
+    "Anthropic's MHS reduces setup time from weeks to hours.",
+    "AI collaboration improves productivity in research settings.",
+    "New article previews MHS's impact on manufacturing."
   ],
   "ai-hn": [
-    "Gemini-3.5-Transcribe boosts transcription capabilities.",
-    "Turbulent AI era prompts community discussions.",
-    "AI found a critical flaw in Bitcoin Lightning.",
-    "Debate on workplace implications of AI advances.",
-    "Ethical dimensions of AI integration being discussed.",
-    "Google's Gemini series remains a hot topic."
+    "Google's Gemini-3.5-Transcribe enhances transcription.",
+    "Debate rages on AI consciousness and regulation.",
+    "Anthropic's tech gets legal backing from a recent ruling.",
+    "Discussions on data privacy concerns from ChatGPT.",
+    "AI and transcription tools show significant promise.",
+    "Community engages in ethics of AI advancements."
   ],
   "ai-arxiv": [
-    "LLM agents misled by fabricated evidence found.",
-    "LAAF framework for accountability in LLM applications.",
-    "Research focuses on LLM's performance and ethics.",
-    "New studies on visual and textual information merging.",
-    "Enhancing agent systems for complex problem-solving.",
-    "Innovative methods for model interpretability explored."
+    "Research focuses on improving large language models.",
+    "Ethical reasoning in AI systems is enhanced with LLMs.",
+    "CAST method boosts reliability of clinical language models.",
+    "LLMs can design effective algorithms for operations.",
+    "Multi-agent systems gain insights for decision-making.",
+    "Investigations into moral knowledge within LLMs."
   ],
   "ai-community": [
-    "Concerns about AI deployment and maintenance costs.",
-    "Quality control in ML emphasized by Dev.to articles.",
-    "Ethics of AI usage among minors debated extensively.",
-    "Mechanisms for accountability in AI outputs discussed.",
-    "Reliability of AI assessments questioned in new review.",
-    "Challenges in social platform AI agent integration."
+    "Cost of maintenance vs. rapid AI deployment debated.",
+    "NexPath enhances prompt quality for AI coding agents.",
+    "Reliability of AI in code reviews questioned by developers.",
+    "Future AI agent roles discussed in coding environments.",
+    "Impact of AI tools on coding tasks emphasized.",
+    "Architectural design of AI agents prioritized over intelligence."
   ]
 }
