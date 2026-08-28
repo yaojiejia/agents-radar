@@ -17,21 +17,17 @@ import {
   fetchRecentItems,
   fetchRecentReleases,
   fetchRecentDiscussions,
+  fetchRepoMeta,
   fetchSkillsData,
   createGitHubIssue,
 } from "./github.ts";
+import { buildJsonTranslationPrompt } from "./prompts.ts";
 import {
-  type RepoDigest,
-  buildCliPrompt,
-  buildPeerPrompt,
-  buildInfraPrompt,
-  buildComparisonPrompt,
-  buildInfraComparisonPrompt,
-  buildPeersComparisonPrompt,
-  buildSkillsPrompt,
-  buildJsonTranslationPrompt,
-} from "./prompts.ts";
-import { buildTrendingPrompt, buildHighlightsPrompt, type ReportHighlights } from "./prompts-data.ts";
+  buildTrendingPrompt,
+  buildHighlightsPrompt,
+  buildDigestHighlightsPrompt,
+  type ReportHighlights,
+} from "./prompts-data.ts";
 import {
   callLlm,
   translateToZh,
@@ -40,14 +36,9 @@ import {
   autoGenFooter,
   LLM_TOKENS_TRENDING,
 } from "./report.ts";
-import {
-  buildCliReportContent,
-  buildOpenclawReportContent,
-  buildInfraReportContent,
-} from "./report-builders.ts";
+import { type DigestGroup, buildUnifiedDigestContent, buildSkillsSection } from "./report-builders.ts";
 import {
   type BilingualBody,
-  LANGS,
   saveWebReport,
   saveTrendingReport,
   saveHnReport,
@@ -66,14 +57,7 @@ import { fetchDevtoData, type DevtoData } from "./devto.ts";
 import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr, weekdayOf } from "./date.ts";
-import {
-  type Lang,
-  MSG,
-  ISSUE_LABELS,
-  CLI_ISSUE_TITLE,
-  OPENCLAW_ISSUE_TITLE,
-  INFRA_ISSUE_TITLE,
-} from "./i18n.ts";
+import { type Lang, MSG, DIGEST_REPORT } from "./i18n.ts";
 
 // ---------------------------------------------------------------------------
 // Repo config — loaded from config.yml, falls back to built-in defaults
@@ -136,23 +120,27 @@ async function fetchAllData(
     lobstersData,
   ] = await Promise.all([
     Promise.all(
-      allConfigs.map(async (cfg) => {
+      allConfigs.map(async (cfg): Promise<RepoFetch> => {
         try {
-          const [issuesRaw, prs, releases, discussions] = await Promise.all([
+          const [issuesRaw, prs, releases, discussions, meta] = await Promise.all([
             fetchRecentItems(cfg, "issues", since),
             fetchRecentItems(cfg, "pulls", since),
             fetchRecentReleases(cfg.repo, since),
             cfg.discussions ? fetchRecentDiscussions(cfg.repo, since) : Promise.resolve([]),
+            fetchRepoMeta(cfg.repo).catch((err) => {
+              console.error(`  [${cfg.id}] meta fetch failed: ${err}`);
+              return null;
+            }),
           ]);
           const issues = issuesRaw.filter((i) => !i.pull_request);
           console.log(
             `  [${cfg.id}] issues: ${issues.length}, prs: ${prs.length}, releases: ${releases.length}` +
               (cfg.discussions ? `, discussions: ${discussions.length}` : ""),
           );
-          return { cfg, issues, prs, releases, discussions };
+          return { cfg, issues, prs, releases, discussions, meta };
         } catch (err) {
           console.error(`  [${cfg.id}] fetch failed: ${err}`);
-          return { cfg, issues: [], prs: [], releases: [], discussions: [] };
+          return { cfg, issues: [], prs: [], releases: [], discussions: [], meta: null };
         }
       }),
     ),
@@ -227,152 +215,19 @@ async function summarize(id: string, prompt: string, failMsg: string, maxTokens?
   }
 }
 
-/** Summarize a repo's activity, returning a RepoDigest. Skips LLM if no data. */
-async function summarizeRepo(
-  { cfg, issues, prs, releases, discussions }: RepoFetch,
-  prompt: string,
-  noActivityMsg: string,
-  failMsg: string,
-): Promise<RepoDigest> {
-  if (!issues.length && !prs.length && !releases.length && !discussions.length) {
-    console.log(`  [${cfg.id}] No activity, skipping LLM call`);
-    return { config: cfg, issues, prs, releases, discussions, summary: noActivityMsg };
-  }
-  const summary = await summarize(cfg.id, prompt, failMsg);
-  return { config: cfg, issues, prs, releases, discussions, summary };
-}
-
-/** Every LLM-generated report body for one language. */
-interface Summaries {
-  cliDigests: RepoDigest[];
-  openclawSummary: string;
-  skillsSummary: string;
-  peerDigests: RepoDigest[];
-  infraDigests: RepoDigest[];
-  trendingSummary: string;
-}
-
 /**
- * Generate every report body in English. Chinese comes from
- * `translateSummaries`, not from a second pass over the raw data — see
- * `translateToZh` in report.ts for why.
- */
-async function generateSummaries(
-  fetchedCli: RepoFetch[],
-  fetchedOpenclaw: RepoFetch,
-  skillsData: { prs: GitHubItem[]; issues: GitHubItem[] },
-  fetchedPeers: RepoFetch[],
-  fetchedInfra: RepoFetch[],
-  trendingData: TrendingData,
-  dateStr: string,
-): Promise<Summaries> {
-  const lang: Lang = "en";
-  const noActivity = MSG.noActivity[lang];
-  const fail = MSG.summaryFailed[lang];
-
-  const [cliDigests, openclawSummary, skillsSummary, peerDigests, infraDigests, trendingSummary] =
-    await Promise.all([
-      Promise.all(
-        fetchedCli.map((f) =>
-          summarizeRepo(
-            f,
-            buildCliPrompt(f.cfg, f.issues, f.prs, f.releases, f.discussions, dateStr, lang),
-            noActivity,
-            fail,
-          ),
-        ),
-      ),
-      summarizeRepo(
-        fetchedOpenclaw,
-        buildPeerPrompt(
-          fetchedOpenclaw.cfg,
-          fetchedOpenclaw.issues,
-          fetchedOpenclaw.prs,
-          fetchedOpenclaw.releases,
-          dateStr,
-          50,
-          30,
-          lang,
-        ),
-        noActivity,
-        fail,
-      ).then((d) => d.summary),
-      summarize(
-        "claude-code-skills",
-        buildSkillsPrompt(skillsData.prs, skillsData.issues, dateStr, lang),
-        MSG.skillsFailed[lang],
-      ),
-      Promise.all(
-        fetchedPeers.map((f) =>
-          summarizeRepo(
-            f,
-            buildPeerPrompt(f.cfg, f.issues, f.prs, f.releases, dateStr, undefined, undefined, lang),
-            noActivity,
-            fail,
-          ),
-        ),
-      ),
-      Promise.all(
-        fetchedInfra.map((f) =>
-          summarizeRepo(
-            f,
-            buildInfraPrompt(f.cfg, f.issues, f.prs, f.releases, dateStr, lang),
-            noActivity,
-            fail,
-          ),
-        ),
-      ),
-      (async () => {
-        const hasData = trendingData.trendingRepos.length > 0 || trendingData.searchRepos.length > 0;
-        if (!hasData) {
-          return MSG.trendingNoData[lang];
-        }
-        return summarize(
-          "trending",
-          buildTrendingPrompt(trendingData, dateStr, lang),
-          MSG.trendingFailed[lang],
-          LLM_TOKENS_TRENDING,
-        );
-      })(),
-    ]);
-
-  return { cliDigests, openclawSummary, skillsSummary, peerDigests, infraDigests, trendingSummary };
-}
-
-// ---------------------------------------------------------------------------
-// Phase 2b: Chinese translation
-// ---------------------------------------------------------------------------
-
-/**
- * Fixed status strings ("no activity", "generation failed") are i18n constants,
+ * Fixed status strings ("no data", "generation failed") are i18n constants,
  * not model output. Map them straight across rather than paying for a
- * translation call that would only re-derive Chinese we already have — on a
- * quiet day that is most of the peer digests.
+ * translation call that would only re-derive Chinese we already have.
  */
 const FIXED_EN_TO_ZH = new Map(Object.values(MSG).map((m) => [m.en, m.zh] as [string, string]));
 
-function localize(enText: string, maxTokens?: number): Promise<string> {
-  const fixed = FIXED_EN_TO_ZH.get(enText);
-  return fixed !== undefined ? Promise.resolve(fixed) : translateToZh(enText, maxTokens);
+async function localize(enText: string, maxTokens?: number): Promise<string> {
+  return FIXED_EN_TO_ZH.get(enText) ?? (await translateToZh(enText, maxTokens));
 }
 
-async function localizeDigest(d: RepoDigest): Promise<RepoDigest> {
-  return { ...d, summary: await localize(d.summary) };
-}
-
-/** Translate a full set of English report bodies into Chinese. */
-async function translateSummaries(en: Summaries): Promise<Summaries> {
-  const [cliDigests, openclawSummary, skillsSummary, peerDigests, infraDigests, trendingSummary] =
-    await Promise.all([
-      Promise.all(en.cliDigests.map(localizeDigest)),
-      localize(en.openclawSummary),
-      localize(en.skillsSummary),
-      Promise.all(en.peerDigests.map(localizeDigest)),
-      Promise.all(en.infraDigests.map(localizeDigest)),
-      localize(en.trendingSummary, LLM_TOKENS_TRENDING),
-    ]);
-  return { cliDigests, openclawSummary, skillsSummary, peerDigests, infraDigests, trendingSummary };
-}
+/** Token budget for the digest Highlights bullets — a short list, not a report. */
+const LLM_TOKENS_DIGEST_HIGHLIGHTS = 2048;
 
 // ---------------------------------------------------------------------------
 // Main
@@ -427,105 +282,56 @@ async function main(): Promise<void> {
   const fetchedPeers = fetched.filter((f) => peerIds.has(f.cfg.id));
   const fetchedInfra = fetched.filter((f) => infraIds.has(f.cfg.id));
 
-  // 2. Generate every report body once in English, then translate to Chinese
-  console.log("  Generating summaries (EN)...");
-  const enSummaries = await generateSummaries(
-    fetchedCli,
-    fetchedOpenclaw,
-    skillsData,
-    fetchedPeers,
-    fetchedInfra,
-    trendingData,
-    dateStr,
-  );
+  const digestGroups: DigestGroup[] = [
+    {
+      heading: "🖥️ AI CLI Tools",
+      repos: fetchedCli,
+      appendix: buildSkillsSection(skillsData.prs, CLAUDE_SKILLS_REPO),
+    },
+    { heading: "🦞 OpenClaw Ecosystem", repos: [fetchedOpenclaw, ...fetchedPeers] },
+    { heading: "⚙️ AI Infrastructure", repos: fetchedInfra },
+  ];
 
-  console.log("  Translating summaries (EN -> ZH)...");
-  const zhSummaries = await translateSummaries(enSummaries);
-
-  // 3. Generate cross-repo comparisons in English, then translate
-  console.log("  Calling LLM for comparative analyses (EN)...");
-  const summariesByLang: Record<Lang, Summaries> = { zh: zhSummaries, en: enSummaries };
-
-  const makeOpenclawDigest = (lang: Lang): RepoDigest => ({
-    config: OPENCLAW,
-    issues: fetchedOpenclaw.issues,
-    prs: fetchedOpenclaw.prs,
-    releases: fetchedOpenclaw.releases,
-    discussions: fetchedOpenclaw.discussions,
-    summary: summariesByLang[lang].openclawSummary,
-  });
-
-  const [enComparison, enPeersComparison, enInfraComparison] = await Promise.all([
-    callLlm(buildComparisonPrompt(enSummaries.cliDigests, dateStr, "en")),
-    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en")),
-    callLlm(buildInfraComparisonPrompt(enSummaries.infraDigests, dateStr, "en")),
+  // 2. LLM content: digest highlights (EN only) + trending summary (EN → ZH).
+  // The unified digest's listings are verbatim data — the only generated text
+  // is the short Highlights section, and it degrades to omission on failure.
+  console.log("  Generating digest highlights + trending summary (EN)...");
+  const hasTrendingData = trendingData.trendingRepos.length > 0 || trendingData.searchRepos.length > 0;
+  const [digestHighlights, enTrendingSummary] = await Promise.all([
+    callLlm(buildDigestHighlightsPrompt(digestGroups, since, dateStr), LLM_TOKENS_DIGEST_HIGHLIGHTS).catch(
+      (err) => {
+        console.error(`  [digest] Highlights generation failed, omitting section: ${err}`);
+        return "";
+      },
+    ),
+    hasTrendingData
+      ? summarize(
+          "trending",
+          buildTrendingPrompt(trendingData, dateStr, "en"),
+          MSG.trendingFailed.en,
+          LLM_TOKENS_TRENDING,
+        )
+      : Promise.resolve(MSG.trendingNoData.en),
   ]);
-
-  console.log("  Translating comparative analyses (EN -> ZH)...");
-  const [zhComparison, zhPeersComparison, zhInfraComparison] = await Promise.all([
-    translateToZh(enComparison),
-    translateToZh(enPeersComparison),
-    translateToZh(enInfraComparison),
-  ]);
-
-  const comparisonByLang = { zh: zhComparison, en: enComparison };
-  const peersComparisonByLang = { zh: zhPeersComparison, en: enPeersComparison };
-  const infraComparisonByLang = { zh: zhInfraComparison, en: enInfraComparison };
-
-  // 4. Build + save all reports (zh + en)
-  const cliContent: Record<Lang, string> = {} as Record<Lang, string>;
-  const openclawContent: Record<Lang, string> = {} as Record<Lang, string>;
-  const infraContent: Record<Lang, string> = {} as Record<Lang, string>;
-
-  for (const lang of LANGS) {
-    const s = summariesByLang[lang];
-    const ft = autoGenFooter(lang);
-    const suffix = lang === "en" ? "-en" : "";
-
-    cliContent[lang] = buildCliReportContent(
-      s.cliDigests,
-      s.skillsSummary,
-      comparisonByLang[lang],
-      utcStr,
-      dateStr,
-      ft,
-      CLAUDE_SKILLS_REPO,
-      lang,
-    );
-    openclawContent[lang] = buildOpenclawReportContent(
-      fetchedOpenclaw,
-      s.peerDigests,
-      s.openclawSummary,
-      peersComparisonByLang[lang],
-      utcStr,
-      dateStr,
-      ft,
-      OPENCLAW,
-      OPENCLAW_PEERS,
-      lang,
-    );
-
-    infraContent[lang] = buildInfraReportContent(
-      s.infraDigests,
-      infraComparisonByLang[lang],
-      utcStr,
-      dateStr,
-      ft,
-      lang,
-    );
-
-    console.log(`  Saved ${saveFile(cliContent[lang], dateStr, `ai-cli${suffix}.md`)}`);
-    console.log(`  Saved ${saveFile(openclawContent[lang], dateStr, `ai-agents${suffix}.md`)}`);
-    console.log(`  Saved ${saveFile(infraContent[lang], dateStr, `ai-infra${suffix}.md`)}`);
-  }
-
-  // Each saver now emits both languages: it generates its body in English,
-  // translates it, and writes both files plus both issues.
   const trendingSummaries: BilingualBody = {
-    zh: zhSummaries.trendingSummary,
-    en: enSummaries.trendingSummary,
+    en: enTrendingSummary,
+    zh: await localize(enTrendingSummary, LLM_TOKENS_TRENDING),
   };
 
+  // 3. Build + save the unified digest (English only)
+  const digestContent = buildUnifiedDigestContent(
+    digestGroups,
+    since,
+    digestHighlights,
+    utcStr,
+    dateStr,
+    autoGenFooter("en"),
+    digestRepo,
+    now,
+  );
+  console.log(`  Saved ${saveFile(digestContent, dateStr, "ai-digest.md")}`);
+
+  // 4. Data-source reports — each saver emits both languages itself.
   if (!isHfWeek) {
     console.log("  [hf] Weekly report — not scheduled today, skipping.");
   }
@@ -549,9 +355,7 @@ async function main(): Promise<void> {
   // Highlights are extracted from the English reports only — the Chinese set is
   // translated from the result, so the Chinese files are never re-read here.
   const enReports: Record<string, string> = {
-    "ai-cli": cliContent.en,
-    "ai-agents": openclawContent.en,
-    "ai-infra": infraContent.en,
+    "ai-digest": digestContent,
   };
   for (const [id, enFile] of [
     ["ai-trending", "ai-trending-en.md"],
@@ -609,30 +413,14 @@ async function main(): Promise<void> {
   const highlightsPath = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
   console.log(`  Saved ${highlightsPath}`);
 
-  // 6. Create GitHub issues for CLI + OpenClaw (zh + en)
+  // 6. Create the unified digest issue (English only)
   if (digestRepo) {
-    for (const lang of ["zh", "en"] as const) {
-      const cliUrl = await createGitHubIssue(
-        CLI_ISSUE_TITLE(dateStr, lang),
-        cliContent[lang],
-        ISSUE_LABELS.cli[lang],
-      );
-      console.log(`  Created CLI issue (${lang}): ${cliUrl}`);
-
-      const ocUrl = await createGitHubIssue(
-        OPENCLAW_ISSUE_TITLE(dateStr, lang),
-        openclawContent[lang],
-        ISSUE_LABELS.openclaw[lang],
-      );
-      console.log(`  Created OpenClaw issue (${lang}): ${ocUrl}`);
-
-      const infraUrl = await createGitHubIssue(
-        INFRA_ISSUE_TITLE(dateStr, lang),
-        infraContent[lang],
-        ISSUE_LABELS.infra[lang],
-      );
-      console.log(`  Created infra issue (${lang}): ${infraUrl}`);
-    }
+    const digestUrl = await createGitHubIssue(
+      DIGEST_REPORT.issueTitle(dateStr),
+      digestContent,
+      DIGEST_REPORT.label,
+    );
+    console.log(`  Created digest issue: ${digestUrl}`);
   }
 
   console.log("Done!");

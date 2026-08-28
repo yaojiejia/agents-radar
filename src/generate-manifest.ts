@@ -9,6 +9,9 @@ const FEED_PATH = "feed.xml";
 const SITE_URL = "https://duanyytop.github.io/agents-radar";
 const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 const REPORT_FILES = [
+  "ai-digest",
+  // ai-cli/ai-agents/ai-infra were replaced by the unified ai-digest in
+  // August 2026 — listed only so archived reports stay reachable.
   "ai-cli",
   "ai-cli-en",
   "ai-agents",

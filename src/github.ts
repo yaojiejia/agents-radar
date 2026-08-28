@@ -47,11 +47,22 @@ export interface GitHubItem {
   labels: GitHubLabel[];
   created_at: string;
   updated_at: string;
+  /** Present on issues and PRs once closed. */
+  closed_at?: string | null;
+  /** Present on /pulls items; null for unmerged PRs. Absent on issues. */
+  merged_at?: string | null;
   comments: number;
   reactions?: GitHubReactions;
   body?: string | null;
   html_url: string;
   pull_request?: unknown;
+}
+
+/** Repository-level metadata for the digest snapshot table. */
+export interface RepoMeta {
+  stars: number;
+  openIssues: number;
+  pushedAt: string;
 }
 
 export interface GitHubRelease {
@@ -82,6 +93,8 @@ export interface RepoFetch {
   prs: GitHubItem[];
   releases: GitHubRelease[];
   discussions: GitHubDiscussion[];
+  /** Repo-level metadata for the snapshot table; null when the fetch failed. */
+  meta: RepoMeta | null;
 }
 
 // ---------------------------------------------------------------------------
@@ -166,6 +179,13 @@ export async function fetchRecentItems(
     if (items.length < 100) break;
   }
   return all;
+}
+
+export async function fetchRepoMeta(repo: string): Promise<RepoMeta> {
+  const data = await githubGet<{ stargazers_count: number; open_issues_count: number; pushed_at: string }>(
+    `https://api.github.com/repos/${repo}`,
+  );
+  return { stars: data.stargazers_count, openIssues: data.open_issues_count, pushedAt: data.pushed_at };
 }
 
 export async function fetchRecentReleases(repo: string, since: Date): Promise<GitHubRelease[]> {

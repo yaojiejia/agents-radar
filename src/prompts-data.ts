@@ -13,6 +13,45 @@ import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
 import type { Lang } from "./i18n.ts";
+import { type DigestGroup, categorizeRepoActivity } from "./report-builders.ts";
+
+// ---------------------------------------------------------------------------
+// Unified digest highlights — the only LLM content in the ai-digest report.
+// ---------------------------------------------------------------------------
+
+/** Items per category fed to the highlights prompt, per repo. */
+const HIGHLIGHT_INPUT_LIMIT = 3;
+
+export function buildDigestHighlightsPrompt(groups: DigestGroup[], since: Date, dateStr: string): string {
+  const sections = groups
+    .map((g) => {
+      const repoBlocks = g.repos
+        .map((f) => {
+          const a = categorizeRepoActivity(f, since);
+          const lines: string[] = [];
+          for (const r of f.releases) lines.push(`  release: ${r.tag_name} ${r.name ?? ""}`.trimEnd());
+          for (const p of a.mergedPrs.slice(0, HIGHLIGHT_INPUT_LIMIT))
+            lines.push(`  merged PR [#${p.number}](${p.html_url}): ${p.title} (💬${p.comments})`);
+          for (const i of a.newIssues.slice(0, HIGHLIGHT_INPUT_LIMIT))
+            lines.push(`  new issue [#${i.number}](${i.html_url}): ${i.title} (💬${i.comments})`);
+          return lines.length ? `- ${f.cfg.name} (${f.cfg.repo}):\n${lines.join("\n")}` : "";
+        })
+        .filter(Boolean)
+        .join("\n");
+      return repoBlocks ? `## ${g.heading}\n${repoBlocks}` : "";
+    })
+    .filter(Boolean)
+    .join("\n\n");
+
+  return `You are a concise editor for a daily AI open-source monitoring digest. Below is ${dateStr}'s activity across tracked repositories: releases, top merged PRs and top new issues (with comment counts).
+
+${sections}
+
+---
+
+Write a "Highlights" section: 3-5 Markdown bullets covering the most notable developments of the day across ALL repos — new releases first, then significant merged features/fixes, then unusually hot new issues. Each bullet is one sentence, names the project in bold, and reuses the Markdown link of the item it cites. Output ONLY the bullet list, no heading, no preamble.`;
+}
+
 export function buildTrendingPrompt(data: TrendingData, dateStr: string, lang: Lang = "zh"): string {
   const trendingSection =
     data.trendingFetchSuccess && data.trendingRepos.length > 0

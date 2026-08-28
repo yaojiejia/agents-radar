@@ -326,9 +326,7 @@ pnpm start
 
 | 文件 | 内容 | GitHub Issue 标签 |
 |------|------|------------------|
-| `ai-cli.md` | CLI 简报 — 跨工具横向对比 + 各工具详细报告 | `digest` |
-| `ai-agents.md` | OpenClaw 深度报告 + 横向生态对比 + 4 个同赛道项目详情 | `openclaw` |
-| `ai-infra.md` | AI 基础设施日报 — 横向对比 + 各项目详细报告 | `infra` |
+| `ai-digest.md` | 统一生态日报 — 24h 快照表 + 18 个仓库的合并 PR / 新增 Issue / 关闭 Issue / 发布（仅英文） | `digest` |
 | `ai-web.md` | 官网内容报告（仅在有新内容时生成） | `web` |
 | `ai-trending.md` | GitHub AI 趋势热榜 — 按维度分类 + 趋势信号分析（仅在有数据时生成） | `trending` |
 | `ai-hn.md` | Hacker News AI 社区动态 — 热门帖子分类 + 情绪分析（仅在抓取成功时生成） | `hn` |
@@ -337,58 +335,22 @@ pnpm start
 
 ---
 
-`ai-cli.md` 结构：
+`ai-digest.md` 结构（2026 年 8 月起取代原 `ai-cli.md` / `ai-agents.md` / `ai-infra.md` 三份叙述式报告，仅英文）：
 ```
-## 横向对比
-  生态全景 / 活跃度对比表 / 共同需求 / 差异定位 / 趋势信号
+## 📊 24h Snapshot
+  | Repo | ⭐ Stars | New Issues | Closed | Merged PRs | Releases |   ← 全部 18 个仓库
 
-## 各工具详细报告
-  <details> Claude Code    — [Claude Code Skills 社区热点]
-                             热门 Skills 排行 / 社区需求趋势 / 高潜力待合并 Skills
-                             ---
-                             今日速览 / 热点 Issues / PR 进展 / 趋势
-  <details> OpenAI Codex   — 今日速览 / 热点 Issues / PR 进展 / 趋势
-  <details> Gemini CLI     — ...
-  <details> OpenCode       — ...
-  <details> Pi             — ...
-  <details> Qwen Code      — ...
-```
+## ✨ Highlights
+  3~5 条 LLM 生成的要点（唯一的 LLM 内容，其余均为原始数据）
 
-`ai-agents.md` 结构：
-```
-Issues: N | PRs: N | 覆盖项目: 5 个
-
-## OpenClaw 项目深度报告
-  今日速览 / 版本发布 / 项目进展 / 社区热点 /
-  Bug稳定性 / 功能请求 / 用户反馈 / 待处理积压
-
-## 横向生态对比
-  生态全景 / 活跃度对比表 / OpenClaw定位分析 /
-  共同技术方向 / 差异化定位 / 社区热度与成熟度 / 趋势信号
-
-## 同赛道项目详细报告
-  <details> ZeroClaw     — 今日速览 / 版本发布 / 项目进展 / ...（8节）
-  <details> Hermes Agent — ...
-  <details> IronClaw     — ...
-  <details> QwenPaw      — ...
-```
-
-`ai-infra.md` 结构：
-```
-覆盖项目: 6 个
-
-## 横向对比
-  生态全景 / 活跃度对比表 / 模型支持竞速 /
-  性能优化前沿 / 分层定位差异 / 趋势信号
-
-## 各项目详细报告
-  <details> vLLM       — 今日速览 / 版本发布与破坏性变更 / 新模型与硬件支持 /
-                         性能与优化 / 稳定性与回归 / 对应用开发者的意义
-  <details> SGLang     — ...
-  <details> llama.cpp  — ...
-  <details> Ollama     — ...
-  <details> LiteLLM    — ...
-  <details> Unsloth    — ...
+## 🖥️ AI CLI Tools / 🦞 OpenClaw Ecosystem / ⚙️ AI Infrastructure
+  ### <repo> (`owner/repo`)
+  Stars · Open issues · Last push
+  #### 🚀 New Releases
+  #### ✅ Merged PRs      （按互动量取前 10，超出以 "+N more" 收尾）
+  #### 🐛 New Issues      （前 10，含标签与 💬 评论数）
+  #### 🔒 Closed Issues   （前 8）
+  _Quiet today: <当日无活动的仓库>_
 ```
 
 `ai-web.md` 结构：

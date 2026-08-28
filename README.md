@@ -327,9 +327,7 @@ Files are written to `digests/YYYY-MM-DD/`:
 
 | File | Content | GitHub Issue label |
 |------|---------|-------------------|
-| `ai-cli.md` | CLI digest — cross-tool comparison + per-tool details | `digest` |
-| `ai-agents.md` | OpenClaw deep report + cross-ecosystem comparison + 4 peer details | `openclaw` |
-| `ai-infra.md` | AI infrastructure digest — cross-project comparison + per-project details | `infra` |
+| `ai-digest.md` | Unified ecosystem digest — 24h snapshot table + merged PRs / new issues / closed issues / releases for all 18 tracked repos (CLI + OpenClaw + infra), English only | `digest` |
 | `ai-web.md` | Official web content report (only written when new content exists) | `web` |
 | `ai-trending.md` | GitHub AI trending report — repos classified by dimension + trend signals (only written when data is available) | `trending` |
 | `ai-hn.md` | Hacker News AI community digest — top stories + sentiment analysis (only written when fetch succeeds) | `hn` |
@@ -340,64 +338,27 @@ Files are written to `digests/YYYY-MM-DD/`:
 
 A shared state file `digests/web-state.json` tracks which web URLs have been seen; it is committed alongside the daily digests.
 
-Each report is generated in both Chinese (`ai-cli.md`) and English (`ai-cli-en.md`). The Web UI sidebar shows ZH / EN toggle buttons for reports that have both variants.
+Data-source reports are generated in both Chinese (`ai-hn.md`) and English (`ai-hn-en.md`); the Web UI sidebar shows ZH / EN toggle buttons for reports that have both variants. The unified `ai-digest.md` is English-only — its listings are verbatim GitHub data, so only the section scaffolding would differ between languages.
 
 ---
 
-`ai-cli.md` / `ai-cli-en.md` structure:
+`ai-digest.md` structure (replaced the former `ai-cli.md` / `ai-agents.md` / `ai-infra.md` narrative reports in August 2026):
 ```
-## Cross-Tool Comparison
-  Ecosystem overview / Activity comparison table / Shared themes / Differentiation / Trend signals
+## 📊 24h Snapshot
+  | Repo | ⭐ Stars | New Issues | Closed | Merged PRs | Releases |   ← all 18 repos
 
-## Per-Tool Reports
-  <details> Claude Code    — [Claude Code Skills Highlights]
-                             Top skills / Community demand trends / High-potential pending skills
-                             ---
-                             Today's summary / Hot issues / PR progress / Trends
-  <details> OpenAI Codex   — Today's summary / Hot issues / PR progress / Trends
-  <details> Gemini CLI     — ...
-  <details> GitHub Copilot CLI — ...
-  <details> OpenCode       — ...
-  <details> Pi             — ...
-  <details> Qwen Code      — ...
-```
+## ✨ Highlights
+  3-5 LLM-written bullets on the day's most notable releases, merges and issues
+  (the only LLM content — everything else is verbatim data)
 
-`ai-agents.md` / `ai-agents-en.md` structure:
-```
-Issues: N | PRs: N | Projects covered: 5
-
-## OpenClaw Deep Dive
-  Today's summary / Releases / Project progress / Community highlights /
-  Bug stability / Feature requests / User feedback / Backlog
-
-## Cross-Ecosystem Comparison
-  Ecosystem overview / Activity table / OpenClaw positioning /
-  Shared technical directions / Differentiation / Community maturity / Trend signals
-
-## Peer Project Reports
-  <details> ZeroClaw     — Today's summary / Releases / Progress / ... (8 sections)
-  <details> Hermes Agent — ...
-  <details> IronClaw     — ...
-  <details> QwenPaw      — ...
-```
-
-`ai-infra.md` / `ai-infra-en.md` structure:
-```
-Projects covered: 6
-
-## Cross-Project Comparison
-  Ecosystem overview / Activity table / Model support race /
-  Performance frontier / Layer positioning / Trend signals
-
-## Per-Project Reports
-  <details> vLLM       — Today's highlights / Releases & breaking changes /
-                         New model & hardware support / Performance & optimization /
-                         Stability & regressions / What it means for app developers
-  <details> SGLang     — ...
-  <details> llama.cpp  — ...
-  <details> Ollama     — ...
-  <details> LiteLLM    — ...
-  <details> Unsloth    — ...
+## 🖥️ AI CLI Tools / 🦞 OpenClaw Ecosystem / ⚙️ AI Infrastructure
+  ### <repo> (`owner/repo`)
+  Stars · Open issues · Last push
+  #### 🚀 New Releases
+  #### ✅ Merged PRs      (top 10 by engagement, "+N more" tail)
+  #### 🐛 New Issues      (top 10, label chips + 💬 comment counts)
+  #### 🔒 Closed Issues   (top 8)
+  _Quiet today: <repos with no activity>_
 ```
 
 `ai-web.md` / `ai-web-en.md` structure:

@@ -28,6 +28,14 @@ export const MSG = {
 // Report headers & labels (used in report-builders.ts, index.ts)
 // ---------------------------------------------------------------------------
 
+// The unified ecosystem digest is English-only (listings are verbatim GitHub
+// data), so its strings are plain strings rather than Lang maps.
+export const DIGEST_REPORT = {
+  title: "📡 AI Ecosystem Digest",
+  issueTitle: (dateStr: string) => `📡 AI Ecosystem Digest ${dateStr}`,
+  label: "digest",
+} as const;
+
 export const CLI_REPORT = {
   title: t("AI CLI 工具社区动态日报", "AI CLI Tools Community Digest"),
   meta: (utcStr: string, count: number, lang: Lang) =>
@@ -150,6 +158,9 @@ export const FOOTER = {
 // ---------------------------------------------------------------------------
 
 export const REPORT_LABELS: Record<string, string> = {
+  "ai-digest": "AI Ecosystem Digest",
+  // ai-cli/ai-agents/ai-infra were replaced by the unified ai-digest in
+  // August 2026; kept so archived reports still render a proper title.
   "ai-cli": "AI CLI 工具社区动态日报",
   "ai-cli-en": "AI CLI Tools Digest",
   "ai-agents": "AI Agents 生态日报",
@@ -179,6 +190,7 @@ export const REPORT_LABELS: Record<string, string> = {
 };
 
 export const NOTIFY_LABELS: Record<string, Record<Lang, string>> = {
+  "ai-digest": t("AI 生态日报", "AI Ecosystem"),
   "ai-cli": t("AI CLI 工具", "AI CLI Tools"),
   "ai-agents": t("AI Agents 生态", "AI Agents Ecosystem"),
   "ai-infra": t("AI 基础设施", "AI Infrastructure"),
