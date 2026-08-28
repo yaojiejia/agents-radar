@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.248 于2026年8月27日发布。",
+      "OpenAI Codex 在最新更新中增加了10个PR。",
+      "Gemini CLI v0.59.0-nightly 于2026年8月27日推出。",
+      "GitHub Copilot CLI 更新到 v1.0.81。",
+      "Pi 和 OpenCode 各有10个问题报告。",
+      "社区对直观界面的需求增加。"
+    ],
+    "ai-agents": [
+      "OpenClaw 在24小时内更新了500个问题和PR。",
+      "OpenClaw项目最近合并了162个PR。",
+      "公布了telegram论坛入会身份的修复。",
+      "在OpenClaw中引入了新的Session Goal协议。",
+      "社区讨论文件名编码实用工具的增强。",
+      "会话转录投影错误引发稳定性担忧。"
+    ],
+    "ai-infra": [
+      "vLLM 增加了对 Qwen3.8-Flash-Next 模型的支持。",
+      "Unsloth 使GLM-5.3-Flash实现本地执行。",
+      "Llama.cpp项目有1个新版本发布。",
+      "Ollama 宣布了自己的新版本。",
+      "SGLang 和 LiteLLM 分别报告了5个和3个问题。",
+      "多GPU配置引起开发者兴趣。"
+    ],
+    "ai-trending": [
+      "tt-a1i/archify 获得超过4,200颗新星。",
+      "K-Dense-AI/scientific-agent-skills 增长了498颗星。",
+      "calesthio/OpenMontage 在视频制作中整合AI。",
+      "AI代理在科学研究中扩展应用。",
+      "新AI工具提升各领域创意工作流程。",
+      "多元AI发展吸引开源社区关注。"
+    ],
+    "ai-web": [
+      "Anthropic 为科学家推出新团队计划。",
+      "Anthropic 预览模型硬件标准。",
+      "OpenAI 将培训项目扩展到新地区。",
+      "Claude Science 平台增强研究人员工具。",
+      "更新强调本地化AI技术的必要性。",
+      "Anthropic 加强对科学教育的承诺。"
+    ],
+    "ai-hn": [
+      "Gemini-3.5-Transcribe 提供高级文本转录。",
+      "Gemini Omni 1.1 Flash 用功能吸引开发者。",
+      "社区讨论AI对工作动态的影响。",
+      "开源AI CEO因工作置换而创立。",
+      "开发者分享AI实验资源。",
+      "Hacker News社区参与AI进展讨论。"
+    ],
+    "ai-arxiv": [
+      "研究重点是可扩展的视觉推理框架。",
+      "讨论LLMs的持续学习新算法。",
+      "介绍中微子模型可解释性的论文。",
+      "提出模型测试时的高效缩放方法。",
+      "AI处理土木工程中的合规检查。",
+      "研究展示了AI在监测中的实用应用。"
+    ],
+    "ai-community": [
+      "讨论聚焦于AI在软件开发中的角色。",
+      "提示质量问题引发哲学辩论。",
+      "探索内存管理等新功能。",
+      "文章强调AI驱动的编码效率。",
+      "平衡快速交付与维护成本的研究。",
+      "AI工具的可靠性仍是关键社区话题。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.248 released on Aug 27, 2026.",
+      "OpenAI Codex adds 10 PRs in the latest update.",
+      "Gemini CLI v0.59.0-nightly launched on Aug 27, 2026.",
+      "GitHub Copilot CLI updated to v1.0.81.",
+      "Pi and OpenCode both have 10 issues reported.",
+      "Community demands for intuitive interfaces rise."
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and PRs updated in 24 hours.",
+      "162 PRs merged recently in the OpenClaw project.",
+      "Fix for telegram's forum admission identity announced.",
+      "New session Goal protocol introduced in OpenClaw.",
+      "Community discusses filename encoding utility enhancements.",
+      "Session transcript projection bug raises stability concerns."
+    ],
+    "ai-infra": [
+      "vLLM adds support for Qwen3.8-Flash-Next models.",
+      "Unsloth enables local execution for GLM-5.3-Flash.",
+      "1 new release noted for Llama.cpp project.",
+      "Ollama announces its own new release.",
+      "SGLang and LiteLLM both report 5 and 3 issues respectively.",
+      "Multi-GPU configurations gain developer interest."
+    ],
+    "ai-trending": [
+      "tt-a1i/archify gains over 4,200 new stars.",
+      "K-Dense-AI/scientific-agent-skills grows by 498 stars.",
+      "calesthio/OpenMontage integrates AI in video production.",
+      "AI agents see expanding applications in scientific research.",
+      "New AI tools enhance creative workflows in diverse fields.",
+      "Diverse AI developments capture open-source community attention."
+    ],
+    "ai-web": [
+      "Anthropic launches new team plan for scientists.",
+      "Model Hardware Standard previewed by Anthropic.",
+      "OpenAI expands training initiatives into new regions.",
+      "Claude Science platform enhances tools for researchers.",
+      "Updates emphasize need for localized AI technologies.",
+      "Anthropic reinforces commitment to scientific education."
+    ],
+    "ai-hn": [
+      "Gemini-3.5-Transcribe offers advanced text transcription.",
+      "Gemini Omni 1.1 Flash intrigues developers with features.",
+      "Community debates AI's impact on job dynamics.",
+      "Open-source AI CEO created post job displacement.",
+      "Developers share resources for AI experimentation.",
+      "Hacker News community engages in AI advancements discussion."
+    ],
+    "ai-arxiv": [
+      "Research highlights scalable visual reasoning frameworks.",
+      "New algorithms for continual learning in LLMs discussed.",
+      "Paper on neutrino model interpretability presented.",
+      "Efficient test-time scaling methods for models introduced.",
+      "AI addresses compliance checks in civil engineering.",
+      "Research showcases practical AI applications in monitoring."
+    ],
+    "ai-community": [
+      "Discussions focus on AI's role in software development.",
+      "Prompt quality concerns bring philosophical debates.",
+      "New functionalities like memory management explored.",
+      "Article highlights AI-driven coding efficiencies.",
+      "Balancing rapid delivery and maintenance costs examined.",
+      "AI tools' reliability remains a key community topic."
+    ]
+  }
+}
