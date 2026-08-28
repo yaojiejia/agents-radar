@@ -6,7 +6,846 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 28 Aug 2026 00:48:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 01:12:51 +0000</lastBuildDate>
+    <item>
+      <title>AI Ecosystem Digest 2026-08-28</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-digest</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-digest</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <description>📡 AI Ecosystem Digest — 2026-08-28 Generated 2026-08-28 01:11 UTC by yaojiejia/agents-radar 📊 24h Snapshot Repo ⭐ Stars New Issues Closed Merged PRs Releases Claude Code 143,202 3 0 0 2 OpenAI Codex 119,212 19 4 48 6 Gemini CLI 106,719 1 0 0 1 GitHub Copilot CLI 11,122 15 4 0 2 OpenCode 201,972 24 12 16 0 Pi 98,313 31 35 3 0 Qwen Code 27,435 32 15 1 0 OpenClaw 387,846 156 98 144 0 Hermes Agent 237,340 35 4 0 1 IronClaw 12,603 20 20 14 1 QwenPaw 34,566 8 3 12 1 ZeroClaw 32,667 4 6 2 0 vLLM 90,2...</description>
+      <content:encoded><![CDATA[<h1>📡 AI Ecosystem Digest — 2026-08-28</h1>
+<blockquote>
+<p>Generated 2026-08-28 01:11 UTC by <a href="https://github.com/yaojiejia/agents-radar">yaojiejia/agents-radar</a></p>
+</blockquote>
+<h2>📊 24h Snapshot</h2>
+<table>
+<thead>
+<tr>
+<th>Repo</th>
+<th>⭐ Stars</th>
+<th>New Issues</th>
+<th>Closed</th>
+<th>Merged PRs</th>
+<th>Releases</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/anthropics/claude-code">Claude Code</a></td>
+<td>143,202</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openai/codex">OpenAI Codex</a></td>
+<td>119,212</td>
+<td>19</td>
+<td>4</td>
+<td>48</td>
+<td>6</td>
+</tr>
+<tr>
+<td><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></td>
+<td>106,719</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></td>
+<td>11,122</td>
+<td>15</td>
+<td>4</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td><a href="https://github.com/anomalyco/opencode">OpenCode</a></td>
+<td>201,972</td>
+<td>24</td>
+<td>12</td>
+<td>16</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/earendil-works/pi">Pi</a></td>
+<td>98,313</td>
+<td>31</td>
+<td>35</td>
+<td>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></td>
+<td>27,435</td>
+<td>32</td>
+<td>15</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/openclaw/openclaw">OpenClaw</a></td>
+<td>387,846</td>
+<td>156</td>
+<td>98</td>
+<td>144</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></td>
+<td>237,340</td>
+<td>35</td>
+<td>4</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/nearai/ironclaw">IronClaw</a></td>
+<td>12,603</td>
+<td>20</td>
+<td>20</td>
+<td>14</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/agentscope-ai/QwenPaw">QwenPaw</a></td>
+<td>34,566</td>
+<td>8</td>
+<td>3</td>
+<td>12</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></td>
+<td>32,667</td>
+<td>4</td>
+<td>6</td>
+<td>2</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/vllm-project/vllm">vLLM</a></td>
+<td>90,249</td>
+<td>36</td>
+<td>17</td>
+<td>44</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/sgl-project/sglang">SGLang</a></td>
+<td>32,584</td>
+<td>21</td>
+<td>9</td>
+<td>63</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a></td>
+<td>125,971</td>
+<td>23</td>
+<td>11</td>
+<td>24</td>
+<td>10</td>
+</tr>
+<tr>
+<td><a href="https://github.com/ollama/ollama">Ollama</a></td>
+<td>179,588</td>
+<td>14</td>
+<td>5</td>
+<td>6</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a href="https://github.com/BerriAI/litellm">LiteLLM</a></td>
+<td>57,426</td>
+<td>26</td>
+<td>17</td>
+<td>80</td>
+<td>0</td>
+</tr>
+<tr>
+<td><a href="https://github.com/unslothai/unsloth">Unsloth</a></td>
+<td>74,994</td>
+<td>20</td>
+<td>13</td>
+<td>44</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>✨ Highlights</h2>
+<ul>
+<li><strong>Ollama</strong> released <a href="https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1">v0.33.2-rc1</a>.</li>
+<li><strong>OpenAI Codex</strong> merged <a href="https://github.com/openai/codex/pull/41235">#41235</a>, which sanitizes history notes backend errors.</li>
+<li><strong>OpenClaw</strong> saw significant activity with the merging of <a href="https://github.com/openclaw/openclaw/pull/123535">#123535</a>, fixing UI session catalog refresh storms.</li>
+<li><strong>OpenCode</strong>&#39;s new issue <a href="https://github.com/openai/codex/issues/41015">#41015</a> about Codex suddenly not opening has garnered 6 comments, indicating a major user concern.</li>
+<li><strong>vLLM</strong> reported two critical issues in new issues <a href="https://github.com/vllm-project/vllm/issues/53982">#53982</a> and <a href="https://github.com/vllm-project/vllm/issues/54046">#54046</a>, both with 5 comments, related to out-of-bounds reads and adaptive verification errors.</li>
+</ul>
+<hr>
+<h2>🖥️ AI CLI Tools</h2>
+<h3>Claude Code (<code>anthropics/claude-code</code>)</h3>
+<p><strong>Stars:</strong> 143,202 · <strong>Open issues:</strong> 15,249 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.250">v2.1.250</a> v2.1.250</li>
+<li><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.248">v2.1.248</a> v2.1.248</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code/issues/90246">#90246</a> [Feature Request] Display model name in terminal CLI inline agent status view <code>enhancement</code> <code>platform:macos</code> <code>area:agent-view</code></li>
+<li><a href="https://github.com/anthropics/claude-code/issues/90245">#90245</a> [BUG] CCD desktop app rejects MCP tools with draft-07 outputSchema that work fine in CLI <code>bug</code> <code>has repro</code> <code>platform:macos</code> <code>area:mcp</code></li>
+<li><a href="https://github.com/anthropics/claude-code/issues/90244">#90244</a> Doesn&#39;t work anymore on VS Code version1.135 <code>bug</code> <code>platform:windows</code> <code>platform:vscode</code></li>
+</ul>
+<h3>OpenAI Codex (<code>openai/codex</code>)</h3>
+<p><strong>Stars:</strong> 119,212 · <strong>Open issues:</strong> 14,139 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.150.1">rust-v0.150.1</a> 0.150.1</li>
+<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.7">rust-v0.151.0-alpha.7</a> 0.151.0-alpha.7</li>
+<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.6">rust-v0.151.0-alpha.6</a> 0.151.0-alpha.6</li>
+<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.5">rust-v0.151.0-alpha.5</a> 0.151.0-alpha.5</li>
+<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.4">rust-v0.151.0-alpha.4</a> 0.151.0-alpha.4</li>
+<li><a href="https://github.com/openai/codex/releases/tag/rust-v0.150.0-alpha.12.2">rust-v0.150.0-alpha.12.2</a> 0.150.0-alpha.12.2</li>
+</ul>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/openai/codex/pull/41235">#41235</a> Sanitize history notes backend errors</li>
+<li><a href="https://github.com/openai/codex/pull/41232">#41232</a> Expose the PowerShell version in environment context</li>
+<li><a href="https://github.com/openai/codex/pull/41231">#41231</a> Instrument the loaded plugin cache</li>
+<li><a href="https://github.com/openai/codex/pull/41230">#41230</a> Apply app routing policy to unauthenticated plugin reads</li>
+<li><a href="https://github.com/openai/codex/pull/41227">#41227</a> Use compatible PowerShell for elevated Windows sandbox commands</li>
+<li><a href="https://github.com/openai/codex/pull/41226">#41226</a> Move Guardian review session tests to a separate file</li>
+<li><a href="https://github.com/openai/codex/pull/41223">#41223</a> Add recency sorting to <code>project/list</code></li>
+<li><a href="https://github.com/openai/codex/pull/41221">#41221</a> Honor turn token budgets in Guardian review rollover</li>
+<li><a href="https://github.com/openai/codex/pull/41219">#41219</a> Retry confirmed remote registration conflicts</li>
+<li><a href="https://github.com/openai/codex/pull/41218">#41218</a> Share linked tool mention parsing in the TUI</li>
+<li>…and 38 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/openai/codex/issues/41015">#41015</a> Codex suddenly won&#39;t open; only the animation plays <code>bug</code> <code>windows-os</code> <code>app</code> 💬6</li>
+<li><a href="https://github.com/openai/codex/issues/41170">#41170</a> [Windows] First launch shows no window for about 15 minutes while extracting bundled cua_node runtime <code>bug</code> <code>windows-os</code> <code>app</code> <code>computer-use</code> 💬4</li>
+<li><a href="https://github.com/openai/codex/issues/41135">#41135</a> Windows: sandbox setup_marker.json written without an ACE for the invoking user in non-interactive exec, so setup repeats forever (orchestrator_helper_incomplete) <code>bug</code> <code>windows-os</code> <code>sandbox</code> <code>exec</code> 💬4</li>
+<li><a href="https://github.com/openai/codex/issues/41238">#41238</a> &quot;Ran 5 commands&quot; - Can we not do this? Or make it optional? <code>bug</code> <code>enhancement</code> <code>TUI</code> <code>CLI</code> 💬2</li>
+<li><a href="https://github.com/openai/codex/issues/41228">#41228</a> Codex browser control unavailable across secure browser, built-in Browser and Chrome <code>bug</code> <code>app</code> <code>browser</code> 💬2</li>
+<li><a href="https://github.com/openai/codex/issues/41224">#41224</a> Capped continuity mode after ChatGPT plan limits (Luna fallback) <code>enhancement</code> <code>codex-web</code> <code>extension</code> <code>rate-limits</code> 💬2</li>
+<li><a href="https://github.com/openai/codex/issues/41236">#41236</a> [Windows] Codex Desktop app-server repeatedly restarts and loses tool call outputs <code>bug</code> <code>windows-os</code> <code>tool-calls</code> <code>app</code> 💬1</li>
+<li><a href="https://github.com/openai/codex/issues/41234">#41234</a> Remote Control remains disabled despite workspace permission being enabled <code>bug</code> <code>app</code> <code>remote</code> 💬1</li>
+<li><a href="https://github.com/openai/codex/issues/41233">#41233</a> codex_app__automation_update parameters schema rejected by Kimi/Moonshot (HTTP 400, $ref sibling of type) — same failure class as #39848 <code>bug</code> <code>custom-model</code> <code>tool-calls</code> <code>app</code> 💬1</li>
+<li><a href="https://github.com/openai/codex/issues/41229">#41229</a> [Windows][Regression] Deleted local Codex tasks remain in local_thread_catalog and reappear after restart <code>bug</code> <code>windows-os</code> <code>app</code> <code>session</code> 💬1</li>
+<li>…and 9 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/openai/codex/issues/35215">#35215</a> Windows ChatGPT Desktop fails to relaunch after first successful launch in the same session (0x800701C0)</li>
+<li><a href="https://github.com/openai/codex/issues/41135">#41135</a> Windows: sandbox setup_marker.json written without an ACE for the invoking user in non-interactive exec, so setup repeats forever (orchestrator_helper_incomplete)</li>
+<li><a href="https://github.com/openai/codex/issues/41217">#41217</a> [Bug] Standalone self-updater never deletes old releases, consuming 3.8 GiB</li>
+<li><a href="https://github.com/openai/codex/issues/41212">#41212</a> Linux: inherited Herdr environment variables are unavailable to tools and subagents</li>
+</ul>
+<h3>Gemini CLI (<code>google-gemini/gemini-cli</code>)</h3>
+<p><strong>Stars:</strong> 106,719 · <strong>Open issues:</strong> 870 · <strong>Last push:</strong> 5h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0-nightly.20260827.g3c311beac">v0.59.0-nightly.20260827.g3c311beac</a> Release v0.59.0-nightly.20260827.g3c311beac</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/google-gemini/gemini-cli/issues/29112">#29112</a> Feature request: append to system prompt at launch (--append-system-prompt / GEMINI_APPEND_SYSTEM_MD) — GEMINI_SYSTEM_MD only replaces <code>area/core</code> <code>status/possible-duplicate</code> <code>status/bot-triaged</code> <code>effort/medium</code> 💬4</li>
+</ul>
+<h3>GitHub Copilot CLI (<code>github/copilot-cli</code>)</h3>
+<p><strong>Stars:</strong> 11,122 · <strong>Open issues:</strong> 2,232 · <strong>Last push:</strong> 8h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/github/copilot-cli/releases/tag/v1.0.81">v1.0.81</a> 1.0.81</li>
+<li><a href="https://github.com/github/copilot-cli/releases/tag/v1.0.81-14">v1.0.81-14</a> 1.0.81-14</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/github/copilot-cli/issues/4639">#4639</a> v1.0.80: event-storage exhaustion retry storm drives long-running session into GC/compaction loop and Node OOM <code>triage</code> 💬1</li>
+<li><a href="https://github.com/github/copilot-cli/issues/4629">#4629</a> Plugin hooks are not loaded when a session is resumed via <code>--resume</code> <code>area:sessions</code> <code>area:plugins</code> 💬1</li>
+<li><a href="https://github.com/github/copilot-cli/issues/4631">#4631</a> 1000 <code>triage</code> <code>invalid</code> 💬1</li>
+<li><a href="https://github.com/github/copilot-cli/issues/4643">#4643</a> Compaction happens at low context usage (e.g. 20%) and don&#39;t get reported as an actual checkpoint? <code>triage</code></li>
+<li><a href="https://github.com/github/copilot-cli/issues/4642">#4642</a> Make <code>--name</code> create or resume a session <code>triage</code></li>
+<li><a href="https://github.com/github/copilot-cli/issues/4641">#4641</a> Publish official JSON Schema for settings.json <code>triage</code></li>
+<li><a href="https://github.com/github/copilot-cli/issues/4640">#4640</a> userPromptTransformed hook is skipped for steering messages <code>triage</code></li>
+<li><a href="https://github.com/github/copilot-cli/issues/4638">#4638</a> Do not derive model context from prompt and output token limits <code>triage</code></li>
+<li><a href="https://github.com/github/copilot-cli/issues/4637">#4637</a> Avoid duplicate skill lookup for slash-invoked skills with disable-model-invocation <code>triage</code></li>
+<li><a href="https://github.com/github/copilot-cli/issues/4636">#4636</a> MCP servers from --additional-mcp-config are removed during startup reconciliation in 1.0.81-11 <code>triage</code></li>
+<li>…and 5 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/github/copilot-cli/issues/3576">#3576</a> Windows: stdio MCP servers fail to spawn (spawn npx ENOENT / EINVAL) in 1.0.56-1</li>
+<li><a href="https://github.com/github/copilot-cli/issues/4006">#4006</a> MCP <code>tools/list</code> pagination (nextCursor) not followed</li>
+<li><a href="https://github.com/github/copilot-cli/issues/4631">#4631</a> 1000</li>
+<li><a href="https://github.com/github/copilot-cli/issues/4239">#4239</a> MCP server args templating corrupts values containing nested ${VAR:-${VAR2:-$(cmd)}} shell parameter expansion (silent auth/token corruption)</li>
+</ul>
+<h3>OpenCode (<code>anomalyco/opencode</code>)</h3>
+<p><strong>Stars:</strong> 201,972 · <strong>Open issues:</strong> 5,656 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/anomalyco/opencode/pull/45794">#45794</a> chore(ui): refresh Kobalte and Solid primitives</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45790">#45790</a> chore(deps): refresh Vite and Electron Builder tooling</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45780">#45780</a> fix(app): render local Markdown images through the server</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45760">#45760</a> fix(core): share native model defaults with v1 config migration</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45787">#45787</a> fix(core): cap provider retry-after delays at fifteen minutes</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45785">#45785</a> chore: upgrade opentui to 0.5.9</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45779">#45779</a> chore(deps): remove unused frontend dependencies</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45786">#45786</a> chore(desktop): remove stale native packaging</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45783">#45783</a> fix(core): complete supervisor flush when plugin activation fails</li>
+<li><a href="https://github.com/anomalyco/opencode/pull/45781">#45781</a> fix(core): wake sessions for recovered shell outcomes</li>
+<li>…and 6 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/anomalyco/opencode/issues/45580">#45580</a> OpenCode Ai decided to go rogue and make changes that cost me a ton of time and usage 💬4</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45568">#45568</a> ollama-cloud: glm-5.3-flash dropped from model cache due to unmapped family &#39;glm5_next&#39; 💬3</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45791">#45791</a> session: reasoning parts duplicated per streamed chunk inflate context to 300k+ tokens and explode session storage <code>2.0</code> 💬2</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45602">#45602</a> Cobros dobles 💬2</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45764">#45764</a> [FEATURE]: Plugin hook to intercept and override LLM call parameters (llm.request.before) 💬2</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45723">#45723</a> TUI renders garbled/corrupted on native Windows, reproducing across multiple terminals and PTY layers (not a terminal/font issue) 💬2</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45591">#45591</a> opencode langing 💬2</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45592">#45592</a> opencode2 forgets sessions after restart <code>2.0</code> 💬2</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45596">#45596</a> Desktop: orange dot (server not connected) after 1.18.23 — bundled serve returns 401 Basic Auth 💬2</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45797">#45797</a> [Bug] Raw <code>&lt;parameter&gt;</code> tool-call tags rendered literally in TUI above assistant message 💬1</li>
+<li>…and 14 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/anomalyco/opencode/issues/37399">#37399</a> xAI Grok 4.5 generating useless bash true tool calls</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45602">#45602</a> Cobros dobles</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/43312">#43312</a> v2: Responses reasoning can abort with &quot;reasoning start before end&quot;</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45723">#45723</a> TUI renders garbled/corrupted on native Windows, reproducing across multiple terminals and PTY layers (not a terminal/font issue)</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45364">#45364</a> Subagent tool rejects self-referential session IDs</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45591">#45591</a> opencode langing</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45592">#45592</a> opencode2 forgets sessions after restart</li>
+<li><a href="https://github.com/anomalyco/opencode/issues/45596">#45596</a> Desktop: orange dot (server not connected) after 1.18.23 — bundled serve returns 401 Basic Auth</li>
+<li>…and 4 more</li>
+</ul>
+<h3>Pi (<code>earendil-works/pi</code>)</h3>
+<p><strong>Stars:</strong> 98,313 · <strong>Open issues:</strong> 138 · <strong>Last push:</strong> 1h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/earendil-works/pi/pull/8731">#8731</a> feat(tui): allow disable copy on fullscreen, ctrl + x copies selection</li>
+<li><a href="https://github.com/earendil-works/pi/pull/8723">#8723</a> fix(coding-agent): expose https-proxy-agent named export</li>
+<li><a href="https://github.com/earendil-works/pi/pull/8355">#8355</a> feat(extensions): ui prompt events</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/earendil-works/pi/issues/8711">#8711</a> TUI pegs 100% CPU and freezes while streaming OpenRouter thinking (GLM-5.3-flash); reasoning_details stored as one object per token <code>bug</code> <code>untriaged</code> 💬2</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8709">#8709</a> [Qwen AI Token Plan] New AI model is available: qwen3.8-flash <code>untriaged</code> 💬2</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8728">#8728</a> detectCompat: requiresReasoningContentOnAssistantMessages not auto-enabled for DeepSeek-compatible endpoints (api.b.ai / sensenova) → 400 on cross-provider replay <code>untriaged</code> 💬3</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8752">#8752</a> bedrock-converse: usage.input not normalized across model families — false cache-miss notices, doubled input cost <code>untriaged</code> 💬2</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8722">#8722</a> Security guard rm-outside-project false-positives on write/edit payloads (documentation content flagged as delete commands) <code>untriaged</code> 💬2</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8721">#8721</a> Fleet inspector crashes when pi-subagents prompt audit holds non-string task <code>untriaged</code> 💬2</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8755">#8755</a> Opaque startup crash (SyntaxError: TuiMainScreen) when the hoisted @earendil-works/pi-tui is older than the range declared by pi-coding-agent <code>untriaged</code> 💬1</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8753">#8753</a> 0.84.3 regression: reasoning_details echo deterministically degenerates Venice GLM reasoning (newline runs amplify per turn; 0.84.2 clean) <code>untriaged</code> 💬1</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8751">#8751</a> fix(tui): render markdown soft line breaks as spaces, not hard breaks <code>untriaged</code> 💬1</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8750">#8750</a> openrouter/auto and openrouter/auto-beta model definitions use negative cost rates as a sentinel, producing negative displayed costs <code>untriaged</code> 💬1</li>
+<li>…and 21 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/earendil-works/pi/issues/5329">#5329</a> Expose when Pi is waiting on user input for host integrations</li>
+<li><a href="https://github.com/earendil-works/pi/issues/7720">#7720</a> Allow disabling select to copy in fullscreen TUI mode</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8610">#8610</a> Regression in v0.84.3: &#39;Error: HttpsProxyAgent is not a constructor&#39; when calling google-vertex with proxy</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8711">#8711</a> TUI pegs 100% CPU and freezes while streaming OpenRouter thinking (GLM-5.3-flash); reasoning_details stored as one object per token</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8709">#8709</a> [Qwen AI Token Plan] New AI model is available: qwen3.8-flash</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8728">#8728</a> detectCompat: requiresReasoningContentOnAssistantMessages not auto-enabled for DeepSeek-compatible endpoints (api.b.ai / sensenova) → 400 on cross-provider replay</li>
+<li><a href="https://github.com/earendil-works/pi/issues/7147">#7147</a> Emit extension events around UI dialogs</li>
+<li><a href="https://github.com/earendil-works/pi/issues/8752">#8752</a> bedrock-converse: usage.input not normalized across model families — false cache-miss notices, doubled input cost</li>
+<li>…and 27 more</li>
+</ul>
+<h3>Qwen Code (<code>QwenLM/qwen-code</code>)</h3>
+<p><strong>Stars:</strong> 27,435 · <strong>Open issues:</strong> 1,276 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/QwenLM/qwen-code/pull/10294">#10294</a> feat(sdk): Add standalone session APIs</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10272">#10272</a> E2E: external-context mem0 tests hang at &#39;Connecting to MCP servers&#39; on macOS and ecs-qwen pool (pass on ubuntu-hosted) <code>priority/P1</code> <code>type/bug</code> <code>scope/testing</code> <code>scope/ci-cd</code> 💬5</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10242">#10242</a> E2E on main: GitHub-hosted runners intermittently unable to reach the OPENAI_BASE_URL endpoint (Aliyun Beijing) — relocate lanes or switch endpoint <code>priority/P2</code> <code>type/bug</code> <code>scope/ci-cd</code> 💬4</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10324">#10324</a> triage: silent-rerun notification should treat a bot-initiated close as a terminal action <code>priority/P2</code> <code>type/bug</code> <code>category/development</code> <code>scope/ci-cd</code> 💬3</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10314">#10314</a> fix(ci): treat API-error triage responses as failed runs in qwen-triage.yml <code>priority/P2</code> <code>type/bug</code> <code>category/development</code> <code>scope/ci-cd</code> 💬3</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10309">#10309</a> Feature: probe actual modality support at model setup (one-shot capability probe instead of static pattern guessing) <code>priority/P2</code> <code>type/feature-request</code> <code>category/core</code> <code>scope/model-switching</code> 💬3</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10322">#10322</a> triage: Stage 1-pre subsumption check breaks silently at the contents-API size ceiling <code>priority/P2</code> <code>type/bug</code> <code>category/development</code> <code>scope/ci-cd</code> 💬2</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10332">#10332</a> Feature request: append to system prompt at launch (--append-system-prompt / QWEN_APPEND_SYSTEM_MD) — QWEN_SYSTEM_MD only replaces <code>priority/P3</code> <code>type/feature-request</code> <code>category/cli</code> <code>scope/cli</code> 💬2</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10323">#10323</a> triage: Stage 1-pre remaining-delta branch needs a disputed-premise exit <code>priority/P3</code> <code>status/blocked</code> <code>category/development</code> <code>scope/github-actions</code> 💬2</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10320">#10320</a> triage: harden Stage 1-pre close exit (idempotent comment, OPEN guard, head/issue re-read) <code>priority/P2</code> <code>status/blocked</code> <code>type/bug</code> <code>category/development</code> 💬2</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10321">#10321</a> triage: make Stage 1-pre closer tree total over closer shapes, with fixture tests <code>priority/P2</code> <code>category/development</code> <code>scope/ci-cd</code> <code>type/enhancement</code> 💬2</li>
+<li>…and 22 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10272">#10272</a> E2E: external-context mem0 tests hang at &#39;Connecting to MCP servers&#39; on macOS and ecs-qwen pool (pass on ubuntu-hosted)</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/9927">#9927</a> Artifact updatedAt stays stale; write_file intermediates linger as missing</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10242">#10242</a> E2E on main: GitHub-hosted runners intermittently unable to reach the OPENAI_BASE_URL endpoint (Aliyun Beijing) — relocate lanes or switch endpoint</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10211">#10211</a> Agent Team: initial teammate result may be lost before event bridge attachment</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10209">#10209</a> Agent Team: stale reclaim can delete a newer live team generation</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10069">#10069</a> Agent Team: a queued Agent View message disappears after switching teammate tabs</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/10153">#10153</a> /review: carry the fix&#39;s premises, not just its claim — add an evidence-bounded Fix constraint field</li>
+<li><a href="https://github.com/QwenLM/qwen-code/issues/9905">#9905</a> review: warn when Criticals keep landing on the same subsystem across rounds (divergence sentinel)</li>
+<li>…and 7 more</li>
+</ul>
+<h3>Claude Code Skills (<code>anthropics/skills</code>)</h3>
+<p>Top open skill PRs by community engagement:</p>
+<ul>
+<li><a href="https://github.com/anthropics/skills/pull/1298">#1298</a> fix(skill-creator): run_eval.py always reports 0% recall — install the eval artifact as a real skill; fix Windows stream reading, trigger detection, and parallel workers</li>
+<li><a href="https://github.com/anthropics/skills/pull/514">#514</a> Add document-typography skill: typographic quality control for generated documents</li>
+<li><a href="https://github.com/anthropics/skills/pull/1615">#1615</a> Add scnet-hpc skill</li>
+<li><a href="https://github.com/anthropics/skills/pull/538">#538</a> fix(pdf): correct case-sensitive file references in SKILL.md</li>
+<li><a href="https://github.com/anthropics/skills/pull/486">#486</a> Add ODT skill — OpenDocument text creation and template filling and parse ODT to HTML</li>
+</ul>
+<hr>
+<h2>🦞 OpenClaw Ecosystem</h2>
+<h3>OpenClaw (<code>openclaw/openclaw</code>)</h3>
+<p><strong>Stars:</strong> 387,846 · <strong>Open issues:</strong> 5,712 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw/pull/131242">#131242</a> fix(agents): keep code mode off by default</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/123535">#123535</a> fix(ui): avoid session catalog refresh storms</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131318">#131318</a> refactor(memory): simplify provenance and dreaming flows</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/128223">#128223</a> fix(cli): resolve alias targets from the write snapshot</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131325">#131325</a> refactor(codex): simplify conversation thread and lease ownership</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131224">#131224</a> fix(crabbox): avoid resending the full checkout for changed gates</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131341">#131341</a> perf(sessions): reduce CPU work when listing session previews</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131315">#131315</a> fix(openshell): prevent workspace races and unblock remote commands</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131338">#131338</a> fix(test): release mock fixtures between non-isolated files</li>
+<li><a href="https://github.com/openclaw/openclaw/pull/131304">#131304</a> fix(imap): stop reporting strength before mail authentication</li>
+<li>…and 134 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw/issues/130968">#130968</a> [Bug]: Update fresh doctor waits on the parent plugin lifecycle lease 💬6</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/130954">#130954</a> [Bug]: post-core updater deadlocks its Doctor child on plugin lifecycle lease <code>no-stale</code> <code>P1</code> <code>clawsweeper:fix-shape-clear</code> <code>clawsweeper:queueable-fix</code> 💬5</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/130977">#130977</a> [Bug]: Linux plugins-list startup-memory gate flakes at current runner variance <code>P2</code> <code>clawsweeper:no-new-fix-pr</code> <code>clawsweeper:needs-maintainer-review</code> <code>clawsweeper:needs-product-decision</code> 💬4</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/131299">#131299</a> [Bug]: Code Mode loses cancellation diagnostics when the tool catalog closes <code>bug</code> <code>maintainer</code> 💬3</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/131150">#131150</a> Slack DMs silently dropped for all accounts after gateway restart: prepareSlackMessage returns null pre-gate; degraded installation identity (multi-account socket mode) <code>no-stale</code> <code>P1</code> <code>clawsweeper:fix-shape-clear</code> <code>clawsweeper:queueable-fix</code> 💬3</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/131104">#131104</a> [Bug]: Agent model picker refresh stays empty although full discovery succeeds <code>no-stale</code> <code>P1</code> <code>clawsweeper:fix-shape-clear</code> <code>clawsweeper:queueable-fix</code> 💬3</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/130919">#130919</a> [Bug]: Source installer restarts an already refreshed Gateway service twice <code>no-stale</code> <code>P2</code> <code>clawsweeper:fix-shape-clear</code> <code>clawsweeper:queueable-fix</code> 💬3</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/131074">#131074</a> [Bug]: update finalize --no-restart fails when Gateway is intentionally stopped <code>bug</code> <code>maintainer</code> <code>P2</code> <code>clawsweeper:no-new-fix-pr</code> 💬3</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/130879">#130879</a> [Bug]: Browser role refs lose snapshot membership and ordering <code>bug</code> <code>maintainer</code> <code>P1</code> <code>clawsweeper:source-repro</code> 💬3</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/131058">#131058</a> [Bug]: Control UI JSON disclosures rewrite numbers and duplicate keys <code>bug</code> <code>maintainer</code> 💬3</li>
+<li>…and 146 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw/issues/81061">#81061</a> Hook: before_route_inbound_message — pre-routing interception for channel bridging/proxying</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/112248">#112248</a> @openclaw/codex plugin fails to register on gateway boot — all /codex slash commands silently no-op (TypeError: Cannot read properties of undefined (reading &#39;openSyncKeyedStore&#39;))</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/130968">#130968</a> [Bug]: Update fresh doctor waits on the parent plugin lifecycle lease</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/118489">#118489</a> [Bug]: Failed-tool finalization is still skipped after prior tool presentation or stale lifecycle state</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/130954">#130954</a> [Bug]: post-core updater deadlocks its Doctor child on plugin lifecycle lease</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/128657">#128657</a> [Bug]: Control UI loading shimmers repaint every frame</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/121756">#121756</a> [Bug]: Control UI cannot recover channel-originated active run after reload</li>
+<li><a href="https://github.com/openclaw/openclaw/issues/130977">#130977</a> [Bug]: Linux plugins-list startup-memory gate flakes at current runner variance</li>
+<li>…and 90 more</li>
+</ul>
+<h3>Hermes Agent (<code>nousresearch/hermes-agent</code>)</h3>
+<p><strong>Stars:</strong> 237,340 · <strong>Open issues:</strong> 36,622 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/nousresearch/hermes-agent/releases/tag/v2026.8.27">v2026.8.27</a> Hermes Agent v0.20.6 (v2026.8.27)</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96348">#96348</a> [Bug]: Studio bridge history rebuild skips empty-content assistant messages, dropping tool results → per-turn repair forces 0% prompt-cache hits on new user turns <code>type/bug</code> <code>comp/agent</code> <code>P0</code> <code>sweeper:risk-session-state</code> 💬3</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96433">#96433</a> Desktop boot fails: serve-path import of tui_gateway.server (6d4e851d80) rebinds sys.stdout, READY sentinel lands on stderr → 90s timeout kills healthy backend <code>type/bug</code> <code>comp/cli</code> <code>comp/tui</code> <code>P1</code> 💬3</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96570">#96570</a> Group chat sessions: stored system prompt is null every turn — rebuilt from scratch, prefix cache always misses <code>type/bug</code> <code>comp/agent</code> <code>P0</code> <code>sweeper:risk-session-state</code> 💬3</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96704">#96704</a> RFC: add evals/skills/, a paired-arm harness measuring whether agent-written skills actually help <code>type/feature</code> <code>innovation</code> <code>tool/memory</code> <code>tool/skills</code> 💬2</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96767">#96767</a> feat(config): add --quiet / scripting-friendly output to config set <code>duplicate</code> <code>type/feature</code> <code>comp/cli</code> <code>area/config</code> 💬2</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96603">#96603</a> [Bug]: &quot;Summarizing Thread&quot; has become extremely slow after recent updates <code>type/perf</code> <code>comp/agent</code> <code>P2</code> <code>needs-repro</code> 💬2</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96692">#96692</a> [Spec]: Unified slash-command registry and execution contract across every Hermes surface <code>type/feature</code> <code>comp/cli</code> <code>comp/gateway</code> <code>comp/tui</code> 💬2</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96328">#96328</a> [Bug]: macOS computer_use rejects current notarised CUA Driver and misses symlinked app path <code>type/bug</code> <code>comp/tools</code> <code>P2</code> <code>sweeper:risk-compatibility</code> 💬2</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96764">#96764</a> fix(cli): no --quiet for <code>config set</code> — non-interactive writes fail with exit 2 and always print a confirmation line <code>type/feature</code> <code>comp/cli</code> <code>area/config</code> <code>P3</code> 💬1</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96712">#96712</a> [Bug]: Isolated per-profile dashboard silently retargets chats to the machine&#39;s sticky active profile <code>type/security</code> <code>P2</code> <code>sweeper:risk-session-state</code> <code>sweeper:risk-security-boundary</code> 💬1</li>
+<li>…and 25 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/69060">#69060</a> Telegram inbound reply context injects truncated raw Markdown into the user message</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96767">#96767</a> feat(config): add --quiet / scripting-friendly output to config set</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/96328">#96328</a> [Bug]: macOS computer_use rejects current notarised CUA Driver and misses symlinked app path</li>
+<li><a href="https://github.com/NousResearch/hermes-agent/issues/72969">#72969</a> Windows: computer-use status uses cua-driver 0.12.6 but doctor/tool session runs 0.8.3</li>
+</ul>
+<h3>IronClaw (<code>nearai/ironclaw</code>)</h3>
+<p><strong>Stars:</strong> 12,603 · <strong>Open issues:</strong> 1,472 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/nearai/ironclaw/releases/tag/ironclaw-v1.4.0-rc.1">ironclaw-v1.4.0-rc.1</a> 1.4.0-rc.1 - 2026-08-26</li>
+</ul>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/nearai/ironclaw/pull/7944">#7944</a> feat(gmail): surface semantic message output</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7954">#7954</a> feat(threads): add cumulative compaction context barrier</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7907">#7907</a> fix(memory): reject stale full-document rewrites</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7941">#7941</a> fix(slack): admit a broadcast mention by exempting app_mention from the subtype gate</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7957">#7957</a> chore(release): promote 1.4.0-rc.1 to 1.4.0</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7904">#7904</a> fix(tools): re-land portable reliability fixes from the retired OMP branch</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7942">#7942</a> fix(webui): raise thread artifact byte limits</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7898">#7898</a> ci: scope merge queue to affected areas</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7928">#7928</a> feat(tools): add bounded selectable JSON result views</li>
+<li><a href="https://github.com/nearai/ironclaw/pull/7737">#7737</a> docs(channels): fix Slack setup drift — widened scopes, reactions:write, full admin field list</li>
+<li>…and 4 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/nearai/ironclaw/issues/7960">#7960</a> feat(gmail): enforce HTML complexity during DOM construction</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7956">#7956</a> Telegram: unpaired sender&#39;s /start gets the command inventory instead of the connect/pairing notice <code>bug</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7955">#7955</a> Telegram personal-account linking shows a generic &quot;Something went wrong&quot; when the admin has not configured api_id/api_hash <code>bug</code> <code>size: S</code> <code>scope: channel</code> <code>scope: extensions</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7953">#7953</a> test(learning): observability, evaluation, and provider migration gates <code>enhancement</code> <code>scope: agent</code> <code>reborn</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7952">#7952</a> feat(skills): route shared learning review into skill distillation <code>enhancement</code> <code>scope: agent</code> <code>reborn</code> <code>scope: skills</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7951">#7951</a> feat(memory): bounded active recall from admitted provider memory <code>enhancement</code> <code>scope: agent</code> <code>reborn</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7950">#7950</a> feat(memory): native, mem0, and Mnesis learning capability adapters <code>enhancement</code> <code>scope: tool</code> <code>scope: extensions</code> <code>reborn</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7949">#7949</a> feat(memory): deterministic admission and auto-or-approval promotion <code>enhancement</code> <code>scope: agent</code> <code>reborn</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7948">#7948</a> feat(memory): stable commit, feedback, and forget capabilities <code>enhancement</code> <code>scope: tool</code> <code>reborn</code></li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7947">#7947</a> feat(learning): shared router, settings, and durable candidate store <code>enhancement</code> <code>scope: agent</code> <code>reborn</code></li>
+<li>…and 10 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/nearai/ironclaw/issues/7891">#7891</a> perf(extensions): unprojected capability payloads + blind 24 KiB head-slice cost 14.3s of inference on two emails</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/3278">#3278</a> [Reborn] Define MissionService integration with TurnCoordinator</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7893">#7893</a> feat(memory): per-automation lessons file — ironclaw.memory.automation_lessons_set + fire-time injection</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/4162">#4162</a> Refactor agent-loop prompt stage compaction orchestration</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/4163">#4163</a> Refactor compaction task into typed pipeline stages</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/4796">#4796</a> [Reborn] LLM lacks awareness of current date/time unless explicitly using a time tool</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/4425">#4425</a> Reborn: builtin.http is a context bomb — 10MB floor, no HTML strip, descriptions don&#39;t steer model to .save</li>
+<li><a href="https://github.com/nearai/ironclaw/issues/7920">#7920</a> feat(skills): configure learned-skill extraction in Inference settings</li>
+<li>…and 12 more</li>
+</ul>
+<h3>QwenPaw (<code>agentscope-ai/QwenPaw</code>)</h3>
+<p><strong>Stars:</strong> 34,566 · <strong>Open issues:</strong> 914 · <strong>Last push:</strong> 10h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.0-beta.1">v2.2.0-beta.1</a> v2.2.0-beta.1</li>
+</ul>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7341">#7341</a> test(integration): coverage sprint batch 5 — 495 cases across endpoints, CLI, and module internals</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7342">#7342</a> feat(token-usage): add prompt cache observability</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7352">#7352</a> fix(console): align cron calendar dates with Sunday-first headers</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7336">#7336</a> fix(installer): handle NSIS uninstall process blockers</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7334">#7334</a> fix(chat): improve mobile composer controls</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7346">#7346</a> perf(runtime): stabilize prompt cache prefixes</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7338">#7338</a> chore: bump the version to 2.2.0b2</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7332">#7332</a> test: stabilize timing-sensitive tests</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7327">#7327</a> test(e2e): boost console coverage with 23 targeted cases + extended assertions</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/pull/7194">#7194</a> fix(workspace): make startup failure cleanup cancellation-safe</li>
+<li>…and 2 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7335">#7335</a> [Feature]: Prompt cache hit rate observability and optimization — 81% vs 96% (OpenCode), cost impact documented <code>good first issue</code> 💬2</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7364">#7364</a> [Bug]: Zero-downtime reload reuses a closed memory_manager and skips start(), permanently breaking memory_search 💬1</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7363">#7363</a> [Bug]: 同步调用阻塞事件循环且 timeout 失效 / Synchronous calls freeze the event loop and the timeout never fires <code>bug</code> 💬1</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7362">#7362</a> [Bug]: 文件保护未生效 <code>bug</code> 💬1</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7360">#7360</a> [Question]: QwenPaw Desktop 启动耗时过长（约 4 分钟） The startup time of QwenPaw Desktop is excessively long (approximately 4 minutes) <code>question</code> 💬1</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7355">#7355</a> [Feature]: 对话框当前在安卓的chrome等各种浏览器下输入内容时无法换行，希望可以换行 <code>enhancement</code> <code>Close-and-review-later</code> 💬1</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7339">#7339</a> Desktop App: Add setting to disable auto-scroll during streaming generation (scroll locking) <code>enhancement</code> 💬1</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7333">#7333</a> [Release Duty] QwenPaw v2.2.0-beta.1 (Beta) — Installation Verification <code>release-duty</code> <code>pre-release</code></li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7324">#7324</a> [Bug]: 定时任务执行成功后，收件箱没收到某些执行成功的推送消息</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7297">#7297</a> [Question]: qq对话中让qwenpaw重启会丢失最后聊天的记忆</li>
+<li><a href="https://github.com/agentscope-ai/QwenPaw/issues/7355">#7355</a> [Feature]: 对话框当前在安卓的chrome等各种浏览器下输入内容时无法换行，希望可以换行</li>
+</ul>
+<h3>ZeroClaw (<code>zeroclaw-labs/zeroclaw</code>)</h3>
+<p><strong>Stars:</strong> 32,667 · <strong>Open issues:</strong> 811 · <strong>Last push:</strong> 14h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/pull/9707">#9707</a> fix(config): migrate bare vision_model_provider to dotted alias ref</li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/pull/9748">#9748</a> fix(runtime): prevent stale provider refreshes from mutating replacement sessions (#9719)</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10409">#10409</a> fix(channels): secure temp file handling with 0o600 permissions</li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10408">#10408</a> [Bug]: second message during an active turn starts a parallel run in the same session → duplicate work and duplicate reply <code>bug</code></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10406">#10406</a> [Tracker]: Implement accepted Gemini speech-to-speech broker channel (#8780) <code>enhancement</code> <code>channel</code> <code>gateway</code> <code>runtime</code></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10405">#10405</a> [Tracker]: Implement session-scoped prompt attachments (#9998) <code>enhancement</code> <code>agent</code> <code>channel</code> <code>config</code></li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/9591">#9591</a> fix(channels): clear delivery registry when reload removes all channels</li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/9651">#9651</a> [Bug]: migrated bare vision_model_provider cannot resolve keyed provider credentials</li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10138">#10138</a> [Feature]: Include Git Channel fully compiled in zeroclaw:debian Docker image</li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10264">#10264</a> [Task]: make Quickstart CLI validation tests locale-independent</li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10327">#10327</a> [Bug]: Discord URL fallback reports a false partial image-load failure</li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw/issues/10305">#10305</a> [Task]: generate the SOP syntax reference from source instead of hand-maintaining it</li>
+</ul>
+<hr>
+<h2>⚙️ AI Infrastructure</h2>
+<h3>vLLM (<code>vllm-project/vllm</code>)</h3>
+<p><strong>Stars:</strong> 90,249 · <strong>Open issues:</strong> 7,138 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/vllm-project/vllm/pull/54015">#54015</a> [Kimi-K3] Merge MLA gate into QKV-A projection</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/52743">#52743</a> fix(build): correct preprocessor guard for GDN decode to fix Ampere c…</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/53508">#53508</a> [Bugfix][MRV2] Isolate sleep-mode KV allocations</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/54023">#54023</a> [Bugfix] Revert renderer warmup overlap to avoid fork deadlock</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/53756">#53756</a> [Rust Frontend][gRPC] Enforce LoRA path validation across transports</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/54005">#54005</a> [Bugfix][Model] Fix K3 DSpark config for 96-head drafts</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/50572">#50572</a> [kernel] Integrate FlashInfer BF16 CuTeDSL Low Latency GEMM</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/53785">#53785</a> [Attention] Enable dense and masked MHA for GLM-5</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/53797">#53797</a> Add support for loading dflash2 model in speculators format</li>
+<li><a href="https://github.com/vllm-project/vllm/pull/54020">#54020</a> Upgrade tpu-inference to v0.28.0</li>
+<li>…and 34 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/vllm-project/vllm/issues/53982">#53982</a> [Bug]: _compute_slot_mapping_kernel reads block_table out of bounds for cache groups whose block table is narrower than the sequence <code>rocm</code> 💬5</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54046">#54046</a> [Bug]: [dspark] Adaptive verification profiles a batch shape the scheduler cannot produce <code>bug</code> <code>scheduler</code> 💬5</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54027">#54027</a> [Bug]: DFlash2 + YaRN identical 1.04M prompt gets zero prefix-cache reuse while target-only reuses ~1.039M tokens 💬4</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54087">#54087</a> [Bug]: torch profiler hangs on ROCm after rocprofiler-sdk 1.3.2 bump <code>bug</code> <code>rocm</code> 💬4</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/53975">#53975</a> [Bug]: legacy guided_json is silently ignored - request returns 200 with unconstrained free-form text 💬3</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54017">#54017</a> [Bug]: Unsupported <code>reasoning_effort</code> value causes 500 error when chat template rejects it <code>bug</code> <code>kimi</code> <code>k3</code> 💬3</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54059">#54059</a> [Model]: GLM-5.3-Flash (glm5_next): no sparse-MLA attention path on Ada (sm_89, RTX 4090) <code>glm</code> 💬3</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/53973">#53973</a> [Bug]: PyAV video backend deadlocks under serving concurrency — unbounded SLICE threading in decode_frames <code>bug</code> 💬2</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54114">#54114</a> [Bug]: Evaluating GLM-5.1-FP8 for reasoning over large contexts produces unexpectedly poor level of accuracy. <code>bug</code> <code>rocm</code> <code>glm</code> 💬2</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54002">#54002</a> [Bug]: crashed engine leaks /dev/shm/vllm_offload_*.mmap, making every in-place container restart fail at SharedOffloadRegion init 💬2</li>
+<li>…and 26 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/vllm-project/vllm/issues/35800">#35800</a> [Bug]: Enabling speculative coding causes malformed Tool Calls in Qwen 122B MXFP4</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/46657">#46657</a> [Bug]: test_logprobs.py::test_spec_decode_logprobs not using eager mode even though comment says it is</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/53137">#53137</a> [Bug]: tools/recipes/recipe_json_to_vllm_config.py silently mis-parses the -cc (compilation-config) short alias</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/54027">#54027</a> [Bug]: DFlash2 + YaRN identical 1.04M prompt gets zero prefix-cache reuse while target-only reuses ~1.039M tokens</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/53413">#53413</a> [Bug]: GLM-5.2 FP8 on 8×H200 dies with runtime CUDA OOM in sparse_decode_fwd</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/41031">#41031</a> [Bug]: AssertionError in sampler.py:383</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/41048">#41048</a> [Bug]: Incorrect Transport for NIXL in Docker image on cu129</li>
+<li><a href="https://github.com/vllm-project/vllm/issues/50877">#50877</a> [Bug]: DSpark speculative decoding triggers FlashInfer MNNVL allreduce &quot;buffer size insufficient&quot; via draft model&#39;s embed_input_ids (TP8, GB200 NVL72)</li>
+<li>…and 9 more</li>
+</ul>
+<h3>SGLang (<code>sgl-project/sglang</code>)</h3>
+<p><strong>Stars:</strong> 32,584 · <strong>Open issues:</strong> 5,019 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/sgl-project/sglang/pull/36502">#36502</a> [diffusion] fuse Helios paired transposed RoPE</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/35451">#35451</a> [Feature] Support PP in full prefill CUDA graphs</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/36755">#36755</a> Fix DFLASH aux hidden-state capture on mHC models</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/36529">#36529</a> [Fix][XPU/ROCm/NPU] Defer sgl_kernel.quantization import in expert_pack</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/36747">#36747</a> Revert &quot;[NPU] [bugfix] Fix import of ggml_moe_a8_vec and Fix NPU MLA HiCache backup accessing missing data_ptrs&quot;</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/36640">#36640</a> [NPU] [bugfix] Fix import of ggml_moe_a8_vec and Fix NPU MLA HiCache backup accessing missing data_ptrs</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/36739">#36739</a> [misc] Fold the allocator free-group flag into <code>free_group</code></li>
+<li><a href="https://github.com/sgl-project/sglang/pull/36740">#36740</a> cookbook: add a Speculative card to the GLM-5.3-Flash playground</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/35374">#35374</a> [Kernel] Add H200 MoE configs for Qwen3.5 and Qwen3.6</li>
+<li><a href="https://github.com/sgl-project/sglang/pull/36736">#36736</a> [AMD][CI] Merge the four MI35x DeepSeek-V3.2 nightly jobs into two to save runtime</li>
+<li>…and 53 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/sgl-project/sglang/issues/36702">#36702</a> [Bug] Kimi-K3 + DCP: all TP ranks wedge in filter_dcp_local_kv_indices (nonzero → cudaStreamSynchronize) on long chunked prefill; 300s watchdog, memory free 💬2</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36701">#36701</a> [Bug] Qwen3.8-Flash-Next on sm_120 (RTX PRO 6000 Blackwell): QSA decode kernel gated to sm_100, plus contradictory SSM dtype checks 💬2</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36599">#36599</a> [Bug] deepseek_nextn hardcodes quant_config=None for modelopt_fp4 — breaks quantized NextN drafts (GLM-5.3-Flash NVFP4 speculative decoding) 💬2</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36596">#36596</a> [Bug] ModelOpt FP4: is_layer_excluded misses fused module names and model.-prefixed names — mixed-precision NVFP4 checkpoints crash at load (GLM-5.3-Flash) 💬2</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36616">#36616</a> [Bug] qwen3.8 flash next rocm bug <code>amd</code> 💬1</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36711">#36711</a> [Bug] GLM-5.3-Flash (glm5_next) crashes on startup with --moe-runner-backend flashinfer_trtllm: IndexError index 288 out of bounds in logical_to_all_physical 💬1</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36716">#36716</a> qwen38flashnext cookbook image: 4 bugs on single-device SM121 (GB10 Spark) — silent garbage decode (trtllm-gen), non-compacting _compact_kv, TMA-O varlen boot crash, fp8 tl.dot in sparse prefill 💬1</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36597">#36597</a> [Bug] NVFP4 MoE + EP&gt;1: globally-loaded input scales not sliced to local experts in non-CuteDSL branch (_compute_gemm1_alphas shape mismatch) 💬1</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36669">#36669</a> [Bug] GLM-5.3-Flash thinking output degenerates into repeated &#39;!&#39; under multi-tool agentic prompts 💬1</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36653">#36653</a> [Bug] NEXTN/MTP speculative decoding fails to load MTP MoE weights under TP&gt;1 for Glm5NextForConditionalGeneration (GLM-5.3-Flash) 💬1</li>
+<li>…and 11 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/sgl-project/sglang/issues/22072">#22072</a> [Bug] EP/DP decode server hangs at startup on MI325X with MoRI a2a backend</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/29511">#29511</a> [Feature] Support for Domino speculative decoding in Sglang</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/29416">#29416</a> [Bug] SGLANG_GRPC_PORT may exceed beyond 65535</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/29397">#29397</a> Add Top-nσ logit truncation custom logit processor example</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/27872">#27872</a> [Bug] Qwen3.5 text-only SFT model saved as <code>Qwen3_5ForCausalLM</code> cannot be served by SGLang</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36702">#36702</a> [Bug] Kimi-K3 + DCP: all TP ranks wedge in filter_dcp_local_kv_indices (nonzero → cudaStreamSynchronize) on long chunked prefill; 300s watchdog, memory free</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/36701">#36701</a> [Bug] Qwen3.8-Flash-Next on sm_120 (RTX PRO 6000 Blackwell): QSA decode kernel gated to sm_100, plus contradictory SSM dtype checks</li>
+<li><a href="https://github.com/sgl-project/sglang/issues/29477">#29477</a> [Bug] CUDA exception / 8-rank collective abort in NCCL AllReduce_RING_LL (bf16) on Blackwell B300 with EAGLE On GLM-5.2</li>
+<li>…and 1 more</li>
+</ul>
+<h3>llama.cpp (<code>ggml-org/llama.cpp</code>)</h3>
+<p><strong>Stars:</strong> 125,971 · <strong>Open issues:</strong> 2,248 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10665">b10665</a> b10665</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10664">b10664</a> b10664</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10663">b10663</a> b10663</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10662">b10662</a> b10662</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10661">b10661</a> b10661</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10660">b10660</a> b10660</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10659">b10659</a> b10659</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10658">b10658</a> b10658</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10657">b10657</a> b10657</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b10656">b10656</a> b10656</li>
+</ul>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27804">#27804</a> model: add DSpark support for Nemotron3.5</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27742">#27742</a> model: add Qwen3.8-Flash-Next (qwen4exp)</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27786">#27786</a> ggml-hexagon: add HTP unary ops for ABS and LOG</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27798">#27798</a> hexagon: fix RMS_NORM_MUL grouped/broadcast weight bugs</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/24124">#24124</a> server: add ctx-per-slot (--kv-unified-per-slot)</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27753">#27753</a> ci : build only the ggml-hip backend for windows-rocm release</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27342">#27342</a> spec : add DFlash2 support (local convolution + candidate selector)</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/26973">#26973</a> ci : bundle HIP runtime DLLs with Windows ROCm release</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27816">#27816</a> spec : add DFlash2 support (local convolution + candidate selector) (#27342)</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/pull/27768">#27768</a> opencl: add bin kernels <code>kernel_gemm_moe_q4_0_q8_1_dp4a_bin</code>, <code>kernel_gemm_moe_mxfp4_q8_1_dp4a_bin</code></li>
+<li>…and 14 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27813">#27813</a> server: slot restore gives no prefix reuse on hybrid/recurrent models (context checkpoints are not persisted) 💬5</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27831">#27831</a> Misc. bug: [WEBUI]: Copy to clipboard fails to copy anything <code>bug-unconfirmed</code> 💬2</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27780">#27780</a> qwen4exp graph builder aborts (ggml_abort) on SM121 under sustained load 💬3</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27819">#27819</a> DFlash2 is not working with <code>--split-mode tensor</code> 💬1</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27829">#27829</a> Eval bug: DFlash2: --split-mode tensor aborts with SPLIT_AXIS_UNKNOWN on ROCm (Qwen3.8-27B, 2x RX 7900 XTX) <code>bug-unconfirmed</code></li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27797">#27797</a> qwen4exp (PR #27742): multi-segment prompts degrade to &#39;//////&#39; on gfx1151 — deterministic repro 💬1</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27814">#27814</a> Misc. bug: VRAM usage increased in msvc build vs clang on windows (+2gb) <code>bug-unconfirmed</code> 💬1</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27783">#27783</a> server / tokenizer: SIGSEGV (stack overflow) in <code>unicode_regex_split_stl</code> — the o200k / GPT4O pre-tokenizer regex recurses once per character, so a ~26,000-character unbroken run of one character class kills the process 💬1</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27784">#27784</a> Metal: --embeddings with pooling still builds and computes the LM head, producing a multi-GiB discarded tensor and returning all-NaN embeddings on long inputs 💬1</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27840">#27840</a> Eval bug: mmap and tensor-read-lazy lead to constant disk writing on Windows <code>bug-unconfirmed</code></li>
+<li>…and 13 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/24714">#24714</a> Eval bug: forcing full prompt re-processing due to lack of cache data unsloth/Qwen3.5-2B-MTP-GGUF:Q4_K_XL</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/24681">#24681</a> Eval bug:</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/25203">#25203</a> Misc. bug: [SYCL] Q8_0 reorder degrades 42% prefill performance (not visible in the standard llama-bench)</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/27813">#27813</a> server: slot restore gives no prefix reuse on hybrid/recurrent models (context checkpoints are not persisted)</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/24199">#24199</a> Intel Arc A770 + llama.cpp Vulkan: 9B Model at 256K Context, 49 t/s — Practical Guide</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/26921">#26921</a> Eval bug: Vulkan (Mali-G925 / Immortalis MC12): Qwen3.5-0.8B multimodal prefill returns all-NaN logits, while the same build on CPU devices works</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/24800">#24800</a> Feature Request: Supports PP-OCRv6</li>
+<li><a href="https://github.com/ggml-org/llama.cpp/issues/24767">#24767</a> Misc. bug:</li>
+<li>…and 3 more</li>
+</ul>
+<h3>Ollama (<code>ollama/ollama</code>)</h3>
+<p><strong>Stars:</strong> 179,588 · <strong>Open issues:</strong> 3,810 · <strong>Last push:</strong> 1h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1">v0.33.2-rc1</a> v0.33.2</li>
+</ul>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/ollama/ollama/pull/18081">#18081</a> lint fix</li>
+<li><a href="https://github.com/ollama/ollama/pull/17381">#17381</a> Clean up dead code</li>
+<li><a href="https://github.com/ollama/ollama/pull/18077">#18077</a> app: list account cloud models for Claude</li>
+<li><a href="https://github.com/ollama/ollama/pull/18056">#18056</a> app: synchronize macOS app handoff</li>
+<li><a href="https://github.com/ollama/ollama/pull/18058">#18058</a> proxy: continue requests when the model catalog changes</li>
+<li><a href="https://github.com/ollama/ollama/pull/18049">#18049</a> app: restore system dark mode</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/ollama/ollama/issues/18074">#18074</a> Granite 4.2 models (8B/3B) do not respect safe default context ( eg. 4096) base on available VRAM and cause OOM kills <code>bug</code> 💬9</li>
+<li><a href="https://github.com/ollama/ollama/issues/18069">#18069</a> glm-5.3-flash:cloud — thinking trace degenerates into infinite single-token repetition (&quot;lock&quot;), never terminates <code>cloud</code> 💬4</li>
+<li><a href="https://github.com/ollama/ollama/issues/18067">#18067</a> GPU not detected on Jetpack 7.2 R39 on Nvidia Orin AGX 64GB <code>bug</code> 💬4</li>
+<li><a href="https://github.com/ollama/ollama/issues/18073">#18073</a> New Claude Desktop integration not working <code>bug</code> 💬2</li>
+<li><a href="https://github.com/ollama/ollama/issues/18076">#18076</a> v0.33.1 Broke vision supoort on MLX <code>bug</code> 💬1</li>
+<li><a href="https://github.com/ollama/ollama/issues/18063">#18063</a> mlx: Ling-3.0 (BailingMoeV3) support - split PR plan following #17643 feedback 💬1</li>
+<li><a href="https://github.com/ollama/ollama/issues/18068">#18068</a> Ollama UI App does not observe Dark Mode <code>bug</code> 💬1</li>
+<li><a href="https://github.com/ollama/ollama/issues/18059">#18059</a> GLM5.3-flash + Claude Code 2.1.247 : API Error: 400 Input should be a valid string <code>bug</code> 💬1</li>
+<li><a href="https://github.com/ollama/ollama/issues/18082">#18082</a> GLM chat template emits orphaned closing think tag — reasoning leaks into message.content</li>
+<li><a href="https://github.com/ollama/ollama/issues/18075">#18075</a> Pls support qwen3.8 flash next for windows pc <code>model</code></li>
+<li>…and 4 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/ollama/ollama/issues/18008">#18008</a> GUI lost dark-mode and is completely WHITE?</li>
+<li><a href="https://github.com/ollama/ollama/issues/18063">#18063</a> mlx: Ling-3.0 (BailingMoeV3) support - split PR plan following #17643 feedback</li>
+<li><a href="https://github.com/ollama/ollama/issues/18068">#18068</a> Ollama UI App does not observe Dark Mode</li>
+<li><a href="https://github.com/ollama/ollama/issues/18072">#18072</a> server: make the prompt cache size configurable — it is hard-coded at 8192 MiB</li>
+<li><a href="https://github.com/ollama/ollama/issues/18057">#18057</a> macOS app stays in light mode even when system appearance is Dark</li>
+</ul>
+<h3>LiteLLM (<code>BerriAI/litellm</code>)</h3>
+<p><strong>Stars:</strong> 57,426 · <strong>Open issues:</strong> 4,881 · <strong>Last push:</strong> &lt;1h ago</p>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/BerriAI/litellm/pull/38568">#38568</a> fix(guardrails): add fail-open mode to CrowdStrike AIDR guardrail</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38582">#38582</a> fix(langfuse): warn and drop invalid LANGFUSE_TRACING_ENVIRONMENT instead of failing requests</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38572">#38572</a> feat(proxy): opt-in enforce_fallback_model_access authorizes router fallbacks against the calling key</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38586">#38586</a> fix(router): copy instead of mutating caller metadata when scrubbing fallback stamp keys</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38595">#38595</a> feat(ui): dry-run an auto-router config against the backend before saving it</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38592">#38592</a> fix(anthropic): carry the effort tier only where the target declares reasoning_effort</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38476">#38476</a> fix(logging): stop stream-based log collectors classifying INFO logs as errors</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38483">#38483</a> fix(presidio): chunk oversized text before /analyze so large content blocks do not fail</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38570">#38570</a> fix(router): reject complexity-router settings written outside complexity_router_config</li>
+<li><a href="https://github.com/BerriAI/litellm/pull/38596">#38596</a> fix(ui): link Virtual Keys hint through the migrated /ui route</li>
+<li>…and 70 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/BerriAI/litellm/issues/38511">#38511</a> [Bug]: Responses streaming error handler crashes with AttributeError on the completion-bridge iterator, masking the original error <code>llm translation</code> 💬3</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38515">#38515</a> [Bug]: Zero-cost models are blocked once a user&#39;s personal <code>max_budget</code> is exhausted <code>bug</code> <code>proxy</code> <code>llm translation</code> 💬2</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38529">#38529</a> /v1/messages drops output_config.effort for Claude models served by openrouter or azure_ai <code>proxy</code> <code>llm translation</code> 💬1</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38556">#38556</a> [Bug]: <code>bug</code> <code>proxy</code> <code>llm translation</code> 💬1</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38537">#38537</a> [Bug]: Vertex Gemini 3.7 Flash rejects chat history ending in a text-only assistant message <code>proxy</code> <code>llm translation</code> 💬1</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38474">#38474</a> [Bug]: DashScope MaaS endpoints use different base URLs for Chat Completions vs Responses API — PR #30286 fix incomplete for workspace-specific URLs <code>proxy</code> <code>llm translation</code> 💬1</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38459">#38459</a> [Bug]: token_counter raises on OpenAI <code>input_audio</code> content blocks — context-window &amp; prompt-caching pre-call checks silently skip, /utils/token_counter 500s <code>llm translation</code> 💬1</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38579">#38579</a> [Bug]: Bedrock bearer-token-only deployments fail /v1/chat/completions and /v1/responses with &#39;NoneType&#39; object has no attribute &#39;access_key&#39; since #37241 <code>bug</code> <code>proxy</code> <code>llm translation</code></li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38578">#38578</a> [Bug]: /v1/messages prices Together deployments by their alias, so a size marker in the alias bills the size bucket <code>bug</code> <code>proxy</code></li>
+<li><a href="https://github.com/BerriAI/litellm/issues/38571">#38571</a> [Bug]: Bedrock Realtime hides provider throttles as normal WebSocket closes and lacks disconnect cleanup <code>proxy</code> <code>llm translation</code></li>
+<li>…and 16 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/BerriAI/litellm/issues/19779">#19779</a> [Feature]: Generic guardrail - fail-open mode</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/26501">#26501</a> [Bug]: reasoning with recent vllm backends does not work</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/32484">#32484</a> [Bug]: Unexpected log messages about unresolved cost information with Docker image 1.90.0</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/31977">#31977</a> [Bug]: MCP JWT signer overwrites OAuth Authorization header during tools/call</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/28105">#28105</a> Bedrock pass-through S3 logging fails for Application Inference Profile ARNs</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/21371">#21371</a> [Bug]: /v1/models returns outdated &#39;created&#39; timestamp causing integration issues with Android Studio and Xcode</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/29190">#29190</a> [Bug]: Claude Code 3P tab in Claude Desktop fails proxy auth — likely Authorization header (Anthropic OAuth token) takes precedence over user&#39;s x-api-key LiteLLM virtual key</li>
+<li><a href="https://github.com/BerriAI/litellm/issues/22965">#22965</a> [Bug]: VertexAI - unable to use 3rd party model - Qwen 3.5 with dedicated endpoint</li>
+<li>…and 9 more</li>
+</ul>
+<h3>Unsloth (<code>unslothai/unsloth</code>)</h3>
+<p><strong>Stars:</strong> 74,994 · <strong>Open issues:</strong> 1,418 · <strong>Last push:</strong> 1h ago</p>
+<h4>🚀 New Releases</h4>
+<ul>
+<li><a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.804-beta">v0.1.804-beta</a> Qwen3.8-Flash-Next + GLM-5.3-Flash</li>
+</ul>
+<h4>✅ Merged PRs</h4>
+<ul>
+<li><a href="https://github.com/unslothai/unsloth/pull/9878">#9878</a> fix(studio): stop offering a transformers upgrade where it cannot load anything</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9626">#9626</a> Fix datasets PyArrow registration after failed warm import</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9539">#9539</a> Fix Studio hydrating synced GGUF files before selection</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9868">#9868</a> Bump install.sh / install.ps1 pins to unsloth&gt;=2026.8.22</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9865">#9865</a> Studio: stop the per-chunk autosave writing back messages the server owns</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9862">#9862</a> Put the smart offload planner back behind its flag</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9841">#9841</a> Keep the context length a load was given instead of resetting it to Auto</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9860">#9860</a> Apply the kwarg-spacing hook to the no-progress tool results test</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9822">#9822</a> Studio: warn instead of refusing to load a model bigger than VRAM plus RAM</li>
+<li><a href="https://github.com/unslothai/unsloth/pull/9768">#9768</a> Studio: stop a small context window ending a tool-using turn with nothing</li>
+<li>…and 34 more</li>
+</ul>
+<h4>🐛 New Issues</h4>
+<ul>
+<li><a href="https://github.com/unslothai/unsloth/issues/9861">#9861</a> Smart offload planner is slower than --fit on in 40 of 43 measured cells on a 6-core desktop 💬6</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9869">#9869</a> [Performance] Linked-folder RAG indexing is fully sequential and underutilizes CPU/GPU 💬1</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9874">#9874</a> [Bug] macOS arm64 prebuilt b10639 links /usr/lib/librdma.dylib — unloadable on macOS &lt; 26 <code>feature request</code> <code>bug</code> 💬1</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9840">#9840</a> [Bug] Vision blocks parallel slots <code>feature request</code> <code>bug</code> 💬1</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9838">#9838</a> [Feature] Why are model configuration parameters not the API page? We gotta start a new chat everytime we want to edit model param/config? <code>feature request</code></li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9898">#9898</a> [Feature] Increase sizes. <code>feature request</code></li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9897">#9897</a> [Bug] Image/Video Generation on AMD does not work - Reposted <code>feature request</code> <code>bug</code></li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9895">#9895</a> [Bug] TTS custom endpoint failures <code>feature request</code> <code>bug</code></li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9889">#9889</a> [Bug] Issue with context limit on DGX Spark <code>feature request</code> <code>bug</code></li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9888">#9888</a> [Bug] The model couldn&#39;t compile a tool-calling grammar for this request. <code>feature request</code> <code>bug</code></li>
+<li>…and 10 more</li>
+</ul>
+<h4>🔒 Closed Issues</h4>
+<ul>
+<li><a href="https://github.com/unslothai/unsloth/issues/9671">#9671</a> [Bug/Feature] Auto Compaction triggers at a fixed ~75% of configured Context Length regardless of available VRAM/RAM — no UI control to adjust threshold or disable</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9727">#9727</a> [Bug] Image/Video Generation on AMD does not work</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/8925">#8925</a> [Bug] Phone cannot be idle issue</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9840">#9840</a> [Bug] Vision blocks parallel slots</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9245">#9245</a> Studio: dismissing a non-modal menu by pressing outside it drops focus to <body> instead of the trigger</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9680">#9680</a> [Feature Request] Allow generations to continue after client disconnect / add background generation mode</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9537">#9537</a> [Studio Bug] Opening the app reads and downloads all model files from synced drives</li>
+<li><a href="https://github.com/unslothai/unsloth/issues/9846">#9846</a> [Bug] Keyless API access doesn&#39;t seem to work on Unsloth Desktop</li>
+<li>…and 5 more</li>
+</ul>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-08-28</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-cli</link>
@@ -2691,24 +3530,23 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-08-28 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-28 00:44 UTC AI 开源趋势报告 - 2026年8月28日 今日亮点 今天，AI开源生态系统见证了显著的发展，特别是在AI代理框架和基于LLM的应用方面。突出的项目tt-a1i/archify推出了一款令人惊叹的架构设计代理，吸引了超过4200个新星。同时，专注于将AI整合到视频制作和科学研究中的项目，如calesthio/OpenMontage和K-Dense-AI/scientific-agent-skills，展示了AI如何提升创意和科学工作流程的多样化方式。 按类别划分的热门项目 🔧 AI基础设施 项目 语言 星数（总计 / 今日） 摘要 JetBrains/go-modern-guidelines Go 0 (+300) 此项目帮助AI编码代理编写现代Go代码，提升编程实践。它是开发者将AI能力整合到其Go应用程序中的重要资源。 google/googletest C++ 0 (+9) 一款强大的测试框架，...</description>
+      <description>AI 开源趋势日报 2026-08-28 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-28 01:11 UTC AI开源趋势报告 - 2026年8月28日 今日亮点 今日流行的代码库反映了AI开源生态系统的重要进展。值得注意的是，freestylefly/awesome-gpt-image-2 获得了巨大的关注，突出了一个专注于通过GPT-Image2生成图像的复杂提示的代码库。K-Dense-AI/scientific-agent-skills 项目展示了一个庞大的技能库，旨在将AI代理变成有效的科学助手。这一激增表明人们对增强代理能力及其在科学领域的实际应用有着强烈的兴趣。 按类别划分的顶级项目 🔧 AI基础设施 项目 语言 星标（总数 / 今日） 摘要 JetBrains/go-modern-guidelines Go 0 (+300) 提供针对AI编码代理的现代编码指南，增强其在Go中的编码能力。非常适合希望为Go项目优化AI的开发者。 Anthropic/claude-plugins-official ...</description>
       <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-28</h1>
 <blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-28 00:44 UTC</p>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
-<h1>AI 开源趋势报告 - 2026年8月28日</h1>
+<h1>AI开源趋势报告 - 2026年8月28日</h1>
 <h2>今日亮点</h2>
-<p>今天，AI开源生态系统见证了显著的发展，特别是在AI代理框架和基于LLM的应用方面。突出的项目<a href="https://github.com/tt-a1i/archify">tt-a1i/archify</a>推出了一款令人惊叹的架构设计代理，吸引了超过4200个新星。同时，专注于将AI整合到视频制作和科学研究中的项目，如<a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a>和<a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a>，展示了AI如何提升创意和科学工作流程的多样化方式。</p>
-<hr>
-<h2>按类别划分的热门项目</h2>
+<p>今日流行的代码库反映了AI开源生态系统的重要进展。值得注意的是，<strong><a href="https://github.com/freestylefly/awesome-gpt-image-2">freestylefly/awesome-gpt-image-2</a></strong> 获得了巨大的关注，突出了一个专注于通过GPT-Image2生成图像的复杂提示的代码库。<strong><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></strong> 项目展示了一个庞大的技能库，旨在将AI代理变成有效的科学助手。这一激增表明人们对增强代理能力及其在科学领域的实际应用有着强烈的兴趣。</p>
+<h2>按类别划分的顶级项目</h2>
 <h3>🔧 AI基础设施</h3>
 <table>
 <thead>
 <tr>
 <th align="left">项目</th>
 <th align="left">语言</th>
-<th align="right">星数（总计 / 今日）</th>
+<th align="right">星标（总数 / 今日）</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
@@ -2716,22 +3554,22 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://github.com/JetBrains/go-modern-guidelines">JetBrains/go-modern-guidelines</a></td>
 <td align="left">Go</td>
 <td align="right">0 (+300)</td>
-<td align="left">此项目帮助AI编码代理编写现代Go代码，提升编程实践。它是开发者将AI能力整合到其Go应用程序中的重要资源。</td>
+<td align="left">提供针对AI编码代理的现代编码指南，增强其在Go中的编码能力。非常适合希望为Go项目优化AI的开发者。</td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/google/googletest">google/googletest</a></td>
-<td align="left">C++</td>
-<td align="right">0 (+9)</td>
-<td align="left">一款强大的测试框架，支持开发者编写高质量的C++测试。在AI项目中保持质量至关重要，使得该框架对确保可靠性至关重要。</td>
+<td align="left"><a href="https://github.com/anthropics/claude-plugins-official">Anthropic/claude-plugins-official</a></td>
+<td align="left">Python</td>
+<td align="right">0 (+292)</td>
+<td align="left">高质量插件的精选目录，促进Claude的功能增强和AI应用的集成。</td>
 </tr>
 </tbody></table>
-<h3>🤖 AI代理 / 工作流程</h3>
+<h3>🤖 AI代理 / 工作流</h3>
 <table>
 <thead>
 <tr>
 <th align="left">项目</th>
 <th align="left">语言</th>
-<th align="right">星数（总计 / 今日）</th>
+<th align="right">星标（总数 / 今日）</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
@@ -2739,19 +3577,19 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></td>
 <td align="left">Python</td>
 <td align="right">0 (+498)</td>
-<td align="left">该库将AI代理转化为具备认证技能和各学科数据库的科学工具。它在希望加快研究工作流程的科学家中越来越受欢迎。</td>
+<td align="left">赋予AI代理在科学领域经过验证的技能的库，相关适用于超过175,000位科学家。该项目是希望在科学探索中利用AI的研究人员的全面资源。</td>
 </tr>
 <tr>
 <td align="left"><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></td>
 <td align="left">JavaScript</td>
 <td align="right">0 (+143)</td>
-<td align="left">一个为AI代理会话添加持久上下文的工具，对于增强与Claude和类似系统的交互至关重要。这模拟了类人记忆，从而提高参与度和生产力。</td>
+<td align="left">为代理提供跨会话的持久上下文，对开发连贯的用户体验至关重要，能够整合过去的互动。对维护AI辅助工作流的连续性不可或缺。</td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/hugohe3/ppt-master">hugohe3/ppt-master</a></td>
+<td align="left"><a href="https://github.com/AgriciDaniel/claude-obsidian">AgriciDaniel/claude-obsidian</a></td>
 <td align="left">Python</td>
-<td align="right">49,851 (+0)</td>
-<td align="left">此工具将文档转换为完整设计的PowerPoint演示文稿，展示了AI在内容创作中所能带来的效率。它自动化了一个传统上繁琐的过程，因此受到实用性的关注。</td>
+<td align="right">0 (+634)</td>
+<td align="left">将Claude与Obsidian集成，创建自组织知识图谱，简化笔记记录和个人知识管理。是提升信息检索和组织的重要工具。</td>
 </tr>
 </tbody></table>
 <h3>📦 AI应用</h3>
@@ -2760,7 +3598,7 @@ These issues are currently being investigated, and some may have pending fix PRs
 <tr>
 <th align="left">项目</th>
 <th align="left">语言</th>
-<th align="right">星数（总计 / 今日）</th>
+<th align="right">星标（总数 / 今日）</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
@@ -2768,36 +3606,13 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></td>
 <td align="left">Python</td>
 <td align="right">0 (+1292)</td>
-<td align="left">一款创新的开源视频制作系统，提供众多制作流程和工具。该项目标志着AI如何赋能创意产业的转变。</td>
+<td align="left">该项目通过一个全面的代理系统变革视频制作，具备先进的工具和制作工作流。这是首个将AI能力与视频内容创作相结合的项目。</td>
 </tr>
 <tr>
 <td align="left"><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
 <td align="left">Python</td>
-<td align="right">50,166 (+552)</td>
-<td align="left">一个教育资源，指导用户构建和部署AI工程项目。其实用的方法吸引了对AI领域感兴趣的新手。</td>
-</tr>
-</tbody></table>
-<h3>🧠 LLMs / 训练</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">星数（总计 / 今日）</th>
-<th align="left">摘要</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/firebase/firebase-functions">firebase/firebase-functions</a></td>
-<td align="left">JavaScript</td>
-<td align="right">0 (+0)</td>
-<td align="left">该项目实现了无缝集成无服务器函数到AI应用中，具备跨领域的灵活性。这是开发服务器端LLM应用的必备工具。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td align="left">Python</td>
-<td align="right">164,519 (+0)</td>
-<td align="left">一款重要的LLM训练库，持续的人气凸显了用户友好的框架在LLM开发中的重要性。</td>
+<td align="right">0 (+552)</td>
+<td align="left">一个教育资源，指导开发者学习从零开始创建AI系统。对提高AI工程学原理的技能具有很大价值。</td>
 </tr>
 </tbody></table>
 <h3>🔍 RAG / 知识</h3>
@@ -2806,33 +3621,37 @@ These issues are currently being investigated, and some may have pending fix PRs
 <tr>
 <th align="left">项目</th>
 <th align="left">语言</th>
-<th align="right">星数（总计 / 今日）</th>
+<th align="right">星标（总数 / 今日）</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://github.com/Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></td>
+<td align="left"><a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify</a></td>
 <td align="left">Python</td>
-<td align="right">76,042 (+0)</td>
-<td align="left">此项目使AI代理能够访问多个平台的信息，减少了对传统API的依赖。这类工具在优化信息获取和任务自动化方面至关重要。</td>
+<td align="right">111,613</td>
+<td align="left">该项目将代码库和文档转换为可查询的知识图谱，对促进复杂AI系统中的理解至关重要。它是利用图形技术进行知识管理的先驱。</td>
 </tr>
 <tr>
 <td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
 <td align="left">Python</td>
-<td align="right">64,202 (+0)</td>
-<td align="left">一个通用的AI代理记忆层，增强跨会话的记忆。重点是为AI代理提供长期记忆，塑造未来的互动。</td>
+<td align="right">64,203</td>
+<td align="left">为AI代理提供通用记忆层，确保互动的连续性和一致性。这对于在会话中创建持久的AI体验至关重要。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
+<td align="left">Rust</td>
+<td align="right">34,227</td>
+<td align="left">一个高性能、可扩展的向量搜索引擎，专为AI设计，促进AI应用中的高级搜索能力。这在AI技术的数据处理方面实现了显著提升。</td>
 </tr>
 </tbody></table>
-<hr>
 <h2>趋势信号分析</h2>
-<p>围绕AI代理和工作流程的社区兴趣激增，特别是在旨在通过自动化和高效任务执行提升生产力的项目上。今天的热门库表明，AI应用已超越传统界限，如在内容创造和科学研究的工具所示。持久记忆的新集成以及代理与各类在线平台交互的能力，正在成为关键能力，反映了对更智能且上下文感知的AI系统日益增长的需求。大语言模型的持续演进也与这些发展并行，像<a href="https://github.com/huggingface/transformers">huggingface/transformers</a>这样的框架继续引领这一领域，突显了技术进步与实际应用的有效融合。</p>
+<p>当前社区对AI代理和工作流的热情显著上升。专注于增强AI能力的项目，尤其是在科学和数据管理领域，正在吸引广泛关注。像**<a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a><strong>这样的工具的兴起表明，对能够协助处理复杂领域的专业AI服务的需求正在增长，这表明AI应用正朝着超越单纯自动化的方向发展，以更智能地参与研究。同时，</strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a>**的工作表明，AI互动中正朝着记忆和情境意识转变，为更个性化的用户体验奠定基础。总体上，这一趋势指向了在教育、科学研究和实际应用等各个领域提升AI的操作环境的推动。</p>
 <h2>社区热点</h2>
 <ul>
-<li><strong><a href="https://github.com/tt-a1i/archify">tt-a1i/archify</a></strong>：提升软件架构设计工作流程的令人兴奋的潜力。</li>
-<li><strong><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></strong>：视频制作中AI辅助创作过程的重大飞跃。</li>
-<li><strong><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></strong>：对希望通过AI优化研究任务的科学家至关重要。</li>
-<li><strong><a href="https://github.com/Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></strong>：开创性的解决方案用于AI在多平台间的互动，降低了开销。</li>
-<li><strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong>：会话间记忆使AI代理变得更加高效和用户友好。</li>
+<li><strong><a href="https://github.com/freestylefly/awesome-gpt-image-2">freestylefly/awesome-gpt-image-2</a></strong> - 一个专注于图像生成提示的资源，可能对创意产业的用户至关重要。</li>
+<li><strong><a href="https://github.com/ComposioHQ/awesome-claude-skills">compos.io/awesome-claude-skills</a></strong> - 这个协作目录推荐给有兴趣定制AI解决方案的开发者。</li>
+<li><strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong> - 关注保持丰富上下文的会话，对于希望增强用户互动的开发者至关重要。</li>
+<li><strong><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></strong> - 对于从事多媒体内容创作的人而言，是视频制作的新范式，具有颠覆性。</li>
 </ul>
 <hr>
 <p><em>本日报由 <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a> 自动生成。</em></p>
@@ -2843,16 +3662,15 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-trending-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-08-28 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 00:44 UTC AI Open Source Trends Report - August 28, 2026 Today&amp;#39;s Highlights Today, the AI open-source ecosystem has seen significant developments, particularly around AI agent frameworks and applications leveraging LLMs. The standout project, tt-a1i/archify, introduces a stunning architecture design agent that has garnered considerable attention with over 4,200 new stars. Additionally, proje...</description>
+      <description>AI Open Source Trends 2026-08-28 Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 01:11 UTC AI Open Source Trends Report - August 28, 2026 Today&amp;#39;s Highlights Today&amp;#39;s trending repositories reflect significant advancements in the AI open-source ecosystem. Notably, freestylefly/awesome-gpt-image-2 has gained immense traction, highlighting a repository dedicated to crafting intricate prompts for generating images via GPT-Image2. The K-Dense-AI/scientific-agent-skills proj...</description>
       <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-08-28</h1>
 <blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 00:44 UTC</p>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
 <h1>AI Open Source Trends Report - August 28, 2026</h1>
 <h2>Today&#39;s Highlights</h2>
-<p>Today, the AI open-source ecosystem has seen significant developments, particularly around AI agent frameworks and applications leveraging LLMs. The standout project, <a href="https://github.com/tt-a1i/archify">tt-a1i/archify</a>, introduces a stunning architecture design agent that has garnered considerable attention with over 4,200 new stars. Additionally, projects focusing on integrating AI into video production and scientific research, like <a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a> and <a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a>, are showcasing the diverse ways AI can enhance creative and scientific workflows.</p>
-<hr>
+<p>Today&#39;s trending repositories reflect significant advancements in the AI open-source ecosystem. Notably, <strong><a href="https://github.com/freestylefly/awesome-gpt-image-2">freestylefly/awesome-gpt-image-2</a></strong> has gained immense traction, highlighting a repository dedicated to crafting intricate prompts for generating images via GPT-Image2. The <strong><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></strong> project showcases an expansive library of skills aimed at transforming AI agents into effective scientific assistants. This surge indicates a strong interest in enhancing agent capabilities and practical applications in scientific fields.</p>
 <h2>Top Projects by Category</h2>
 <h3>🔧 AI Infrastructure</h3>
 <table>
@@ -2868,13 +3686,13 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://github.com/JetBrains/go-modern-guidelines">JetBrains/go-modern-guidelines</a></td>
 <td align="left">Go</td>
 <td align="right">0 (+300)</td>
-<td align="left">This project assists AI coding agents in writing modern Go code, enhancing programming practices. It&#39;s a critical resource for developers looking to integrate AI capabilities into their Go applications.</td>
+<td align="left">Provides modern coding guidelines tailored for AI coding agents, enhancing their coding capabilities in Go. Ideal for developers looking to optimize AI for Go projects.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/google/googletest">google/googletest</a></td>
-<td align="left">C++</td>
-<td align="right">0 (+9)</td>
-<td align="left">A robust testing framework that supports developers in writing high-quality C++ tests. Maintaining quality in AI projects is vital, making this framework essential for ensuring reliability.</td>
+<td align="left"><a href="https://github.com/anthropics/claude-plugins-official">Anthropic/claude-plugins-official</a></td>
+<td align="left">Python</td>
+<td align="right">0 (+292)</td>
+<td align="left">A curated directory of high-quality plugins for Claude, facilitating enhanced functionalities and integrations for AI applications.</td>
 </tr>
 </tbody></table>
 <h3>🤖 AI Agents / Workflows</h3>
@@ -2891,19 +3709,19 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></td>
 <td align="left">Python</td>
 <td align="right">0 (+498)</td>
-<td align="left">This library transforms AI agents into scientific tools with validated skills and databases for various disciplines. It’s increasingly popular among scientists seeking expedited research workflows.</td>
+<td align="left">A library for empowering AI agents with validated skills in scientific disciplines, relevant to over 175,000 scientists. This project is a comprehensive resource for researchers aiming to leverage AI in scientific exploration.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></td>
 <td align="left">JavaScript</td>
 <td align="right">0 (+143)</td>
-<td align="left">A utility that adds persistent context across AI agent sessions, crucial for enhancing interaction with Claude and similar systems. This replicates human-like memory, thereby improving engagement and productivity.</td>
+<td align="left">Offers persistent context across sessions for agents, crucial for developing cohesive user experiences that integrate past interactions. Essential for maintaining continuity in AI-assisted workflows.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://github.com/hugohe3/ppt-master">hugohe3/ppt-master</a></td>
+<td align="left"><a href="https://github.com/AgriciDaniel/claude-obsidian">AgriciDaniel/claude-obsidian</a></td>
 <td align="left">Python</td>
-<td align="right">49,851 (+0)</td>
-<td align="left">This tool transforms documents into fully designed PowerPoint presentations, showcasing the efficiency AI can bring to content creation. It automates a traditionally tedious process, attracting attention for practical use.</td>
+<td align="right">0 (+634)</td>
+<td align="left">Integrates Claude with Obsidian to create a self-organized knowledge graph, streamlining note-taking and personal knowledge management. A valuable tool for enhancing information retrieval and organization.</td>
 </tr>
 </tbody></table>
 <h3>📦 AI Applications</h3>
@@ -2920,36 +3738,13 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></td>
 <td align="left">Python</td>
 <td align="right">0 (+1292)</td>
-<td align="left">An innovative open-source video production system that offers numerous production pipelines and tools. This project signals a shift in how AI can empower creative industries.</td>
+<td align="left">This project revolutionizes video production with a comprehensive agentic system featuring advanced tools and production workflows. It&#39;s the first of its kind, merging AI capabilities with video content creation.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://github.com/rohitg00/ai-engineering-from-scratch">rohitg00/ai-engineering-from-scratch</a></td>
 <td align="left">Python</td>
-<td align="right">50,166 (+552)</td>
-<td align="left">An educational resource that guides users through building and deploying AI engineering projects. Its practical approach is capturing the interest of those new to the AI field.</td>
-</tr>
-</tbody></table>
-<h3>🧠 LLMs / Training</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Project</th>
-<th align="left">Lang</th>
-<th align="right">Stars (total / today)</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/firebase/firebase-functions">firebase/firebase-functions</a></td>
-<td align="left">JavaScript</td>
-<td align="right">0 (+0)</td>
-<td align="left">This enables seamless integration of serverless functions in AI applications, boasting flexibility across domains. It&#39;s an essential tool for developing server-side LLM applications.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td align="left">Python</td>
-<td align="right">164,519 (+0)</td>
-<td align="left">A cornerstone library for training LLMs, its continued popularity underscores the rising importance of user-friendly frameworks in LLM development.</td>
+<td align="right">0 (+552)</td>
+<td align="left">An educational resource that guides developers through learning to create AI systems from the ground up. Valuable for upskilling in AI engineering principles.</td>
 </tr>
 </tbody></table>
 <h3>🔍 RAG / Knowledge</h3>
@@ -2963,28 +3758,32 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://github.com/Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></td>
+<td align="left"><a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify</a></td>
 <td align="left">Python</td>
-<td align="right">76,042 (+0)</td>
-<td align="left">This project enables AI agents to access information across multiple platforms, reducing the dependency on traditional APIs. Such tools are critical in optimizing information retrieval and task automation.</td>
+<td align="right">111,613</td>
+<td align="left">This project turns codebases and documentation into queryable knowledge graphs, crucial for improving understanding within complex AI systems. It&#39;s a pioneer in utilizing graph technology for knowledge management.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
 <td align="left">Python</td>
-<td align="right">64,202 (+0)</td>
-<td align="left">A universal memory layer for AI agents, enhancing memory across sessions. The focus is on providing AI agents with long-term memory, shaping future interactions.</td>
+<td align="right">64,203</td>
+<td align="left">Offers a universal memory layer for AI agents, ensuring continuity and consistency in interactions. This is essential for creating persistent AI experiences across sessions.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
+<td align="left">Rust</td>
+<td align="right">34,227</td>
+<td align="left">A high-performance, scalable vector search engine designed for AI, facilitating advanced search capabilities in AI applications. It represents a significant enhancement in data handling for AI technologies.</td>
 </tr>
 </tbody></table>
-<hr>
 <h2>Trend Signal Analysis</h2>
-<p>There is a surge in community interest surrounding AI agents and workflows, particularly in projects designed to enhance productivity through automation and efficient task execution. Today’s trending repositories show that AI applications are transcending traditional boundaries, as seen with tools for content creation and scientific research. New integrations of persistent memory and the ability for agents to interact with various online platforms are emerging as key capabilities, indicative of a growing demand for more intelligent and context-aware AI systems. The ongoing evolution in large language models also parallels these developments, with frameworks like <a href="https://github.com/huggingface/transformers">huggingface/transformers</a> continuing to lead the space, highlighting an effective fusion of technological advancement and practical applications.</p>
+<p>The community is currently experiencing significant enthusiasm for AI agents and workflows. Projects focused on enhancing AI capabilities, particularly in scientific and data management domains, are attracting considerable attention. The rise of tools like <strong><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></strong> indicates a growing demand for specialized AI services that can assist in complex fields, suggesting a maturation of AI applications beyond mere automation to more intelligent contributions in research. Concurrently, work on <strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong> illustrates a pivot towards memory and contextual awareness in AI interactions, setting a foundation for more personalized user experiences. Overall, this trend points towards a push for improving AI&#39;s operational contexts across various domains including education, scientific research, and practical applications.</p>
 <h2>Community Hot Spots</h2>
 <ul>
-<li><strong><a href="https://github.com/tt-a1i/archify">tt-a1i/archify</a></strong>: Exciting potential for enhancing design workflows in software architecture.</li>
-<li><strong><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></strong>: A leap forward in AI-aided creative processes for video production.</li>
-<li><strong><a href="https://github.com/K-Dense-AI/scientific-agent-skills">K-Dense-AI/scientific-agent-skills</a></strong>: Essential for scientists looking to optimize research quests through AI.</li>
-<li><strong><a href="https://github.com/Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></strong>: Pioneering solutions for AI interactions across platforms, reducing overhead costs.</li>
-<li><strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong>: Inter-session memory allows AI agents to become significantly more effective and user-friendly.</li>
+<li><strong><a href="https://github.com/freestylefly/awesome-gpt-image-2">freestylefly/awesome-gpt-image-2</a></strong> - A resource focusing on image generation prompts that could become crucial for users in creative industries.</li>
+<li><strong><a href="https://github.com/ComposioHQ/awesome-claude-skills">compos.io/awesome-claude-skills</a></strong> - This collaborative catalog is recommended for developers interested in tailored AI solutions.</li>
+<li><strong><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></strong> - Focus on maintaining context-rich sessions is critical for developers looking to enhance user interaction.</li>
+<li><strong><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></strong> - A game-changer for those involved in multimedia content creation, offering a new paradigm for video production.</li>
 </ul>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
@@ -2995,37 +3794,37 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-08-28 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-28 00:44 UTC Hacker News AI 社区摘要 - 2026年8月28日 今日亮点 Hacker News 社区因最近在 AI 模型上的进展而热情高涨，尤其是 Google 的 Gemini-3.5 和 Gemini Omni 1.1，这引发了关于其能力的广泛讨论。对 AI 在劳动力中的角色及其对就业动态影响的浓厚兴趣同样显而易见，尤其是一则关于开发者在被 AI 技术取代后创建开源 AI CEO 的故事。总体而言，关于 AI 的进步及其社会影响，社区内充满了热情与谨慎的氛围。 热点新闻与讨论 🔬 模型与研究 标题 分数 评论 摘要 Gemini-3.5-Transcribe · HN 134 33 Google&amp;#39;s Gemini-3.5-Transcribe 承诺增强文本转录能力。社区对其在各个领域的潜在应用充满了好奇。 Gemini Omni 1.1 Flash · HN 180 132 Gemini Om...</description>
+      <description>Hacker News AI 社区动态日报 2026-08-28 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-28 01:11 UTC 今日黑客新闻人工智能社区摘要 - 2026年8月28日 今日亮点 今天，黑客新闻人工智能社区因几个关键发展而热闹非凡，包括新的人工智能模型发布和有关人工智能使用最佳实践的辩论。讨论尤其集中在人工智能在教育和医疗等各个领域的影响上，对于如何利用这些技术实现积极成果有着强烈的兴趣。关于人工智能未来影响的情绪复杂，围绕伦理考量和人工智能系统架构策略的讨论正逐渐升温。 头条新闻与讨论 🔬 模型与研究 标题 得分 评论数 摘要 Gemini-3.5-Transcribe · HN 139 33 谷歌发布的Gemini-3.5模型强调了转录能力的进步，对模型性能的持续关注继续吸引社区的注意。深入的讨论突显了这些模型如何颠覆内容创作中的传统工作流程。 GLM-5.3-Flash · HN 1105 555 GLM-5.3的推出引发了相当大的兴奋，因为它在生成任务上的改进标志着人工智能能力的重大演变。社区反馈中对其实际应用的...</description>
       <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-28</h1>
 <blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-28 00:44 UTC</p>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
-<h1>Hacker News AI 社区摘要 - 2026年8月28日</h1>
+<h1>今日黑客新闻人工智能社区摘要 - 2026年8月28日</h1>
 <h2>今日亮点</h2>
-<p>Hacker News 社区因最近在 AI 模型上的进展而热情高涨，尤其是 Google 的 Gemini-3.5 和 Gemini Omni 1.1，这引发了关于其能力的广泛讨论。对 AI 在劳动力中的角色及其对就业动态影响的浓厚兴趣同样显而易见，尤其是一则关于开发者在被 AI 技术取代后创建开源 AI CEO 的故事。总体而言，关于 AI 的进步及其社会影响，社区内充满了热情与谨慎的氛围。</p>
-<h2>热点新闻与讨论</h2>
+<p>今天，黑客新闻人工智能社区因几个关键发展而热闹非凡，包括新的人工智能模型发布和有关人工智能使用最佳实践的辩论。讨论尤其集中在人工智能在教育和医疗等各个领域的影响上，对于如何利用这些技术实现积极成果有着强烈的兴趣。关于人工智能未来影响的情绪复杂，围绕伦理考量和人工智能系统架构策略的讨论正逐渐升温。</p>
+<h2>头条新闻与讨论</h2>
 <h3>🔬 模型与研究</h3>
 <table>
 <thead>
 <tr>
 <th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
+<th align="right">得分</th>
+<th align="right">评论数</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
 <tbody><tr>
 <td align="left"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/">Gemini-3.5-Transcribe</a> · <a href="https://news.ycombinator.com/item?id=49468818">HN</a></td>
-<td align="right">134</td>
+<td align="right">139</td>
 <td align="right">33</td>
-<td align="left">Google&#39;s Gemini-3.5-Transcribe 承诺增强文本转录能力。社区对其在各个领域的潜在应用充满了好奇。</td>
+<td align="left">谷歌发布的Gemini-3.5模型强调了转录能力的进步，对模型性能的持续关注继续吸引社区的注意。深入的讨论突显了这些模型如何颠覆内容创作中的传统工作流程。</td>
 </tr>
 <tr>
-<td align="left"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/">Gemini Omni 1.1 Flash</a> · <a href="https://news.ycombinator.com/item?id=49467922">HN</a></td>
-<td align="right">180</td>
-<td align="right">132</td>
-<td align="left">Gemini Omni 1.1 Flash 的发布为开发者提供了尖端功能。用户渴望探索其创新并评估其在现实世界中的表现。</td>
+<td align="left"><a href="https://z.ai/blog/glm-5.3-flash">GLM-5.3-Flash</a> · <a href="https://news.ycombinator.com/item?id=49449507">HN</a></td>
+<td align="right">1105</td>
+<td align="right">555</td>
+<td align="left">GLM-5.3的推出引发了相当大的兴奋，因为它在生成任务上的改进标志着人工智能能力的重大演变。社区反馈中对其实际应用的乐观与怀疑交织在一起。</td>
 </tr>
 </tbody></table>
 <h3>🛠️ 工具与工程</h3>
@@ -3033,16 +3832,22 @@ These issues are currently being investigated, and some may have pending fix PRs
 <thead>
 <tr>
 <th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
+<th align="right">得分</th>
+<th align="right">评论数</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://github.com/calmrocks/ai-engineer-notebooks">AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab</a> · <a href="https://news.ycombinator.com/item?id=49471714">HN</a></td>
-<td align="right">36</td>
+<td align="left"><a href="https://github.com/calmrocks/ai-engineer-notebooks">AI Engineer Notebooks – 免费，无框架 RAG/agents/evals 的 Colab</a> · <a href="https://news.ycombinator.com/item?id=49471714">HN</a></td>
+<td align="right">39</td>
 <td align="right">0</td>
-<td align="left">这个开源项目为开发者提供了便于实验检索增强生成和代理评估的资源。社区对这一计划在无框架依赖下促进实践实验的潜力表示赞赏。</td>
+<td align="left">在Colab上发布的这个开源项目提供了必要的工具，以便于研究和应用开发，而无须重型框架。这个倡议与寻求高效和灵活性的开发者产生共鸣，尽管初步反馈较少。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/seoes/proval">Show HN: Proval – 自托管的GitLab、Forgejo和GitHub代码审查代理</a> · <a href="https://news.ycombinator.com/item?id=49465821">HN</a></td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="left">该工具旨在通过人工智能辅助增强流行版本控制系统中的代码审查流程。尽管初期参与似乎有限，但随着开发者在工作流程中寻求自动化，潜力依旧存在。</td>
 </tr>
 </tbody></table>
 <h3>🏢 行业新闻</h3>
@@ -3050,47 +3855,47 @@ These issues are currently being investigated, and some may have pending fix PRs
 <thead>
 <tr>
 <th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
+<th align="right">得分</th>
+<th align="right">评论数</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://github.com/SenteLabsAI/OpenExecutive">CEO 解雇开发者以为 AI 腾出空间。开发者创建开源 AI CEO</a> · <a href="https://news.ycombinator.com/item?id=49458418">HN</a></td>
-<td align="right">937</td>
-<td align="right">647</td>
-<td align="left">开发者因被 AI 替代而创建开源 AI CEO 的故事引发了关于工作场所动态和 AI 对就业影响的讨论。这是一个高度两极化的问题，激发了关于工作安全和技术取代的强烈反应。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/">英伟达预计销售额达到 6730 亿美元，因 AI 需求扩大</a> · <a href="https://news.ycombinator.com/item?id=49466052">HN</a></td>
+<td align="left"><a href="https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/">Nvidia预测AI需求扩大，销售将达6730亿美元</a> · <a href="https://news.ycombinator.com/item?id=49466052">HN</a></td>
 <td align="right">102</td>
 <td align="right">99</td>
-<td align="left">英伟达的雄心勃勃的销售预测反映了对 AI 技术的激增需求。这一预测引发了关于市场趋势和 AI 硬件未来的讨论。</td>
+<td align="left">Nvidia雄心勃勃的销售预测凸显了人工智能技术在各行业日益增长的影响力。这条新闻激发了关于人工智能经济影响的讨论，以及这对未来科技格局的意义。</td>
 </tr>
 </tbody></table>
-<h3>💬 意见与辩论</h3>
+<h3>💬 观点与辩论</h3>
 <table>
 <thead>
 <tr>
 <th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
+<th align="right">得分</th>
+<th align="right">评论数</th>
 <th align="left">摘要</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">动荡的 AI 时代已经到来</a> · <a href="https://news.ycombinator.com/item?id=49447057">HN</a></td>
-<td align="right">202</td>
-<td align="right">450</td>
-<td align="left">这篇文章反思了 AI 的混乱演变和社会必须面对的紧迫决策，引起了许多读者的共鸣，他们感觉 AI 的快速发展超出了伦理考量。大量的评论表明，社区对 AI 发展既感到兴奋又有担忧。</td>
+<td align="left"><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">动荡的人工智能时代已来</a> · <a href="https://news.ycombinator.com/item?id=49447057">HN</a></td>
+<td align="right">210</td>
+<td align="right">456</td>
+<td align="left">这篇文章引发了一场关于人工智能技术进步的伦理考量的重大讨论。评论表明，尽管机会众多，但在导航相关风险时需要谨慎。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards">人类对人工智能意识的辩论方向搞错了</a> · <a href="https://news.ycombinator.com/item?id=49458875">HN</a></td>
+<td align="right">84</td>
+<td align="right">262</td>
+<td align="left">这篇文章引发的持续辩论展示了人们在人工智能意识的定义和认可方面的显著分歧。社区反应表达了对未来影响的怀疑和好奇。</td>
 </tr>
 </tbody></table>
-<h2>社区情绪信号</h2>
-<p>今天的 Hacker News 讨论以 AI 对技术和劳动力的影响为主导。在关于新模型发布的故事中，尤其是 Google 的创新，引发了强烈的关注，显示出大家对先进 AI 能力实际应用的浓厚兴趣。同时，围绕职位替代及其影响的情感波动——通过开发者创造 AI CEO 的幽默故事体现——显示出对 AI 进步的怀疑与接受交织。社区表现出对技术进步的热情与对其社会影响的谨慎态度，标志着讨论从纯粹的技术层面转向了更加细致的关于 AI 在我们日常生活和就业市场角色的对话。</p>
-<h2>值得深度阅读</h2>
+<h2>社区情感信号</h2>
+<p>社区的情绪似乎是谨慎乐观与批判性评价的结合，关于人工智能模型、其适用性和伦理影响的讨论主导了对话。得分高的话题，例如谷歌的Gemini-3.5和Nvidia的收入预测，表明人们对实际进展和经济影响的强烈兴趣。相反，对于伦理审视的怀疑仍然存在，特别是在人工智能意识辩论方面。与以往周期相比，人们在理解人工智能在实际环境中的运作影响方面显著转变，而不仅仅局限于理论讨论。</p>
+<h2>值得深入阅读</h2>
 <ul>
-<li><strong><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">动荡的 AI 时代已经到来</a></strong>：这篇文章概述了关于 AI 围绕伦理选择的关键讨论，对于任何在现代 AI 技术复杂性中摸索的人来说，都具有重要意义。</li>
-<li><strong><a href="https://github.com/SenteLabsAI/OpenExecutive">CEO 解雇开发者以为 AI 腾出空间。开发者创建开源 AI CEO</a></strong>：这篇文章突显了开发者对 AI 替代工作的创意回应，提供了关于劳动力适应和技术领域未来就业的深入见解。</li>
+<li><strong><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">动荡的人工智能时代已来</a></strong>：这篇文章提供了关于伦理格局及潜在陷阱的关键见解，因为人工智能技术不断快速发展。</li>
+<li><strong><a href="https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/">Nvidia预测AI需求扩大，销售将达6730亿美元</a></strong>：深入探讨主要参与者如Nvidia如何预期人工智能需求的革命及其对科技行业的意义。</li>
 </ul>
 <hr>
 <p><em>本日报由 <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a> 自动生成。</em></p>
@@ -3101,15 +3906,15 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-hn-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-08-28 Source: Hacker News | 30 stories | Generated: 2026-08-28 00:44 UTC Hacker News AI Community Digest - August 28, 2026 Today&amp;#39;s Highlights The Hacker News community is buzzing with excitement surrounding the recent advancements in AI models, particularly Google&amp;#39;s Gemini-3.5 and the Gemini Omni 1.1, which have sparked extensive discussions about their capabilities. Significant interest is also evident in AI&amp;#39;s role in the workforce and its impact...</description>
+      <description>Hacker News AI Community Digest 2026-08-28 Source: Hacker News | 30 stories | Generated: 2026-08-28 01:11 UTC Today&amp;#39;s Hacker News AI Community Digest - August 28, 2026 Today&amp;#39;s Highlights Today, the Hacker News AI community is buzzing over several key developments, including new AI model releases and debates on best practices in AI use. The conversation is particularly focused on the implications of AI in various sectors, such as education and healthcare, with strong interest in how these...</description>
       <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-28</h1>
 <blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-28 00:44 UTC</p>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
-<h1>Hacker News AI Community Digest - August 28, 2026</h1>
+<h1>Today&#39;s Hacker News AI Community Digest - August 28, 2026</h1>
 <h2>Today&#39;s Highlights</h2>
-<p>The Hacker News community is buzzing with excitement surrounding the recent advancements in AI models, particularly Google&#39;s Gemini-3.5 and the Gemini Omni 1.1, which have sparked extensive discussions about their capabilities. Significant interest is also evident in AI&#39;s role in the workforce and its impact on job dynamics, as illustrated by a story detailing developers who created an open-source AI CEO after being replaced by AI technology. Overall, there’s a palpable sense of both enthusiasm and caution regarding AI advancements and their societal implications.</p>
+<p>Today, the Hacker News AI community is buzzing over several key developments, including new AI model releases and debates on best practices in AI use. The conversation is particularly focused on the implications of AI in various sectors, such as education and healthcare, with strong interest in how these technologies can be harnessed for positive outcomes. With mixed sentiments about AI&#39;s future impact, discussions around ethical considerations and architecture strategies for AI systems are gaining traction.</p>
 <h2>Top News &amp; Discussions</h2>
 <h3>🔬 Models &amp; Research</h3>
 <table>
@@ -3123,15 +3928,15 @@ These issues are currently being investigated, and some may have pending fix PRs
 </thead>
 <tbody><tr>
 <td align="left"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/">Gemini-3.5-Transcribe</a> · <a href="https://news.ycombinator.com/item?id=49468818">HN</a></td>
-<td align="right">134</td>
+<td align="right">139</td>
 <td align="right">33</td>
-<td align="left">Google&#39;s Gemini-3.5-Transcribe promises enhanced text transcription capabilities. The community is intrigued by its potential applications across various sectors.</td>
+<td align="left">Google’s release of the Gemini-3.5 model emphasizes advancements in transcription capabilities, ongoing interest in model performance continues to draw community attention. The thorough discussions highlight how these models could disrupt traditional workflows in content creation.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/">Gemini Omni 1.1 Flash</a> · <a href="https://news.ycombinator.com/item?id=49467922">HN</a></td>
-<td align="right">180</td>
-<td align="right">132</td>
-<td align="left">The release of Gemini Omni 1.1 Flash offers cutting-edge features for developers. Users are eager to explore its innovations and gauge its real-world performance.</td>
+<td align="left"><a href="https://z.ai/blog/glm-5.3-flash">GLM-5.3-Flash</a> · <a href="https://news.ycombinator.com/item?id=49449507">HN</a></td>
+<td align="right">1105</td>
+<td align="right">555</td>
+<td align="left">The introduction of GLM-5.3 has sparked considerable excitement due to its stated improvements in generative tasks, marking a significant evolution in AI capabilities. Community responses suggest a mix of optimism and skepticism regarding its real-world applicability.</td>
 </tr>
 </tbody></table>
 <h3>🛠️ Tools &amp; Engineering</h3>
@@ -3146,9 +3951,15 @@ These issues are currently being investigated, and some may have pending fix PRs
 </thead>
 <tbody><tr>
 <td align="left"><a href="https://github.com/calmrocks/ai-engineer-notebooks">AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab</a> · <a href="https://news.ycombinator.com/item?id=49471714">HN</a></td>
-<td align="right">36</td>
+<td align="right">39</td>
 <td align="right">0</td>
-<td align="left">This open-source project provides developers with resources to experiment with retrieval-augmented generation and agent evaluations in an accessible format. The community appreciates the initiative&#39;s potential for fostering hands-on experimentation without framework dependencies.</td>
+<td align="left">The release of this open-source project on Colab provides access to tools necessary for research and application development without the need for heavy frameworks. This initiative resonates with developers seeking efficiency and flexibility, although initial feedback is sparse.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/seoes/proval">Show HN: Proval – Self-hosted code review agent for GitLab, Forgejo, and GitHub</a> · <a href="https://news.ycombinator.com/item?id=49465821">HN</a></td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="left">This tool aims to enhance code review processes in popular version control systems using AI assistance. While the initial engagement appears limited, there is potential for it to grow as developers seek automation in their workflows.</td>
 </tr>
 </tbody></table>
 <h3>🏢 Industry News</h3>
@@ -3162,16 +3973,10 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="https://github.com/SenteLabsAI/OpenExecutive">CEO fired developers to make room for AI. Developers create open source AI CEO</a> · <a href="https://news.ycombinator.com/item?id=49458418">HN</a></td>
-<td align="right">937</td>
-<td align="right">647</td>
-<td align="left">The story of developers responding to being replaced by AI with the creation of an open-source AI CEO ignites discussions on workplace dynamics and AI&#39;s impact on employment. It&#39;s a highly polarizing issue, eliciting strong reactions about job security and technological displacement.</td>
-</tr>
-<tr>
 <td align="left"><a href="https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/">Nvidia projects $673B in sales as AI demand widens</a> · <a href="https://news.ycombinator.com/item?id=49466052">HN</a></td>
 <td align="right">102</td>
 <td align="right">99</td>
-<td align="left">Nvidia&#39;s ambitious sales forecast reflects the soaring demand for AI technology. This projection is generating discussions about market trends and the future of AI hardware.</td>
+<td align="left">Nvidia&#39;s ambitious sales forecast highlights the growing influence of AI technology across industries. This news has fueled conversations about the economic impact of AI and what this means for the tech landscape moving forward.</td>
 </tr>
 </tbody></table>
 <h3>💬 Opinions &amp; Debates</h3>
@@ -3186,17 +3991,23 @@ These issues are currently being investigated, and some may have pending fix PRs
 </thead>
 <tbody><tr>
 <td align="left"><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> · <a href="https://news.ycombinator.com/item?id=49447057">HN</a></td>
-<td align="right">202</td>
-<td align="right">450</td>
-<td align="left">This piece reflects on the chaotic evolution of AI and the pressing decisions society must confront, resonating with many readers who feel that AI&#39;s rapid growth outpaces ethical considerations. The extensive commentary signals a community grappling with both excitement and concern about AI’s trajectory.</td>
+<td align="right">210</td>
+<td align="right">456</td>
+<td align="left">This article ignites a substantial discussion on the ethical considerations surrounding AI technology advancements. Commentary reflects a consensus that while opportunities abound, caution is required to navigate the associated risks.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://economist.com/by-invitation/2026/08/20/humanity-has-the-debate-about-ai-consciousness-backwards">Humanity has the debate about AI consciousness backwards</a> · <a href="https://news.ycombinator.com/item?id=49458875">HN</a></td>
+<td align="right">84</td>
+<td align="right">262</td>
+<td align="left">The ongoing debate sparked by this piece showcases significant divergence in perspectives concerning the definition and recognition of AI consciousness. Community reactions reveal both skepticism and curiosity about future implications.</td>
 </tr>
 </tbody></table>
 <h2>Community Sentiment Signal</h2>
-<p>Today&#39;s discussions on Hacker News are dominated by the impact of AI on both technology and the workforce. High engagement with stories about new model releases, particularly Google&#39;s innovations, indicates a strong interest in practical applications of advanced AI capabilities. Meanwhile, the emotional turmoil surrounding job displacement and its implications—humorously embodied by the story of developers creating an AI CEO—shows a mix of skepticism and acceptance of AI advancements. The community exhibits a blend of enthusiasm for technological progress and caution about its social ramifications, marking a notable shift from purely technical discussions to more nuanced conversations about AI&#39;s role in our daily lives and job markets.</p>
+<p>The community&#39;s mood appears to be a blend of cautious optimism and critical evaluation as discussions on AI models, their applicability, and ethical ramifications dominate the conversations. High-scoring topics, such as Google&#39;s Gemini-3.5 and Nvidia&#39;s revenue forecasts, signify robust interest in practical advancements and economic implications. Conversely, there remains skepticism and a desire for ethical scrutiny, particularly surrounding AI consciousness debates. Compared to previous cycles, there&#39;s a noticeable shift towards understanding AI&#39;s operational impact in real-world environments rather than solely theoretical discussions.</p>
 <h2>Worth Deep Reading</h2>
 <ul>
-<li><strong><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a></strong>: This article outlines critical discussions about the ethical choices surrounding AI, significant for anyone navigating the complexities of modern AI technology.</li>
-<li><strong><a href="https://github.com/SenteLabsAI/OpenExecutive">CEO fired developers to make room for AI. Developers create open source AI CEO</a></strong>: This piece highlights the creative responses of developers to job displacement by AI, offering insights into workforce adaptation and the future of employment in tech.</li>
+<li><strong><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a></strong>: This article brings essential insights into the ethical landscape and potential pitfalls as AI technologies continue to evolve rapidly.</li>
+<li><strong><a href="https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/">Nvidia projects $673B in sales as AI demand widens</a></strong>: A deep dive into how major players like Nvidia are anticipating a revolution in AI demand and what it signifies for the tech industry.</li>
 </ul>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
@@ -3207,17 +4018,17 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI 研究日报 2026-08-28 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-08-28 00:44 UTC ArXiv AI Research Digest (2026年8月28日) 今日亮点 近期的提交表明在AI领域中利用视觉推理和多模态集成方面取得了显著进展。值得注意的论文强调了视觉推理的可扩展框架，以及大语言模型中持续学习的增强算法。对实际应用的日益关注，例如土木工程中的合规检查和生理监测，凸显了通过AI技术应对现实世界挑战的趋势。 关键论文 🧠 大语言模型 论文 作者 摘要 Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders Raphaël B.-G. 等 本研究介绍了用于中微子物理的稀疏自编码器，验证了在训练模型中识别物理概念的能力。它代表了机器学习与粒子物理的新交集，有助于模型的透明性。 Prefix Sliding for efficient ...</description>
+      <description>ArXiv AI 研究日报 2026-08-28 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-08-28 01:11 UTC ArXiv AI 研究简报 - 2026-08-28 今日亮点 近期提交到 ArXiv 的论文显示了在多模态背景和大型语言模型（LLM）中增强效率和鲁棒性方面的强烈关注。研究人员强调了持续学习、提高可解释性和减少 AI 应用中的偏见的新框架。特别是，将视觉推理与语言理解相结合的进展标志着向更具凝聚力的 AI 系统迈进，这些系统能够在不同模态上执行复杂的推理任务。 关键论文 🧠 大型语言模型 论文 作者 摘要 Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving Cong Xu et al. 本研究提出了一种决策层，通过语言引导的意图分析来最小化自主驾驶中的规划失败。这项工作强调了预测用户意图在提高...</description>
       <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-08-28</h1>
 <blockquote>
-<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-08-28 00:44 UTC</p>
+<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
-<h1>ArXiv AI Research Digest (2026年8月28日)</h1>
+<h1>ArXiv AI 研究简报 - 2026-08-28</h1>
 <h2>今日亮点</h2>
-<p>近期的提交表明在AI领域中利用视觉推理和多模态集成方面取得了显著进展。值得注意的论文强调了视觉推理的可扩展框架，以及大语言模型中持续学习的增强算法。对实际应用的日益关注，例如土木工程中的合规检查和生理监测，凸显了通过AI技术应对现实世界挑战的趋势。</p>
+<p>近期提交到 ArXiv 的论文显示了在多模态背景和大型语言模型（LLM）中增强效率和鲁棒性方面的强烈关注。研究人员强调了持续学习、提高可解释性和减少 AI 应用中的偏见的新框架。特别是，将视觉推理与语言理解相结合的进展标志着向更具凝聚力的 AI 系统迈进，这些系统能够在不同模态上执行复杂的推理任务。</p>
 <h2>关键论文</h2>
-<h3>🧠 大语言模型</h3>
+<h3>🧠 大型语言模型</h3>
 <table>
 <thead>
 <tr>
@@ -3227,14 +4038,19 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26090v1">Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders</a></td>
-<td align="left">Raphaël B.-G. 等</td>
-<td align="left">本研究介绍了用于中微子物理的稀疏自编码器，验证了在训练模型中识别物理概念的能力。它代表了机器学习与粒子物理的新交集，有助于模型的透明性。</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26074v1">Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving</a></td>
+<td align="left">Cong Xu et al.</td>
+<td align="left">本研究提出了一种决策层，通过语言引导的意图分析来最小化自主驾驶中的规划失败。这项工作强调了预测用户意图在提高自主系统安全性和有效性方面的重要性。</td>
 </tr>
 <tr>
 <td align="left"><a href="http://arxiv.org/abs/2608.26070v1">Prefix Sliding for efficient test-time scaling</a></td>
-<td align="left">Niklas M. 等</td>
-<td align="left">本文提出了一种优化语言模型测试时推理效率的方法，解决了与复杂任务相关的高计算成本。通过提出一种新颖的方法来管理推理痕迹，可能在现实应用中实现实际改进。</td>
+<td align="left">Niklas Muennighoff et al.</td>
+<td align="left">作者提出了一种高效策略，利用前缀滑动技术在测试时增强 LLM 的性能。这项工作直接解决了 LLM 中复杂推理任务相关的高计算成本。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.25977v1">When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs</a></td>
+<td align="left">Yao Fu et al.</td>
+<td align="left">本文分析了量化对 LLM 人格特征的影响，采用 MBTI 框架作为评估工具。理解 AI 中的人格可以增强用户交互和信任，这是有效部署的关键。</td>
 </tr>
 </tbody></table>
 <h3>🤖 代理与推理</h3>
@@ -3248,13 +4064,13 @@ These issues are currently being investigated, and some may have pending fix PRs
 </thead>
 <tbody><tr>
 <td align="left"><a href="http://arxiv.org/abs/2608.26093v1">Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher&#39;s Role</a></td>
-<td align="left">Ahmad K. 等</td>
-<td align="left">本文讨论了一种自主代理，完全设计用于无线资源管理的机器学习算法，从而彻底改变了该领域研究者的角色。通过自动化传统繁重的流程，提升了效率与创新。</td>
+<td align="left">Ahmad Khan et al.</td>
+<td align="left">本文介绍了一种自主代理，可以为无线资源管理设计机器学习架构，消除了手动输入的需求。这一能力显著加速了研究过程并减少了偏见。</td>
 </tr>
 <tr>
 <td align="left"><a href="http://arxiv.org/abs/2608.25935v1">TAU-Agent: An Agentic Retrieval-Augmented Framework for Traffic Anomaly Understanding</a></td>
-<td align="left">Yuqiang L. 等</td>
-<td align="left">作者提出了一种框架，旨在理解交通异常，结合了增强检索生成（RAG）与基于代理的互动。这种方法为解析视频数据中的复杂交通场景提供了结构化的方法论。</td>
+<td align="left">Yuqiang Lin et al.</td>
+<td align="left">TAU-Agent 被提议作为理解交通异常的框架，有效结合了检索和推理过程。这项研究可能为交通监控和管理系统带来显著改善。</td>
 </tr>
 </tbody></table>
 <h3>🔧 方法与框架</h3>
@@ -3267,14 +4083,14 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.25968v1">Quantitative Analysis of $ω$-Regular Robust MDPs</a></td>
-<td align="left">Ali A. 等</td>
-<td align="left">本研究深入探讨了强健的马尔可夫决策过程，重点量化不确定性下的性能，推进了风险下决策的理论基础。这为不确定环境中的更强大AI系统铺平了道路。</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26013v1">VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following</a></td>
+<td align="left">Min Zeng et al.</td>
+<td align="left">本研究提出了一种新的数据合成框架，使多模态指令跟随模型能够自适应进化。它解决了数据准确性和多样性的挑战，这对于稳健的 AI 训练至关重要。</td>
 </tr>
 <tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26013v1">VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following</a></td>
-<td align="left">Min Z. 等</td>
-<td align="left">本文提出了一种自我进化的数据合成方法，以增强多模态指令跟随能力，确保数据的准确性和多样性。这一创新对训练能够处理多种指令模态的稳健AI模型至关重要。</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26083v1">ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing</a></td>
+<td align="left">Roshan Prakash Rane et al.</td>
+<td align="left">该方法提供了一种通过检查概念级表征来解释深度神经网络行为的方式。通过提供更深入的理解，这一方法旨在缓解 AI 系统中快捷学习的问题。</td>
 </tr>
 </tbody></table>
 <h3>📊 应用</h3>
@@ -3287,27 +4103,24 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26091v1">PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans</a></td>
-<td align="left">Nabaraj S. 等</td>
-<td align="left">本研究强调了一种用于土木基础设施计划合规检查的多模态框架，将传统手动过程转变为自动化解决方案。它展示了AI技术在提升工程工作流程方面的现实可行性。</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26060v1">Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study</a></td>
+<td align="left">Leonardo Duart et al.</td>
+<td align="left">该研究专注于为土著语言适应语音识别技术，展示了在 AI 训练和部署中实现包容性的必要性。这项工作不仅促进了文化保护，也增强了技术进步的可及性。</td>
 </tr>
 <tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26000v1">CardioFusion-AI: Robust ECG--PPG Fusion for Multimodal Physiological Monitoring Under Signal Degradation</a></td>
-<td align="left">Navaneetha K.K. 等</td>
-<td align="left">该研究提出了一种心电图（ECG）与光电容积脉搏波（PPG）信号融合策略，增强了对信号下降的鲁棒性，这对于可靠的生理监测至关重要。这一进展可以显著改善可穿戴设备中的健康监测技术。</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26088v1">Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings</a></td>
+<td align="left">Evelyn Ma et al.</td>
+<td align="left">本研究通过改进地理空间建模来应对全球挑战，提出了一种新的引擎，能够自主选择数据以提高预测准确性。这些进步对应对食品安全和灾害风险管理等危机至关重要。</td>
 </tr>
 </tbody></table>
 <h2>研究趋势信号</h2>
-<p>新兴研究趋势表明，AI系统的可解释性和效率得到增强，特别是通过支持多模态集成和自主代理行为的新方法。观察到向实际应用的显著转变，几篇论文探讨了AI在土木工程和医疗等领域的现实影响。这显示出越来越多的人认识到将AI研究与社会需求和操作挑战对齐的重要性。</p>
-<h2>值得深度阅读</h2>
-<ol>
-<li><p><strong><a href="http://arxiv.org/abs/2608.26093v1">Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher&#39;s Role</a></strong> - 本文不仅提出了对机器学习算法开发模式的重大变革，强调了自动化在简化研究过程中的作用。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2608.26091v1">PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans</a></strong> - AI在土木工程中的整合是技术如何创新合规流程的典范，回应了工程工作流程中对自动化的迫切需求。 </p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2608.26013v1">VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following</a></strong> - 本文在多模态系统的训练数据合成方面提出了重大进展，对于开发能够理解不同格式复杂指令的稳健AI系统至关重要。</p>
-</li>
-</ol>
+<p>新兴的研究方向显著显示出多模态能力与语言理解和推理的交集。多篇论文专注于提高模型的效率和适应性，以便在特定环境中（如交通监控和自主系统）实现更好的性能。此外，推动 AI 模型更加可解释和减少偏见的趋势显著增加，以确保其在多种应用中的道德部署。此外，持续学习框架中反馈机制的集成表明，AI 系统对动态适应性必要性的日益关注。</p>
+<h2>值得深入阅读</h2>
+<ul>
+<li><strong><a href="http://arxiv.org/abs/2608.26105v1">VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning</a></strong>: 本文提出了一种新的视觉推理框架，强调视觉状态在问题解决中的作用。随着对视觉数据理解需求的增长，这项研究可能对未来的 AI 模型产生重大影响。</li>
+<li><strong><a href="http://arxiv.org/abs/2608.26043v1">Robust CurveMoE: Multi-Norm Adversarial Defense for Mixture-of-Experts Models via Mode Connectivity</a></strong>: 提供了一种针对对抗攻击的模型鲁棒性创新方法，这项工作与安全问题在 AI 应用中的重要性日益上升密切相关。</li>
+<li><strong><a href="http://arxiv.org/abs/2608.26090v1">Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders</a></strong>: 本研究在粒子物理中应用可解释机器学习概念取得了突破，结合理论基础与复杂领域中的具体结果。</li>
+</ul>
 <hr>
 <p><em>本日报由 <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
@@ -3317,15 +4130,15 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-arxiv-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI Research Digest 2026-08-28 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 00:44 UTC ArXiv AI Research Digest (August 28, 2026) Today&amp;#39;s Highlights Recent submissions reflect significant advancements in leveraging visual reasoning and multimodal integration within AI. Notable papers emphasize scalable frameworks for visual reasoning as well as enhanced algorithms for continual learning in large language models. The growing focus on practical applications, such...</description>
+      <description>ArXiv AI Research Digest 2026-08-28 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 01:11 UTC ArXiv AI Research Digest - 2026-08-28 Today&amp;#39;s Highlights Recent submissions to ArXiv reflect a strong focus on enhancing efficiency and robustness in AI systems, particularly in multimodal contexts and large language models (LLMs). Researchers are emphasizing novel frameworks for continuous learning, better interpretability, and reduced bias in AI applications. Notably, advan...</description>
       <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-08-28</h1>
 <blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 00:44 UTC</p>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
-<h1>ArXiv AI Research Digest (August 28, 2026)</h1>
+<h1>ArXiv AI Research Digest - 2026-08-28</h1>
 <h2>Today&#39;s Highlights</h2>
-<p>Recent submissions reflect significant advancements in leveraging visual reasoning and multimodal integration within AI. Notable papers emphasize scalable frameworks for visual reasoning as well as enhanced algorithms for continual learning in large language models. The growing focus on practical applications, such as compliance checking in civil engineering and physiological monitoring, highlights a shift towards addressing real-world challenges through AI technology.</p>
+<p>Recent submissions to ArXiv reflect a strong focus on enhancing efficiency and robustness in AI systems, particularly in multimodal contexts and large language models (LLMs). Researchers are emphasizing novel frameworks for continuous learning, better interpretability, and reduced bias in AI applications. Notably, advancements in integrating visual reasoning with language understanding signal an important shift towards more cohesive AI systems capable of complex reasoning tasks across different modalities.</p>
 <h2>Key Papers</h2>
 <h3>🧠 Large Language Models</h3>
 <table>
@@ -3337,14 +4150,19 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26090v1">Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders</a></td>
-<td align="left">Raphaël B.-G. et al.</td>
-<td align="left">This work introduces sparse autoencoders for mechanistic interpretability in neutrino physics, validating the identification of physical concepts in a trained model. It represents a novel intersection of machine learning and particle physics, aiding in model transparency.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26074v1">Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interaction Decision Failures in Autonomous Driving</a></td>
+<td align="left">Cong Xu et al.</td>
+<td align="left">This study introduces a decision layer that uses language-guided intent analysis to minimize planning failures in autonomous driving. This work underscores the importance of anticipating user intent in improving safety and effectiveness in autonomous systems.</td>
 </tr>
 <tr>
 <td align="left"><a href="http://arxiv.org/abs/2608.26070v1">Prefix Sliding for efficient test-time scaling</a></td>
-<td align="left">Niklas M. et al.</td>
-<td align="left">This paper presents a method to optimize reasoning efficiency during test-time for language models, addressing the high computational costs associated with complex tasks. By proposing a novel approach to manage reasoning traces, it holds potential for practical improvements in real-world applications.</td>
+<td align="left">Niklas Muennighoff et al.</td>
+<td align="left">The authors propose an efficient strategy to enhance LLM performance during test time by utilizing a technique known as prefix sliding. This work directly addresses the high computational costs associated with complex reasoning tasks in LLMs.</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.25977v1">When Personality Meets Quantization: A Layer-wise MBTI Analysis of Quantized LLMs</a></td>
+<td align="left">Yao Fu et al.</td>
+<td align="left">The paper analyzes the impact of quantization on the personality traits of LLMs, employing the MBTI framework as an assessment tool. Understanding personality in AI can enhance user interaction and trust, vital for effective deployment.</td>
 </tr>
 </tbody></table>
 <h3>🤖 Agents &amp; Reasoning</h3>
@@ -3358,13 +4176,13 @@ These issues are currently being investigated, and some may have pending fix PRs
 </thead>
 <tbody><tr>
 <td align="left"><a href="http://arxiv.org/abs/2608.26093v1">Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher&#39;s Role</a></td>
-<td align="left">Ahmad K. et al.</td>
-<td align="left">This paper discusses an autonomous agent that fully design machine learning algorithms for wireless resource management, thereby revolutionizing the role of researchers in this field. It promotes efficiency and innovation by automating traditional, labor-intensive processes.</td>
+<td align="left">Ahmad Khan et al.</td>
+<td align="left">The paper presents an autonomous agent that can design machine learning architectures for wireless resource management, removing the need for manual input. This capability significantly accelerates the research process and reduces bias.</td>
 </tr>
 <tr>
 <td align="left"><a href="http://arxiv.org/abs/2608.25935v1">TAU-Agent: An Agentic Retrieval-Augmented Framework for Traffic Anomaly Understanding</a></td>
-<td align="left">Yuqiang L. et al.</td>
-<td align="left">The authors propose a framework designed for understanding traffic anomalies, combining retrieval-augmented generation (RAG) with agent-based interaction. This approach offers a structured methodology for interpreting complex traffic scenarios in video data.</td>
+<td align="left">Yuqiang Lin et al.</td>
+<td align="left">TAU-Agent is proposed as a framework for understanding traffic anomalies, effectively combining retrieval and reasoning processes. This research could lead to substantial improvements in traffic monitoring and management systems.</td>
 </tr>
 </tbody></table>
 <h3>🔧 Methods &amp; Frameworks</h3>
@@ -3377,14 +4195,14 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.25968v1">Quantitative Analysis of $ω$-Regular Robust MDPs</a></td>
-<td align="left">Ali A. et al.</td>
-<td align="left">This research delves into robust Markov Decision Processes with a focus on quantifying performance under uncertainty, advancing theoretical foundations in decision-making under risk. It paves the way for more robust AI systems in uncertain environments.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26013v1">VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following</a></td>
+<td align="left">Min Zeng et al.</td>
+<td align="left">This work introduces a new data synthesis framework that allows multimodal instruction-following models to adaptively evolve. It addresses the challenges of data accuracy and diversity, which are essential for robust AI training.</td>
 </tr>
 <tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26013v1">VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following</a></td>
-<td align="left">Min Z. et al.</td>
-<td align="left">The paper introduces a self-evolving data synthesis method for enhancing multimodal instruction-following capabilities, ensuring data accuracy and diversity. This innovation is crucial for training resilient AI models capable of handling various instruction modalities.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26083v1">ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing</a></td>
+<td align="left">Roshan Prakash Rane et al.</td>
+<td align="left">This approach offers a way to explain the behaviors of deep neural networks by examining concept-level representations. By providing deeper understanding, this method aims to mitigate issues of shortcut learning in AI systems.</td>
 </tr>
 </tbody></table>
 <h3>📊 Applications</h3>
@@ -3397,27 +4215,24 @@ These issues are currently being investigated, and some may have pending fix PRs
 </tr>
 </thead>
 <tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26091v1">PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans</a></td>
-<td align="left">Nabaraj S. et al.</td>
-<td align="left">This research highlights a multimodal framework for compliance checking of civil infrastructure plans, transforming traditional manual processes into automated solutions. It demonstrates the real-world viability of AI technologies in enhancing engineering workflows.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26060v1">Fine-Tuning Whisper for Automatic Speech Recognition in Baniwa: A Preliminary Study</a></td>
+<td align="left">Leonardo Duart et al.</td>
+<td align="left">The study focuses on adapting speech recognition technology for indigenous languages, demonstrating the need for inclusivity in AI training and deployment. This work not only promotes cultural preservation but also enhances accessibility in technological advancements.</td>
 </tr>
 <tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.26000v1">CardioFusion-AI: Robust ECG--PPG Fusion for Multimodal Physiological Monitoring Under Signal Degradation</a></td>
-<td align="left">Navaneetha K.K. et al.</td>
-<td align="left">The study proposes a fusion strategy for ECG and PPG signals that enhances robustness against signal degradation, which is vital for reliable physiological monitoring. This advancement can significantly improve health monitoring technologies in wearable devices.</td>
+<td align="left"><a href="http://arxiv.org/abs/2608.26088v1">Planetary Prediction Engine: Autonomous Geospatial Prediction via Intelligent Data Selection and Foundation Model Embeddings</a></td>
+<td align="left">Evelyn Ma et al.</td>
+<td align="left">Addressing global challenges via improved geospatial modeling, this research presents a new engine capable of selecting data autonomously for more accurate predictions. Such advancements are crucial for effective responses to crises such as food security and disaster risk management.</td>
 </tr>
 </tbody></table>
 <h2>Research Trend Signal</h2>
-<p>Emerging research trends indicate a strong focus on enhancing the interpretability and efficiency of AI systems, particularly through novel methods that support multimodal integration and autonomous agent behavior. A noticeable shift is observed toward practical applications, with several papers exploring real-world implications of AI, such as in civil engineering and healthcare. This indicates a growing recognition of the importance of aligning AI research with societal needs and operational challenges.</p>
+<p>Emerging research directions prominently feature the intersection of multimodal capabilities with language understanding and reasoning. Several papers focus on improving the efficiency and adaptability of models to enable better performance in specific contexts, such as traffic monitoring and autonomous systems. There is also a notable push towards making AI models more interpretable and less biased, ensuring their ethical deployment across diverse applications. Additionally, the integration of feedback mechanisms within frameworks for continued learning suggests a growing awareness of the necessity for dynamic adaptability in AI systems.</p>
 <h2>Worth Deep Reading</h2>
-<ol>
-<li><p><strong><a href="http://arxiv.org/abs/2608.26093v1">Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Researcher&#39;s Role</a></strong> - This paper not only proposes a paradigm shift in how machine learning algorithms are developed for critical applications but also emphasizes the role of automation in streamlining research processes.</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2608.26091v1">PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans</a></strong> - The integration of AI in civil engineering is exemplary of how technology can innovate compliance processes, addressing a pressing need for automation in engineering workflows. </p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2608.26013v1">VISA: Agentic Self-Evolving Data Synthesis for Multimodal Instruction Following</a></strong> - This paper presents a significant advancement in synthesizing training data for multimodal systems, which is critical for the development of robust AI systems capable of understanding complex instructions across different formats.</p>
-</li>
-</ol>
+<ul>
+<li><strong><a href="http://arxiv.org/abs/2608.26105v1">VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning</a></strong>: This paper proposes a new framework for visual reasoning, emphasizing the role of visual states in problem-solving. As the need for visual data understanding grows, this research could greatly influence future AI models.</li>
+<li><strong><a href="http://arxiv.org/abs/2608.26043v1">Robust CurveMoE: Multi-Norm Adversarial Defense for Mixture-of-Experts Models via Mode Connectivity</a></strong>: Offering an innovative approach to model robustness against adversarial attacks, this work is pertinent as security concerns continue to climb in relevance within AI applications.</li>
+<li><strong><a href="http://arxiv.org/abs/2608.26090v1">Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders</a></strong>: This research presents a breakthrough in applying interpretable machine learning concepts in particle physics, combining theoretical foundations with tangible results in complex domains.</li>
+</ul>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
@@ -3427,21 +4242,21 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-08-28 数据来源: Dev.to (30 篇) + Lobste.rs (3 条) | 生成时间: 2026-08-28 00:44 UTC 技术社区 AI 摘要 – 2026年8月28日 今日亮点 本周，技术社区在讨论人工智能在软件开发中不断演变的角色，特别是对更好提示质量的需求和人工智能交付成果的影响。文章强调了对AI工具可靠性的担忧，并提供了新功能的见解，例如改进的评论分类和代理中的有效内存管理。关于AI能力的哲学辩论仍在继续，同时也在实际探索利用AI协助编程。 Dev.to 精选 文章 反应 评论 摘要 Velocidade de entrega e custo de manutenção pós IA 62 2 文章讨论了得益于AI的功能快速交付，与不变的维护成本形成对比。它强调了开发者在效率与持续开支之间平衡所面临的挑战。 Stratagems #25: Derek Changed the Delay. The AI Didn&amp;#39;t Flinch. 45 53 一篇引人入胜的文章，探讨了AI在软件开发中如何处理变化参数，提供了适...</description>
+      <description>技术社区 AI 动态日报 2026-08-28 数据来源: Dev.to (30 篇) + Lobste.rs (3 条) | 生成时间: 2026-08-28 01:11 UTC AI 摘要 - 2026年8月28日 今日要点 科技社区对人工智能在软件开发中的作用充满热议，特别是人工智能工具在代码审查和调试中的实用性。文章强调了人工智能解决方案的快速交付与其长期维护成本之间的矛盾。开发者们也在批判性地评估人工智能输出的准确性和可靠性，尤其是在安全性和编码辅助方面。 Dev.to 精选 文章 反馈 评论 摘要 Velocidade de entrega e custo de manutenção pós IA 62 2 探讨人工智能解决方案的快速交付与不变的维护成本。强调在人工智能应用中的可持续实践的重要性。 Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It. 12 3 讨论依赖次级人工智能模型进行验证的固有缺陷。强调需要严格的测试和验证方法。 I&amp;#39;m 12. A seni...</description>
       <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-28</h1>
 <blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (3 条) | 生成时间: 2026-08-28 00:44 UTC</p>
+<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (3 条) | 生成时间: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
-<h1>技术社区 AI 摘要 – 2026年8月28日</h1>
-<h2>今日亮点</h2>
-<p>本周，技术社区在讨论人工智能在软件开发中不断演变的角色，特别是对更好提示质量的需求和人工智能交付成果的影响。文章强调了对AI工具可靠性的担忧，并提供了新功能的见解，例如改进的评论分类和代理中的有效内存管理。关于AI能力的哲学辩论仍在继续，同时也在实际探索利用AI协助编程。</p>
+<h1>AI 摘要 - 2026年8月28日</h1>
+<h2>今日要点</h2>
+<p>科技社区对人工智能在软件开发中的作用充满热议，特别是人工智能工具在代码审查和调试中的实用性。文章强调了人工智能解决方案的快速交付与其长期维护成本之间的矛盾。开发者们也在批判性地评估人工智能输出的准确性和可靠性，尤其是在安全性和编码辅助方面。</p>
 <h2>Dev.to 精选</h2>
 <table>
 <thead>
 <tr>
 <th align="left">文章</th>
-<th align="right">反应</th>
+<th align="right">反馈</th>
 <th align="right">评论</th>
 <th align="left">摘要</th>
 </tr>
@@ -3450,31 +4265,31 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://dev.to/he4rt/velocidade-de-entrega-e-custo-de-manutencao-pos-ia-5gei">Velocidade de entrega e custo de manutenção pós IA</a></td>
 <td align="right">62</td>
 <td align="right">2</td>
-<td align="left">文章讨论了得益于AI的功能快速交付，与不变的维护成本形成对比。它强调了开发者在效率与持续开支之间平衡所面临的挑战。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/xulingfeng/stratagems-25-derek-changed-the-delay-the-ai-didnt-flinch-28ca">Stratagems #25: Derek Changed the Delay. The AI Didn&#39;t Flinch.</a></td>
-<td align="right">45</td>
-<td align="right">53</td>
-<td align="left">一篇引人入胜的文章，探讨了AI在软件开发中如何处理变化参数，提供了适应性的见解。鼓励开发者重新考虑在AI集成中的策略。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/sarvar_04/nexpath-review-the-prompt-quality-layer-for-cursor-windsurf-and-claude-code-353n">NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code</a></td>
-<td align="right">41</td>
-<td align="right">9</td>
-<td align="left">这篇文章提出了一种新工具NexPath，旨在提高提供给AI编码代理的提示质量。它解决了开发者与AI工具之间常见的沟通问题。</td>
+<td align="left">探讨人工智能解决方案的快速交付与不变的维护成本。强调在人工智能应用中的可持续实践的重要性。</td>
 </tr>
 <tr>
 <td align="left"><a href="https://dev.to/debashish_ghosal/most-ai-second-opinions-are-fake-i-built-a-two-llm-review-engine-to-prove-it-17e7">Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.</a></td>
 <td align="right">12</td>
 <td align="right">3</td>
-<td align="left">作者提供了证据，表明许多AI生成的第二意见缺乏真正的思维多样性。这突显了对AI贡献持怀疑态度的必要性。</td>
+<td align="left">讨论依赖次级人工智能模型进行验证的固有缺陷。强调需要严格的测试和验证方法。</td>
 </tr>
 <tr>
-<td align="left"><a href="https://dev.to/anushka190921/building-my-first-ai-project-what-went-right-and-what-went-wrong-3043">Building My First AI Project: What Went Right and What Went Wrong</a></td>
-<td align="right">1</td>
+<td align="left"><a href="https://dev.to/koda2026/im-12-a-senior-dev-broke-my-app-then-he-became-my-first-user-meh">I&#39;m 12. A senior dev broke my app. Then he became User #001</a></td>
+<td align="right">13</td>
+<td align="right">2</td>
+<td align="left">一个关于年轻开发者如何克服挑战的个人故事。为初学者在项目探索中的导航提供了启发。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/ramses203/i-gave-a-regex-and-an-llm-the-same-exam-fatal-3-vs-fatal-0-43c4">I Gave a Regex and an LLM the Same Exam. Fatal 3 vs Fatal 0.</a></td>
+<td align="right">3</td>
 <td align="right">0</td>
-<td align="left">个人反思了在开发AI项目时所面临的成功与挑战。这为新手提供了宝贵的经验教训。</td>
+<td align="left">比较在测试条件下正则表达式工具与LLM的性能。对传统与现代编码工具的可靠性进行了深入分析。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/theaidownside/chatgpt-now-guesses-your-age-and-restricts-you-by-default-if-it-thinks-youre-under-18-2ii0">ChatGPT Now Guesses Your Age — and Restricts You by Default if It Thinks You&#39;re Under 18</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">讨论当人工智能模型开始施加年龄限制时的隐私影响。提出了关于用户自主权和数据处理的问题。</td>
 </tr>
 </tbody></table>
 <h2>Lobste.rs 精选</h2>
@@ -3491,28 +4306,28 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> · <a href="https://lobste.rs/s/aixljs/turbulent_ai_era_is_here">讨论</a></td>
 <td align="right">10</td>
 <td align="right">21</td>
-<td align="left">这篇文章深入探讨了社会在迅速发展的AI浪潮中所面临的挑战和选择。它鼓励以审慎的态度将AI融入日常生活。</td>
+<td align="left">一项关于人工智能开发相关关键选择的审视。提供关于人工智能在技术中的社会影响和伦理考量的观点。</td>
 </tr>
 <tr>
 <td align="left"><a href="https://entropicthoughts.com/ai-comment-classifier">Robot comment classifier</a> · <a href="https://lobste.rs/s/ilfiqa/robot_comment_classifier">讨论</a></td>
 <td align="right">8</td>
 <td align="right">5</td>
-<td align="left">文章介绍了一种新的AI工具，旨在自动分类评论，增强内容审核框架。这可以显著协助平台管理用户互动。</td>
+<td align="left">介绍了一种使用人工智能对评论进行分类的工具，关注内容审核中的自动化。对希望提升用户体验的开发者非常有价值。</td>
 </tr>
 <tr>
 <td align="left"><a href="https://arxiv.org/abs/2408.06602">Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior</a> · <a href="https://lobste.rs/s/2djazj/super_intelligence_superstition">讨论</a></td>
 <td align="right">5</td>
 <td align="right">0</td>
-<td align="left">该研究分析了人们在多大程度上信任AI生成的关于个人行为的预测。这是理解社会对AI看法的关键阅读。</td>
+<td align="left">探讨对人工智能预测信任的心理因素。对那些关心人工智能与人类行为互动的读者而言，十分重要。</td>
 </tr>
 </tbody></table>
-<h2>社区脉动</h2>
-<p>技术社区目前专注于AI工具在软件开发中的实际应用，尤其对提示优化和AI预测的可靠性表现出浓厚的兴趣。开发者们对AI生成输出的准确性和透明性表示担忧，强调了与这些技术进行批判性互动的重要性。此外，围绕AI项目开发的最佳实践和利用AI提升生产力的讨论逐渐升温，表明AI正逐步融入标准编码工作流程中。</p>
+<h2>社区脉搏</h2>
+<p>两个平台都突显出对人工智能输出可靠性日益增长的不信任，尤其是在调试和代码生成等关键编码功能中。开发者们对有缺陷的人工智能决策对生产力和项目结果的影响表示担忧。关于验证人工智能生成的代码的实用教程正在涌现，鼓励社区参与测试方法的探索。同时，随着人工智能工具在日常编码实践中的使用扩展，关于负责任部署人工智能工具的讨论也变得越来越关键。</p>
 <h2>值得阅读</h2>
 <ol>
-<li><a href="https://dev.to/sarvar_04/nexpath-review-the-prompt-quality-layer-for-cursor-windsurf-and-claude-code-353n">NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code</a></li>
+<li><a href="https://dev.to/he4rt/velocidade-de-entrega-e-custo-de-manutencao-pos-ia-5gei">Velocidade de entrega e custo de manutenção pós IA</a></li>
+<li><a href="https://dev.to/debashish_ghosal/most-ai-second-opinions-are-fake-i-built-a-two-llm-review-engine-to-prove-it-17e7">Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.</a></li>
 <li><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a></li>
-<li><a href="https://arxiv.org/abs/2408.06602">Super-intelligence or Superstition?</a></li>
 </ol>
 <hr>
 <hr>
@@ -3524,15 +4339,15 @@ These issues are currently being investigated, and some may have pending fix PRs
       <link>https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community-en</link>
       <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-28/ai-community-en</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-08-28 Sources: Dev.to (30 articles) + Lobste.rs (3 stories) | Generated: 2026-08-28 00:44 UTC Tech Community AI Digest – August 28, 2026 Today&amp;#39;s Highlights This week, the tech community is buzzing with discussions on AI&amp;#39;s evolving role in software development, particularly around the need for better prompt quality and the implications of AI&amp;#39;s deliverables. Articles emphasize concerns about AI tools&amp;#39; reliability and offer insights into new functionali...</description>
+      <description>Tech Community AI Digest 2026-08-28 Sources: Dev.to (30 articles) + Lobste.rs (3 stories) | Generated: 2026-08-28 01:11 UTC AI Digest - August 28, 2026 Today&amp;#39;s Highlights The tech community is buzzing with discussions about the role of AI in software development, particularly the practicality of AI tools in code review and debugging. Articles are highlighting the dichotomy between rapid delivery of AI solutions and their long-term maintenance costs. Developers are also critically evaluating ...</description>
       <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-08-28</h1>
 <blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (3 stories) | Generated: 2026-08-28 00:44 UTC</p>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (3 stories) | Generated: 2026-08-28 01:11 UTC</p>
 </blockquote>
 <hr>
-<h1>Tech Community AI Digest – August 28, 2026</h1>
+<h1>AI Digest - August 28, 2026</h1>
 <h2>Today&#39;s Highlights</h2>
-<p>This week, the tech community is buzzing with discussions on AI&#39;s evolving role in software development, particularly around the need for better prompt quality and the implications of AI&#39;s deliverables. Articles emphasize concerns about AI tools&#39; reliability and offer insights into new functionalities, such as enhanced comment classification and effective memory management in agents. The philosophical debates on AI&#39;s capabilities continue, alongside practical explorations of coding with AI assistance.</p>
+<p>The tech community is buzzing with discussions about the role of AI in software development, particularly the practicality of AI tools in code review and debugging. Articles are highlighting the dichotomy between rapid delivery of AI solutions and their long-term maintenance costs. Developers are also critically evaluating the accuracy and reliability of AI outputs, especially regarding security and coding assistance.</p>
 <h2>Dev.to Highlights</h2>
 <table>
 <thead>
@@ -3547,31 +4362,31 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://dev.to/he4rt/velocidade-de-entrega-e-custo-de-manutencao-pos-ia-5gei">Velocidade de entrega e custo de manutenção pós IA</a></td>
 <td align="right">62</td>
 <td align="right">2</td>
-<td align="left">The article discusses the rapid delivery of features thanks to AI, contrasting it with unchanged maintenance costs. It highlights the challenges developers face in balancing efficiency and ongoing expenses.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/xulingfeng/stratagems-25-derek-changed-the-delay-the-ai-didnt-flinch-28ca">Stratagems #25: Derek Changed the Delay. The AI Didn&#39;t Flinch.</a></td>
-<td align="right">45</td>
-<td align="right">53</td>
-<td align="left">An intriguing exploration of how AI handled changing parameters in software development, offering insights into adaptability. It encourages developers to reconsider their strategies in AI integration.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/sarvar_04/nexpath-review-the-prompt-quality-layer-for-cursor-windsurf-and-claude-code-353n">NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code</a></td>
-<td align="right">41</td>
-<td align="right">9</td>
-<td align="left">This article proposes a new tool, NexPath, designed to improve the quality of prompts given to AI coding agents. It addresses common issues of miscommunication between developers and AI tools.</td>
+<td align="left">Examines the rapid delivery of AI solutions versus the unchanged cost of maintenance. Highlights the importance of sustainable practices in AI employment.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://dev.to/debashish_ghosal/most-ai-second-opinions-are-fake-i-built-a-two-llm-review-engine-to-prove-it-17e7">Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.</a></td>
 <td align="right">12</td>
 <td align="right">3</td>
-<td align="left">The author presents evidence that many AI-generated second opinions lack true diversity of thought. This highlights the necessity for skepticism regarding AI&#39;s contributions.</td>
+<td align="left">Discusses the inherent flaws in relying on secondary AI models for validation. Emphasizes the need for rigorous testing and validation methodologies.</td>
 </tr>
 <tr>
-<td align="left"><a href="https://dev.to/anushka190921/building-my-first-ai-project-what-went-right-and-what-went-wrong-3043">Building My First AI Project: What Went Right and What Went Wrong</a></td>
-<td align="right">1</td>
+<td align="left"><a href="https://dev.to/koda2026/im-12-a-senior-dev-broke-my-app-then-he-became-my-first-user-meh">I&#39;m 12. A senior dev broke my app. Then he became User #001</a></td>
+<td align="right">13</td>
+<td align="right">2</td>
+<td align="left">A personal story about overcoming challenges as a young developer. Offers inspiration for newcomers navigating their first projects.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/ramses203/i-gave-a-regex-and-an-llm-the-same-exam-fatal-3-vs-fatal-0-43c4">I Gave a Regex and an LLM the Same Exam. Fatal 3 vs Fatal 0.</a></td>
+<td align="right">3</td>
 <td align="right">0</td>
-<td align="left">A personal reflection on the successes and challenges faced when embarking on an AI project. This serves as a valuable lesson for newcomers in the field.</td>
+<td align="left">Compares the performance of a regex tool with an LLM under testing conditions. Insights into the reliability of traditional versus modern coding tools.</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/theaidownside/chatgpt-now-guesses-your-age-and-restricts-you-by-default-if-it-thinks-youre-under-18-2ii0">ChatGPT Now Guesses Your Age — and Restricts You by Default if It Thinks You&#39;re Under 18</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">Discusses privacy implications as AI models begin to enforce age restrictions. Raises questions about user autonomy and data handling.</td>
 </tr>
 </tbody></table>
 <h2>Lobste.rs Highlights</h2>
@@ -3588,28 +4403,28 @@ These issues are currently being investigated, and some may have pending fix PRs
 <td align="left"><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a> · <a href="https://lobste.rs/s/aixljs/turbulent_ai_era_is_here">discuss</a></td>
 <td align="right">10</td>
 <td align="right">21</td>
-<td align="left">This piece delves into the challenges and choices faced by society in the wake of rapid AI advancements. It encourages a thoughtful approach to integrating AI into everyday life.</td>
+<td align="left">An examination of the critical choices surrounding AI development. Offers a perspective on the societal impacts and ethical considerations of AI in technology.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://entropicthoughts.com/ai-comment-classifier">Robot comment classifier</a> · <a href="https://lobste.rs/s/ilfiqa/robot_comment_classifier">discuss</a></td>
 <td align="right">8</td>
 <td align="right">5</td>
-<td align="left">The article presents a new AI tool aimed at classifying comments automatically, enhancing moderation frameworks. This can significantly aid platforms in managing user interactions.</td>
+<td align="left">Introduces a tool for classifying comments using AI, with a focus on automation in content moderation. Valuable for developers looking to enhance user experiences.</td>
 </tr>
 <tr>
 <td align="left"><a href="https://arxiv.org/abs/2408.06602">Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior</a> · <a href="https://lobste.rs/s/2djazj/super_intelligence_superstition">discuss</a></td>
 <td align="right">5</td>
 <td align="right">0</td>
-<td align="left">This study analyzes why people place varying levels of faith in AI-generated predictions regarding personal behavior. It&#39;s a critical read for understanding societal perceptions of AI.</td>
+<td align="left">Investigates the psychological dimensions behind faith in AI forecasts. Important read for those interested in AI&#39;s interaction with human behavior.</td>
 </tr>
 </tbody></table>
 <h2>Community Pulse</h2>
-<p>The tech community is currently focused on practical applications of AI tools in software development, with a keen interest in prompt optimization and the reliability of AI predictions. Developers are expressing concerns about the accuracy and transparency of AI-generated outputs, underscoring the importance of critical engagement with these technologies. Additionally, discussions are emerging around best practices in developing AI projects and leveraging AI for enhanced productivity, suggesting a tightening integration of AI into standard coding workflows.</p>
+<p>Both platforms highlight a growing distrust regarding the reliability of AI outputs, especially in critical coding functions such as debugging and code generation. Developers express concerns about the implications of flawed AI decision-making on productivity and project outcomes. Practical tutorials on validating AI-generated code are emerging, encouraging community engagement in testing methodologies. Meanwhile, conversations about the responsible deployment of AI tools are becoming increasingly critical as usages expand in everyday coding practices.</p>
 <h2>Worth Reading</h2>
 <ol>
-<li><a href="https://dev.to/sarvar_04/nexpath-review-the-prompt-quality-layer-for-cursor-windsurf-and-claude-code-353n">NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code</a></li>
+<li><a href="https://dev.to/he4rt/velocidade-de-entrega-e-custo-de-manutencao-pos-ia-5gei">Velocidade de entrega e custo de manutenção pós IA</a></li>
+<li><a href="https://dev.to/debashish_ghosal/most-ai-second-opinions-are-fake-i-built-a-two-llm-review-engine-to-prove-it-17e7">Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.</a></li>
 <li><a href="https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med">The turbulent AI era is here</a></li>
-<li><a href="https://arxiv.org/abs/2408.06602">Super-intelligence or Superstition?</a></li>
 </ol>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/yaojiejia/agents-radar">agents-radar</a>.</em></p>
@@ -15320,151 +16135,6 @@ These issues are currently being investigated, and some may have pending fix PRs
 </ol>
 <hr>
 <p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI Products Digest 2026-08-27</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-27/ai-ph-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-27/ai-ph-en</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI Products Digest 2026-08-27 Source: Product Hunt | 16 products | Generated: 2026-08-27 04:07 UTC Today&amp;#39;s Highlights The AI product landscape on Product Hunt today is dominated by tools empowering developers and enterprises to build, monitor, and scale intelligent systems. Notable launches include akta.pro, a private company data API tailored for the agent economy, and Diet Claude, a Chrome extension that helps developers sidestep Claude’s usage limits—a clear response to growi...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-08-27</h1>
-<blockquote>
-<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 16 products | Generated: 2026-08-27 04:07 UTC</p>
-</blockquote>
-<hr>
-<hr>
-<h3><strong>Today&#39;s Highlights</strong></h3>
-<p>The AI product landscape on Product Hunt today is dominated by tools empowering developers and enterprises to build, monitor, and scale intelligent systems. Notable launches include <em>akta.pro</em>, a private company data API tailored for the agent economy, and <em>Diet Claude</em>, a Chrome extension that helps developers sidestep Claude’s usage limits—a clear response to growing concerns over LLM rate throttling. There’s a strong emphasis on <strong>agent reliability</strong>, with <em>Agnost AI</em> detecting failures missed by standard evals, and <em>Nimbia</em> enabling AI-driven screen-sharing for user onboarding. Meanwhile, <em>Flare</em> introduces a graph-first IDE for agentic coding, signaling a shift toward visual, interactive development environments. The trend underscores a maturing ecosystem where AI isn’t just about generation—but orchestration, observability, and integration.</p>
-<hr>
-<h3><strong>Top Products</strong></h3>
-<h4>🤖 AI Agents &amp; Assistants</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/ninjo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Ninjō AI</a> · <a href="https://www.producthunt.com/r/5OOMHTQENABQUM">site</a></td>
-<td align="right">122</td>
-<td align="right">12</td>
-<td align="left">AI sales agents that run on Claude Code across any channel—enabling scalable, human-like customer interactions without manual setup. Stands out with seamless multi-channel deployment and deep Claude integration.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/nimbia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Nimbia</a> · <a href="https://www.producthunt.com/r/5GM7KP7RMUFRD6">site</a></td>
-<td align="right">170</td>
-<td align="right">52</td>
-<td align="left">AI screen-sharing calls for user onboarding—turns complex product walkthroughs into real-time, guided experiences. Its standout feature is contextual, adaptive interaction during live demos.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/agent-card?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Purchase API by Agentcard</a> · <a href="https://www.producthunt.com/r/XZKGFALU5JJJ4O">site</a></td>
-<td align="right">131</td>
-<td align="right">4</td>
-<td align="left">One API call to let an AI agent buy anything online—bridging autonomous agents with e-commerce. Breakthrough in agent autonomy, enabling true end-to-end task execution.</td>
-</tr>
-</tbody></table>
-<h4>🛠️ Developer Tools</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">akta.pro</a> · <a href="https://www.producthunt.com/r/7VLENQJQZQK4EG">site</a></td>
-<td align="right">416</td>
-<td align="right">79</td>
-<td align="left">Private company data and signals API for the agent economy—powers AI agents with real-time, secure business intelligence. Unique value lies in its focus on privacy and agent-specific data needs.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/coolplugz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">coolplugz</a> · <a href="https://www.producthunt.com/r/YMM5QLG2OGVHU6">site</a></td>
-<td align="right">135</td>
-<td align="right">3</td>
-<td align="left">A Claude orchestrator that saves developers time by automating workflows across prompts and models. Makes advanced prompt chaining accessible without deep engineering effort.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/flare-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Flare</a> · <a href="https://www.producthunt.com/r/Q57SMSGYJL2BXW">site</a></td>
-<td align="right">120</td>
-<td align="right">4</td>
-<td align="left">The graph-first IDE and interactive map for agentic coding—visualizes code as dynamic decision graphs. Pioneers a new paradigm in debugging and planning complex AI workflows.</td>
-</tr>
-</tbody></table>
-<h4>📊 AI Applications</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Jotform AI Data Assistant</a> · <a href="https://www.producthunt.com/r/2IXJ3KDUVPWSJK">site</a></td>
-<td align="right">242</td>
-<td align="right">19</td>
-<td align="left">Turn form data into insights and action with AI—automates analysis and reporting from user inputs. Ideal for non-technical teams needing instant data clarity.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/marble-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Marble MCP</a> · <a href="https://www.producthunt.com/r/RTXOM7N7BNMKCO">site</a></td>
-<td align="right">92</td>
-<td align="right">3</td>
-<td align="left">Manage CMS content directly from Claude, Cursor, and Codex—bridges AI writing tools with content management. Eliminates context switching between editing and publishing.</td>
-</tr>
-</tbody></table>
-<h4>🎨 Creative &amp; Content</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/particle-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Particle Studio</a> · <a href="https://www.producthunt.com/r/6UQL23ZGKEAEBC">site</a></td>
-<td align="right">94</td>
-<td align="right">3</td>
-<td align="left">Transform static images into dynamic particle experiences—ideal for interactive web visuals and digital art. Offers no-code creation with real-time animation control.</td>
-</tr>
-</tbody></table>
-<h4>🔧 Infrastructure &amp; Models</h4>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/session-indexer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">session-indexer</a> · <a href="https://www.producthunt.com/r/ETCFI2CS6NMIEC">site</a></td>
-<td align="right">90</td>
-<td align="right">3</td>
-<td align="left">Semantic search over your own Claude Code session history—find past prompts and outputs instantly. Open-source and offline-first, ideal for knowledge retention in AI development.</td>
-</tr>
-</tbody></table>
-<hr>
-<h3><strong>Market Signal</strong></h3>
-<p>AI innovation on Product Hunt today reveals a mature, application-driven ecosystem focused on <strong>integration, reliability, and autonomy</strong>. The most crowded categories are <strong>Developer Tools</strong> and <strong>AI Agents &amp; Assistants</strong>, with 7 of the top 10 products falling into these domains—indicating developer-centric demand for smarter, self-managing workflows. Notable innovations include <em>Purchase API by Agentcard</em>, which enables full-agent autonomy in e-commerce, and <em>Flare</em>, which reimagines coding through graph-based visual programming. A strong open-source trend emerges, particularly in tools like <em>session-indexer</em> and <em>Flare</em>, suggesting growing appetite for transparent, extensible AI infrastructure. Closed-source solutions remain dominant in consumer-facing apps (<em>Memoria</em>, <em>Diet Claude</em>), but the balance is shifting toward hybrid models. Overall, the pattern reflects a pivot from “what can AI do?” to “how can AI work reliably and securely at scale?”</p>
-<hr>
-<h3><strong>Worth Trying</strong></h3>
-<ol>
-<li><strong>akta.pro</strong> – For developers building AI agents, this private data API offers a rare blend of real-time, secure company signals—critical for agents operating in regulated or competitive spaces.  </li>
-<li><strong>Flare</strong> – If you’re exploring agentic coding or want to visualize complex workflows, Flare’s graph-first approach revolutionizes how you plan and debug AI-driven code.  </li>
-<li><strong>session-indexer</strong> – Perfect for AI practitioners who lose track of their Claude sessions; this open-source tool brings semantic recall to your dev history, turning fragmented experimentation into structured knowledge.</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
     </item>
   </channel>
