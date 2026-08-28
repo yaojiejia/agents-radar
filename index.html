@@ -427,31 +427,39 @@ function renderMarkdown(raw) {
 
 const LABELS = {
   'ai-digest':       'AI Ecosystem Digest',
-  'ai-cli':          'AI CLI Tools',
-  'ai-cli-en':       'AI CLI Tools',
-  'ai-agents':       'AI Agents Ecosystem',
-  'ai-agents-en':    'AI Agents Ecosystem',
-  'ai-infra':        'AI Infrastructure',
-  'ai-infra-en':     'AI Infrastructure',
-  'ai-web':          'OpenAI & Anthropic Updates',
-  'ai-web-en':       'OpenAI & Anthropic Updates',
-  'ai-trending':     'GitHub AI Trends',
-  'ai-trending-en':  'GitHub AI Trends',
-  'ai-hn':           'HN Community Digest',
-  'ai-hn-en':        'HN Community Digest',
-  'ai-ph':           'Product Hunt AI',
-  'ai-ph-en':        'Product Hunt AI',
-  'ai-arxiv':        'ArXiv AI Research',
-  'ai-arxiv-en':     'ArXiv AI Research',
-  'ai-hf':           'HF Trending Models',
-  'ai-hf-en':        'HF Trending Models',
-  'ai-community':    'Tech Community AI',
-  'ai-community-en': 'Tech Community AI',
+  'ai-cli':          'AI CLI Tools Digest',
+  'ai-cli-en':       'AI CLI Tools Digest',
+  'ai-agents':       'AI Agents Ecosystem Digest',
+  'ai-agents-en':    'AI Agents Ecosystem Digest',
+  'ai-infra':        'AI Infrastructure Digest',
+  'ai-infra-en':     'AI Infrastructure Digest',
+  'ai-web':          'Official AI Content Report',
+  'ai-web-en':       'Official AI Content Report',
+  'ai-trending':     'AI Open Source Trends',
+  'ai-trending-en':  'AI Open Source Trends',
+  'ai-hn':           'Hacker News AI Digest',
+  'ai-hn-en':        'Hacker News AI Digest',
+  'ai-ph':           'Product Hunt AI Digest',
+  'ai-ph-en':        'Product Hunt AI Digest',
+  'ai-arxiv':        'ArXiv AI Research Digest',
+  'ai-arxiv-en':     'ArXiv AI Research Digest',
+  'ai-hf':           'Hugging Face Trending Models',
+  'ai-hf-en':        'Hugging Face Trending Models',
+  'ai-community':    'Tech Community AI Digest',
+  'ai-community-en': 'Tech Community AI Digest',
   'ai-weekly':       'Weekly Digest',
   'ai-weekly-en':    'Weekly Digest',
   'ai-monthly':      'Monthly Digest',
   'ai-monthly-en':   'Monthly Digest',
 };
+
+const ICONS = {
+  'ai-digest': '📡', 'ai-cli': '📊', 'ai-agents': '🦞', 'ai-infra': '⚙️',
+  'ai-web': '🌐', 'ai-trending': '📈', 'ai-hn': '📰', 'ai-ph': '🚀',
+  'ai-arxiv': '📚', 'ai-hf': '🤗', 'ai-community': '💬',
+  'ai-weekly': '🗓️', 'ai-monthly': '🗓️',
+};
+function reportIcon(r) { return ICONS[r.replace(/-en$/, '')] || '📄'; }
 
 const PER_PAGE = 10;
 const content = document.getElementById('content');
@@ -478,7 +486,7 @@ function reportLabel(r) {
 }
 
 function dayTitle(entry) {
-  return `${LABELS[primaryReport(entry.reports)] || 'Digest'} — ${entry.date}`;
+  return `Daily Digest — ${entry.date}`;
 }
 
 async function fetchMd(date, report) {
@@ -574,8 +582,9 @@ function renderHome(page = homePage) {
     const primary = primaryReport(entry.reports);
     const card = document.createElement('a');
     card.className = 'card-wrapper';
-    card.href = `#${entry.date}/${primary}`;
+    card.href = `#${entry.date}`;
 
+    const nReports = entry.reports.filter(r => !r.endsWith('-en')).length;
     const cats = entry.reports.filter(r => !r.endsWith('-en')).map(r => r.replace(/^ai-/, '')).join(', ');
     card.innerHTML =
       '<div class="card-body">' +
@@ -583,7 +592,7 @@ function renderHome(page = homePage) {
         `<div class="card-text" data-excerpt="${entry.date}/${primary}">…</div>` +
         '<div class="post-meta">' +
           `<i class="far fa-calendar fa-fw"></i><span><time>${fmtDate(entry.date)}</time></span>` +
-          `<i class="far fa-folder-open fa-fw"></i><span class="categories">${cats}</span>` +
+          `<i class="far fa-folder-open fa-fw"></i><span class="categories">${nReports} reports: ${cats}</span>` +
         '</div>' +
       '</div>';
     wrap.appendChild(card);
@@ -628,6 +637,52 @@ function renderHome(page = homePage) {
   });
 }
 
+// ── Day index (the day's reports as cards) ──
+function renderDayIndex(date) {
+  const entry = DATES.find(d => d.date === date);
+  if (!entry) { renderHome(1); return; }
+  currentKey = null;
+
+  document.getElementById('nav-home').classList.remove('active');
+  setBreadcrumb([{ text: 'Home', href: '#' }, { text: fmtDate(date) }]);
+  closeSidebar();
+
+  const view = document.createElement('div');
+  view.id = 'post-view';
+  view.className = 'fade';
+  const nReports = entry.reports.filter(r => !r.endsWith('-en')).length;
+  view.innerHTML =
+    `<h1 class="post-title">Daily Digest — ${date}</h1>` +
+    '<div class="post-desc">' +
+      `<i class="far fa-calendar fa-fw"></i>Posted <time>${fmtDate(date)}</time>` +
+      ` &nbsp;·&nbsp; ${nReports} report${nReports > 1 ? 's' : ''}` +
+    '</div>';
+
+  entry.reports.forEach(r => {
+    const card = document.createElement('a');
+    card.className = 'card-wrapper';
+    card.href = `#${date}/${r}`;
+    card.innerHTML =
+      '<div class="card-body">' +
+        `<h1 class="card-title">${reportIcon(r)} ${reportLabel(r)}</h1>` +
+        `<div class="card-text" data-excerpt="${date}/${r}">…</div>` +
+      '</div>';
+    view.appendChild(card);
+  });
+
+  content.innerHTML = '';
+  content.appendChild(view);
+  window.scrollTo(0, 0);
+
+  view.querySelectorAll('[data-excerpt]').forEach(async (el) => {
+    const [d, report] = el.dataset.excerpt.split('/');
+    try {
+      const raw = await fetchMd(d, report);
+      el.textContent = stripMd(raw).slice(0, 220);
+    } catch { el.textContent = ''; }
+  });
+}
+
 // ── Day (post) view ──
 let currentKey = null;
 
@@ -639,14 +694,18 @@ async function renderDay(date, report) {
   currentKey = key;
 
   document.getElementById('nav-home').classList.remove('active');
-  setBreadcrumb([{ text: 'Home', href: '#' }, { text: fmtDate(date) }]);
+  setBreadcrumb([
+    { text: 'Home', href: '#' },
+    { text: fmtDate(date), href: `#${date}` },
+    { text: reportLabel(report) },
+  ]);
   closeSidebar();
 
   const view = document.createElement('div');
   view.id = 'post-view';
   view.className = 'fade';
   view.innerHTML =
-    `<h1 class="post-title">${reportLabel(report)} — ${date}</h1>` +
+    `<h1 class="post-title">${reportIcon(report)} ${reportLabel(report)} — ${date}</h1>` +
     '<div class="post-desc">' +
       `<i class="far fa-calendar fa-fw"></i>Posted <time>${fmtDate(date)}</time>` +
       ` &nbsp;·&nbsp; ${entry.reports.length} report${entry.reports.length > 1 ? 's' : ''} this day` +
@@ -692,7 +751,8 @@ async function renderDay(date, report) {
 function route() {
   const [date, report] = location.hash.slice(1).split('/');
   if (/^\d{4}-\d{2}-\d{2}$/.test(date)) {
-    renderDay(date, report || '');
+    if (report) renderDay(date, report);
+    else renderDayIndex(date);
   } else {
     currentKey = null;
     renderHome(homePage);
