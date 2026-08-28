@@ -1,102 +1,50 @@
 {
-  "zh": {
-    "ai-digest": [
-      "Ollama 发布了 v0.33.2-rc1。",
-      "OpenAI Codex 合并了 PR #41235 。",
-      "OpenClaw 发现了 156 个新问题。",
-      "OpenCode 今天新增了 24 个问题。",
-      "Hermes Agent 拥有 237,340 星。",
-      "vLLM 合并了 44 个拉取请求。"
-    ],
-    "ai-trending": [
-      "freestylefly/awesome-gpt-image-2 获得关注。",
-      "K-Dense-AI/scientific-agent-skills 达到 498 星。",
-      "JetBrains/go-modern-guidelines 增加了 300 星。",
-      "Anthropic/claude-plugins-official 获得 292 星。",
-      "对 AI 代理能力的强烈兴趣。",
-      "为科学助手推出新技能。"
-    ],
-    "ai-web": [
-      "Anthropic 扩展了 Claude Science 平台。",
-      "Model Hardware Standard 预览支持实验室效率。",
-      "OpenAI 宣布 AI 训练地理扩展。",
-      "Anthropic 提供 10,000 个折扣 Claude 订阅。",
-      "今天发布新文章：各平台共 21 篇。",
-      "关注科学研究和教育倡议。"
-    ],
-    "ai-hn": [
-      "Google 宣布 Gemini-3.5 模型改进。",
-      "GLM-5.3 发布引发用户兴奋。",
-      "关于 AI 对教育等领域影响的辩论。",
-      "讨论伦理 AI 使用引起关注。",
-      "社区反思 AI 模型的应用。",
-      "对 AI 未来影响的看法不一。"
-    ],
-    "ai-arxiv": [
-      "提出高效 LLM 测试的新方法。",
-      "意图分析研究提升自动驾驶安全。",
-      "研究减少 AI 偏见与增强可解释性。",
-      "视觉推理与语言理解结合。",
-      "分析量化对 LLM 个性的影响。",
-      "强调持续学习框架的重要性。"
-    ],
-    "ai-community": [
-      "AI 在软件开发中的角色讨论火热。",
-      "关于 AI 解决方案的维护成本辩论。",
-      "AI 工具在代码审查中受到评估。",
-      "对 AI 输出准确性和可靠性的担忧。",
-      "年轻开发者的个人故事引起共鸣。",
-      "Regex 与 LLM 性能测试结果各异。"
-    ]
-  },
-  "en": {
-    "ai-digest": [
-      "Ollama released v0.33.2-rc1.",
-      "OpenAI Codex merged PR #41235 for history notes.",
-      "OpenClaw saw 156 new issues reported.",
-      "OpenCode gained 24 new issues today.",
-      "Hermes Agent has 237,340 stars.",
-      "vLLM merged 44 pull requests."
-    ],
-    "ai-trending": [
-      "freestylefly/awesome-gpt-image-2 gains traction.",
-      "K-Dense-AI/scientific-agent-skills hits 498 stars.",
-      "JetBrains/go-modern-guidelines gained 300 stars.",
-      "Anthropic/claude-plugins-official secured 292 stars.",
-      "Strong interest in AI agent capabilities is noted.",
-      "New skills for scientific assistants launched."
-    ],
-    "ai-web": [
-      "Anthropic expands Claude Science platform for researchers.",
-      "Model Hardware Standard preview supports lab efficiencies.",
-      "OpenAI announces AI training geographic expansion.",
-      "Anthropic offers 10,000 discounted Claude subscriptions.",
-      "New articles released: 21 today across platforms.",
-      "Focus on scientific research and education initiatives."
-    ],
-    "ai-hn": [
-      "Google announced Gemini-3.5 model improvements.",
-      "GLM-5.3 release creates excitement among users.",
-      "Debate on AI impact in sectors like education.",
-      "Discussions on ethical AI use gaining traction.",
-      "Community reflects on AI models' applications.",
-      "Mixed sentiments about AI's future effects."
-    ],
-    "ai-arxiv": [
-      "New methods for efficient LLM testing proposed.",
-      "Study on intent analysis boosts autonomous driving safety.",
-      "Research on reducing AI bias and enhancing interpretability.",
-      "Visual reasoning integration with language understanding.",
-      "Quantization effects on LLM personality analyzed.",
-      "Continuous learning frameworks are emphasized."
-    ],
-    "ai-community": [
-      "Discussions on AI's role in software development thrive.",
-      "Debate on AI solutions' maintenance costs continues.",
-      "AI tools in code review are critically evaluated.",
-      "Concerns about AI output accuracy and reliability raised.",
-      "Personal story of a young developer resonates.",
-      "Regex vs LLM performance tested with mixed results."
-    ]
-  }
+  "ai-digest": [
+    "Ollama released v0.33.2-rc1 with new features.",
+    "Claude Code begins multiplatform support updates.",
+    "OpenClaw sees 148 new issues reported today.",
+    "OpenCode closed 13 issues, still trending strong.",
+    "Pi received 36 issues, indicating developer interest.",
+    "New features added in v0.33.2-rc1 for Claude."
+  ],
+  "ai-trending": [
+    "freestylefly/awesome-gpt-image-2 gained 2000 stars today.",
+    "K-Dense-AI/scientific-agent-skills aids 175,000 scientists.",
+    "langchain-ai/langchain simplifies AI app development.",
+    "run-llama/llama_index enhances document processing.",
+    "milvus-io/milvus grows as a data handling solution.",
+    "Growing demand for productivity-enhancing AI tools."
+  ],
+  "ai-web": [
+    "Anthropic publishes Model Hardware Standard preview.",
+    "MHS enhances AI-agent interaction with devices.",
+    "Seamless integration in research and manufacturing.",
+    "AI agents to operate lab instruments autonomously.",
+    "Research aims for higher efficiency with MHS.",
+    "Collaboration with HHMI Janelia Research Campus."
+  ],
+  "ai-hn": [
+    "Google launched Gemini-3.5 for transcription tasks.",
+    "Discussions on AI's impact on education growing.",
+    "Terminal-Bench-Science promotes AI performance standards.",
+    "Gemini-3.5 sparks community enthusiasm.",
+    "Debates on AI consciousness capturing attention.",
+    "Public interest in ethical AI applications rising."
+  ],
+  "ai-arxiv": [
+    "LLMs transforming electronic design automation discussed.",
+    "Ethics of tool-augmented LLM outputs examined.",
+    "New frameworks for performance evaluation introduced.",
+    "Privacy-preserving techniques gaining traction.",
+    "Novel applications of LLMs in practical scenarios.",
+    "Integration of language and vision capabilities highlighted."
+  ],
+  "ai-community": [
+    "Developers discuss AI deployment costs and efficiency.",
+    "Concerns over maintenance expenses after AI rollout.",
+    "AI ethics debates focused on privacy and user experience.",
+    "Prompt quality crucial for AI coding agents.",
+    "AI second opinion validation through dual LLMs.",
+    "Delivery speed vs. sustainability in AI highlighted."
+  ]
 }
