@@ -1,71 +1,67 @@
 # AI Open Source Trends 2026-08-28
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 02:13 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-08-28 02:19 UTC
 
 ---
 
-# AI Open Source Trends Report
+# AI Open Source Trends Report (2026-08-28)
 
-## Step 1: Filter
-Filtered projects related to AI/ML, excluding unrelated tools and frameworks.
+## Step 1: Filtered Projects
 
-## Step 2: Categorize
-The filtered projects are organized into the following categories:
+**Filtered AI/ML Projects**  
+- **Trending Repositories**: Selected repositories relevant to AI and Machine Learning were sourced from today’s GitHub trends.
 
-- 🔧 AI Infrastructure
-- 🤖 AI Agents / Workflows
-- 📦 AI Applications
-- 🧠 LLMs / Training
-- 🔍 RAG / Knowledge
+## Step 2: Categorized Projects
 
-## Step 3: Output Report
+### 🔧 AI Infrastructure
 
-### **Today's Highlights**
-Several projects have gained significant traction today in the open-source AI ecosystem. Notably, the [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) repository has received over 2000 stars today, offering an impressive collection of prompt templates and engineering frameworks for GPT-Image2. Additionally, the [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) project is now aiding 175,000 scientists worldwide by transforming any AI agent into a competent scientist with extensive pre-built skills. Such strong community engagement highlights a growing demand for AI tools that can enhance productivity in scientific and creative applications.
-
-### **Top Projects by Category**
-
-#### 🔧 AI Infrastructure
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Python | 145,151 | A comprehensive agent engineering platform that simplifies the development and deployment of AI-driven applications. It has become a go-to resource for developers aiming to create modular and maintainable AI systems. |
-| [run-llama/llama_index](https://github.com/run-llama/llama_index) | Python | 51,895 | LlamaIndex serves as a top-tier document agent and OCR platform, making document processing easier for developers. This project highlights the rising importance of data handling in AI workflows. |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | Go | 45,836 | A high-performance vector database that's renowned for its efficient vector ANN search capabilities, crucial for AI applications. Milvus is continuously evolving, catering to vast datasets and improving AI model performance. |
+| [JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) | Go | 0 (+300) | This repository provides guidelines to aid AI coding agents in writing modern Go code effectively. It is beneficial for developers looking to adapt their workflow with AI capabilities. |
+| [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | JavaScript | 0 (+2096) | A robust prompt engine and template library for GPT-Image2, featuring over 530 reverse-engineered cases. This tool is vital for professionals needing reliable industrial-grade prompts. |
 
-#### 🤖 AI Agents / Workflows
+### 🤖 AI Agents / Workflows
+
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Python | 50,203 | This repository provides a rich library of AI skills designed specifically for scientific research, greatly enhancing analytics capabilities for scientists. It now supports over 175,000 users with versatile skill implementations. |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | JavaScript | 92,302 | A tool enabling persistent context across sessions for multiple AI agents, enhancing continuity and context retention in workflows. This is vital for applications requiring ongoing user interaction. |
-| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Python | 76,076 | It offers AI agents the capability to gather and analyze data throughout the internet efficiently, which is essential for real-time information processing and decision-making. |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Python | 0 (+498) | This project enables any AI agent to perform as a scientific assistant with an extensive library of validated skills for various scientific domains. It has strong adoption, with over 175,000 scientists using it. |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | JavaScript | 0 (+143) | This project provides persistent context across sessions for agents, significantly enhancing their operational continuity and user experience. It's compatible with multiple AI tools, showcasing extensive flexibility. |
+| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) | Python | 0 (+634) | An innovative self-organizing AI "second brain" for Obsidian, streamlining note-taking and knowledge management into a cohesive Markdown-based system. This project allows users complete ownership of their data. |
 
-#### 📦 AI Applications
+### 📦 AI Applications
+
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Python | 1,292 | This innovative platform is the first open-source, agent-based video production system, providing comprehensive tools for video creation workflows. It's especially relevant for content creators seeking scalable solutions. |
-| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) | Python | 634 | A personal knowledge management tool leveraging AI to create a knowledge graph from various sources, enhancing the note-taking experience. This tool appeals to knowledge workers looking for efficient information organization. |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Python | 0 (+1292) | OpenMontage is the world’s first open-source, agentic video production system, featuring various production pipelines and tools. It empowers creators with an expansive toolkit for video content creation. |
+| [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Python | 0 (+552) | A comprehensive educational resource leading users through AI projects from concept to deployment. This project serves as a practical guide for aspiring AI engineers looking to solidify their understanding. |
 
-#### 🧠 LLMs / Training
+### 🧠 LLMs / Training
+
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | Python | 164,521 | A leading library for state-of-the-art model-definition frameworks, supporting various machine learning applications. Its continued popularity underscores the widespread demand for accessible LLM tooling. |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Python | 186,939 | This tool aims to democratize AI usage by providing straightforward access to cutting-edge LLM capabilities. Its rapid growth indicates strong community interest in user-friendly AI deployment methods. |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | Python | 164,522 (+0) | A leading framework for state-of-the-art machine learning models across various modalities. Hugging Face's Transformers library continues to be a crucial resource for researchers and developers. |
 
-#### 🔍 RAG / Knowledge
+### 🔍 RAG / Knowledge
+
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | Python | 150,155 | An intuitive AI interface supporting multiple APIs, enhancing accessibility for interactive AI applications. This project is gaining traction due to the increasing need for user-friendly interfaces in AI tools. |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Go | 89,412 | A leading Retrieval-Augmented Generation engine focusing on enhanced context management for AI workflows. This innovation is reshaping how context is integrated and utilized in LLMs. |
+| [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | Jupyter Notebook | 29,254 (+0) | A repository dedicated to showcasing advanced Retrieval-Augmented Generation techniques with detailed tutorials. It's an essential resource for developers looking to enhance their AI systems. |
 
-### **Trend Signal Analysis**
-Today's trends indicate a burgeoning interest in AI skills and agent frameworks designed to support scientific research and content creation. Projects like [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) and [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) illustrate a shift where researchers and content creators are leveraging AI to streamline their workflows and enhance productivity. Furthermore, tools related to continuous context management, like [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem), are also seeing significant attention, underscoring a growing demand for persistent AI interactions. This trend ties back to recent advancements and discussions in the AI landscape, particularly around LLM capabilities and their deployment potential in diverse applications.
+## Step 3: Trend Signal Analysis
 
-### **Community Hot Spots**
-- **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)**: Targeting science professionals, providing structured skills for AI agents.
-- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)**: Innovating memory functionality for AI agents, enhancing user experience through context management.
-- **[freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)**: A growing repository for AI image generation prompts, useful for creative professionals.
-- **[huggingface/transformers](https://github.com/huggingface/transformers)**: Continues to dominate as a go-to library, essential for developers looking to implement LLMs.
-- **[open-webui/open-webui](https://github.com/open-webui/open-webui)**: Simplifying AI accessibility for developers and non-developers alike, increasingly relevant for interactive applications.
+Today's trends in the AI open-source ecosystem showcase a robust interest in **AI agents and workflows**, alongside prominent projects aimed at enhancing user interactions with LLMs. Notably, repositories focused on **persistent memory management** for AI agents are gaining traction, reflected in projects like [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem). This indicates a shift towards building more adaptable and intelligent systems capable of learning from previous interactions. 
+
+Additionally, initiatives like [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) are illustrating the rising demand for specialized agent frameworks that cater to specific fields like scientific research, expanding the scope of utility for AI applications. As the integration of powerful LLMs deepens, projects focusing on effective utilization and adaptation of these models signal a vital progression towards user-centric AI solutions.
+
+## Step 4: Community Hot Spots
+
+- **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)**: Highly adopted by scientists, offering a vast range of specialized skills, making it an appealing tool for research communities.
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)**: Its ability to maintain context over sessions is set to redefine user experiences with AI agents, enhancing retention and usability.
+- **[AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian)**: Enables seamless integration of AI into personal knowledge management, appealing to users focused on personal productivity and data ownership.
+- **[OpenMontage](https://github.com/calesthio/OpenMontage)**: A unique proposition for creators in video production, offering a wide array of tools that automate many aspects of content creation.
+- **[NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)**: A must-watch for developers interested in RAG systems, contributing valuable insights into advanced techniques.
+
+This report illustrates the dynamic evolution within the AI open-source ecosystem, emphasizing the need for continuous adaptation and the exploration of innovative applications within the industry.
 
 ---
 *This digest is auto-generated by [agents-radar](https://github.com/yaojiejia/agents-radar).*

@@ -1,39 +1,39 @@
 # 📡 AI Ecosystem Digest — 2026-08-28
 
-> Generated 2026-08-28 02:13 UTC by [yaojiejia/agents-radar](https://github.com/yaojiejia/agents-radar)
+> Generated 2026-08-28 02:19 UTC by [yaojiejia/agents-radar](https://github.com/yaojiejia/agents-radar)
 
 ## 📊 24h Snapshot
 
 | Repo | ⭐ Stars | New Issues | Closed | Merged PRs | Releases |
 |------|---------|-----------|--------|-----------|----------|
-| [Claude Code](https://github.com/anthropics/claude-code) | 143,207 | 12 | 1 | 0 | 2 |
-| [OpenAI Codex](https://github.com/openai/codex) | 119,227 | 23 | 1 | 47 | 5 |
+| [Claude Code](https://github.com/anthropics/claude-code) | 143,208 | 12 | 1 | 0 | 2 |
+| [OpenAI Codex](https://github.com/openai/codex) | 119,231 | 24 | 1 | 47 | 5 |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | 106,719 | 1 | 0 | 0 | 1 |
 | [GitHub Copilot CLI](https://github.com/github/copilot-cli) | 11,122 | 16 | 4 | 0 | 3 |
-| [OpenCode](https://github.com/anomalyco/opencode) | 201,979 | 23 | 13 | 18 | 0 |
-| [Pi](https://github.com/earendil-works/pi) | 98,339 | 32 | 36 | 3 | 0 |
-| [Qwen Code](https://github.com/QwenLM/qwen-code) | 27,437 | 34 | 14 | 2 | 0 |
-| [OpenClaw](https://github.com/openclaw/openclaw) | 387,851 | 148 | 94 | 141 | 0 |
-| [Hermes Agent](https://github.com/nousresearch/hermes-agent) | 237,354 | 34 | 4 | 1 | 1 |
+| [OpenCode](https://github.com/anomalyco/opencode) | 201,980 | 23 | 13 | 18 | 0 |
+| [Pi](https://github.com/earendil-works/pi) | 98,340 | 32 | 36 | 3 | 0 |
+| [Qwen Code](https://github.com/QwenLM/qwen-code) | 27,437 | 34 | 13 | 2 | 0 |
+| [OpenClaw](https://github.com/openclaw/openclaw) | 387,851 | 150 | 95 | 143 | 0 |
+| [Hermes Agent](https://github.com/nousresearch/hermes-agent) | 237,357 | 34 | 4 | 1 | 1 |
 | [IronClaw](https://github.com/nearai/ironclaw) | 12,604 | 20 | 20 | 14 | 1 |
 | [QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 34,574 | 9 | 4 | 10 | 1 |
-| [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | 32,667 | 4 | 6 | 2 | 0 |
+| [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | 32,667 | 5 | 6 | 2 | 0 |
 | [vLLM](https://github.com/vllm-project/vllm) | 90,252 | 35 | 17 | 48 | 0 |
 | [SGLang](https://github.com/sgl-project/sglang) | 32,587 | 23 | 2 | 65 | 0 |
-| [llama.cpp](https://github.com/ggml-org/llama.cpp) | 125,980 | 23 | 2 | 23 | 10 |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | 125,981 | 24 | 2 | 23 | 10 |
 | [Ollama](https://github.com/ollama/ollama) | 179,588 | 13 | 4 | 6 | 1 |
-| [LiteLLM](https://github.com/BerriAI/litellm) | 57,428 | 29 | 10 | 82 | 0 |
-| [Unsloth](https://github.com/unslothai/unsloth) | 74,999 | 21 | 51 | 45 | 1 |
+| [LiteLLM](https://github.com/BerriAI/litellm) | 57,429 | 29 | 10 | 82 | 0 |
+| [Unsloth](https://github.com/unslothai/unsloth) | 74,999 | 21 | 51 | 44 | 1 |
 
 ---
 
 ## ✨ Highlights
 
-- **Ollama** released [v0.33.2-rc1](https://github.com/ollama/ollama/releases/tag/v0.33.2-rc1), introducing several updates including account cloud model listings for Claude.
-- **Claude Code** announced multiple releases, including [v2.1.250](https://github.com/anthropics/claude-code/releases/tag/v2.1.250) and [v2.1.248](https://github.com/anthropics/claude-code/releases/tag/v2.1.248).
-- A critical new issue in **OpenAI Codex**, [#41049](https://github.com/openai/codex/issues/41049), reports that the code-mode host exits during handshake, leading to a total of 26 comments discussing the problem.
-- **Qwen Code** includes a newly opened issue, [#10272](https://github.com/QwenLM/qwen-code/issues/10272), where external-context tests hang during connections, and it has already garnered 5 comments.
-- The **Hermes Agent** released [v2026.8.27](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.27) with bug fixes, including important improvements following previously identified issues.
+- **Claude Code** released [v2.1.250](https://github.com/anthropics/claude-code/releases/tag/v2.1.250) featuring updates and improvements.
+- **OpenAI Codex** merged [PR #41243](https://github.com/openai/codex/pull/41243) to add configurable gating for the sleep tool, enhancing functionality.
+- **GitHub Copilot CLI** addressed an issue in [#4639](https://github.com/github/copilot-cli/issues/4639) related to long-running sessions leading to Node OOM errors, which has garnered 1 comment.
+- **Hermes Agent** released [v2026.8.27](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.27) and merged critical fixes, including addressing local compression in sessions.
+- **Ollama** faced increased attention on [#18074](https://github.com/ollama/ollama/issues/18074) regarding Granite 4.2 models and out-of-memory (OOM) issues with 9 comments.
 
 ---
 
@@ -41,14 +41,14 @@
 
 ### Claude Code (`anthropics/claude-code`)
 
-**Stars:** 143,207 · **Open issues:** 15,256 · **Last push:** 1h ago
+**Stars:** 143,208 · **Open issues:** 15,256 · **Last push:** 1h ago
 
 #### 🚀 New Releases
 - [v2.1.250](https://github.com/anthropics/claude-code/releases/tag/v2.1.250) v2.1.250
 - [v2.1.248](https://github.com/anthropics/claude-code/releases/tag/v2.1.248) v2.1.248
 
 #### 🐛 New Issues
-- [#90002](https://github.com/anthropics/claude-code/issues/90002) [BUG] Code tab writes UI render metadata (start_timestamp/stop_timestamp/flags) into transcript JSONL, causing unrecoverable API 400 that recurs after full sanitization `bug` `has repro` `platform:windows` `area:core` 💬9
+- [#90002](https://github.com/anthropics/claude-code/issues/90002) [BUG] Code tab writes UI render metadata (start_timestamp/stop_timestamp/flags) into transcript JSONL, causing unrecoverable API 400 that recurs after full sanitization `bug` `has repro` `platform:windows` `area:core` 💬10
 - [#90254](https://github.com/anthropics/claude-code/issues/90254) Claude in Chrome (v1.0.85): phantom blank tabs "http://native/", "http://host/", "http://wrapper/", "http://script/" open on every Chrome startup `bug` `platform:windows` `area:browser-extension` `area:chrome`
 - [#90253](https://github.com/anthropics/claude-code/issues/90253) [BUG] In the desktop application's code feature, the Rewind function does not undo modified code. `bug` `platform:windows` `area:desktop`
 - [#90252](https://github.com/anthropics/claude-code/issues/90252) [Feature Request] Add language/dialect consistency mode to prevent unintended English variant drift `enhancement` `platform:macos` `area:model`
@@ -65,7 +65,7 @@
 
 ### OpenAI Codex (`openai/codex`)
 
-**Stars:** 119,227 · **Open issues:** 14,144 · **Last push:** <1h ago
+**Stars:** 119,231 · **Open issues:** 14,144 · **Last push:** <1h ago
 
 #### 🚀 New Releases
 - [rust-v0.151.0-alpha.7](https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.7) 0.151.0-alpha.7
@@ -92,13 +92,13 @@
 - [#41073](https://github.com/openai/codex/issues/41073) [Windows][26.820.9563.0] ChatGPT launches headless with MainWindowHandle=0; disabling updater fixes startup `bug` `windows-os` `app` 💬4
 - [#41170](https://github.com/openai/codex/issues/41170) [Windows] First launch shows no window for about 15 minutes while extracting bundled cua_node runtime `bug` `windows-os` `app` `computer-use` 💬5
 - [#41135](https://github.com/openai/codex/issues/41135) Windows: sandbox setup_marker.json written without an ACE for the invoking user in non-interactive exec, so setup repeats forever (orchestrator_helper_incomplete) `bug` `windows-os` `sandbox` `exec` 💬4
+- [#41179](https://github.com/openai/codex/issues/41179) [Windows][26.820.9563.0] ChatGPT Desktop launches headless after upgrade from Classic; no renderer/window created `bug` `windows-os` `app` 💬2
 - [#41242](https://github.com/openai/codex/issues/41242) Windows 0.148+: light-theme composer is near-black (OSC 10/11 probe dropped; still broken in 0.150.1) `bug` `windows-os` `TUI` `CLI` 💬2
 - [#41176](https://github.com/openai/codex/issues/41176) Codex agents incorrectly stop or declare completion while tasks are still incomplete `bug` `model-behavior` `CLI` 💬2
 - [#41238](https://github.com/openai/codex/issues/41238) "Ran 5 commands" - Can we not do this? Or make it optional? `bug` `enhancement` `TUI` `CLI` 💬2
 - [#41228](https://github.com/openai/codex/issues/41228) Codex browser control unavailable across secure browser, built-in Browser and Chrome `bug` `app` `browser` 💬2
 - [#41224](https://github.com/openai/codex/issues/41224) Capped continuity mode after ChatGPT plan limits (Luna fallback) `enhancement` `codex-web` `extension` `rate-limits` 💬2
-- [#41123](https://github.com/openai/codex/issues/41123) Safety: avoid disabling macOS Wi-Fi network service during troubleshooting `bug` `model-behavior` `tool-calls` 💬1
-- …and 13 more
+- …and 14 more
 
 #### 🔒 Closed Issues
 - [#41135](https://github.com/openai/codex/issues/41135) Windows: sandbox setup_marker.json written without an ACE for the invoking user in non-interactive exec, so setup repeats forever (orchestrator_helper_incomplete)
@@ -143,9 +143,10 @@
 
 ### OpenCode (`anomalyco/opencode`)
 
-**Stars:** 201,979 · **Open issues:** 5,656 · **Last push:** <1h ago
+**Stars:** 201,980 · **Open issues:** 5,656 · **Last push:** <1h ago
 
 #### ✅ Merged PRs
+- [#45778](https://github.com/anomalyco/opencode/pull/45778) fix(core): preserve typed config test-layer errors
 - [#45793](https://github.com/anomalyco/opencode/pull/45793) chore(deps): refresh markdown dependencies
 - [#45799](https://github.com/anomalyco/opencode/pull/45799) fix(core): treat project paths as internal
 - [#45796](https://github.com/anomalyco/opencode/pull/45796) chore(deps): upgrade Sentry and verify reporting
@@ -155,7 +156,6 @@
 - [#45760](https://github.com/anomalyco/opencode/pull/45760) fix(core): share native model defaults with v1 config migration
 - [#45787](https://github.com/anomalyco/opencode/pull/45787) fix(core): cap provider retry-after delays at fifteen minutes
 - [#45785](https://github.com/anomalyco/opencode/pull/45785) chore: upgrade opentui to 0.5.9
-- [#45779](https://github.com/anomalyco/opencode/pull/45779) chore(deps): remove unused frontend dependencies
 - …and 8 more
 
 #### 🐛 New Issues
@@ -184,7 +184,7 @@
 
 ### Pi (`earendil-works/pi`)
 
-**Stars:** 98,339 · **Open issues:** 138 · **Last push:** 2h ago
+**Stars:** 98,340 · **Open issues:** 138 · **Last push:** 2h ago
 
 #### ✅ Merged PRs
 - [#8731](https://github.com/earendil-works/pi/pull/8731) feat(tui): allow disable copy on fullscreen, ctrl + x copies selection
@@ -217,7 +217,7 @@
 
 ### Qwen Code (`QwenLM/qwen-code`)
 
-**Stars:** 27,437 · **Open issues:** 1,279 · **Last push:** <1h ago
+**Stars:** 27,437 · **Open issues:** 1,280 · **Last push:** <1h ago
 
 #### ✅ Merged PRs
 - [#10168](https://github.com/QwenLM/qwen-code/pull/10168) feat(review): carry the fix's premises beside its claim — add fixConstraint
@@ -225,7 +225,6 @@
 
 #### 🐛 New Issues
 - [#10272](https://github.com/QwenLM/qwen-code/issues/10272) E2E: external-context mem0 tests hang at 'Connecting to MCP servers' on macOS and ecs-qwen pool (pass on ubuntu-hosted) `priority/P1` `type/bug` `scope/testing` `scope/ci-cd` 💬5
-- [#10242](https://github.com/QwenLM/qwen-code/issues/10242) E2E on main: GitHub-hosted runners intermittently unable to reach the OPENAI_BASE_URL endpoint (Aliyun Beijing) — relocate lanes or switch endpoint `priority/P2` `type/bug` `scope/ci-cd` 💬4
 - [#10324](https://github.com/QwenLM/qwen-code/issues/10324) triage: silent-rerun notification should treat a bot-initiated close as a terminal action `priority/P2` `type/bug` `category/development` `scope/ci-cd` 💬3
 - [#10314](https://github.com/QwenLM/qwen-code/issues/10314) fix(ci): treat API-error triage responses as failed runs in qwen-triage.yml `priority/P2` `type/bug` `category/development` `scope/ci-cd` 💬3
 - [#10309](https://github.com/QwenLM/qwen-code/issues/10309) Feature: probe actual modality support at model setup (one-shot capability probe instead of static pattern guessing) `priority/P2` `type/feature-request` `category/core` `scope/model-switching` 💬3
@@ -234,18 +233,19 @@
 - [#10338](https://github.com/QwenLM/qwen-code/issues/10338) triage runbook: scope re-run suppression to terminal stage / exit `priority/P3` `category/development` `scope/ci-cd` `type/enhancement` 💬2
 - [#10322](https://github.com/QwenLM/qwen-code/issues/10322) triage: Stage 1-pre subsumption check breaks silently at the contents-API size ceiling `priority/P2` `type/bug` `category/development` `scope/ci-cd` 💬2
 - [#10332](https://github.com/QwenLM/qwen-code/issues/10332) Feature request: append to system prompt at launch (--append-system-prompt / QWEN_APPEND_SYSTEM_MD) — QWEN_SYSTEM_MD only replaces `priority/P3` `type/feature-request` `category/cli` `scope/cli` 💬2
+- [#10323](https://github.com/QwenLM/qwen-code/issues/10323) triage: Stage 1-pre remaining-delta branch needs a disputed-premise exit `priority/P3` `status/blocked` `category/development` `scope/github-actions` 💬2
 - …and 24 more
 
 #### 🔒 Closed Issues
 - [#10272](https://github.com/QwenLM/qwen-code/issues/10272) E2E: external-context mem0 tests hang at 'Connecting to MCP servers' on macOS and ecs-qwen pool (pass on ubuntu-hosted)
 - [#9927](https://github.com/QwenLM/qwen-code/issues/9927) Artifact updatedAt stays stale; write_file intermediates linger as missing
-- [#10242](https://github.com/QwenLM/qwen-code/issues/10242) E2E on main: GitHub-hosted runners intermittently unable to reach the OPENAI_BASE_URL endpoint (Aliyun Beijing) — relocate lanes or switch endpoint
 - [#10211](https://github.com/QwenLM/qwen-code/issues/10211) Agent Team: initial teammate result may be lost before event bridge attachment
 - [#10209](https://github.com/QwenLM/qwen-code/issues/10209) Agent Team: stale reclaim can delete a newer live team generation
 - [#10069](https://github.com/QwenLM/qwen-code/issues/10069) Agent Team: a queued Agent View message disappears after switching teammate tabs
 - [#10153](https://github.com/QwenLM/qwen-code/issues/10153) /review: carry the fix's premises, not just its claim — add an evidence-bounded Fix constraint field
 - [#9792](https://github.com/QwenLM/qwen-code/issues/9792) /review: remember the last explicitly typed --effort and reuse it with a notice
-- …and 6 more
+- [#10325](https://github.com/QwenLM/qwen-code/issues/10325) Main CI failed: E2E Tests on 1637aa968b3f
+- …and 5 more
 
 ### Claude Code Skills (`anthropics/skills`)
 
@@ -262,20 +262,20 @@ Top open skill PRs by community engagement:
 
 ### OpenClaw (`openclaw/openclaw`)
 
-**Stars:** 387,851 · **Open issues:** 5,725 · **Last push:** <1h ago
+**Stars:** 387,851 · **Open issues:** 5,728 · **Last push:** <1h ago
 
 #### ✅ Merged PRs
-- [#131291](https://github.com/openclaw/openclaw/pull/131291) chore(ui): refresh control ui locales
+- [#131398](https://github.com/openclaw/openclaw/pull/131398) refactor(infra): unify Unix listener inspection
+- [#131267](https://github.com/openclaw/openclaw/pull/131267) fix(ios): complete QR pairing in one step
 - [#128223](https://github.com/openclaw/openclaw/pull/128223) fix(cli): resolve alias targets from the write snapshot
-- [#131381](https://github.com/openclaw/openclaw/pull/131381) fix(transcripts): report auto-start shutdown warnings
+- [#131390](https://github.com/openclaw/openclaw/pull/131390) docs(test): include agent-plugin gateway in E2E aggregate
 - [#123535](https://github.com/openclaw/openclaw/pull/123535) fix(ui): avoid session catalog refresh storms
+- [#131291](https://github.com/openclaw/openclaw/pull/131291) chore(ui): refresh control ui locales
+- [#131381](https://github.com/openclaw/openclaw/pull/131381) fix(transcripts): report auto-start shutdown warnings
 - [#131382](https://github.com/openclaw/openclaw/pull/131382) fix(test): avoid slow and incorrect test discovery in large checkouts
 - [#131241](https://github.com/openclaw/openclaw/pull/131241) fix(ui): stop Talk camera preview flicker on rerenders
 - [#128169](https://github.com/openclaw/openclaw/pull/128169) fix(acp): preserve configured thinking across session reuse
-- [#131378](https://github.com/openclaw/openclaw/pull/131378) fix(ui): unselected channel picker shows prompt
-- [#130196](https://github.com/openclaw/openclaw/pull/130196) fix(sessions): fence restart-recovery tombstones independently of archive state
-- [#131377](https://github.com/openclaw/openclaw/pull/131377) fix(ui): replace channel setup Working text with spinner buttons
-- …and 131 more
+- …and 133 more
 
 #### 🐛 New Issues
 - [#130968](https://github.com/openclaw/openclaw/issues/130968) [Bug]: Update fresh doctor waits on the parent plugin lifecycle lease 💬6
@@ -288,7 +288,7 @@ Top open skill PRs by community engagement:
 - [#131104](https://github.com/openclaw/openclaw/issues/131104) [Bug]: Agent model picker refresh stays empty although full discovery succeeds `no-stale` `P1` `clawsweeper:fix-shape-clear` `clawsweeper:queueable-fix` 💬3
 - [#130919](https://github.com/openclaw/openclaw/issues/130919) [Bug]: Source installer restarts an already refreshed Gateway service twice `no-stale` `P2` `clawsweeper:fix-shape-clear` `clawsweeper:queueable-fix` 💬3
 - [#131074](https://github.com/openclaw/openclaw/issues/131074) [Bug]: update finalize --no-restart fails when Gateway is intentionally stopped `bug` `maintainer` `P2` `clawsweeper:no-new-fix-pr` 💬3
-- …and 138 more
+- …and 140 more
 
 #### 🔒 Closed Issues
 - [#81061](https://github.com/openclaw/openclaw/issues/81061) Hook: before_route_inbound_message — pre-routing interception for channel bridging/proxying
@@ -299,11 +299,11 @@ Top open skill PRs by community engagement:
 - [#128657](https://github.com/openclaw/openclaw/issues/128657) [Bug]: Control UI loading shimmers repaint every frame
 - [#121756](https://github.com/openclaw/openclaw/issues/121756) [Bug]: Control UI cannot recover channel-originated active run after reload
 - [#130977](https://github.com/openclaw/openclaw/issues/130977) [Bug]: Linux plugins-list startup-memory gate flakes at current runner variance
-- …and 86 more
+- …and 87 more
 
 ### Hermes Agent (`nousresearch/hermes-agent`)
 
-**Stars:** 237,354 · **Open issues:** 36,645 · **Last push:** <1h ago
+**Stars:** 237,357 · **Open issues:** 36,651 · **Last push:** <1h ago
 
 #### 🚀 New Releases
 - [v2026.8.27](https://github.com/nousresearch/hermes-agent/releases/tag/v2026.8.27) Hermes Agent v0.20.6 (v2026.8.27)
@@ -320,8 +320,8 @@ Top open skill PRs by community engagement:
 - [#96780](https://github.com/NousResearch/hermes-agent/issues/96780) Preview pane "Browser" tab close button overlaps with tab label `type/bug` `P3` `comp/desktop` 💬2
 - [#96767](https://github.com/NousResearch/hermes-agent/issues/96767) feat(config): add --quiet / scripting-friendly output to config set `duplicate` `type/feature` `comp/cli` `area/config` 💬2
 - [#96603](https://github.com/NousResearch/hermes-agent/issues/96603) [Bug]: "Summarizing Thread" has become extremely slow after recent updates `type/perf` `comp/agent` `P2` `needs-repro` 💬2
+- [#96795](https://github.com/NousResearch/hermes-agent/issues/96795) Memory write governance — the agent-autonomy loop breaks in practice, and our only workaround is a local hack. Please make explicit-only writes and capacity warnings native. `type/feature` `comp/agent` `tool/memory` `P3` 💬1
 - [#96792](https://github.com/NousResearch/hermes-agent/issues/96792) [desktop, macOS] "Timed out waiting for Hermes backend port announcement (90000ms)" — stdout listener race in waitForDashboardPort causes false-positive backend death `type/bug` `duplicate` `backend/local` `P1` 💬1
-- [#96778](https://github.com/NousResearch/hermes-agent/issues/96778) Photon health polling can exhaust macOS ephemeral ports with TIME_WAIT sockets `type/bug` `comp/gateway` `comp/plugins` `P3` 💬1
 - …and 24 more
 
 #### 🔒 Closed Issues
@@ -412,13 +412,14 @@ Top open skill PRs by community engagement:
 
 ### ZeroClaw (`zeroclaw-labs/zeroclaw`)
 
-**Stars:** 32,667 · **Open issues:** 811 · **Last push:** 15h ago
+**Stars:** 32,667 · **Open issues:** 812 · **Last push:** 15h ago
 
 #### ✅ Merged PRs
 - [#9707](https://github.com/zeroclaw-labs/zeroclaw/pull/9707) fix(config): migrate bare vision_model_provider to dotted alias ref
 - [#9748](https://github.com/zeroclaw-labs/zeroclaw/pull/9748) fix(runtime): prevent stale provider refreshes from mutating replacement sessions (#9719)
 
 #### 🐛 New Issues
+- [#10419](https://github.com/zeroclaw-labs/zeroclaw/issues/10419) [Feature]: Stream agent-loop tokens from POST /webhook (SSE) `enhancement`
 - [#10409](https://github.com/zeroclaw-labs/zeroclaw/issues/10409) fix(channels): secure temp file handling with 0o600 permissions
 - [#10408](https://github.com/zeroclaw-labs/zeroclaw/issues/10408) [Bug]: second message during an active turn starts a parallel run in the same session → duplicate work and duplicate reply `bug`
 - [#10406](https://github.com/zeroclaw-labs/zeroclaw/issues/10406) [Tracker]: Implement accepted Gemini speech-to-speech broker channel (#8780) `enhancement` `channel` `gateway` `runtime`
@@ -513,7 +514,7 @@ Top open skill PRs by community engagement:
 
 ### llama.cpp (`ggml-org/llama.cpp`)
 
-**Stars:** 125,980 · **Open issues:** 2,252 · **Last push:** 1h ago
+**Stars:** 125,981 · **Open issues:** 2,253 · **Last push:** 2h ago
 
 #### 🚀 New Releases
 - [b10665](https://github.com/ggml-org/llama.cpp/releases/tag/b10665) b10665
@@ -551,7 +552,7 @@ Top open skill PRs by community engagement:
 - [#27814](https://github.com/ggml-org/llama.cpp/issues/27814) Misc. bug: VRAM usage increased in msvc build vs clang on windows (+2gb) `bug-unconfirmed` 💬1
 - [#27783](https://github.com/ggml-org/llama.cpp/issues/27783) server / tokenizer: SIGSEGV (stack overflow) in `unicode_regex_split_stl` — the o200k / GPT4O pre-tokenizer regex recurses once per character, so a ~26,000-character unbroken run of one character class kills the process 💬1
 - [#27784](https://github.com/ggml-org/llama.cpp/issues/27784) Metal: --embeddings with pooling still builds and computes the LM head, producing a multi-GiB discarded tensor and returning all-NaN embeddings on long inputs 💬1
-- …and 13 more
+- …and 14 more
 
 #### 🔒 Closed Issues
 - [#27813](https://github.com/ggml-org/llama.cpp/issues/27813) server: slot restore gives no prefix reuse on hybrid/recurrent models (context checkpoints are not persisted)
@@ -593,7 +594,7 @@ Top open skill PRs by community engagement:
 
 ### LiteLLM (`BerriAI/litellm`)
 
-**Stars:** 57,428 · **Open issues:** 4,884 · **Last push:** <1h ago
+**Stars:** 57,429 · **Open issues:** 4,884 · **Last push:** <1h ago
 
 #### ✅ Merged PRs
 - [#38606](https://github.com/BerriAI/litellm/pull/38606) fix(router): fall over on raised mid-stream errors in /v1/messages streams
@@ -650,7 +651,7 @@ Top open skill PRs by community engagement:
 - [#9841](https://github.com/unslothai/unsloth/pull/9841) Keep the context length a load was given instead of resetting it to Auto
 - [#9860](https://github.com/unslothai/unsloth/pull/9860) Apply the kwarg-spacing hook to the no-progress tool results test
 - [#9822](https://github.com/unslothai/unsloth/pull/9822) Studio: warn instead of refusing to load a model bigger than VRAM plus RAM
-- …and 35 more
+- …and 34 more
 
 #### 🐛 New Issues
 - [#9861](https://github.com/unslothai/unsloth/issues/9861) Smart offload planner is slower than --fit on in 40 of 43 measured cells on a 6-core desktop 💬6

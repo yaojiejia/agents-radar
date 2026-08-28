@@ -1,50 +1,50 @@
 {
   "ai-digest": [
-    "Ollama released v0.33.2-rc1 with new features.",
-    "Claude Code begins multiplatform support updates.",
-    "OpenClaw sees 148 new issues reported today.",
-    "OpenCode closed 13 issues, still trending strong.",
-    "Pi received 36 issues, indicating developer interest.",
-    "New features added in v0.33.2-rc1 for Claude."
+    "Claude Code released v2.1.250 with updates.",
+    "OpenAI Codex merged PR #41243 with 47 PRs merged.",
+    "OpenClaw has 150 new issues and 143 merged PRs.",
+    "Hermes Agent has 34 new issues since last update.",
+    "llama.cpp gained 24 new issues, 2 closed.",
+    "Unsloth closed 51 issues with 44 PRs merged."
   ],
   "ai-trending": [
-    "freestylefly/awesome-gpt-image-2 gained 2000 stars today.",
-    "K-Dense-AI/scientific-agent-skills aids 175,000 scientists.",
-    "langchain-ai/langchain simplifies AI app development.",
-    "run-llama/llama_index enhances document processing.",
-    "milvus-io/milvus grows as a data handling solution.",
-    "Growing demand for productivity-enhancing AI tools."
+    "JetBrains/go-modern-guidelines gained 300 stars today.",
+    "awesome-gpt-image-2 earned 2096 stars today.",
+    "K-Dense-AI/scientific-agent-skills gained 498 stars.",
+    "claude-mem project added 143 stars today.",
+    "claude-obsidian increased by 634 stars today.",
+    "AI agents show strong adoption for scientific tasks."
   ],
   "ai-web": [
-    "Anthropic publishes Model Hardware Standard preview.",
-    "MHS enhances AI-agent interaction with devices.",
-    "Seamless integration in research and manufacturing.",
-    "AI agents to operate lab instruments autonomously.",
-    "Research aims for higher efficiency with MHS.",
-    "Collaboration with HHMI Janelia Research Campus."
+    "Anthropic previewed the Model Hardware Standard.",
+    "MHS aims to enhance AI device interoperability.",
+    "Standard reduces integration times for AI agents.",
+    "Collaborates with HHMI Janelia Research Campus.",
+    "Autonomous experiments supported by real-time AI.",
+    "No new content published by OpenAI today."
   ],
   "ai-hn": [
-    "Google launched Gemini-3.5 for transcription tasks.",
-    "Discussions on AI's impact on education growing.",
-    "Terminal-Bench-Science promotes AI performance standards.",
-    "Gemini-3.5 sparks community enthusiasm.",
-    "Debates on AI consciousness capturing attention.",
-    "Public interest in ethical AI applications rising."
+    "Gemini-3.5-Transcribe boosts transcription capabilities.",
+    "Turbulent AI era prompts community discussions.",
+    "AI found a critical flaw in Bitcoin Lightning.",
+    "Debate on workplace implications of AI advances.",
+    "Ethical dimensions of AI integration being discussed.",
+    "Google's Gemini series remains a hot topic."
   ],
   "ai-arxiv": [
-    "LLMs transforming electronic design automation discussed.",
-    "Ethics of tool-augmented LLM outputs examined.",
-    "New frameworks for performance evaluation introduced.",
-    "Privacy-preserving techniques gaining traction.",
-    "Novel applications of LLMs in practical scenarios.",
-    "Integration of language and vision capabilities highlighted."
+    "LLM agents misled by fabricated evidence found.",
+    "LAAF framework for accountability in LLM applications.",
+    "Research focuses on LLM's performance and ethics.",
+    "New studies on visual and textual information merging.",
+    "Enhancing agent systems for complex problem-solving.",
+    "Innovative methods for model interpretability explored."
   ],
   "ai-community": [
-    "Developers discuss AI deployment costs and efficiency.",
-    "Concerns over maintenance expenses after AI rollout.",
-    "AI ethics debates focused on privacy and user experience.",
-    "Prompt quality crucial for AI coding agents.",
-    "AI second opinion validation through dual LLMs.",
-    "Delivery speed vs. sustainability in AI highlighted."
+    "Concerns about AI deployment and maintenance costs.",
+    "Quality control in ML emphasized by Dev.to articles.",
+    "Ethics of AI usage among minors debated extensively.",
+    "Mechanisms for accountability in AI outputs discussed.",
+    "Reliability of AI assessments questioned in new review.",
+    "Challenges in social platform AI agent integration."
   ]
 }
