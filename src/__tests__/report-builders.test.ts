@@ -139,11 +139,16 @@ describe("buildSkillsSection", () => {
 // buildUnifiedDigestContent
 // ---------------------------------------------------------------------------
 
-function build(groups: DigestGroup[], highlights = ""): string {
+function build(
+  groups: DigestGroup[],
+  highlights = "",
+  repoSummaries: Map<string, string> = new Map(),
+): string {
   return buildUnifiedDigestContent(
     groups,
     SINCE,
     highlights,
+    repoSummaries,
     "2026-03-09 23:00",
     "2026-03-09",
     "\n\n---\nfooter",
@@ -202,12 +207,21 @@ describe("buildUnifiedDigestContent", () => {
     expect(out).toContain("| [QuietTool](https://github.com/org/quiet) | 12,345 | 0 | 0 | 0 | 0 |");
   });
 
-  it("caps lists and appends an overflow tail", () => {
+  it("lists every item without truncation", () => {
     const manyPrs = Array.from({ length: 14 }, (_, i) =>
       makeItem({ number: 100 + i, merged_at: "2026-03-09T06:00:00Z", comments: i }),
     );
     const out = build([{ heading: "G", repos: [makeFetch({ prs: manyPrs })] }]);
-    expect(out).toContain("- …and 4 more");
+    for (let i = 0; i < 14; i++) expect(out).toContain(`[#${100 + i}]`);
+    expect(out).not.toContain("more");
+  });
+
+  it("renders a repo's summary paragraph between meta and listings", () => {
+    const summaries = new Map([["test", "Shipped v1.0.0 with a faster parser."]]);
+    const out = build([{ heading: "G", repos: [activeRepo] }], "", summaries);
+    expect(out).toContain("Shipped v1.0.0 with a faster parser.");
+    expect(out.indexOf("Shipped v1.0.0")).toBeGreaterThan(out.indexOf("**Stars:**"));
+    expect(out.indexOf("Shipped v1.0.0")).toBeLessThan(out.indexOf("#### 🚀 New Releases"));
   });
 
   it("renders a dash for stars and omits the meta line when meta is missing", () => {

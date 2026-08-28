@@ -1,6 +1,7 @@
 import { describe, it, expect } from "vitest";
 import {
   buildDigestHighlightsPrompt,
+  buildRepoSummaryPrompt,
   buildTrendingPrompt,
   buildWebReportPrompt,
   buildHnPrompt,
@@ -104,6 +105,34 @@ describe("buildDigestHighlightsPrompt", () => {
     expect(p).toContain("[#100]");
     expect(p).toContain("[#102]");
     expect(p).not.toContain("[#103]");
+  });
+});
+
+// ---------------------------------------------------------------------------
+// buildRepoSummaryPrompt
+// ---------------------------------------------------------------------------
+
+describe("buildRepoSummaryPrompt", () => {
+  const since = new Date("2026-03-09T00:00:00Z");
+
+  it("includes releases, merged PRs and new issues, and asks for 3-5 sentences", () => {
+    const f = makeFetch({
+      releases: [release],
+      prs: [makeItem({ number: 20, title: "Add streaming", merged_at: "2026-03-09T06:00:00Z" })],
+      issues: [makeItem({ number: 10, title: "Crash on start" })],
+    });
+    const p = buildRepoSummaryPrompt(f, since, "2026-03-09");
+    expect(p).toContain("TestTool");
+    expect(p).toContain("org/test");
+    expect(p).toContain("v1.0.0");
+    expect(p).toContain("#20 Add streaming");
+    expect(p).toContain("#10 Crash on start");
+    expect(p).toContain("3-5 sentences");
+  });
+
+  it("marks empty categories as None", () => {
+    const p = buildRepoSummaryPrompt(makeFetch(), since, "2026-03-09");
+    expect(p).toContain("None");
   });
 });
 

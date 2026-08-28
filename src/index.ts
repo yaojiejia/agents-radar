@@ -25,10 +25,16 @@ import {
   buildTrendingPrompt,
   buildHighlightsPrompt,
   buildDigestHighlightsPrompt,
+  buildRepoSummaryPrompt,
   type ReportHighlights,
 } from "./prompts-data.ts";
 import { callLlm, parseLlmJson, saveFile, autoGenFooter, LLM_TOKENS_TRENDING } from "./report.ts";
-import { type DigestGroup, buildUnifiedDigestContent, buildSkillsSection } from "./report-builders.ts";
+import {
+  type DigestGroup,
+  buildUnifiedDigestContent,
+  buildSkillsSection,
+  categorizeRepoActivity,
+} from "./report-builders.ts";
 import {
   saveWebReport,
   saveTrendingReport,
@@ -209,6 +215,9 @@ async function summarize(id: string, prompt: string, failMsg: string, maxTokens?
 /** Token budget for the digest Highlights bullets — a short list, not a report. */
 const LLM_TOKENS_DIGEST_HIGHLIGHTS = 2048;
 
+/** Token budget for a per-repo 3-5 sentence summary paragraph. */
+const LLM_TOKENS_REPO_SUMMARY = 512;
+
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
@@ -272,11 +281,12 @@ async function main(): Promise<void> {
     { heading: "⚙️ AI Infrastructure", repos: fetchedInfra },
   ];
 
-  // 2. LLM content: digest highlights + trending summary.
-  // The unified digest's listings are verbatim data — the only generated text
-  // is the short Highlights section, and it degrades to omission on failure.
-  console.log("  Generating digest highlights + trending summary...");
+  // 2. LLM content: digest highlights + per-repo summaries + trending summary.
+  // The digest's listings are verbatim data; every generated piece degrades to
+  // omission (highlights, repo summaries) or a fixed message (trending).
+  console.log("  Generating digest highlights, repo summaries + trending summary...");
   const hasTrendingData = trendingData.trendingRepos.length > 0 || trendingData.searchRepos.length > 0;
+  const repoSummaries = new Map<string, string>();
   const [digestHighlights, trendingSummary] = await Promise.all([
     callLlm(buildDigestHighlightsPrompt(digestGroups, since, dateStr), LLM_TOKENS_DIGEST_HIGHLIGHTS).catch(
       (err) => {
@@ -292,6 +302,20 @@ async function main(): Promise<void> {
           LLM_TOKENS_TRENDING,
         )
       : Promise.resolve(MSG.trendingNoData),
+    ...digestGroups
+      .flatMap((g) => g.repos)
+      .map(async (f) => {
+        const a = categorizeRepoActivity(f, since);
+        const quiet =
+          !f.releases.length && !a.mergedPrs.length && !a.newIssues.length && !a.closedIssues.length;
+        if (quiet) return;
+        try {
+          const text = await callLlm(buildRepoSummaryPrompt(f, since, dateStr), LLM_TOKENS_REPO_SUMMARY);
+          repoSummaries.set(f.cfg.id, text);
+        } catch (err) {
+          console.error(`  [${f.cfg.id}] repo summary failed, omitting: ${err}`);
+        }
+      }),
   ]);
 
   // 3. Build + save the unified digest
@@ -299,6 +323,7 @@ async function main(): Promise<void> {
     digestGroups,
     since,
     digestHighlights,
+    repoSummaries,
     utcStr,
     dateStr,
     autoGenFooter(),

@@ -48,7 +48,7 @@ export ANTHROPIC_API_KEY=sk-ant-xxxxx
 The pipeline runs in sequential phases in `src/index.ts`'s `main()`:
 
 1. **`fetchAllData`** — all network I/O in parallel: GitHub API (issues/PRs/releases + repo metadata via `fetchRepoMeta`) for 18 repos, Claude Code Skills, Anthropic/OpenAI sitemaps, GitHub Trending HTML + Search API, Hacker News Algolia API.
-2. **LLM content** — exactly two calls here: the digest Highlights bullets (`buildDigestHighlightsPrompt`, fail-soft to omission) and the trending summary. All `callLlm` traffic is rate-limited to 5 concurrent requests by a queue in `src/report.ts`.
+2. **LLM content** — the digest Highlights bullets (`buildDigestHighlightsPrompt`), one 3-5 sentence summary per active repo (`buildRepoSummaryPrompt`), and the trending summary; each fails soft. All `callLlm` traffic is rate-limited to 5 concurrent requests by a queue in `src/report.ts`.
 3. **Unified digest** — `categorizeRepoActivity` splits each repo's 24h activity into merged PRs / new issues / closed issues; `buildUnifiedDigestContent` (in `src/report-builders.ts`) renders the snapshot table + per-repo listings. Saved as `ai-digest.md` and posted as ONE GitHub issue (label `digest`).
 4. **Data-source reports** — the `saveXxxReport` functions (in `src/report-savers.ts`): one LLM call, one file (base name, e.g. `ai-hn.md`), one GitHub issue (base label).
 5. **Telegram highlights** — `buildHighlightsPrompt` extracts JSON highlights from the finished reports for the notification scripts.
@@ -101,10 +101,11 @@ Files written to `digests/YYYY-MM-DD/`:
 
 ## Tracked sources
 
-- **CLI_REPOS** (7): claude-code, codex, gemini-cli, copilot-cli, opencode, pi, qwen-code
-- **Discussions** (`discussions: true` in `config.yml`): codex, pi.
-- **OPENCLAW** + **OPENCLAW_PEERS** (5): openclaw/openclaw + 4 peer projects (sorted by stars)
-- **INFRA_REPOS** (6): vllm, sglang, llama-cpp, ollama, litellm, unsloth — inference engines, gateway and fine-tuning layer
+- **CLI_REPOS** (6): claude-code, codex, gemini-cli, copilot-cli, opencode, qwen-code
+- **Discussions** (`discussions: true` in `config.yml`): codex.
+- **OPENCLAW** + **OPENCLAW_PEERS** (2): openclaw/openclaw + hermes-agent
+- **INFRA_REPOS** (8): vllm, sglang, llama-cpp, ollama, litellm, unsloth, aibrix, semantic-router — inference engines, gateway, fine-tuning and routing layer
+- Trimmed 2026-08-28 by maintainer choice: pi, ironclaw, qwenpaw, zeroclaw dropped; aibrix + semantic-router (both vllm-project) added.
 - **CLAUDE_SKILLS_REPO**: anthropics/skills — no date filter, sorted by popularity
 - **Web**: anthropic.com + openai.com via sitemap, state in `digests/web-state.json`
 - **Trending**: github.com/trending (HTML) + GitHub Search API (6 AI topics, 7-day window)
@@ -114,7 +115,7 @@ Files written to `digests/YYYY-MM-DD/`:
 ## Key conventions
 
 - All output is **English only** (see "English-only output" above). Do not add per-language branches, `lang` parameters, or translation passes. Report titles and labels are centralized in `src/i18n.ts`.
-- The unified digest is **data-driven**: listings are verbatim GitHub data with fixed per-section caps (10 merged PRs / 10 new issues / 8 closed issues per repo, 4 label chips) chosen to keep the worst-case body under GitHub's 65,536-char issue limit. The Highlights section is its only LLM content and fails soft to omission. Categorization lives in `categorizeRepoActivity` — new = `created_at` in window, closed = `state === "closed"` + `closed_at` in window, merged = `merged_at` in window. Counts are best-effort: the fetch lists items *updated* in 24h, capped at 500 for `paginated` repos.
+- The unified digest is **data-driven**: listings are verbatim GitHub data, rendered **uncapped** (every merged PR / new issue / closed issue — a maintainer decision on 2026-08-28; on a hot day the GitHub issue may hit the 65,536-char limit and get the truncation notice, while the committed file and the web UI always carry everything). LLM content is limited to the ✨ Highlights bullets and a 3-5 sentence per-repo summary paragraph (`buildRepoSummaryPrompt`, one call per active repo, 512 tokens) — both fail soft to omission. Categorization lives in `categorizeRepoActivity` — new = `created_at` in window, closed = `state === "closed"` + `closed_at` in window, merged = `merged_at` in window. Counts are best-effort: the fetch lists items *updated* in 24h, capped at 500 for `paginated` repos.
 - All LLM prompt builders live in `src/prompts-data.ts`.
 - Weekly and monthly rollups were removed in July 2026. `ai-weekly`/`ai-monthly` remain in `REPORT_LABELS` (`src/i18n.ts`) and `REPORT_FILES` (`src/generate-manifest.ts`) only so archived reports stay reachable — do not add generation code back.
 - `callLlm(prompt, maxTokens?)` defaults to 4096 tokens. Web report uses 8192, trending uses 6144. The table-formatted listing reports (HN, PH, ArXiv, HF, Community) use `LLM_TOKENS_LISTING` = 6144 to fit multi-row tables plus 2-sentence summaries.

@@ -12,6 +12,7 @@ import type { ArxivData } from "./arxiv.ts";
 import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
+import type { RepoFetch } from "./github.ts";
 import { type DigestGroup, categorizeRepoActivity } from "./report-builders.ts";
 
 // ---------------------------------------------------------------------------
@@ -49,6 +50,44 @@ ${sections}
 ---
 
 Write a "Highlights" section: 3-5 Markdown bullets covering the most notable developments of the day across ALL repos — new releases first, then significant merged features/fixes, then unusually hot new issues. Each bullet is one sentence, names the project in bold, and reuses the Markdown link of the item it cites. Output ONLY the bullet list, no heading, no preamble.`;
+}
+
+// ---------------------------------------------------------------------------
+// Per-repo digest summary — 3-5 sentences above each repo's listings.
+// ---------------------------------------------------------------------------
+
+/** Items per category fed to the per-repo summary prompt. */
+const REPO_SUMMARY_PR_LIMIT = 25;
+const REPO_SUMMARY_ISSUE_LIMIT = 15;
+
+export function buildRepoSummaryPrompt(fetch: RepoFetch, since: Date, dateStr: string): string {
+  const a = categorizeRepoActivity(fetch, since);
+  const releases = fetch.releases
+    .map((r) => `- ${r.tag_name}: ${r.name ?? ""}\n  ${(r.body ?? "").replace(/\s+/g, " ").slice(0, 400)}`)
+    .join("\n");
+  const merged = a.mergedPrs
+    .slice(0, REPO_SUMMARY_PR_LIMIT)
+    .map((p) => `- #${p.number} ${p.title} (💬${p.comments})`)
+    .join("\n");
+  const issues = a.newIssues
+    .slice(0, REPO_SUMMARY_ISSUE_LIMIT)
+    .map((i) => `- #${i.number} ${i.title} (💬${i.comments})`)
+    .join("\n");
+
+  return `You are writing a one-paragraph daily summary for ${fetch.cfg.name} (github.com/${fetch.cfg.repo}) in an AI ecosystem monitoring digest dated ${dateStr}.
+
+## Releases (last 24h)
+${releases || "None"}
+
+## Merged PRs (last 24h)
+${merged || "None"}
+
+## New issues (last 24h)
+${issues || "None"}
+
+---
+
+Write 3-5 sentences summarizing the day's most important developments: new versions and their key changes first, then the most significant merged features and fixes, then any notably hot new issue. Be concrete — name the features and version tags rather than counting items. Plain prose only: no heading, no bullets, no links. If the day was routine maintenance, say so in one sentence and mention the most interesting item anyway.`;
 }
 
 // ---------------------------------------------------------------------------

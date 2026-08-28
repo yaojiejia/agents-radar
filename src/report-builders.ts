@@ -50,9 +50,6 @@ export function categorizeRepoActivity(fetch: RepoFetch, since: Date): RepoActiv
 // Line formatting
 // ---------------------------------------------------------------------------
 
-const MERGED_PR_LIMIT = 10;
-const NEW_ISSUE_LIMIT = 10;
-const CLOSED_ISSUE_LIMIT = 8;
 const LABEL_CHIP_LIMIT = 4;
 const SKILLS_PR_LIMIT = 5;
 
@@ -79,13 +76,6 @@ function releaseLine(repo: string, r: GitHubRelease): string {
   return `- [${r.tag_name}](${url}) ${cleanTitle(r.name || "")}`.trimEnd();
 }
 
-/** Render a capped list with an "…and N more" tail when items were cut. */
-function cappedList(items: GitHubItem[], cap: number, toLine: (i: GitHubItem) => string): string {
-  const lines = items.slice(0, cap).map(toLine);
-  if (items.length > cap) lines.push(`- …and ${items.length - cap} more`);
-  return lines.join("\n");
-}
-
 function timeAgo(iso: string, now: Date): string {
   const hours = Math.floor((now.getTime() - new Date(iso).getTime()) / 3_600_000);
   if (hours < 1) return "<1h ago";
@@ -109,7 +99,7 @@ function hasActivity(a: RepoActivity, releases: GitHubRelease[]): boolean {
   return a.newIssues.length > 0 || a.closedIssues.length > 0 || a.mergedPrs.length > 0 || releases.length > 0;
 }
 
-function repoSection(fetch: RepoFetch, activity: RepoActivity, now: Date): string {
+function repoSection(fetch: RepoFetch, activity: RepoActivity, now: Date, summary: string): string {
   const { cfg, releases, meta } = fetch;
   const parts = [`### ${cfg.name} (\`${cfg.repo}\`)`];
   if (meta) {
@@ -118,17 +108,20 @@ function repoSection(fetch: RepoFetch, activity: RepoActivity, now: Date): strin
         `${meta.openIssues.toLocaleString("en-US")} · **Last push:** ${timeAgo(meta.pushedAt, now)}`,
     );
   }
+  if (summary.trim()) {
+    parts.push(summary.trim());
+  }
   if (releases.length) {
     parts.push(`#### 🚀 New Releases\n${releases.map((r) => releaseLine(cfg.repo, r)).join("\n")}`);
   }
   if (activity.mergedPrs.length) {
-    parts.push(`#### ✅ Merged PRs\n${cappedList(activity.mergedPrs, MERGED_PR_LIMIT, itemLine)}`);
+    parts.push(`#### ✅ Merged PRs\n${activity.mergedPrs.map(itemLine).join("\n")}`);
   }
   if (activity.newIssues.length) {
-    parts.push(`#### 🐛 New Issues\n${cappedList(activity.newIssues, NEW_ISSUE_LIMIT, newIssueLine)}`);
+    parts.push(`#### 🐛 New Issues\n${activity.newIssues.map(newIssueLine).join("\n")}`);
   }
   if (activity.closedIssues.length) {
-    parts.push(`#### 🔒 Closed Issues\n${cappedList(activity.closedIssues, CLOSED_ISSUE_LIMIT, itemLine)}`);
+    parts.push(`#### 🔒 Closed Issues\n${activity.closedIssues.map(itemLine).join("\n")}`);
   }
   return parts.join("\n\n");
 }
@@ -174,6 +167,8 @@ export function buildUnifiedDigestContent(
   groups: DigestGroup[],
   since: Date,
   highlights: string,
+  /** Per-repo 3-5 sentence LLM summaries, keyed by cfg.id; missing = omitted. */
+  repoSummaries: Map<string, string>,
   utcStr: string,
   dateStr: string,
   footer: string,
@@ -195,7 +190,9 @@ export function buildUnifiedDigestContent(
     .map((g) => {
       const active = g.repos.filter((f) => hasActivity(activities.get(f.cfg.id)!, f.releases));
       const quiet = g.repos.filter((f) => !hasActivity(activities.get(f.cfg.id)!, f.releases));
-      const sections = active.map((f) => repoSection(f, activities.get(f.cfg.id)!, now));
+      const sections = active.map((f) =>
+        repoSection(f, activities.get(f.cfg.id)!, now, repoSummaries.get(f.cfg.id) ?? ""),
+      );
       if (g.appendix?.trim()) sections.push(g.appendix.trim());
       if (quiet.length) {
         sections.push(`_Quiet today: ${quiet.map((f) => f.cfg.name).join(", ")}_`);

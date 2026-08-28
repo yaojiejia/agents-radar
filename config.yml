@@ -26,10 +26,6 @@ cli_repos:
   - id: opencode
     repo: anomalyco/opencode
     name: OpenCode
-  - id: pi
-    repo: earendil-works/pi
-    name: Pi
-    discussions: true
   - id: qwen-code
     repo: QwenLM/qwen-code
     name: Qwen Code
@@ -55,15 +51,6 @@ openclaw_peers:
   - id: hermes-agent
     repo: nousresearch/hermes-agent
     name: Hermes Agent
-  - id: ironclaw
-    repo: nearai/ironclaw
-    name: IronClaw
-  - id: qwenpaw
-    repo: agentscope-ai/QwenPaw
-    name: QwenPaw
-  - id: zeroclaw
-    repo: zeroclaw-labs/zeroclaw
-    name: ZeroClaw
 
 # ── AI infrastructure ─────────────────────────────────────────────────────────
 # Inference engines, gateways and fine-tuning frameworks that the agent/CLI
@@ -93,3 +80,9 @@ infra_repos:
     repo: unslothai/unsloth
     name: Unsloth
     paginated: true
+  - id: aibrix
+    repo: vllm-project/aibrix
+    name: AIBrix
+  - id: semantic-router
+    repo: vllm-project/semantic-router
+    name: Semantic Router
