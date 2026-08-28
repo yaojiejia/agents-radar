@@ -15,15 +15,23 @@ import { pathToFileURL } from "node:url";
 import { NOTIFY_LABELS } from "./i18n.ts";
 import type { ReportHighlights } from "./prompts-data.ts";
 
-export interface Highlights {
-  zh: ReportHighlights;
-  en: ReportHighlights;
-}
-
 const PAGES_URL_DEFAULT = "https://duanyytop.github.io/agents-radar";
 
 function escapeHtml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+/**
+ * highlights.json is a flat {reportId: [...]} since the English-only change;
+ * archived files have the old {zh, en} shape. Accept both.
+ */
+export function normalizeHighlights(parsed: unknown): ReportHighlights {
+  if (parsed === null || typeof parsed !== "object") return {};
+  const obj = parsed as Record<string, unknown>;
+  if ("en" in obj || "zh" in obj) {
+    return ((obj["en"] ?? obj["zh"]) as ReportHighlights | undefined) ?? {};
+  }
+  return obj as ReportHighlights;
 }
 
 async function sendTelegram(text: string): Promise<void> {
@@ -50,32 +58,21 @@ export function buildMessage(
   date: string,
   reports: string[],
   pagesUrl?: string,
-  highlights?: Highlights | null,
+  highlights?: ReportHighlights | null,
 ): string {
   const PAGES_URL = (pagesUrl ?? process.env["PAGES_URL"] ?? PAGES_URL_DEFAULT).replace(/\/$/, "");
+  // Archived bilingual dates still list -en twins; link each report once.
   const ordered = reports.filter((r) => !r.endsWith("-en"));
   const lines: string[] = [`📡 <b>agents-radar · ${date}</b>`];
 
-  const zhHighlights = highlights?.zh ?? {};
-  const enHighlights = highlights?.en ?? {};
-
   for (const r of ordered) {
-    const zhLabel = NOTIFY_LABELS[r]?.zh ?? r;
-    const zhUrl = `${PAGES_URL}/#${date}/${r}`;
-    const enKey = `${r}-en`;
+    const label = NOTIFY_LABELS[r] ?? r;
+    const url = `${PAGES_URL}/#${date}/${r}`;
 
     lines.push(""); // blank line before each report section
-    if (reports.includes(enKey)) {
-      const enLabel = NOTIFY_LABELS[r]?.en ?? "EN";
-      const enUrl = `${PAGES_URL}/#${date}/${enKey}`;
-      lines.push(`• <a href="${zhUrl}">${zhLabel}</a>  ·  <a href="${enUrl}">${enLabel}</a>`);
-    } else {
-      lines.push(`• <a href="${zhUrl}">${zhLabel}</a>`);
-    }
+    lines.push(`• <a href="${url}">${label}</a>`);
 
-    // Add highlights as indented sub-items. Fall back to en when a report's zh
-    // highlights are missing so a single-language failure never blanks the message.
-    const items = zhHighlights[r] ?? enHighlights[r];
+    const items = highlights?.[r];
     if (items?.length) {
       for (const h of items) {
         lines.push(`  ◦ ${escapeHtml(h)}`);
@@ -111,11 +108,11 @@ async function main(): Promise<void> {
   const { date, reports } = latest;
 
   // Load highlights if available
-  let highlights: Highlights | null = null;
+  let highlights: ReportHighlights | null = null;
   const highlightsPath = path.join("digests", date, "highlights.json");
   if (fs.existsSync(highlightsPath)) {
     try {
-      highlights = JSON.parse(fs.readFileSync(highlightsPath, "utf-8")) as Highlights;
+      highlights = normalizeHighlights(JSON.parse(fs.readFileSync(highlightsPath, "utf-8")));
     } catch {
       console.log("[notify] Failed to parse highlights.json — sending without highlights.");
     }

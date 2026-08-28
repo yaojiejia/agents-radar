@@ -2,7 +2,7 @@
 
 English | [中文](./README.zh.md)
 
-A GitHub Actions workflow that runs every morning at 07:00 CST. It aggregates AI ecosystem signals from 10 data sources, then publishes bilingual (Chinese + English) daily digests as GitHub Issues and committed Markdown files.
+A GitHub Actions workflow that runs every morning at 07:00 CST. It aggregates AI ecosystem signals from 10 data sources, then publishes English daily digests as GitHub Issues and committed Markdown files.
 
 ### Data Sources
 
@@ -29,7 +29,7 @@ Browse all historical digests in a clean, dark-themed interface — no login req
 
 ## Telegram Channel & Feishu Group
 
-Subscribe to get daily digest notifications pushed directly to your preferred platform. Each message links to all reports for that day (ZH and EN variants) plus the Web UI and RSS feed.
+Subscribe to get daily digest notifications pushed directly to your preferred platform. Each message links to all reports for that day plus the Web UI and RSS feed.
 
 <table>
   <tr>
@@ -192,14 +192,11 @@ New articles are detected by comparing sitemap `lastmod` timestamps against a pe
 
 - Fetches issues, pull requests, and releases updated in the last 24 hours across all tracked repos
 - Tracks trending Claude Code Skills — sorted by community engagement, not recency
-- Generates a per-tool summary for each CLI repository and a cross-tool comparative analysis
-- Generates a deep OpenClaw project report plus a cross-ecosystem comparison against 4 peer projects
-- Tracks 6 AI infrastructure projects (inference engines, gateways, fine-tuning) with a dedicated report and cross-project comparison
+- Builds a unified data-driven ecosystem digest across all 18 tracked repos: 24h snapshot table, merged PRs, new/closed issues, releases, plus a short LLM-written highlights section
 - Scrapes official Anthropic and OpenAI web content via sitemaps; detects new articles incrementally
 - Monitors GitHub Trending daily + searches 6 AI topic tags; classifies repos by dimension and extracts trend signals
 - Fetches top-30 AI stories from Hacker News (last 24h, ranked by points); generates community sentiment report
 - Publishes GitHub Issues for each report type; commits Markdown files to `digests/YYYY-MM-DD/`
-- Generates every report body once in English and translates it to Chinese, instead of running the whole pipeline twice per language
 - Runs on a daily schedule via GitHub Actions; supports manual triggering
 - All tracked repositories are configurable via `config.yml` — no code changes needed
 
@@ -338,7 +335,7 @@ Files are written to `digests/YYYY-MM-DD/`:
 
 A shared state file `digests/web-state.json` tracks which web URLs have been seen; it is committed alongside the daily digests.
 
-Data-source reports are generated in both Chinese (`ai-hn.md`) and English (`ai-hn-en.md`); the Web UI sidebar shows ZH / EN toggle buttons for reports that have both variants. The unified `ai-digest.md` is English-only — its listings are verbatim GitHub data, so only the section scaffolding would differ between languages.
+All reports are English-only since August 2026. Archived bilingual reports (`*-en.md` twins from before the change) remain browsable in the Web UI, where the ZH / EN toggle appears for dates that have both variants.
 
 ---
 

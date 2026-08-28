@@ -18,7 +18,7 @@ vi.mock("../providers/index.ts", async (importOriginal) => {
   };
 });
 
-import { is429, callLlm, translateToZh, saveFile, autoGenFooter, parseLlmJson } from "../report.ts";
+import { is429, callLlm, saveFile, autoGenFooter, parseLlmJson } from "../report.ts";
 
 // ---------------------------------------------------------------------------
 // is429
@@ -120,19 +120,12 @@ describe("autoGenFooter", () => {
     expect(autoGenFooter()).toBe("");
   });
 
-  it("returns Chinese footer when DIGEST_REPO is set", () => {
+  it("returns the footer when DIGEST_REPO is set", () => {
     process.env["DIGEST_REPO"] = "user/repo";
-    const result = autoGenFooter("zh");
-    expect(result).toContain("agents-radar");
-    expect(result).toContain("github.com/user/repo");
-    expect(result).toContain("自动生成");
-  });
-
-  it("returns English footer when lang is en", () => {
-    process.env["DIGEST_REPO"] = "user/repo";
-    const result = autoGenFooter("en");
+    const result = autoGenFooter();
     expect(result).toContain("auto-generated");
     expect(result).toContain("agents-radar");
+    expect(result).toContain("github.com/user/repo");
   });
 });
 
@@ -277,44 +270,5 @@ describe("callLlm", () => {
     const batch = Array.from({ length: 5 }, (_, i) => callLlm(`p${i}`));
     const results = await Promise.all(batch);
     expect(results).toEqual(["ok", "ok", "ok", "ok", "ok"]);
-  });
-});
-
-// ---------------------------------------------------------------------------
-// translateToZh
-// ---------------------------------------------------------------------------
-
-describe("translateToZh", () => {
-  beforeEach(() => {
-    mockCall.mockReset();
-  });
-
-  it("sends the English body through the translation prompt", async () => {
-    mockCall.mockResolvedValue("中文报告");
-    const out = await translateToZh("# English report");
-    expect(out).toBe("中文报告");
-    expect(mockCall).toHaveBeenCalledTimes(1);
-    const prompt = mockCall.mock.calls[0]![0];
-    expect(prompt).toContain("Simplified Chinese");
-    expect(prompt).toContain("# English report");
-  });
-
-  it("passes the caller's token budget through", async () => {
-    mockCall.mockResolvedValue("中文");
-    await translateToZh("body", 6144);
-    expect(mockCall.mock.calls[0]![1]).toBe(6144);
-  });
-
-  it("skips the LLM entirely for empty input", async () => {
-    const out = await translateToZh("   ");
-    expect(out).toBe("   ");
-    expect(mockCall).not.toHaveBeenCalled();
-  });
-
-  it("falls back to the English text when the call fails", async () => {
-    vi.spyOn(console, "error").mockImplementation(() => {});
-    mockCall.mockRejectedValue(new Error("boom"));
-    const out = await translateToZh("English body");
-    expect(out).toBe("English body");
   });
 });

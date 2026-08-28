@@ -2,7 +2,7 @@
 
 ## Project overview
 
-agents-radar is a daily digest generator for the AI open-source ecosystem. A GitHub Actions cron job runs at 23:00 UTC (07:00 CST next day) and publishes reports as GitHub Issues and committed Markdown files. The main report is the **unified ecosystem digest** (`ai-digest.md`, English only): a data-driven monitoring report — snapshot table, merged PRs, new/closed issues, releases — across all 18 tracked repos. The data-source reports (trending, HN, ArXiv, web, community, HF) remain bilingual (Chinese + English).
+agents-radar is a daily digest generator for the AI open-source ecosystem. A GitHub Actions cron job runs at 23:00 UTC (07:00 CST next day) and publishes **English-only** reports as GitHub Issues and committed Markdown files. The main report is the **unified ecosystem digest** (`ai-digest.md`): a data-driven monitoring report — snapshot table, merged PRs, new/closed issues, releases — across all 18 tracked repos. Data-source reports (trending, HN, ArXiv, web, community, HF) are LLM summaries of their feeds.
 
 ## Commands
 
@@ -48,36 +48,30 @@ export ANTHROPIC_API_KEY=sk-ant-xxxxx
 The pipeline runs in sequential phases in `src/index.ts`'s `main()`:
 
 1. **`fetchAllData`** — all network I/O in parallel: GitHub API (issues/PRs/releases + repo metadata via `fetchRepoMeta`) for 18 repos, Claude Code Skills, Anthropic/OpenAI sitemaps, GitHub Trending HTML + Search API, Hacker News Algolia API.
-2. **LLM content** — exactly two calls here: the digest Highlights bullets (`buildDigestHighlightsPrompt`, fail-soft to omission) and the trending summary (English, then translated via `translateToZh`). All `callLlm` traffic is rate-limited to 5 concurrent requests by a queue in `src/report.ts`.
-3. **Unified digest** — `categorizeRepoActivity` splits each repo's 24h activity into merged PRs / new issues / closed issues; `buildUnifiedDigestContent` (in `src/report-builders.ts`) renders the snapshot table + per-repo listings. Saved as `ai-digest.md` (English only) and posted as ONE GitHub issue (label `digest`).
-4. **Data-source reports** — the `saveXxxReport` functions (in `src/report-savers.ts`) generate their body in English, translate it, then write both language files and create both GitHub Issues.
-5. **Telegram highlights** — `buildHighlightsPrompt` extracts JSON highlights from the finished English reports for the notification scripts.
+2. **LLM content** — exactly two calls here: the digest Highlights bullets (`buildDigestHighlightsPrompt`, fail-soft to omission) and the trending summary. All `callLlm` traffic is rate-limited to 5 concurrent requests by a queue in `src/report.ts`.
+3. **Unified digest** — `categorizeRepoActivity` splits each repo's 24h activity into merged PRs / new issues / closed issues; `buildUnifiedDigestContent` (in `src/report-builders.ts`) renders the snapshot table + per-repo listings. Saved as `ai-digest.md` and posted as ONE GitHub issue (label `digest`).
+4. **Data-source reports** — the `saveXxxReport` functions (in `src/report-savers.ts`): one LLM call, one file (base name, e.g. `ai-hn.md`), one GitHub issue (base label).
+5. **Telegram highlights** — `buildHighlightsPrompt` extracts JSON highlights from the finished reports for the notification scripts.
 
-In August 2026 the three LLM-narrative reports (`ai-cli` / `ai-agents` / `ai-infra`, with per-repo summaries and comparison analyses) were replaced by the unified data-driven digest, dropping the run from ~50 LLM calls to ~15. Do not add per-repo narrative generation back.
+### English-only output
 
-### English-first generation (data-source reports)
+Two August 2026 refactors shaped the current pipeline; do not reverse either:
 
-Bilingual report bodies are generated **once in English** and translated to Chinese. Generating both languages from the raw GitHub/API data ran the whole pipeline twice for identical information; a translation prompt carries the finished report instead of the item dump, so it costs a fraction of the input tokens. Consequences for new code:
-
-- Prompt builders still take a `lang` argument, but the pipeline only ever passes `"en"`. The `lang` branches remain because the fixed scaffolding (titles, headers, footers) is still rendered per language from `src/i18n.ts`.
-- A `saveXxxReport` function emits **both** languages and takes no `lang` parameter. Do not call it once per language.
-- Fixed status strings (`MSG.trendingNoData`, `MSG.trendingFailed`, …) are mapped en→zh through `FIXED_EN_TO_ZH` in `src/index.ts` instead of being sent to the LLM.
-- `translateToZh` falls back to the English text on failure — a partly-English Chinese report still carries the day's information.
-- The unified `ai-digest` is the exception: **English only**, one file, one issue — its listings are verbatim data, so a Chinese variant would only translate scaffolding. Do not add a translation pass for it.
+- The three LLM-narrative reports (`ai-cli` / `ai-agents` / `ai-infra`, with per-repo summaries and comparison analyses) were replaced by the unified data-driven digest, dropping the run from ~50 LLM calls to ~15. Do not add per-repo narrative generation back.
+- The Chinese generation/translation layer (`translateToZh`, `buildTranslationPrompt`, per-`lang` prompt branches, `-en` twin files and `-en` labeled issues) was removed entirely. Everything is generated once, in English, into the base filenames. Archived bilingual reports stay reachable via the `-en` entries kept in `REPORT_LABELS` and `REPORT_FILES`. `highlights.json` is now a flat `{reportId: [...]}` object; `normalizeHighlights` in `src/notify.ts` still accepts the archived `{zh, en}` shape.
 
 ## Source files
 
 | File | Responsibility |
 |------|---------------|
 | `src/index.ts` | Orchestration: repo config, phase functions, `main()` |
-| `src/i18n.ts` | Centralized bilingual strings: `Lang` type, report titles, issue labels, footer text, `REPORT_LABELS`, `NOTIFY_LABELS`; `DIGEST_REPORT` (English-only strings for the unified digest) |
+| `src/i18n.ts` | Centralized report strings: titles, issue-title functions, `ISSUE_LABELS`, `REPORT_LABELS` (includes archived zh/-en ids), `NOTIFY_LABELS` |
 | `src/github.ts` | GitHub API helpers: `fetchRecentItems`, `fetchRecentReleases`, `fetchRecentDiscussions` (GraphQL), `fetchRepoMeta` (stars/open issues/last push), `fetchSkillsData`, `createGitHubIssue`; shared `RepoFetch` type |
 | `src/config.ts` | Loads `config.yml` into `RadarConfig` (`cliRepos`, `skillsRepo`, `openclaw`, `openclawPeers`, `infraRepos`); built-in defaults when a section is missing |
-| `src/prompts.ts` | Translation prompts only: `buildTranslationPrompt` / `buildJsonTranslationPrompt` (the per-repo narrative prompt builders were removed with the August 2026 unified-digest change) |
-| `src/prompts-data.ts` | LLM prompt builders for data-source reports (`buildTrendingPrompt`, `buildWebReportPrompt`, `buildHnPrompt`, …) plus `buildDigestHighlightsPrompt` and the Telegram `buildHighlightsPrompt` |
-| `src/report.ts` | `callLlm` (with concurrency limiter), `translateToZh`, `saveFile`, `autoGenFooter` (uses i18n), LLM token budget constants |
+| `src/prompts-data.ts` | All LLM prompt builders: data-source reports (`buildTrendingPrompt`, `buildWebReportPrompt`, `buildHnPrompt`, …), `buildDigestHighlightsPrompt`, and the Telegram `buildHighlightsPrompt` |
+| `src/report.ts` | `callLlm` (with concurrency limiter), `parseLlmJson`, `saveFile`, `autoGenFooter`, LLM token budget constants |
 | `src/report-builders.ts` | Unified digest: `categorizeRepoActivity` (new/closed issues, merged PRs), `buildSkillsSection`, `buildUnifiedDigestContent` (snapshot table + per-repo listings) |
-| `src/report-savers.ts` | `saveWebReport`, `saveTrendingReport`, `saveHnReport`, … — English LLM call + translation + both language files + optional GitHub issues; exports `LANGS` and `BilingualBody` |
+| `src/report-savers.ts` | `saveWebReport`, `saveTrendingReport`, `saveHnReport`, … — one LLM call + one file + optional GitHub issue per report |
 | `src/date.ts` | Date and timing utilities: `toCstDateStr`, `toUtcStr`, `weekdayOf`, `sleep` |
 | `src/providers/types.ts` | `LlmProvider` interface, `ProviderName` type, `VALID_PROVIDER_NAMES` |
 | `src/providers/openai-compatible.ts` | `OpenAICompatibleProvider` — shared base class for OpenAI-compatible providers |
@@ -99,7 +93,7 @@ Files written to `digests/YYYY-MM-DD/`:
 
 | File | Label | Notes |
 |------|-------|-------|
-| `ai-digest.md` | `digest` | Always generated. **English only** — one file, one issue. Replaced `ai-cli`/`ai-agents`/`ai-infra` in August 2026 |
+| `ai-digest.md` | `digest` | Always generated. Replaced `ai-cli`/`ai-agents`/`ai-infra` in August 2026 |
 | `ai-web.md` | `web` | Skipped if no new sitemap content |
 | `ai-trending.md` | `trending` | Skipped if both data sources fail |
 | `ai-hn.md` | `hn` | Skipped if Algolia fetch fails |
@@ -119,11 +113,9 @@ Files written to `digests/YYYY-MM-DD/`:
 
 ## Key conventions
 
-- All bilingual strings (titles, labels, footers, messages) are centralized in `src/i18n.ts`. Use the `Lang` type (`"zh" | "en"`) and `Record<Lang, string>` maps. Do not add inline bilingual ternaries elsewhere.
-- Report **bodies** are not bilingual strings — they are generated in English and translated (see "English-first generation"). Never add a second generation call to produce Chinese. The unified `ai-digest` is English-only and never translated.
-- `translateToZh(text, maxTokens)` must be passed the same token budget the English body was generated with, or a long report gets truncated mid-translation.
+- All output is **English only** (see "English-only output" above). Do not add per-language branches, `lang` parameters, or translation passes. Report titles and labels are centralized in `src/i18n.ts`.
 - The unified digest is **data-driven**: listings are verbatim GitHub data with fixed per-section caps (10 merged PRs / 10 new issues / 8 closed issues per repo, 4 label chips) chosen to keep the worst-case body under GitHub's 65,536-char issue limit. The Highlights section is its only LLM content and fails soft to omission. Categorization lives in `categorizeRepoActivity` — new = `created_at` in window, closed = `state === "closed"` + `closed_at` in window, merged = `merged_at` in window. Counts are best-effort: the fetch lists items *updated* in 24h, capped at 500 for `paginated` repos.
-- LLM prompt builders live in `src/prompts-data.ts` (data-source reports + digest highlights); `src/prompts.ts` holds only the translation prompts.
+- All LLM prompt builders live in `src/prompts-data.ts`.
 - Weekly and monthly rollups were removed in July 2026. `ai-weekly`/`ai-monthly` remain in `REPORT_LABELS` (`src/i18n.ts`) and `REPORT_FILES` (`src/generate-manifest.ts`) only so archived reports stay reachable — do not add generation code back.
 - `callLlm(prompt, maxTokens?)` defaults to 4096 tokens. Web report uses 8192, trending uses 6144. The table-formatted listing reports (HN, PH, ArXiv, HF, Community) use `LLM_TOKENS_LISTING` = 6144 to fit multi-row tables plus 2-sentence summaries.
 - Data-source listing reports (Trending, HN, PH, ArXiv, HF, Community) render their item lists as **Markdown tables** (not bullet lists). Numeric columns are copied verbatim from the fetched data; the summary column is 2 sentences. Tables already have CSS in `index.html` and render natively in GitHub Issues too.
@@ -153,7 +145,7 @@ Files written to `digests/YYYY-MM-DD/`:
 
 1. Create a data fetcher (or add to an existing one). For a repo-backed report, add the section to `RawConfig`/`RadarConfig` and `loadConfig` in `src/config.ts` — a `config.yml` section with no schema entry is silently ignored.
 2. Add a `buildXxxPrompt` function in `src/prompts-data.ts`.
-3. Add bilingual strings (titles, labels, issue title function) to `src/i18n.ts`.
+3. Add strings (title, issue title function, label) to `src/i18n.ts`.
 4. Add a `saveXxxReport` function in `src/report-savers.ts`.
 5. Wire into `fetchAllData` and the save phase in `src/index.ts`.
 6. Add a label color entry in `LABEL_COLORS` in `src/github.ts`.

@@ -21,24 +21,15 @@ import {
   fetchSkillsData,
   createGitHubIssue,
 } from "./github.ts";
-import { buildJsonTranslationPrompt } from "./prompts.ts";
 import {
   buildTrendingPrompt,
   buildHighlightsPrompt,
   buildDigestHighlightsPrompt,
   type ReportHighlights,
 } from "./prompts-data.ts";
-import {
-  callLlm,
-  translateToZh,
-  parseLlmJson,
-  saveFile,
-  autoGenFooter,
-  LLM_TOKENS_TRENDING,
-} from "./report.ts";
+import { callLlm, parseLlmJson, saveFile, autoGenFooter, LLM_TOKENS_TRENDING } from "./report.ts";
 import { type DigestGroup, buildUnifiedDigestContent, buildSkillsSection } from "./report-builders.ts";
 import {
-  type BilingualBody,
   saveWebReport,
   saveTrendingReport,
   saveHnReport,
@@ -57,7 +48,7 @@ import { fetchDevtoData, type DevtoData } from "./devto.ts";
 import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr, weekdayOf } from "./date.ts";
-import { type Lang, MSG, DIGEST_REPORT } from "./i18n.ts";
+import { MSG, DIGEST_REPORT } from "./i18n.ts";
 
 // ---------------------------------------------------------------------------
 // Repo config — loaded from config.yml, falls back to built-in defaults
@@ -215,17 +206,6 @@ async function summarize(id: string, prompt: string, failMsg: string, maxTokens?
   }
 }
 
-/**
- * Fixed status strings ("no data", "generation failed") are i18n constants,
- * not model output. Map them straight across rather than paying for a
- * translation call that would only re-derive Chinese we already have.
- */
-const FIXED_EN_TO_ZH = new Map(Object.values(MSG).map((m) => [m.en, m.zh] as [string, string]));
-
-async function localize(enText: string, maxTokens?: number): Promise<string> {
-  return FIXED_EN_TO_ZH.get(enText) ?? (await translateToZh(enText, maxTokens));
-}
-
 /** Token budget for the digest Highlights bullets — a short list, not a report. */
 const LLM_TOKENS_DIGEST_HIGHLIGHTS = 2048;
 
@@ -292,12 +272,12 @@ async function main(): Promise<void> {
     { heading: "⚙️ AI Infrastructure", repos: fetchedInfra },
   ];
 
-  // 2. LLM content: digest highlights (EN only) + trending summary (EN → ZH).
+  // 2. LLM content: digest highlights + trending summary.
   // The unified digest's listings are verbatim data — the only generated text
   // is the short Highlights section, and it degrades to omission on failure.
-  console.log("  Generating digest highlights + trending summary (EN)...");
+  console.log("  Generating digest highlights + trending summary...");
   const hasTrendingData = trendingData.trendingRepos.length > 0 || trendingData.searchRepos.length > 0;
-  const [digestHighlights, enTrendingSummary] = await Promise.all([
+  const [digestHighlights, trendingSummary] = await Promise.all([
     callLlm(buildDigestHighlightsPrompt(digestGroups, since, dateStr), LLM_TOKENS_DIGEST_HIGHLIGHTS).catch(
       (err) => {
         console.error(`  [digest] Highlights generation failed, omitting section: ${err}`);
@@ -307,38 +287,34 @@ async function main(): Promise<void> {
     hasTrendingData
       ? summarize(
           "trending",
-          buildTrendingPrompt(trendingData, dateStr, "en"),
-          MSG.trendingFailed.en,
+          buildTrendingPrompt(trendingData, dateStr),
+          MSG.trendingFailed,
           LLM_TOKENS_TRENDING,
         )
-      : Promise.resolve(MSG.trendingNoData.en),
+      : Promise.resolve(MSG.trendingNoData),
   ]);
-  const trendingSummaries: BilingualBody = {
-    en: enTrendingSummary,
-    zh: await localize(enTrendingSummary, LLM_TOKENS_TRENDING),
-  };
 
-  // 3. Build + save the unified digest (English only)
+  // 3. Build + save the unified digest
   const digestContent = buildUnifiedDigestContent(
     digestGroups,
     since,
     digestHighlights,
     utcStr,
     dateStr,
-    autoGenFooter("en"),
+    autoGenFooter(),
     digestRepo,
     now,
   );
   console.log(`  Saved ${saveFile(digestContent, dateStr, "ai-digest.md")}`);
 
-  // 4. Data-source reports — each saver emits both languages itself.
+  // 4. Data-source reports
   if (!isHfWeek) {
     console.log("  [hf] Weekly report — not scheduled today, skipping.");
   }
 
   await Promise.all([
     saveWebReport(webResults, webState, utcStr, dateStr, digestRepo),
-    saveTrendingReport(trendingData, trendingSummaries, utcStr, dateStr, digestRepo),
+    saveTrendingReport(trendingData, trendingSummary, utcStr, dateStr, digestRepo),
     saveHnReport(hnData, utcStr, dateStr, digestRepo),
     savePhReport(phData, utcStr, dateStr, digestRepo),
     saveArxivReport(arxivData, utcStr, dateStr, digestRepo),
@@ -352,68 +328,44 @@ async function main(): Promise<void> {
     return fs.existsSync(p) ? fs.readFileSync(p, "utf-8") : undefined;
   };
 
-  // Highlights are extracted from the English reports only — the Chinese set is
-  // translated from the result, so the Chinese files are never re-read here.
-  const enReports: Record<string, string> = {
+  const reports: Record<string, string> = {
     "ai-digest": digestContent,
   };
-  for (const [id, enFile] of [
-    ["ai-trending", "ai-trending-en.md"],
-    ["ai-web", "ai-web-en.md"],
-    ["ai-hn", "ai-hn-en.md"],
-    ["ai-ph", "ai-ph-en.md"],
-    ["ai-arxiv", "ai-arxiv-en.md"],
-    ["ai-hf", "ai-hf-en.md"],
-    ["ai-community", "ai-community-en.md"],
+  for (const [id, file] of [
+    ["ai-trending", "ai-trending.md"],
+    ["ai-web", "ai-web.md"],
+    ["ai-hn", "ai-hn.md"],
+    ["ai-ph", "ai-ph.md"],
+    ["ai-arxiv", "ai-arxiv.md"],
+    ["ai-hf", "ai-hf.md"],
+    ["ai-community", "ai-community.md"],
   ] as const) {
-    const en = readReport(enFile);
-    if (en) enReports[id] = en;
+    const content = readReport(file);
+    if (content) reports[id] = content;
   }
 
   console.log("  Generating highlights for Telegram...");
-  const highlights: Record<Lang, ReportHighlights> = { zh: {}, en: {} };
-  // Both passes parse JSON, and both retry once: the LLM occasionally emits
-  // slightly malformed JSON that repairJson can't fix (seen 2026-07-13: zh
-  // failed with "Expected ',' or ']' after array element"); a fresh generation
-  // usually returns valid JSON.
-  const attemptJson = async (label: string, prompt: string): Promise<ReportHighlights> => {
+  // Parsing retries once: the LLM occasionally emits slightly malformed JSON
+  // that repairJson can't fix (seen 2026-07-13: "Expected ',' or ']' after
+  // array element"); a fresh generation usually returns valid JSON.
+  const attemptJson = async (prompt: string): Promise<ReportHighlights> => {
     for (let attempt = 1; attempt <= 2; attempt++) {
       try {
         return parseLlmJson<ReportHighlights>(await callLlm(prompt, 2048));
       } catch (err) {
         const tag = attempt < 2 ? "retrying" : "giving up";
-        console.error(`  [highlights] ${label} attempt ${attempt} failed (${tag}): ${err}`);
+        console.error(`  [highlights] attempt ${attempt} failed (${tag}): ${err}`);
       }
     }
     return {};
   };
 
-  // English is extracted from the reports; Chinese is translated from that
-  // result. The extraction prompt carries every report body, the translation
-  // prompt carries only the short highlight list.
-  highlights.en = await attemptJson("en", buildHighlightsPrompt(enReports, "en"));
-  highlights.zh = Object.keys(highlights.en).length
-    ? await attemptJson("zh", buildJsonTranslationPrompt(JSON.stringify(highlights.en)))
-    : {};
-
-  // If one language failed (generation or parse) but the other succeeded,
-  // backfill the empty one from the other so notifications never render with
-  // zero highlights. Seen 2026-07-13: zh failed intermittently while en was
-  // fine, leaving Telegram/Feishu with only section headers and no bullets.
-  const zhEmpty = Object.keys(highlights.zh).length === 0;
-  const enEmpty = Object.keys(highlights.en).length === 0;
-  if (zhEmpty && !enEmpty) {
-    console.warn("  [highlights] zh empty — backfilling from en");
-    highlights.zh = highlights.en;
-  } else if (enEmpty && !zhEmpty) {
-    console.warn("  [highlights] en empty — backfilling from zh");
-    highlights.en = highlights.zh;
-  }
+  const highlights = await attemptJson(buildHighlightsPrompt(reports));
 
   const highlightsPath = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
   console.log(`  Saved ${highlightsPath}`);
 
-  // 6. Create the unified digest issue (English only)
+  // 6. Create the unified digest issue
   if (digestRepo) {
     const digestUrl = await createGitHubIssue(
       DIGEST_REPORT.issueTitle(dateStr),

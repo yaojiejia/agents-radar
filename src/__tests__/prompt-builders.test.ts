@@ -138,7 +138,7 @@ describe("buildTrendingPrompt", () => {
   it("shows fetch failure message when trending fails", () => {
     const data: TrendingData = { trendingRepos: [], searchRepos: [], trendingFetchSuccess: false };
     const result = buildTrendingPrompt(data, "2026-03-09");
-    expect(result).toContain("未能抓取");
+    expect(result).toContain("Unable to fetch today's GitHub Trending list");
   });
 
   it("includes search repos with topic tag", () => {
@@ -188,9 +188,9 @@ describe("buildWebReportPrompt", () => {
       },
     ];
     const result = buildWebReportPrompt(results, "2026-03-09");
-    expect(result).toContain("首次全量抓取");
+    expect(result).toContain("First full crawl");
     expect(result).toContain("Anthropic");
-    expect(result).toContain("内容格局总览"); // first-run-only section
+    expect(result).toContain("Content Landscape Overview"); // first-run-only section
   });
 
   it("shows incremental mode for non-first-run", () => {
@@ -198,8 +198,8 @@ describe("buildWebReportPrompt", () => {
       { site: "openai", siteName: "OpenAI", isFirstRun: false, newItems: [], totalDiscovered: 100 },
     ];
     const result = buildWebReportPrompt(results, "2026-03-09");
-    expect(result).toContain("增量更新");
-    expect(result).not.toContain("内容格局总览");
+    expect(result).toContain("Incremental update");
+    expect(result).not.toContain("Content Landscape Overview");
   });
 });
 
@@ -226,31 +226,10 @@ describe("buildHnPrompt", () => {
     };
     const result = buildHnPrompt(data, "2026-03-09");
     expect(result).toContain("AI News");
-    expect(result).toContain("分数: 200");
-    expect(result).toContain("评论: 50");
-    expect(result).toContain("作者: bob");
-    expect(result).toContain("共 1 条");
-  });
-
-  it("generates English variant", () => {
-    const data: HnData = {
-      stories: [
-        {
-          id: "1",
-          title: "Test",
-          url: "https://test.com",
-          hnUrl: "https://news.ycombinator.com/item?id=1",
-          points: 10,
-          comments: 2,
-          author: "a",
-          createdAt: "2026-03-09T10:00:00Z",
-        },
-      ],
-      fetchSuccess: true,
-    };
-    const result = buildHnPrompt(data, "2026-03-09", "en");
-    expect(result).toContain("Score: 10");
-    expect(result).toContain("Comments: 2");
+    expect(result).toContain("Score: 200");
+    expect(result).toContain("Comments: 50");
+    expect(result).toContain("Author: bob");
+    expect(result).toContain("1 total");
     expect(result).toContain("Hacker News");
   });
 });

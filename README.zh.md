@@ -2,7 +2,7 @@
 
 [English](./README.md) | 中文
 
-每天早上 07:00 CST 自动运行的 GitHub Actions 工作流。聚合 10 个 AI 生态数据源，以中英双语每日简报的形式发布为 GitHub Issues 并提交为 Markdown 文件。每周和每月自动生成汇总报告。
+每天早上 07:00 CST 自动运行的 GitHub Actions 工作流。聚合 10 个 AI 生态数据源，以英文每日简报的形式发布为 GitHub Issues 并提交为 Markdown 文件（2026 年 8 月起仅生成英文，历史双语报告仍可浏览）。
 
 ### 数据源
 
@@ -191,14 +191,11 @@ LLM 负责过滤非 AI 项目，将结果按维度分类（AI 基础工具 / AI 
 
 - 抓取所有追踪仓库过去 24 小时内更新的 Issues、PR 和 Releases
 - 追踪热门 Claude Code Skills，按社区参与度而非时间排序
-- 为每个 CLI 仓库生成单独摘要，并输出跨工具横向对比分析
-- 生成 OpenClaw 深度项目报告，并与 4 个同赛道项目进行横向对比
-- 追踪 6 个 AI 基础设施项目（推理引擎、网关、微调框架），独立成报并输出横向对比
+- 汇总全部 18 个追踪仓库为一份数据驱动的统一生态日报：24h 快照表、合并 PR、新增/关闭 Issue、版本发布，外加一段 LLM 生成的要点
 - 通过 Sitemap 抓取 Anthropic 和 OpenAI 官网内容，增量检测新文章
 - 每日监测 GitHub Trending + 搜索 6 个 AI 主题标签，按维度分类并提炼趋势信号
 - 抓取 Hacker News 过去 24 小时 AI 热门帖子（top 30，按分数排序），生成社区情绪报告
 - 以 GitHub Issues 形式发布报告，同时提交 Markdown 文件至 `digests/YYYY-MM-DD/`
-- 每份报告只用英文生成一次，再翻译成中文，不再对同一份数据跑两遍完整流水线
 - 每日通过 GitHub Actions 定时运行，支持手动触发
 - 所有追踪仓库均可通过 `config.yml` 配置，无需修改代码
 
