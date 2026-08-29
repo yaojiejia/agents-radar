@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released version v2.1.251",
+    "OpenAI Codex merged 45 PRs this week",
+    "Gemini CLI closed 0 issues in the last 24h",
+    "Qwen Code had 36 new issues reported",
+    "OpenClaw merged 156 PRs recently",
+    "llama.cpp released version 10 with 126k stars"
+  ],
+  "ai-trending": [
+    "K-Dense-AI/scientific-agent-skills gains traction",
+    "calesthio/OpenMontage introduces AI video production",
+    "Cursor’s plugins vital for AI model interactions",
+    "JetBrains/go-modern-guidelines enhances Go coding",
+    "marin-community/marin framework for foundation models",
+    "Top projects showcase advancements in AI tools"
+  ],
+  "ai-web": [
+    "Anthropic introduces tools for AI alignment",
+    "OpenAI updates on startup support in Thailand",
+    "New article on automated researchers by Anthropic",
+    "Claude for Teachers supports K-12 educators",
+    "New resources for scientists published by Anthropic",
+    "6 new articles released today from both companies"
+  ],
+  "ai-hn": [
+    "StemDeck buzzes for audio processing innovations",
+    "Court ruling favors Anthropic over Pentagon",
+    "Discussion on AI content curation intensifies",
+    "Autonomous mathematical discovery gains interest",
+    "Innovations in multi-agent setups discussed",
+    "Community reacts to recent AI governance news"
+  ],
+  "ai-arxiv": [
+    "CritICL improves LLM reasoning at inference time",
+    "Study on LLMs' moral knowledge organization",
+    "WikiSkill compiles agent experiences for skill evolution",
+    "New methods for scaling LLMs explored",
+    "Robustness in AI inference processes highlighted",
+    "Ethical considerations in AI deployment emphasized"
+  ],
+  "ai-community": [
+    "Critique on AI memory architectures shared",
+    "Discussion on solving hallucination issues continues",
+    "AI writing tools influence on media debated",
+    "Insights on AI second opinion systems presented",
+    "Developers tackle AI safety in production",
+    "Hallucinations linked to architecture, not prompts"
+  ]
+}
