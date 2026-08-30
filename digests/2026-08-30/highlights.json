@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released versions rust-v0.151.0",
+    "OpenAI Codex released rust-v0.152.0-alpha.1",
+    "GitHub Copilot CLI launched v1.0.82",
+    "OpenClaw garnered 114 new issues today",
+    "Hermes Agent closed 7 issues in 24 hours",
+    "Claude Code gained 20 new issues today"
+  ],
+  "ai-trending": [
+    "K-Dense-AI’s skills library gained 1587 stars",
+    "THU-MAIC’s OpenMAIC added 907 stars today",
+    "Osmantic's ODS transforms devices into AI servers",
+    "OpenMontage claimed to be the first in its category",
+    "archify and scientific-agent-skills trending",
+    "Claude plugins official repository now available"
+  ],
+  "ai-web": [
+    "Anthropic announced Model Hardware Standard on Aug 29",
+    "MHS aims to streamline AI device integration",
+    "MHS reduces experiment setup times significantly",
+    "Anthropic collaborates with HHMI Janelia Research",
+    "New article on AI in lab and manufacturing settings",
+    "No new articles from OpenAI this update"
+  ],
+  "ai-hn": [
+    "OpenAI's acquisition of Cursor sparks ethical debates",
+    "Discussion on generative AI and workplace culture",
+    "Paper on autonomous mathematics gains community interest",
+    "Unexpected LLM memory usage raises adaptability questions",
+    "StemDeck open-source tool draws significant attention",
+    "Innovative applications in AI audio processing highlighted"
+  ],
+  "ai-community": [
+    "Reliability issues of AI models dominate discussions",
+    "Developers question model efficacy versus trustworthiness",
+    "Skepticism towards AI predictions is on the rise",
+    "Efficiency of smaller models, like Qwen3.8, discussed",
+    "Trust issues in high-performing models revealed",
+    "Insights on prompt sensitivity in multi-agent systems"
+  ]
+}
