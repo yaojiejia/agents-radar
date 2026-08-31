@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.152.0-alpha.4",
+    "Gemini CLI launched v0.59.0-nightly.20260830.g0bd1d",
+    "OpenClaw has 185 new issues reported today",
+    "Ollama reported a hot issue with its platform",
+    "Qwen Code received 25 new issues today",
+    "launched v0.152.0-alpha.4 with enhanced functionality."
+  ],
+  "ai-trending": [
+    "K-Dense-AI's scientific-agent-skills gains 190,000 pros",
+    "THU-MAIC/OpenMAIC surged with 1,370 stars today",
+    "huggingface/transformers is leading in AI infrastructure",
+    "langchain-ai/langchain gaining traction among developers",
+    "mvanhorn/last30days-skill enhances AI data retrieval",
+    "p-e-w/heretic aids in censorship-free AI dialogue."
+  ],
+  "ai-hn": [
+    "New models initiated discussions on CDLM advancements",
+    "Research on autonomous discovery in agents sparks debate",
+    "RAG approach simplified discussion gains 511 points",
+    "Legal rulings affecting major AI firms under scrutiny",
+    "Workplace dynamics influenced by AI technologies discussed",
+    "Community expresses caution on ethical AI implications."
+  ],
+  "ai-hf": [
+    "Qwen3.8-27B leads in likes and downloads this week",
+    "MiniMax-H3 enhances multimodal capabilities",
+    "GLM-5.3-Flash reaches 1,715 likes on Hugging Face",
+    "zai-org's models gaining traction for diverse capabilities",
+    "unsloth introduces performance-optimized models",
+    "Emerging authors focus on fine-tuning models."
+  ]
+}
