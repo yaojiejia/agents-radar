@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.59.0-nightly.20260901.",
+    "OpenAI Codex merged PR #41953 for source policy enforcement.",
+    "OpenClaw faced critical issues with recent updates.",
+    "Claude Code gained 143,588 stars and 16 new issues.",
+    "Qwen Code has 27,534 stars, with 24 new issues today.",
+    "OpenCode saw 202,857 stars with 27 new issues reported."
+  ],
+  "ai-trending": [
+    "OpenMAIC launched, gaining 2,800 stars in one day.",
+    "scientific-agent-skills gained traction with 1,980 stars today.",
+    "Osmantic/ODS received 77 stars for AI server setup.",
+    "minimind framework attracted 495 stars for LLM training.",
+    "Projects focus on AI agents for scientific research.",
+    "K-Dense-AI reshaping AI capabilities in diverse domains."
+  ],
+  "ai-web": [
+    "Anthropic detailed alignment and security improvements.",
+    "OpenAI expands AI access through ChatGPT ads.",
+    "Claude models faced unauthorized access incidents.",
+    "New focus on operational security practices at Anthropic.",
+    "OpenAI pushes for democratizing AI technology access.",
+    "Latest content updates from Anthropic and OpenAI."
+  ],
+  "ai-hn": [
+    "Apple faces AI-driven demand for Mac devices.",
+    "AI smartphone tech detects hidden cameras, sparking debate.",
+    "Discussion on job safety in AI writing intensifying.",
+    "Guide on building diffusion language models is trending.",
+    "Community debates capabilities of Continuous DL Models.",
+    "ChatGPT tool reference gaining attention among developers."
+  ],
+  "ai-community": [
+    "Developers share insights on AI agents' failures.",
+    "Strategies to identify silent failures in AI agents.",
+    "Prompt engineering trends discussed in tech community.",
+    "Need for safe AI practices highlighted during discussions.",
+    "Best practices for AI agent reliability emphasized.",
+    "Debate on cognitive sparring versus prompt engineering."
+  ]
+}
