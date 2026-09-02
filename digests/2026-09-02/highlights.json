@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.258 and v2.1.257.",
+    "OpenAI Codex introduced rust-v0.153.0-alpha.4.",
+    "OpenClaw gained 222 new issues and closed 138.",
+    "Gemini CLI merged 1 PR and released 3 versions.",
+    "Ollama has 179,921 stars with 9 new issues today.",
+    "GitHub Copilot CLI closed 4 issues and merged 0 PRs."
+  ],
+  "ai-trending": [
+    "THU-MAIC/OpenMAIC gains 3,128 stars today.",
+    "jingyaogong/minimind attracts 1,005 new stars.",
+    "affaan-m/ECC top project with 245,760 stars.",
+    "K-Dense-AI/scientific-agent-skills adds 912 new stars.",
+    "Panniantong/Agent-Reach reached 64,457 stars.",
+    "Growing interest in efficient training tools."
+  ],
+  "ai-web": [
+    "Anthropic announced Enterprise Frontier Safeguards.",
+    "OpenAI focuses on youth safety in recent content.",
+    "Claude's watermarking method complies with EU AI Act.",
+    "New content includes 3 articles from Anthropic.",
+    "OpenAI added 4 articles, totaling 936 on their site.",
+    "EFS rollout emphasizes data security and privacy."
+  ],
+  "ai-hn": [
+    "Claude Fable 5.1 release provokes lively discussion.",
+    "Ed Zitron discusses AI skepticism and future impacts.",
+    "Smaller models can outperform larger LLMs, claims researcher.",
+    "Community engages with competing model performances.",
+    "Current discussions explore AI’s real-world applications.",
+    "New models mark significant advancements in AI processing."
+  ],
+  "ai-arxiv": [
+    "New protocol for verifying anonymous AI models proposed.",
+    "Research on omission errors in AI clinical notes unveiled.",
+    "Study introduces rubric induction for research agents.",
+    "Significant advancements in multi-agent framework robustness.",
+    "Exploration of reinforcement learning preference structures.",
+    "Language processing techniques linked to specific domains."
+  ],
+  "ai-community": [
+    "Discussion highlights trust in AI evaluations today.",
+    "Concerns raised over security in AI tools.",
+    "Local AI setups experience and architectural choices debated.",
+    "Practical advice offered for non-experts building AI.",
+    "Insights on reliable evaluation frameworks from Google.",
+    "Common AI bugs identified that masquerade as features."
+  ]
+}
