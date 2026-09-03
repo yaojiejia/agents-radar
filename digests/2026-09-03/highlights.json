@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code v2.1.259 released for desktop app",
+    "OpenAI Codex introduces rust-v0.153.0-alpha.6",
+    "OpenCode gains 29 new issues and 11 merged PRs",
+    "OpenClaw sees 156 new issues and 161 closed",
+    "Qwen Code has 39 new issues reported",
+    "GitHub Copilot CLI has 13 new issues reported"
+  ],
+  "ai-trending": [
+    "VoiceStudio gains traction for voice cloning",
+    "Google's TimesFM shows interest in time-series forecasting",
+    "pacifio/atlas gains 888 new stars today",
+    "firecrawl/pdf-inspector gains 586 new stars today",
+    "Imbad0202/academic-research-skills gains 799 stars",
+    "superlinked/sie gains 60 new stars today"
+  ],
+  "ai-web": [
+    "Anthropic launches Enterprise Frontier Safeguards",
+    "EFS offers zero data retention and robust security",
+    "New report on job retraining programs by Anthropic",
+    "Two new articles published by Anthropic today",
+    "Focus on data privacy for enterprise AI",
+    "EFS aims to enhance trust in enterprise solutions"
+  ],
+  "ai-hn": [
+    "Meta releases Muse Spark 1.3 with new capabilities",
+    "Google announces Gemini 3.8 Flash, attracting attention",
+    "Debates on software recommendations and data rights",
+    "OpenAI and Hugging Face discuss security practices",
+    "Active community engagement on AI model developments",
+    "Discussions on content generation implications rage on"
+  ],
+  "ai-arxiv": [
+    "New paper on LLMs for summarization evaluations",
+    "Verbal Reinforcement Learning enhances agent adaptability",
+    "Document VLMs face a cost-quality gap in curation",
+    "Research emphasizes the evolution of interactive AI",
+    "Dynamic architectures for agents highlighted in new study",
+    "Study explores neural networks' symbolic capabilities"
+  ],
+  "ai-community": [
+    "Article reviews pair programming with AI tools",
+    "New debugging model for AI agents proposed",
+    "Performance issues with AI gateway analyzed",
+    "JavaScript community discusses AI integration challenges",
+    "Impacts of AI on coding and productivity examined",
+    "Security vulnerabilities in AI advancements addressed"
+  ]
+}
