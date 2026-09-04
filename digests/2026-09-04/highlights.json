@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.260",
+    "OpenClaw announced v2026.9.1 release",
+    "OpenCode gained 34 new issues today",
+    "OpenAI Codex had 44 PRs merged",
+    "Gemini CLI merged 6 PRs",
+    "Qwen Code saw 35 new issues reported"
+  ],
+  "ai-trending": [
+    "NousResearch/hermes-agent trending today",
+    "Google's timesfm model gaining attention",
+    "VoiceStudio offers versatile voice technologies",
+    "Project prompts.chat gaining popularity",
+    "Shubhamsaboo's awesome-llm-apps lists tools",
+    "Langchain continues to attract interest"
+  ],
+  "ai-web": [
+    "Anthropic reports on Claude.ai use in India",
+    "OpenAI introduces metadata for Gpt 6 Astra",
+    "India accounts for 5.8% of Claude.ai usage",
+    "OpenAI's focus on safe AI deployment",
+    "Claude.ai usage highlights economic opportunities",
+    "New articles from Anthropic and OpenAI"
+  ],
+  "ai-hn": [
+    "OpenAI's GPT-6 Astra launched with excitement",
+    "Nvidia acquires Hugging Face for $13 billion",
+    "Gemini 3.8 models release sparks discussions",
+    "Hacker News buzzes with AI model analyses",
+    "Concerns over AI use ban in NYC schools",
+    "Debates on ethical implications of AI growth"
+  ],
+  "ai-arxiv": [
+    "Research on LLM security implications published",
+    "Study boosts LLM performance in coding",
+    "Insightful findings on language models' reliability",
+    "Frameworks for autonomous robotics unveiled",
+    "New methodologies for contextual understanding",
+    "Focus on multi-agent systems for decision-making"
+  ],
+  "ai-community": [
+    "20 Agentic AI terms explained for developers",
+    "Difficulties faced with self-improving models",
+    "AI's role in genealogy exploration discussed",
+    "Impact of AI on coding efficiency highlighted",
+    "Developers share experiences on AI implementation",
+    "AI legal matters and democratization of 3D printing"
+  ]
+}
