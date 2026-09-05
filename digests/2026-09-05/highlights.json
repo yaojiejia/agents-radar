@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code releases v2.1.261 with bug fixes.",
+    "OpenAI Codex merges significant PRs with new releases.",
+    "OpenClaw sees 110 new issues and 146 merged PRs.",
+    "OpenCode hits 204,123 stars with notable updates.",
+    "Hermes Agent tackles 33 new issues in the past day.",
+    "llama.cpp released new features with 10 updates."
+  ],
+  "ai-trending": [
+    "mattpocock/skills offers innovative agent capabilities.",
+    "DietrichGebert/ponytail optimizes code complexity.",
+    "debpalash/VoiceStudio gains attention for voice cloning.",
+    "affaan-m/ECC reaches 248,508 stars; performance tool.",
+    "magnitudedev/magnitude launched for local model inference.",
+    "NousResearch/hermes-agent enhances agent adaptability."
+  ],
+  "ai-web": [
+    "Claude AI proves Fermat's Last Theorem with automation.",
+    "New 'India Country Brief' discusses Claude's impact.",
+    "Research showcases AI's role in foundational theories.",
+    "Anthropic commits to practical applications of AI.",
+    "Significant advancements in mathematical proof methodologies.",
+    "AI's growing influence documented in various economies."
+  ],
+  "ai-hn": [
+    "Discussion on Fermat's Last Theorem formalization.",
+    "OpenAI's GPT-6 Astra generates considerable excitement.",
+    "New OpenAI agent message board opens for debates.",
+    "Community praises advancements in AI agent technology.",
+    "GPT-6 Astra's text capabilities dissected by users.",
+    "Formal proofs raise interests around AI-assisted research."
+  ],
+  "ai-arxiv": [
+    "Study reveals reliability issues in LLM scoring.",
+    "New alignment strategy enhances response safety.",
+    "Research on epistemic trust in AI recommendations.",
+    "Reinforcement learning emphasizes human feedback.",
+    "Frameworks for prompt optimization discussed in depth.",
+    "Advances in model stability critical for AI systems."
+  ],
+  "ai-community": [
+    "Discussions on AI's optimization in software development.",
+    "Legal backing for OpenAI affects AI copyright issues.",
+    "AI-generated tests may miss human oversight needs.",
+    "Cultural shifts are key to effective AI integration.",
+    "Challenges in adapting to AI-driven workflows addressed.",
+    "AI's impact on professional paths explored in detail."
+  ]
+}
