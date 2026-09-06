@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.60.0-nightly",
+    "Qwen Code released v0.23.1-preview.0",
+    "OpenClaw closed 60 issues in 24h",
+    "OpenCode reached 204,672 stars",
+    "Claude Code gained 13 new issues",
+    "Hermes Agent attracted 24 new issues"
+  ],
+  "ai-trending": [
+    "NousResearch's hermes-agent gained 575 stars",
+    "DietrichGebert's ponytail surged 2,845 stars",
+    "ECC focuses on enhancing agent performance features",
+    "Ruflo supports intelligent multi-agent workflows",
+    "Skills project adds adaptive capabilities",
+    "AI tools trending for task automation in development"
+  ],
+  "ai-hn": [
+    "LLMs explored as a 'cognitive virus' concern",
+    "Fermat's Last Theorem formalized using AI",
+    "OpenAI agent message board sparks collaboration",
+    "Debate on AI's role in education intensifies",
+    "Automated theorem proving garners significant interest",
+    "New research on LLM societal impact ignites discussions"
+  ],
+  "ai-community": [
+    "GPT-6 Astra rollout updates ChatGPT and API",
+    "Common pitfalls in AI agent production revealed",
+    "Young dev creates platform after zero submissions",
+    "AI's role in 3D printing applications discussed",
+    "Challenges of AI in production environments highlighted",
+    "AI documentation integrity gaining importance"
+  ]
+}
