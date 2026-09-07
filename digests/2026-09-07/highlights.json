@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code v2.1.263 released with improvements.",
+    "Qwen Code has notable releases v0.23.1-preview.1.",
+    "OpenClaw closed 115 issues and merged 171 PRs.",
+    "OpenCode gained 29 new issues, maintaining strong engagement.",
+    "Ollama has 180,309 stars, indicating significant popularity.",
+    "GitHub Copilot CLI closed 2 issues, showing active maintenance."
+  ],
+  "ai-trending": [
+    "openai/skills adds 46 stars, enhancing Codex utility.",
+    "magnitudedev/magnitude gains 604 stars for inference.",
+    "coreyhaines31/marketingskills rises with 329 stars today.",
+    "affaan-m/ECC leads innovation in AI agents.",
+    "DietrichGebert/ponytail boosts coding efficiency.",
+    "AI tools for RAG gain traction in knowledge management."
+  ],
+  "ai-web": [
+    "OpenAI released articles on cognitive frameworks.",
+    "New OpenAI content focuses on research acceleration.",
+    "Multiple entries titled \"An Alien Mind\" from OpenAI.",
+    "Anthropic has no new updates, signaling static focus.",
+    "OpenAI's new articles are metadata only, limited details.",
+    "Exploration of diverse cognitive processes at OpenAI."
+  ],
+  "ai-hn": [
+    "GPT-6 Astra sparks excitement for its new capabilities.",
+    "Debate on AI safety highlighted with significant discussions.",
+    "Research combines AI and Fermat's theorem in new proofs.",
+    "LLMs discussed as cognitive viruses impacting society.",
+    "GOP issues warning to AI companies amidst industry growth.",
+    "Advanced AI discussions dominate Hacker News today."
+  ],
+  "ai-hf": [
+    "Qwen3.8-27B gains 14,131 likes for its capabilities.",
+    "Qwen3.8-Flash-Next shows significant engagement with 4,943 likes.",
+    "unsloth's Qwen3.8-27B-GGUF model hits 10M downloads.",
+    "Surge in interest for multimodal models on Hugging Face.",
+    "Fine-tuned models emphasize performance efficiency.",
+    "Trend towards lighter quantized models continues in AI."
+  ],
+  "ai-community": [
+    "Markov Chain Monte Carlo methods remain pivotal in AI.",
+    "Effective benchmarking crucial for model performance assessment.",
+    "Rebuilding RAG pipelines yields varied results.",
+    "AI safety and governance discussions resonate strongly.",
+    "AI tools addressed in legal copyright discussions.",
+    "Intersection of AI with hardware innovations explored."
+  ]
+}
