@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.154.0-alpha.6",
+    "Gemini CLI launched v0.60.0-nightly.20260907.g85aca163f",
+    "OpenClaw has 267 new issues reported",
+    "Claude Code reached 144,364 stars",
+    "Qwen Code closed 12 issues in the last day",
+    "vLLM merged 41 pull requests recently"
+  ],
+  "ai-trending": [
+    "affaan-m/ECC gains 1,897 stars today",
+    "AutoHedge allows quick creation of hedge funds",
+    "jo-inc/camofox-browser garners 135 new stars",
+    "The-Swarm-Corporation's AutoHedge trends in finance",
+    "ruvnet/ruflo adds 394 new stars today",
+    "AI tools showcase self-sufficient systems"
+  ],
+  "ai-web": [
+    "Anthropic proves Fermat's Last Theorem with AI",
+    "New security article addresses Claude model incidents",
+    "Two new articles published by Anthropic",
+    "Fermat's proof demonstrates AI reasoning abilities",
+    "Anthropic improves alignment and security protocols",
+    "Claude's mathematical achievements highlighted"
+  ],
+  "ai-hn": [
+    "Google's WeatherNext 3 enhances weather AI modeling",
+    "Fermat's Last Theorem research sparks community interest",
+    "AI's effect on job market shows positive initial signs",
+    "Open-source AI tools gaining attention on HN today",
+    "Hacker News discussions focus on innovative AI solutions",
+    "Community reacts positively to AI in academic research"
+  ],
+  "ai-community": [
+    "AI agents' impact on development environments discussed",
+    "Emerging legal landscape raises ethical questions",
+    "OpenAI receives US backing in copyright case",
+    "MCP for AI communities shares knowledge insights",
+    "Integration complexities of AI services highlighted",
+    "Simple AI agent demo illustrates their capabilities"
+  ]
+}
