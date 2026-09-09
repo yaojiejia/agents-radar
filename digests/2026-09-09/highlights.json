@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenClaw released v2026.9.3 with new features.",
+    "Claude Code updates with v2.1.266 and v2.1.265.",
+    "OpenCode leads with 30 new issues reported.",
+    "Qwen Code has 36 new issues reported today.",
+    "Gemini CLI merged 7 PRs in the last 24 hours.",
+    "vLLM closed 31 issues, showcasing active management."
+  ],
+  "ai-trending": [
+    "ECC gained 1,427 stars, focusing on AI agent performance.",
+    "Markitdown surged with 2,047 stars for Markdown conversion.",
+    "Camofox browser captures interest with 871 new stars.",
+    "OpenAI Skills catalog essential for Codex utilization.",
+    "Browser-use project gained traction with 228 new stars.",
+    "Two projects trending in AI infrastructure this week."
+  ],
+  "ai-web": [
+    "Anthropic reports on distillation attack threats.",
+    "OpenAI updates address safety and cybersecurity issues.",
+    "New articles from Anthropic total 440 in their sitemap.",
+    "OpenAI now has 951 total articles in their sitemap.",
+    "AI-enabled cyber threats analyzed over a year.",
+    "Measures against misuse of AI highlighted by Anthropic."
+  ],
+  "ai-hn": [
+    "Muse by Meta sparks interest in personal AI assistants.",
+    "Mistral raises €3 billion, indicating strong AI investment.",
+    "Research on AI adapting social biases intrigues community.",
+    "DeepMind reveals AI-driven human DNA mapping project.",
+    "Hacker News debates AI's societal biases extensively.",
+    "AI tools discussed in relation to developer productivity."
+  ],
+  "ai-community": [
+    "Discussion on AI making developers lazier gains traction.",
+    "Challenges of AI coding costs are explored today.",
+    "Debate on AI's impact on system design quality continues.",
+    "Challenges of building AI agents on a budget discussed.",
+    "Legal implications for AI companies being examined.",
+    "Practical insights into machine learning applications shared."
+  ]
+}
