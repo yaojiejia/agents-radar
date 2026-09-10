@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.154.0 versions",
+    "Claude Code merged PR #93215 for new mods",
+    "OpenClaw faced 219 new issues, 132 closed",
+    "Gemini CLI had 0 new issues and 1 release",
+    "llama.cpp closed 12 issues and released 10 versions",
+    "OpenCode received 33 new issues and 13 merged PRs"
+  ],
+  "ai-trending": [
+    "ayghri/i-have-adhd gained +4,650 stars today",
+    "Tencent/teamai-cli surged +556 stars today",
+    "openai/plugins added +498 stars, enabling integrations",
+    "liquidslr/system-design-notes rose +1,397 stars",
+    "AI agents trend shows demand for automation tools",
+    "vastsa/PI-Desktop indicates appetite for AI-native solutions"
+  ],
+  "ai-web": [
+    "Anthropic released 162 new articles on AI developments",
+    "Introduced Bloom, a tool for automated evaluations",
+    "OpenAI hinted at the upcoming GPT-6 model",
+    "Claude used property-based testing for bug detection",
+    "New framework for compliance with California's SB 53",
+    "Significant advancements in transparency and safety"
+  ],
+  "ai-hn": [
+    "Meta unveiled Muse, stirring name conflict discussions",
+    "GPT-6 Astra promises advancements in reasoning",
+    "Hacker News discusses impact of AI on industries",
+    "Community intrigued by hidden reasoning in GPT-6 Astra",
+    "Self-hosted company OS features Claude and Codex",
+    "Procedural Graphs research sparks mixed reactions"
+  ],
+  "ai-arxiv": [
+    "Novel framework for measuring LLM sycophancy",
+    "ThinkPrior addresses cold-start prompt selection",
+    "The Audit Decides paper critiques LLM decision audits",
+    "Research improving agent reasoning and tool utilization",
+    "Enhancements in healthcare AI applications highlighted",
+    "Contextual understanding metrics are being addressed"
+  ],
+  "ai-community": [
+    "Exploring verification challenges in AI-generated software",
+    "Discussion on mental health issues from AI overload",
+    "AI's efficiency in programming practices debated",
+    "Trust in AI systems highlighted as a community need",
+    "The difference between functional and reliable AI agents",
+    "Challenges in AI-driven coding experiences shared"
+  ]
+}
