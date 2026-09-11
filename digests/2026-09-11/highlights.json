@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released python-v0.154.0 updates.",
+    "Qwen Code version 0.23.3 is now available.",
+    "OpenClaw reported 229 new issues in 24 hours.",
+    "Claude Code gained 20 new issues.",
+    "GitHub Copilot CLI handled 14 new issues today.",
+    "llama.cpp achieved 127,754 stars on GitHub."
+  ],
+  "ai-trending": [
+    "CloddsBot gains 277 stars for autonomous trading.",
+    "OmniRoute provides access to 1,200 AI models.",
+    "Hugging Face transformers reached 165,090 stars.",
+    "TensorFlow (199,698 stars) remains a top framework.",
+    "New AI agents reflect rising interest in automation.",
+    "THU-MAIC's OpenMAIC gained 837 stars in popularity."
+  ],
+  "ai-web": [
+    "Anthropic released alignment research on cybersecurity.",
+    "New safeguards for AI in nuclear tech announced.",
+    "55 articles published by Anthropic on AI safety.",
+    "OpenAI added 6 new articles to its site today.",
+    "Focus on AI literacy initiatives for education.",
+    "Detailed cybersecurity assessments from Claude models."
+  ],
+  "ai-hn": [
+    "OpenAI Agents API launch sparks ethical discussions.",
+    "Concerns raised about trust in OpenAI's data handling.",
+    "Formal proof for Navier-Stokes equations released.",
+    "Community debates implications for AI research trust.",
+    "Excitement over innovations in computational mathematics.",
+    "OpenAI's release prompts discussions on future research."
+  ],
+  "ai-arxiv": [
+    "RiLM paper proposes efficient language modeling.",
+    "New techniques for hybrid federated learning shared.",
+    "Layer-selective unlearning for LLMs introduced.",
+    "Papers enhance reasoning in AI agents showcased.",
+    "Research focuses on robust data protection measures.",
+    "Significant advances in LLMs presented in key papers."
+  ],
+  "ai-community": [
+    "Discussions on AI's impact on code development increase.",
+    "OpenAI claims 10,000 agents raises community skepticism.",
+    "Safety concerns for AI agents in coding addressed.",
+    "Developers share insights on AI improving code quality.",
+    "Debate over AI agent autonomy without human consent.",
+    "Critiques on AI's role in software development emerge."
+  ]
+}
