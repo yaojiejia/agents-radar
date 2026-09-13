@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "Gemini CLI v0.61.0 released",
+    "Claude Code merged PR #93452",
+    "OpenClaw merged PR #146408",
+    "llama.cpp reached 128,012 stars",
+    "Qwen Code had 28 new issues",
+    "OpenAI Codex had 33 new issues"
+  ],
+  "ai-trending": [
+    "DeskcommCRM is trending as an AI sales OS",
+    "MathModelAgent designed for mathematical modeling",
+    "CloddsBot is an autonomous trading agent",
+    "Career-ops tool automates job tracking",
+    "ppt-master transforms documents into PowerPoints",
+    "awesome-llm-apps lists 100+ AI Agents and RAG apps"
+  ],
+  "ai-hn": [
+    "OpenAI discusses transparency challenges",
+    "Nvidia seen as the 'central bank' of AI",
+    "Real-SWE benchmarks AI on enterprise codebases",
+    "Community engages in transformer architecture discussions",
+    "Ethical concerns around AI in the workforce",
+    "AI's role and effectiveness in coding debated"
+  ],
+  "ai-community": [
+    "AI tools' impact on data security discussed",
+    "Developers share experiences with AI limits",
+    "Techniques to improve model recall highlighted",
+    "Common misconceptions about AI replacements analyzed",
+    "Successful AI integrations celebrated",
+    "Creative problem-solving beyond AI agents shared"
+  ]
+}
