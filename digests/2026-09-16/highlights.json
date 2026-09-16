@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released version v2.1.273 today.",
+    "OpenAI Codex published multiple updates this week.",
+    "Gemini CLI had 6 merged PRs in the past 24 hours.",
+    "OpenCode closed 6 issues with a notable star count.",
+    "Qwen Code and Unsloth both reported 30 new issues.",
+    "OpenClaw had 169 new issues reported recently."
+  ],
+  "ai-trending": [
+    "alibaba/open-code-review surged by 2756 stars today.",
+    "melgarafael/DeskcommCRM gained 193 new stars today.",
+    "JustVugg/colibri received 2026 new stars today.",
+    "danny-avila/LibreChat saw 254 stars increase today.",
+    "VoiceStudio is trending with rising community interest.",
+    "Emerging LLM frameworks indicate a shift in accessibility."
+  ],
+  "ai-web": [
+    "OpenAI published a new article on enterprise AI leaders.",
+    "Anthropic had no new content today, showing a lull.",
+    "Gartner evaluation marks OpenAI's strategic positioning.",
+    "OpenAI's new content reflects ongoing industry trends.",
+    "Anthropic's silence may reflect internal development moves.",
+    "OpenAI's article may enhance their market visibility."
+  ],
+  "ai-hn": [
+    "Introducing System One Models drew big community interest.",
+    "Gemini 3.8 Live updates are generating active discussions.",
+    "Strix.ai's admin exploit raised security concerns.",
+    "Community discusses ethical implications of AI advances.",
+    "Excitement surrounds new techniques in AI modeling.",
+    "Debate continues on AI's impact on society's future."
+  ],
+  "ai-arxiv": [
+    "Mind2Dialogue paper explores human-aware LLM training.",
+    "K-Bench benchmark focuses on mental health AI evaluation.",
+    "New multi-agent frameworks enhance decision-making.",
+    "Innovative methods for federated learning presented.",
+    "Recent AI papers tackle pressing topics in ethics.",
+    "Advancements in training and evaluation methodologies detailed."
+  ],
+  "ai-community": [
+    "The emotional toll of tech work in AI era discussed.",
+    "Concerns of cognitive decline from AI reliance raised.",
+    "Debate on the illusion of reduced effort with AI tools.",
+    "Caution urged against over-reliance on AI in coding.",
+    "Maintenance costs of AI-generated code highlighted.",
+    "Balance between safety and innovation emphasized."
+  ]
+}
