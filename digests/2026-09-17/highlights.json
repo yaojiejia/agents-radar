@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.155.0-alpha.9",
+    "GitHub Copilot CLI updated to v1.0.86-2",
+    "OpenClaw sees highest activity with 206 new issues",
+    "Claude Code reaches 145,508 stars",
+    "vLLM achieves 91,946 stars with notable merges",
+    "LiteLLM has 41 new issues reported today"
+  ],
+  "ai-trending": [
+    "Alibaba's open-code-review gains 3,231 stars",
+    "Jamie's voicebox project attracts attention",
+    "Tencent's WeKnora adds 1,197 stars today",
+    "Roboflow's supervision tool gains 260 stars",
+    "JustVugg's colibri project adds 1,546 stars",
+    "Emerging tools enhance workflow automation and LLM interactions"
+  ],
+  "ai-web": [
+    "OpenAI released 57 articles on AI-related scams",
+    "New articles focus on cybersecurity threats from AI",
+    "OpenAI targets romance scams and phishing operations",
+    "Anthropic's Claude shows no new developments",
+    "OpenAI's content highlights safety against AI misuse",
+    "Emphasis on maintaining integrity through content updates"
+  ],
+  "ai-hn": [
+    "Research on ternary LLMs generates significant excitement",
+    "Mistral partners with Mozilla for AI browsing privacy",
+    "OpenSpec framework introduces AI spec setting",
+    "Discussion on OpenAI's safety incident disclosures",
+    "Community explores implications of AI in industry",
+    "Exciting advancements in model efficiency discussed"
+  ],
+  "ai-arxiv": [
+    "New paper on LLM safety mechanisms published",
+    "Study on agent cooperation in distributed AI environments",
+    "Research presents STRETCH for LLM evolution",
+    "PACT explores trust in enterprise AI assistants",
+    "First Token Matters paper investigates safety collapse",
+    "Improving multimodal interaction capabilities highlighted"
+  ],
+  "ai-community": [
+    "Claude Code vs Cursor tool comparison gains traction",
+    "Gemini Live models enhance real-time voice applications",
+    "Discussion on AI's impact on developer roles",
+    "Automated code generation outpacing reviews examined",
+    "Tech landscape shifts due to AI advancements",
+    "Conversations on mental health in AI productivity"
+  ]
+}
