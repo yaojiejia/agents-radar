@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.275",
+    "OpenAI Codex had multiple releases",
+    "Qwen Code launched two updates",
+    "OpenClaw had 196 new issues reported",
+    "Hermes Agent added 36 new issues",
+    "Ollama saw 8 new issues this week"
+  ],
+  "ai-trending": [
+    "alibaba/open-code-review gained 3286 stars",
+    "Tencent/WeKnora added 1125 stars today",
+    "claude-code aims to improve coding efficiency",
+    "cloudflare/security-audit-skill launched",
+    "AI tools optimize human-computer interactions",
+    "advanced AI projects enhance coding productivity"
+  ],
+  "ai-web": [
+    "Anthropic's Life Sciences Program announced",
+    "OpenAI released guides for finance applications",
+    "Claude optimizes biomolecular models by 4x",
+    "OpenAI showcases practical ChatGPT in business",
+    "Biosciences focused verification for professionals",
+    "Advancements in cybersecurity assessments by Claude"
+  ],
+  "ai-hn": [
+    "OpenAI introduced Astra for Law today",
+    "Bend programming language tackles AI errors",
+    "Discussion on AI's implications on safety",
+    "Infinite-Parameter LLMs adapt weights dynamically",
+    "1.58-bit Ternary LLMs breakthrough discussed",
+    "Hacker News community explores AI and law"
+  ],
+  "ai-arxiv": [
+    "A new paradigm for aligning LLMs proposed",
+    "Reward hacking in LLMs studied in-depth",
+    "Dynamic adaptation of LLMs with live data",
+    "Innovations in AI-human preference alignment",
+    "Cross-disciplinary approaches in AI research",
+    "Multi-modal capabilities in vision-language models"
+  ],
+  "ai-community": [
+    "AI coding tools face quality assurance challenges",
+    "Local-first development gain traction among developers",
+    "Experiments with AI agents reveal successes and failures",
+    "AI can write code, but proving fixes is hard",
+    "Budget-friendly AI coding mentor built on Android",
+    "Discrepancies highlighted in AI-generated code reliability"
+  ]
+}
