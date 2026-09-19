@@ -1,0 +1,26 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.277 for CLI updates.",
+    "OpenAI Codex enhanced with rust-v0.156.0-alpha.5.",
+    "OpenClaw had 253 new issues and 218 merged PRs.",
+    "Ollama released a significant new version.",
+    "Gemini CLI achieved 6 merged PRs this period.",
+    "vLLM closed 22 issues and merged 45 PRs."
+  ],
+  "ai-trending": [
+    "Claude Code surged with 444 new stars today.",
+    "Cloudflare's security-audit-skill gains traction.",
+    "TencentCloud's Octop added 569 stars today.",
+    "Fission-AI's OpenSpec rose by 296 stars today.",
+    "Anthropic's Claude Code is trending in AI agents.",
+    "Tencent's BrowserSkill saw an increase of 1306 stars."
+  ],
+  "ai-web": [
+    "Anthropic partnered with Accenture for AI evaluation.",
+    "Claude's advancements in biomolecular modeling revealed.",
+    "International funding for protein design competition announced.",
+    "Evaluators embedded in AI development for transparency.",
+    "Claude enhances speed and memory efficiency in models.",
+    "New deep insights on AI safety and evaluation processes."
+  ]
+}
