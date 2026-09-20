@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.278",
+    "OpenAI Codex merged 50 PRs",
+    "OpenClaw gained 313 new issues",
+    "OpenCode achieved 208,643 stars",
+    "Gemini CLI released a new version",
+    "Qwen Code merged 4 PRs today"
+  ],
+  "ai-trending": [
+    "Trending: Claude Code by Anthropics",
+    "New: cloudflare/security-audit-skill",
+    "Top: langchain-ai/langchain project",
+    "Popular: Panniantong/Agent-Reach",
+    "Notable: docling-project/docling",
+    "High interest in cactus-compute/needle"
+  ],
+  "ai-web": [
+    "OpenAI's new youth safety article published",
+    "OpenAI highlights ethical AI usage",
+    "No new articles from Anthropic today",
+    "Australian Youth Safety Blueprint announced",
+    "Focus on societal impacts of AI tech",
+    "Strategic pause observed at Anthropic"
+  ],
+  "ai-hn": [
+    "Community discusses ethical AI usage in media",
+    "AI-generated content raises legal questions",
+    "New research on brain development unveiled",
+    "AI safety dialogue concerns discussed",
+    "Open source AI platform showcased on HN",
+    "AI-generated posters provoke community debate"
+  ],
+  "ai-community": [
+    "Security risks in AI coding agents emphasized",
+    "Concerns over AI usage in job interviews",
+    "Impact of AI on testing practices analyzed",
+    "Vulnerabilities exposed by AI tools discussed",
+    "Human intervention in ML highlighted by developers",
+    "Engagement on safety issues with AI agents"
+  ]
+}
