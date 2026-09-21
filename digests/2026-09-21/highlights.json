@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.156.0-alpha.12",
+    "Qwen Code gained 25 new issues and closed 9",
+    "OpenClaw saw 235 new issues, 143 closed",
+    "Hermes Agent accumulated 41 new issues today",
+    "llama.cpp reported 6 new releases this week",
+    "Gemini CLI released a new version and gained 1 star"
+  ],
+  "ai-trending": [
+    "affaan-m/ECC hits 263,737 stars with new features",
+    "BuilderIO/agent-native gains 98 stars today",
+    "higgsfield-ai/higgsfield surges with 465 stars today",
+    "vercel-labs/json-render receives 291 stars",
+    "Security audits gain traction with cloudflare project",
+    "AI coding optimization draws interest in performance fields"
+  ],
+  "ai-hn": [
+    "ChatGPT introduces user tracking feature, sparking debate",
+    "Qwen Image 2.1 showcases advancements in image generation",
+    "Pirate Face offers preservation for large language models",
+    "Privacy issues dominate AI discussions this week",
+    "Community discusses ethical AI data collection extensively",
+    "Qwen Image 2.1 ignites excitement for potential applications"
+  ],
+  "ai-hf": [
+    "deepseek-ai/DeepSeek-V4.1-Flash leads in likes today",
+    "Ternary-Bonsai-2-27B-gguf achieves 1,494 likes",
+    "XingChen-AGI/Xing4.0-29B-A4B boasts 12,617 downloads",
+    "MiniMax-H3 excels in image-to-video tasks",
+    "Qwen family models show rapid growth in popularity",
+    "Multiple audio models released with significant user interest"
+  ],
+  "ai-community": [
+    "DevSecOps pipeline for AI agents discussed widely",
+    "Challenges of defining AI response quality examined",
+    "Innovative AI agent task contracts enhance collaboration",
+    "Article on securing AI development pipelines gains traction",
+    "Understanding AI decision-making is a hot topic today",
+    "Community focuses on integrating memory in chatbots"
+  ]
+}
