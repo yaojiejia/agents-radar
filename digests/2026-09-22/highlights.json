@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.157.0-alpha.2",
+    "Claude Code gained 21 new issues today",
+    "OpenClaw closed 45 issues this period",
+    "vLLM merged 45 PRs in the last 24 hours",
+    "GitHub Copilot CLI closed 29 issues",
+    "Ollama accumulated 5 new issues recently"
+  ],
+  "ai-trending": [
+    "BuilderIO/agent-native gained 600+ stars",
+    "trycua/cua also surpasses 600 stars",
+    "Mintplex-Labs/anything-llm reaches 66,310 stars",
+    "milvus-io/milvus hits 46,197 stars",
+    "meilisearch/meilisearch now at 59,363 stars",
+    "AI agents emphasize data processing innovations"
+  ],
+  "ai-web": [
+    "Claude optimizes biomolecular modeling by 4x",
+    "OpenAI Academy expands with new learning paths",
+    "Anthropic presents protein design competition",
+    "3 new articles from OpenAI today",
+    "Unique low-memory mode enhances biomolecular predictions",
+    "Advancements in predictive sciences highlighted"
+  ],
+  "ai-hn": [
+    "Grok 4.7 release generates high community interest",
+    "Claude faced elevated error reports this week",
+    "Discussion on AI coding impacting CI practices",
+    "Users share workarounds for Claude errors",
+    "Grok 4.7 features are widely debated",
+    "AI tool reliability focuses in community discussions"
+  ],
+  "ai-arxiv": [
+    "New research on AI in particle physics and healthcare",
+    "LLM-Based FORM code generation paper published",
+    "Machine-Interpretable Information method proposed",
+    "Innovative frameworks for knowledge distillation shared",
+    "Generative modeling for physical systems explored",
+    "Optimizing decision trees for online experiments discussed"
+  ],
+  "ai-community": [
+    "Browser-based AI agent demo sparks developer interest",
+    "Pattern discussed to prevent faulty AI code submissions",
+    "Insights shared on AI performance benchmarking",
+    "Privacy concerns arise with new AI chatbot features",
+    "Reliability of AI-generated outputs in focus",
+    "AI agents in web development discussions heat up"
+  ]
+}
