@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.157.0-alpha.10.",
+    "Claude Code v2.1.280 launched with new features.",
+    "OpenClaw surpassed 390K stars on GitHub.",
+    "Qwen Code closed 15 issues in the last 24 hours.",
+    "GitHub Copilot CLI saw 16 new issues reported today.",
+    "vLLM merged 42 PRs, enhancing its capabilities."
+  ],
+  "ai-trending": [
+    "Google's ax gained 2305 stars in a single day.",
+    "dream-num/univer received 255 stars today.",
+    "mvt-project/mvt trending for mobile AI forensics.",
+    "Strong demand for AI orchestration tools evident.",
+    "AI integration in workflows growing popular.",
+    "Innovative tools for AI agents are on the rise."
+  ],
+  "ai-web": [
+    "OpenAI details advancements in GPT-6 model.",
+    "Introduce 'Sol and Luna' as GPT-6 milestone.",
+    "OpenAI improves prompt caching for GPT-6.",
+    "New principles for AI deployment released.",
+    "No new content from Anthropic today.",
+    "OpenAI emphasizes safety in third-party assessments."
+  ],
+  "ai-hn": [
+    "GPT-6 Sol and Luna is generating community buzz.",
+    "Claude Opus 5.5 highlights advanced safety features.",
+    "Missile strike incident sparks AI ethics debate.",
+    "Concerns over mental health issues among AI staff.",
+    "OpenAI GPT-6 breaks long-standing Enigma message.",
+    "Excitement builds for future applications of new models."
+  ],
+  "ai-arxiv": [
+    "New tool onPanda improves LLM alignment annotation.",
+    "XAI method enhances prompt injection defense.",
+    "Critical-State RL identifies key states in interactions.",
+    "Research on AI collaboration ethics published.",
+    "Advancements in reinforcement learning showcased.",
+    "Improved agent performance metrics discussed."
+  ],
+  "ai-community": [
+    "Concerns over ChatGPT's privacy and user tracking.",
+    "Tech discussions focus on AI productivity impacts.",
+    "Innovations in AI model deployment strategies.",
+    "Balancing AI use between work and leisure.",
+    "Cost-efficient AI model deployment solutions highlighted.",
+    "Tech community emphasizes ethical AI implementation."
+  ]
+}
