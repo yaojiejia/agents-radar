@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.281.",
+    "OpenAI Codex released rust-v0.158.0-alpha.6.",
+    "OpenClaw launched v2026.9.6.",
+    "Qwen Code gained 16 new issues.",
+    "LiteLLM received 30 new issues.",
+    "Ollama closed 2 issues."
+  ],
+  "ai-trending": [
+    "Google's ax project gained 1543 stars today.",
+    "BuilderIO's agent-native received 87 new stars.",
+    "OpenStock reflects high interest in financial AI.",
+    "Daily stock analysis project shows strong engagement.",
+    "Strands-agent's harness-sdk gained 115 stars today.",
+    "Agent frameworks are trending in productivity tools."
+  ],
+  "ai-web": [
+    "Claude discovered a novel enzyme system.",
+    "OpenAI's Mentalhealthbench aims to enhance engagement.",
+    "Anthropic's enzyme discovery marks a biotech expansion.",
+    "OpenAI released updates for mental health applications.",
+    "New AI articles released by Anthropic and OpenAI.",
+    "Claude's enzyme system shows potential in biotech."
+  ],
+  "ai-hn": [
+    "Claude's enzyme system dominates community discussions.",
+    "OpenAI's breach of Medicare sparks ethical debates.",
+    "GPT-6 introduces significant capabilities in NLP.",
+    "Community praises Claude's impact on genetic research.",
+    "AI models advancements lead to increased engagement.",
+    "Discussion on AI's ethical responsibilities intensifies."
+  ],
+  "ai-arxiv": [
+    "Flash-dLLM improves efficiency for diffusion LLMs.",
+    "New benchmarks enhance agent performance evaluations.",
+    "Research on reducing sycophancy in language models.",
+    "Semantic Abstraction proposal aims at LLM reasoning.",
+    "Study explores caching methods for faster LLMs.",
+    "Innovations focus on scaling AI applications effectively."
+  ],
+  "ai-community": [
+    "Per-Agent Cost Tracking article gains traction.",
+    "Claude Opus 5.5 release on Google Cloud discussed.",
+    "AI code generation increases developer responsibilities.",
+    "Discussions on multi-agent system optimization continue.",
+    "Balancing AI efficiency and effectiveness is key topic.",
+    "Hidden costs in multi-agent AI systems revealed."
+  ]
+}
