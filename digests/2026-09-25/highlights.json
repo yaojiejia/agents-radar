@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released version v2.1.282 today.",
+    "OpenAI Codex published multiple releases, enhancing capabilities.",
+    "OpenClaw has 113 new issues reported in the last 24h.",
+    "OpenCode reached 209,900 stars on GitHub today.",
+    "Gemini CLI merged 4 PRs and released a new version.",
+    "llama.cpp has 10 releases and over 129,000 stars."
+  ],
+  "ai-trending": [
+    "NVIDIA/Model-Optimizer gained 44 stars in one day.",
+    "Google's ax project surged to 1,373 stars today.",
+    "New project vectorize-io/hindsight introduces memory for AI.",
+    "rohitg00's AI engineering course gained 347 stars today.",
+    "AI infrastructure tools are trending in community discussions.",
+    "Interest in agent-based frameworks is rapidly increasing."
+  ],
+  "ai-web": [
+    "Anthropic launched a life sciences research group today.",
+    "Claude discovered a novel enzyme system with CRISPR-like repeats.",
+    "OpenAI expands ChatGPT Ads in Southeast Asia market.",
+    "Project Swap shows AI agents can trade effectively.",
+    "Insights reveal AI’s negotiation skills in controlled settings.",
+    "New enzyme system announcement has biotech implications."
+  ],
+  "ai-hn": [
+    "Project Suncatcher aims to place ML infrastructure in space.",
+    "AI's role in analyzing alchemical texts sparks interest.",
+    "Gemini 3.8 text-to-speech generating lively discussion.",
+    "Claude's enzyme discovery received numerous comments today.",
+    "Debate over AI's impact on tutoring services continues.",
+    "Contrastive language models raise effectiveness questions."
+  ],
+  "ai-arxiv": [
+    "Research explores LLM reliability and interpretability.",
+    "Study on scientific ideation systems using LLMs published.",
+    "Hallucination neurons research targets AI factual accuracy.",
+    "New frameworks for multi-agent contextualization proposed.",
+    "AI applications in detecting glaucoma highlighted.",
+    "Innovations in automatic speech recognition showcased."
+  ],
+  "ai-community": [
+    "Guide on AI agent evaluation pitfalls draws attention.",
+    "VS Code extension for clean markdown gains popularity.",
+    "Discussion on optimizing search indices over training models.",
+    "Ethics of data privacy remain a hot topic in AI.",
+    "Innovative AI applications are reshaping tech interactions.",
+    "Developers share practical use cases for decision-making models."
+  ]
+}
