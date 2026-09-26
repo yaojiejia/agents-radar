@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Ollama released v0.40.0-rc0, enhancing capabilities.",
+    "OpenAI Codex had releases including rust-v0.159.0-alpha.3.",
+    "Llama.cpp introduced new releases, including b11192.",
+    "OpenClaw gained 390,523 stars with 75 new issues reported.",
+    "Claude Code reached 148,107 stars with 36 new issues.",
+    "Qwen Code merged 30 PRs, indicating active development."
+  ],
+  "ai-trending": [
+    "NVIDIA/Model-Optimizer hits 359 stars today.",
+    "Google's Ax gained 1379 stars, popular in AI infrastructure.",
+    "paperclipai/paperclip selected as a trending project.",
+    "AutoGPT becomes notable for its AI application diversity.",
+    "Claude plugins off to a strong start with significant usage.",
+    "Hindsight project gains attention for AI-derived insights."
+  ],
+  "ai-web": [
+    "Claude solves complex physics problem in new research.",
+    "Anthropic's 'Project Swap' simulates agent trading.",
+    "Two new articles released by Anthropic on September 25.",
+    "Claude's capabilities redefine AI's role in research.",
+    "Research highlights AI's efficiency in negotiation tasks.",
+    "Anthropic's articles showcase real-world AI applications."
+  ],
+  "ai-hn": [
+    "U.S. court designates Anthropic as a supply chain risk.",
+    "OpenAI faces scrutiny over unintended AI consequences.",
+    "Microsoft exits personal AI chatbot market, shifting focus.",
+    "Claude discovers novel enzyme, highlighting AI in biology.",
+    "GPT-6 launch excites community with new NLP improvements.",
+    "Discussions center on AI safety and ethical challenges."
+  ],
+  "ai-arxiv": [
+    "LLM agents can alter their execution traces, study shows.",
+    "New methods for efficient interactions with complex environments.",
+    "VeriSpeak tackles misinformation in spoken formats.",
+    "Study reveals decision models influenced by context.",
+    "Research focuses on ethical considerations in AI.",
+    "Enhancements in AI agents' alignment strategies."
+  ],
+  "ai-community": [
+    "AI agents increasingly interacting with APIs for humans.",
+    "Benchmark challenges self-trust in AI decision processes.",
+    "Importance of control measures in AI agents emphasized.",
+    "AI's role in automating coding practices discussed.",
+    "Privacy concerns around AI's ad tracking capabilities.",
+    "Discussion on human oversight vs AI autonomy emerging."
+  ]
+}
