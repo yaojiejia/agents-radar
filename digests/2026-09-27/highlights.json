@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released multiple new updates.",
+    "Claude Code surpasses 148K stars on GitHub.",
+    "OpenClaw closed 61 issues recently.",
+    "Hermes Agent introduced 32 new issues today.",
+    "vLLM merged 24 pull requests in last 24 hours.",
+    "Qwen Code saw 32 new issues reported."
+  ],
+  "ai-trending": [
+    "paperclipai/paperclip gained 2,608 stars today.",
+    "vectorize-io/hindsight added 2,147 stars.",
+    "dream-num/univer received 849 new stars today.",
+    "rohitg00/ai-engineering-from-scratch gained 827 stars.",
+    "AI agents are trending for workflow automation.",
+    "Community shows excitement for adaptive agent memory."
+  ],
+  "ai-web": [
+    "Claude improved Riemann zeta function bounds significantly.",
+    "Anthropic's Claude tackles complex mathematical problems.",
+    "Findings validated by Anthropic's research team.",
+    "No new content from OpenAI today.",
+    "Claude's research could impact future inquiries.",
+    "Mathematical capabilities of AI models are evolving."
+  ],
+  "ai-hn": [
+    "GPT-6 Sol and Luna announcement sparks community interest.",
+    "Claude discovers novel enzyme system with CRISPR-like repeats.",
+    "Discussions on AI's impact on coding education surge.",
+    "Concerns about malicious AI behavior highlighted.",
+    "Programming languages debate arises in AI context.",
+    "Community eager for applications of new AI advancements."
+  ],
+  "ai-community": [
+    "AI's role in code review raises quality concerns.",
+    "Developers question verification skills in AI workflows.",
+    "Emerging privacy debates surrounding AI use intensify.",
+    "Focus on AI documentation guides emerges.",
+    "Trend of improving prompt engineering skills critiqued.",
+    "Critical skills for developers must evolve with AI."
+  ]
+}
