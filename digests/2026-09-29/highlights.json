@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.284",
+    "OpenAI Codex had multiple releases",
+    "Gemini CLI released v0.63.0-nightly",
+    "OpenClaw sees significant gateway crash issue",
+    "Qwen Code attracted 25 new issues",
+    "GitHub Copilot CLI closed 29 issues"
+  ],
+  "ai-trending": [
+    "VoiceStudio gained 3,221 new stars today",
+    "hindsight is trending for agent memory focus",
+    "huggingface/transformers added 1,188 stars",
+    "tensorflow remains crucial with 200,595 stars",
+    "pytorch continues to evolve with strong community",
+    "AutoGPT leads in AI agents this week"
+  ],
+  "ai-web": [
+    "Anthropic partnered with Infosys for AI agents",
+    "Project Swap study reveals new negotiation insights",
+    "OpenAI expands collaborative efforts in Australia",
+    "Anthropic's research highlights AI trading outcomes",
+    "New articles reflect current AI regulatory strategies",
+    "Anthropic discusses governed AI deployments"
+  ],
+  "ai-hn": [
+    "Sonnet 5.5 improves user interaction",
+    "OpenAI halts Astra 6.1 model due to safety issues",
+    "AI accountability discussions gaining momentum",
+    "Debates on transparency in AI development",
+    "Community questions safety protocols in AI",
+    "Ethical concerns surrounding AI in education"
+  ]
+}
