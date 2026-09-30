@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.161.0-alpha.2.",
+    "Claude Code merged PR for debugging agent logs.",
+    "Qwen Code introduced new features for AI coding.",
+    "OpenClaw saw 145 new issues and 61 closed.",
+    "llama.cpp released 10 updates this period.",
+    "Gemini CLI released 3 updates, focusing on automation."
+  ],
+  "ai-trending": [
+    "VoiceStudio gained 4,758 stars in one day.",
+    "Paperclip project received 2,458 stars today.",
+    "NVIDIA/OpenShell traction highlights secure AI tools.",
+    "t8y2/dbx shows rising popularity for AI databases.",
+    "AI voice technologies are trending significantly.",
+    "Automated workflow tools are gaining greater visibility."
+  ],
+  "ai-web": [
+    "Anthropic released two articles on cybersecurity.",
+    "OpenAI teased advancements related to GPT models.",
+    "Research on GLM-5.3 shows vulnerabilities in AI.",
+    "Public engagement study on society's AI expectations.",
+    "OpenAI published 6 new articles today.",
+    "Anthropic's focus includes public sentiment on AI."
+  ],
+  "ai-hn": [
+    "GPT 6.1 Sol promises advanced capabilities at lower cost.",
+    "Community debates AI accountability post US bombing incident.",
+    "Sonnet 5.5 could redefine AI capabilities.",
+    "Privacy analysis of conversational agents raises concerns.",
+    "Discussions on ethical implications of AI technologies.",
+    "Skepticism about AI's impact on behavioral targeting."
+  ],
+  "ai-arxiv": [
+    "New paper on controlled decoding in black-box LLMs.",
+    "Hybrid perturbation defense proposed for LLM safety.",
+    "Study on multi-agent LLM collaboration challenges.",
+    "Advancements in alignment and safety in AI models.",
+    "Research highlights improving context handling in LLMs.",
+    "Incremental progress in reinforcement learning techniques."
+  ],
+  "ai-community": [
+    "Discussions on AI agent accountability intensify.",
+    "Governance challenges in AI tools on AWS explored.",
+    "Ethical dilemmas surrounding AI security breaches debated.",
+    "New tutorials on integrating AI into apps flourish.",
+    "AI productivity tools gaining traction in tech community.",
+    "AWS features enhance capabilities of multi-agent systems."
+  ]
+}
