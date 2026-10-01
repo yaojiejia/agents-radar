@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.286 with bug fixes.",
+    "OpenAI Codex had 5 releases including rust-v0.161.0-alpha.5.",
+    "OpenClaw launched release v2026.9.7 with new features.",
+    "OpenCode gained 33 new issues and fixed 7.",
+    "llama.cpp received 38 new issues and released 10 fixes.",
+    "Gemini CLI merged 2 PRs and saw zero new issues."
+  ],
+  "ai-trending": [
+    "VoiceStudio gains attention for voice AI tasks.",
+    "NVIDIA/OpenShell reaches +1281 stars for runtime security.",
+    "vectifyAI/PageIndex sees a surge of +1097 stars.",
+    "mksglu/context-mode improves efficiency for coding agents.",
+    "openrig optimizes collaborative AI frameworks.",
+    "Projects focused on AI agents and voice tech trending."
+  ],
+  "ai-web": [
+    "Anthropic released 4 articles on safety in AI.",
+    "Introducing Life Sciences Verification Program by Anthropic.",
+    "Research on robot capabilities aligns with job displacement.",
+    "Discussion on societal expectations of AI importance.",
+    "Critical issues in AI landscape being addressed by Anthropic.",
+    "New strategies highlighted for ethical AI usage."
+  ],
+  "ai-hn": [
+    "Gemini 4 Argon sparks debate on capabilities and ethics.",
+    "FTC investigates major AI firms over regulatory concerns.",
+    "OpenAI's GPT 6.1 Sol promises high capabilities at low cost.",
+    "Magnitude's self-optimizing inference engine launched.",
+    "Community engages in AI innovation and accountability talks.",
+    "Hacker News buzzing with new AI model discussions."
+  ],
+  "ai-arxiv": [
+    "Papers focus on efficiency in reinforcement learning.",
+    "LexReward framework enhances legal LLM capabilities.",
+    "Characterizing high bandwidth flash for LLM serving.",
+    "DAGent framework improves planning for research agents.",
+    "New training strategies for language models explored.",
+    "Efficient management in multi-agent systems presented."
+  ],
+  "ai-community": [
+    "Security risks in AI-generated package suggestions discussed.",
+    "Emergence of Forward Deployed Engineers in software.",
+    "AI boosts coding speed but slows software shipping.",
+    "Challenges in AI code reliance highlighted by developers.",
+    "New AI tools announced, inviting community engagement.",
+    "Traditional development roles evolving due to AI impact."
+  ]
+}
