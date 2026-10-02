@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.162.0-alpha.2",
+    "Claude Code improves dialog with merged PR #98555",
+    "OpenClaw had 181 new issues reported",
+    "Qwen Code received 23 new issues today",
+    "Gemini CLI merged 8 PRs in 24 hours",
+    "OpenCode closed 23 issues recently"
+  ],
+  "ai-trending": [
+    "NVIDIA/OpenShell gained 2456 stars today",
+    "tile-ai/tilelang added 163 stars recently",
+    "DietrichGebert/ponytail surged with 1194 new stars",
+    "mvschwarz/openrig attracted 642 stars overnight",
+    "earendil-works/pi gained 298 stars",
+    "AI infrastructure projects are trending significantly"
+  ],
+  "ai-web": [
+    "Claude LLM aids scientific problem-solving in new article",
+    "Barclays uses Claude to boost client experience",
+    "OpenAI shares insight on retail collaboration",
+    "New research highlights AI's role in academia",
+    "Claude's impact on operational efficiency detailed",
+    "Two articles published by Anthropic today"
+  ],
+  "ai-hn": [
+    "Gemini 4 Argon received 1641 points on Hacker News",
+    "Context Language Models paper gets positive responses",
+    "DoGBench aims to measure document generation efficiency",
+    "Discussions on AI ethics and regulation heat up",
+    "Major AI model releases create buzz online",
+    "Community engages with advancements in AI technologies"
+  ],
+  "ai-arxiv": [
+    "Gacha Decoding enhances model output diversity",
+    "TRACE focuses on LLM safety over multiple turns",
+    "DeFA improves error accountability for LLM agents",
+    "Hybrid approaches in AI are being explored",
+    "Provenance tracking gains importance in AI",
+    "New models reflect trends in interpretability"
+  ],
+  "ai-community": [
+    "Dev.to explores AI agent performance challenges",
+    "Lobste.rs debates ethical implications of AI",
+    "Debashish Ghosal experiments with bad AI agents",
+    "Concerns rise over AI dependency in tech features",
+    "Community reflects on AI's evolution from tech giants",
+    "Hands-on testing of AI robustness is shared"
+  ]
+}
