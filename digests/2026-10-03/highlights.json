@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.288 with bug fixes.",
+    "OpenAI Codex launched rust-v0.162.0-alpha.9.",
+    "OpenClaw has 139 new issues and 162 merged PRs.",
+    "OpenCode has a total of 211,511 stars.",
+    "Qwen Code gained 23 new issues today.",
+    "GitHub Copilot CLI closed 11 issues this period."
+  ],
+  "ai-trending": [
+    "Panniantong/Agent-Reach gained 696 stars today.",
+    "DietrichGebert/ponytail added 1,435 stars recently.",
+    "NVIDIA/OpenShell focuses on secure autonomous agents.",
+    "mksglu/context-mode improves AI context management.",
+    "New methodologies for AI agent interactions are emerging.",
+    "Strong community interest in practical AI applications."
+  ],
+  "ai-web": [
+    "Claude Frontier Academy launched with $100M investment.",
+    "Academy aims to train 10,000 engineers by 2027.",
+    "OpenAI released a guide on building GPT-6 models.",
+    "New Anthropic article discusses AI enterprise skills.",
+    "Focus on filling talent gap in AI deployment.",
+    "Educational resources for AI model development expand."
+  ],
+  "ai-hn": [
+    "AI mastered Stratego, defeating top player finally.",
+    "Discussion on LLM security concerns is trending.",
+    "Video on LLM risks garners community attention.",
+    "Excitement around local machine learning tools.",
+    "New projects work on AI's safety applications.",
+    "Game advancements highlight strategic planning progress."
+  ],
+  "ai-arxiv": [
+    "New paper on LLM fine-tuning optimization methods.",
+    "Research critiques intrinsic rewards for exploration.",
+    "Study on LLMs as decision models published today.",
+    "Adoption of innovative metrics for AI capabilities.",
+    "Focus on multi-agent coordination is increasing.",
+    "Visual reasoning in AI shows promising improvements."
+  ],
+  "ai-community": [
+    "Survey of AI models' effectiveness in hacking detection.",
+    "Impact of UI design on AI tool productivity discussed.",
+    "Journey of creating a 1.7B coding agent detailed.",
+    "Innovative testing methodologies for AI systems reported.",
+    "Ethical implications of automation technologies explored.",
+    "Generative AI tools for coding enhance developer productivity."
+  ]
+}
