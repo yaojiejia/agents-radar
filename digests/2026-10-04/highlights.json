@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.289",
+    "OpenAI Codex published two new releases",
+    "OpenClaw saw 179 new issues today",
+    "Hermes Agent closed 7 issues",
+    "llama.cpp added 10 releases in the latest update",
+    "Qwen Code gained 31 new stars today"
+  ],
+  "ai-trending": [
+    "Agent frameworks trend up, boosting automation",
+    "Panniantong/Agent-Reach connects AI agents",
+    "thedotmack/claude-mem addresses persistent context",
+    "affaan-m/ECC leads in optimizing AI harnesses",
+    "New projects show community's focus on efficiency",
+    "Graphify and AutoGPT gaining notable traction"
+  ],
+  "ai-hn": [
+    "OpenAI's safety leader resigned over culture issues",
+    "AI succeeds in beating best Stratego player",
+    "Debates arise over banning AI-generated code",
+    "Opus 5.5 tool gains interest in AI circles",
+    "Discussion on AI gaming strategies intensifies",
+    "Community excited about new FLUX 3 Image model"
+  ],
+  "ai-community": [
+    "Developers review AI impact on productivity",
+    "Mika's 866 commits reveal AI's coding influence",
+    "Balancing AI confidence is a hot topic",
+    "Ethical implications of AI integrations raised",
+    "Concerns over AI training and output discrepancies",
+    "Insights for beginners on AI job skills shared"
+  ]
+}
