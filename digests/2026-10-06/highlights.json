@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.290 fixing bugs.",
+    "OpenAI Codex launched rust-v0.162.0-alpha.16.",
+    "OpenClaw had 118 new issues reported this week.",
+    "Qwen Code gained 27 new issues in the past day.",
+    "GitHub Copilot CLI closed 9 issues recently.",
+    "llama.cpp achieved 130,411 stars and 10 new releases."
+  ],
+  "ai-trending": [
+    "claude-mem gained 534 stars, focusing on AI persistence.",
+    "OpenMontage claims to be the first agentic video system.",
+    "cloudflare-os allows document creation with Cloudflare tools.",
+    "Agent-Reach enables data exploration across social media.",
+    "Persistent context features are trending in AI agents.",
+    "The need for versatile AI tools is growing in the ecosystem."
+  ],
+  "ai-hn": [
+    "Reflection's Beam model unveiled with 501B parameters.",
+    "Dust: New method for pretraining Transformers presented.",
+    "Community debates ethical implications of Beam model.",
+    "Hacker News buzzing over new AI training techniques.",
+    "Cartoonist signatures added to AI-generated New Yorker cartoons.",
+    "Users excited about efficiency in AI model training."
+  ],
+  "ai-arxiv": [
+    "Nash Equilibrium Text introduces game-theoretic models.",
+    "New frameworks for fine-tuning LLMs in low-resource settings.",
+    "Research evaluates LLMs on traditional Chinese Bazi rules.",
+    "Latent safety features in LLMs explored via counterfactuals.",
+    "Innovative model to enhance agent decision-making processes.",
+    "Robust evaluation metrics needed for AI benchmarks."
+  ],
+  "ai-community": [
+    "AI audit logs questioned for reliability and trust.",
+    "Developers share AI tools' impact on productivity.",
+    "Documentation management enhanced using AI agents.",
+    "Deploying AI agents to Kubernetes made easier.",
+    "Reflections on AI accountability spark community discussions.",
+    "Practical applications of AI tools showcased by developers."
+  ]
+}
