@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex releases rust-v0.162.0-alpha.18",
+    "Claude Code merges PR #99206",
+    "OpenClaw reports 111 new issues today",
+    "Gemini CLI closes 1 issue and merges 8 PRs",
+    "Qwen Code sees a spike with 33 new issues",
+    "llama.cpp celebrates 10 new releases this week"
+  ],
+  "ai-trending": [
+    "thedotmack/claude-mem gains 534 stars today",
+    "HKUDS/nanobot launches as a lightweight AI agent",
+    "zhayujie/CowAgent reaches 47,252 stars",
+    "AI agents frameworks on the rise for complex workflows",
+    "earthtojake/text-to-cad merges design and generative AI",
+    "growing interest in AI agent capabilities evident today"
+  ],
+  "ai-web": [
+    "Anthropic expands Cyber Verification Program for security",
+    "OpenAI updates cover partnerships and mathematical apps",
+    "Claude Opus 5.5 included in new Cyber Program",
+    "New articles from OpenAI focus on AI value models",
+    "Strategic collaborations highlighted in OpenAI updates",
+    "Anthropic prioritizes responsible safeguards in AI"
+  ],
+  "ai-hn": [
+    "Mistral Large 4 announced, causing community buzz",
+    "Integer multiplication method attracts AI research interest",
+    "OpenTPU aims to enhance AI computational efficiency",
+    "AI oversight in Utah healthcare sparks ethical debates",
+    "Community discusses implications of Mistral Large 4",
+    "AI performance advances lead discussions in technical community"
+  ],
+  "ai-arxiv": [
+    "LLMs adapt actions based on cooperative settings",
+    "New method boosts diffusion language models performance",
+    "Ranking items by human feedback presents innovative model",
+    "Research emphasizes reliability in unpredictable environments",
+    "Enhancing AI applications with advanced LLM techniques",
+    "Agent reasoning continues exploration of self-improving AI"
+  ],
+  "ai-community": [
+    "EU guidelines on AI text watermarks discussed",
+    "Article highlights risks of deploying AI agents",
+    "Young developer showcases budget-friendly AI project",
+    "Concerns raised on AI model testing and transparency",
+    "State management strategies shared by developers",
+    "Best practices for AI risk mitigation emphasized"
+  ]
+}
