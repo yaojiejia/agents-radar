@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code releases v2.1.293",
+    "OpenAI Codex updates to rust-v0.162.0-alpha.20",
+    "OpenClaw introduces version v2026.10.1-beta.2",
+    "OpenCode closed 47 issues today",
+    "GitHub Copilot CLI merges 6 PRs",
+    "Hermes Agent garners 251,965 stars"
+  ],
+  "ai-trending": [
+    "tensorflow reaches 200,735 stars",
+    "pytorch maintains strong community with 103,865 stars",
+    "huggingface/transformers hits 167,039 stars",
+    "hermes-agent user base rapidly expanding",
+    "Panniantong/Agent-Reach gains popularity",
+    "hkuds/nanobot ideal for personal AI applications"
+  ],
+  "ai-web": [
+    "Anthropic showcases novel enzyme discovery",
+    "OpenAI releases three new articles with no content",
+    "Anthropic expands Cyber Verification Program",
+    "Community engagement survey launched by Anthropic",
+    "Significant advancements in life sciences reported",
+    "New enzyme system reflects historical breakthroughs"
+  ],
+  "ai-hn": [
+    "Claude Haiku 5.5 impresses with enhanced performance",
+    "OpenAI announces GPT-6 for democratizing AI",
+    "Community debates ethical AI content issues",
+    "New AI-assisted mathematical proof attracts interest",
+    "Industry giants face scrutiny over AI tool policies",
+    "Engagement around AI model releases intensifies"
+  ],
+  "ai-arxiv": [
+    "MIRROR proposes new LLM personalization technique",
+    "Study on catastrophic forgetting in LLMs reveals insights",
+    "Novel frameworks for multimodal processing released",
+    "Reinforcement learning methods enhanced for agent behavior",
+    "Focus on interpretability in human-robot collaboration",
+    "New causal discovery techniques explored in AI systems"
+  ],
+  "ai-community": [
+    "Latest articles focus on AI model integration in production",
+    "OpenAI Decisions API tutorial garners attention",
+    "Debate on AI debugging and security practices",
+    "Innovative coding system challenges trust in outputs",
+    "Personal AI systems discussed for developer engagement",
+    "Exploring AI agents in production automations"
+  ]
+}
