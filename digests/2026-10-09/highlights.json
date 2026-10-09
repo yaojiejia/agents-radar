@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Ollama releases version v0.40.2.",
+    "Claude Code launched versions v2.1.295 and v2.1.294.",
+    "OpenAI Codex closes 50 PRs in the past 24 hours.",
+    "OpenClaw sees 126 new issues reported.",
+    "Hermes Agent closes 2 issues in recent updates.",
+    "SGLang merges 59 PRs, reflecting active development."
+  ],
+  "ai-trending": [
+    "thedotmack/claude-mem gains traction with 98,565 stars.",
+    "open-webui/open-webui reaches 154,068 stars.",
+    "langchain-ai/langchain continues to grow in popularity.",
+    "Graphify-Labs/graphify now has 124,773 stars.",
+    "Emerging tools focus on AI agent workflow enhancements.",
+    "AI community prioritizes persistent context management."
+  ],
+  "ai-web": [
+    "Anthropic unveils the Cyber Mission for security.",
+    "Claude's UV sky map showcases innovative research.",
+    "OpenAI highlights AI influence operations risks.",
+    "$150 million pledged to Genesis Mission by Anthropic.",
+    "Anthropic's commitment expands access to Claude for agencies.",
+    "Key insights on cybersecurity trends shared by Anthropic."
+  ],
+  "ai-hn": [
+    "OpenAI retraction sparks discussion on AI transparency.",
+    "Step 5 Preview reveals impressive 1M-context MoE.",
+    "Community explores new AI models for contextual learning.",
+    "Self-hosted Edi Life OS project launched on Hacker News.",
+    "AI compression techniques show promising advancements.",
+    "Analyzing revenue implications of OpenAI's recent disclosures."
+  ],
+  "ai-arxiv": [
+    "Study introduces memory reuse in mobile GUI agents.",
+    "Research enhances face-swap detection techniques.",
+    "Challenges in screening AI-generated texts discussed.",
+    "New structures for sentiment analysis proposed.",
+    "Battery health forecasting gets domain-specific advancements.",
+    "LLMs show adaptability in multi-agent interactions."
+  ],
+  "ai-community": [
+    "Decision-making insights in AI model retries shared.",
+    "Engineering team integrates AI for productivity boosts.",
+    "Evaluating AI initiatives emphasizes ongoing maturity.",
+    "Real-world AI applications detailed in developer case studies.",
+    "Discussion highlights resources for learning AI.",
+    "Community explores practical challenges in AI integration."
+  ]
+}
