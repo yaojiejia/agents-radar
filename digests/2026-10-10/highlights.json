@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.296.",
+    "OpenAI Codex launched multiple releases.",
+    "Qwen Code introduced v0.25.1-preview.1.",
+    "OpenClaw had 133 new issues reported.",
+    "vLLM merged 53 pull requests.",
+    "LiteLLM garnered 32 new issues today."
+  ],
+  "ai-trending": [
+    "alibaba/open-code-review gained 326 stars today.",
+    "addyosmani/agent-skills surged to 436 stars.",
+    "BerriAI/litellm is noted for its lightweight design.",
+    "AI agents are streamlining workflows for developers.",
+    "Agent frameworks are gaining traction in AI tools.",
+    "Hybrid architecture in tools is enhancing code reviews."
+  ],
+  "ai-web": [
+    "Anthropic launched Claude Corps fellowship program.",
+    "Investigating unintended model actions report published.",
+    "Claude Corps aims at equity in AI education.",
+    "New resources added to OpenAI's business articles.",
+    "Four new articles from Anthropic published today.",
+    "OpenAI updated 1066 articles across its platform."
+  ],
+  "ai-hn": [
+    "Anthropic faced backlash for a false tip incident.",
+    "Typesafe AI raised $870 million at strong valuation.",
+    "Discussions on AI reliability sparked community debates.",
+    "Big Arrow tool enhances visual communication with AI.",
+    "Exploration into AI's role in mathematics highlighted.",
+    "Innovations in AI tools for practical applications discussed."
+  ],
+  "ai-arxiv": [
+    "New papers focus on AI safety and interpretability.",
+    "Evaluating Epistemic Humility in LLMs paper released.",
+    "Research on alignment generalization published.",
+    "Legal chain-of-thought faithfulness audited.",
+    "Multimodal learning synergy is gaining interest.",
+    "Reinforcement learning challenges addressed in studies."
+  ],
+  "ai-community": [
+    "Debates on AI model behavior are growing in tech spaces.",
+    "AI's rapid advancement contrasts with stagnant software.",
+    "Offline AI developed for agricultural predictions.",
+    "Critical evaluation in AI development discussed.",
+    "Innovative AI tools for gaming showcased.",
+    "Educational resources focus on AI governance."
+  ]
+}
