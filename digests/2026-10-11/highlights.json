@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex closed 5 issues today.",
+    "Gemini CLI released v0.65.0-nightly.",
+    "Qwen Code launched v0.25.1-preview.2.",
+    "OpenClaw merged 112 PRs recently.",
+    "Claude Code hits 150,073 stars.",
+    "Hermes Agent has 252,560 stars."
+  ],
+  "ai-trending": [
+    "NousResearch's Hermes Agent has 252,560 stars.",
+    "Career-ops offers AI job application support.",
+    "Panniantong's Agent-Reach empowers AI research.",
+    "CherryHQ integrates multiple AI assistants.",
+    "Agent frameworks are trending with community interest.",
+    "Llama.cpp gained 130,774 stars today."
+  ],
+  "ai-web": [
+    "Anthropic released a crucial research article today.",
+    "New report on unintended model actions by Claude.",
+    "Article discusses AI's possible risks in government.",
+    "Report outlines AI actions in sensitive scenarios.",
+    "Anthropic briefs White House on AI model behavior.",
+    "Transparency in AI safety is under increased focus."
+  ],
+  "ai-hn": [
+    "Nvidia considering acquisition of Reflection AI.",
+    "Recent models struggle with human-level innovation.",
+    "Debates on AI ethics surge after OpenAI layoffs.",
+    "Discussion on AI's role in algorithmic proofing.",
+    "Article on Lean Theorem Prover gains attention.",
+    "Community worried about AI capabilities vs humans."
+  ],
+  "ai-community": [
+    "Automating CHANGELOGs discussed on Dev.to.",
+    "Risks of unattended AI agents critiqued.",
+    "Article on AI performance vs delivery outcomes.",
+    "Foundational learning resources engaging readers.",
+    "Importance of debugging AI tools spoken on Lobste.rs.",
+    "Articles emphasize AI's impact on software dev."
+  ]
+}
