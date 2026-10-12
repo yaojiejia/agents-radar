@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.65.0-nightly.20261012",
+    "OpenClaw had major release v2026.10.5-beta.1",
+    "Qwen Code completed multiple releases this week",
+    "OpenCode now has 212,751 stars on GitHub",
+    "Claude Code gained 32 new issues today",
+    "llama.cpp released 7 new updates."
+  ],
+  "ai-trending": [
+    "morluto/rea gained 25,000 stars in one day",
+    "Increase in AI agents and RAG tools noted today",
+    "Continuous growth in knowledge management systems",
+    "pytorch/pytorch has 104,530 total stars",
+    "huggingface/transformers remains a top ML framework",
+    "Significant star growth across multiple trending projects."
+  ],
+  "ai-hn": [
+    "Concern over public understanding of LLMs raised",
+    "Andrej Karpathy discusses LLM capabilities gap",
+    "Debate on AI safety and development heats up",
+    "Microsoft discusses regulatory issues in AI",
+    "Research on byte-level LLM processing published",
+    "Innovative AI systems performance enhancements explored."
+  ],
+  "ai-hf": [
+    "Lightricks/LTX-2.5 model gained 7,325 likes",
+    "Qwen/Qwen3.8-27B amassed 17,511 likes",
+    "Humanizer model specializes in human-like text",
+    "Venastine-Research's Xing4.0-29B gains traction",
+    "Models focused on image-text interactions trending",
+    "Significant downloads for Qwen family models noted."
+  ],
+  "ai-community": [
+    "AI enhances outdoor activities in Hacktoberfest",
+    "Developers share experiences using AI agents",
+    "Comparison of API pricing for major AI models",
+    "Discussions on language model scaling and resources",
+    "Benchmarking AI models sparks community interest",
+    "TerraPulse promotes outdoor engagement without screens."
+  ]
+}
