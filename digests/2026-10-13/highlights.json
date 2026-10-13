@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.65.0-nightly.",
+    "OpenAI Codex merged PR #53506 on Host headers.",
+    "OpenClaw issued a crucial bug report.",
+    "Qwen Code gained 24 new stars today.",
+    "Claude Code reached 150,466 stars today.",
+    "OpenCode closed 32 issues recently."
+  ],
+  "ai-trending": [
+    "open-webui reached 155,151 stars today.",
+    "microsoft/BitNet gained 97 stars today.",
+    "NousResearch/hermes-agent has 253,184 stars.",
+    "Panniantong's Agent-Reach attracts 96,639 stars.",
+    "career-ops-hq/career-ops has 74,207 stars.",
+    "CherryHQ's cherry-studio is trending in TypeScript."
+  ],
+  "ai-web": [
+    "Anthropic warns of self-replicating AI risks.",
+    "Novel enzyme system discovery through AI reported.",
+    "Strengthening distillation attack defenses highlighted.",
+    "Concerns over AI cybersecurity raised today.",
+    "Influence of AI on biotechnology discussed.",
+    "Impacts of self-replicating models on cybersecurity noted."
+  ],
+  "ai-hn": [
+    "Distillation attack defenses research gains attention.",
+    "Janas offers efficiency for large language models.",
+    "GLM-Legal discusses AI and legal frameworks.",
+    "Intel introduces new data center GPU.",
+    "Debates on AI's daily task implications ongoing.",
+    "Community excited about technological advancements."
+  ]
+}
