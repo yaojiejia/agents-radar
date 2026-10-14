@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Gemini CLI releases v0.65.0-nightly update.",
+    "OpenAI Codex merges PR to reject Guardian threads.",
+    "OpenClaw gains 195 new issues, 161 PRs merged.",
+    "Claude Code surpasses 150,000 stars.",
+    "Qwen Code sees 38 new issues in 24 hours.",
+    "vLLM closes 23 issues, merges 50 PRs today."
+  ],
+  "ai-trending": [
+    "VoiceStudio gains traction for voice cloning tasks.",
+    "Agent-Reach showcases integration with data sources.",
+    "open-webui reaches 155,587 stars for user-friendly AI.",
+    "langchain-ai hits 147,792 stars in AI agent engineering.",
+    "claude-mem introduces persistent context for agents.",
+    "New AI projects reflect growing developer interest."
+  ],
+  "ai-web": [
+    "Anthropic announces in-house version control, Scion.",
+    "Code merging speed increases tenfold at Anthropic.",
+    "New defenses against distillation attacks reported.",
+    "Strategies to safeguard AI models highlighted.",
+    "Anthropic improves model integrity by 99%.",
+    "Engineer arrest raises ethics discussions in AI."
+  ],
+  "ai-hn": [
+    "Gemini 4 Argon garners 750 comments on Hacker News.",
+    "Debate on AI models concealing functionalities intensifies.",
+    "OpenAI engineer arrest prompts security industry talk.",
+    "Community excited yet skeptical about Gemini's features.",
+    "New benchmark tool for AI model code contribution unveiled.",
+    "AI accountability discussions gain momentum online."
+  ],
+  "ai-community": [
+    "Concerns over reliance on AI-generated solutions grow.",
+    "Developers express AI fatigue in the community.",
+    "Trustworthiness of AI-built apps amidst criticism.",
+    "Market for paid app clones is evaluated by experts.",
+    "Security of AI-generated code in production questioned.",
+    "AI coding agents' impact on development practices discussed."
+  ]
+}
