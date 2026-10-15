@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.300 and v2.1.299.",
+    "Hermes Agent introduced version v0.22.1.",
+    "OpenClaw had 174 new issues reported.",
+    "OpenCode closed 22 issues today.",
+    "LiteLLM closed 31 issues and merged 115 PRs.",
+    "Qwen Code had 31 new issues reported."
+  ],
+  "ai-trending": [
+    "VoiceStudio reached +3,538 stars today.",
+    "iFixAi gained +2,109 stars, focusing on AI auditability.",
+    "scientific-agent-skills supports 250,000 scientists.",
+    "VoiceStudio offers voice cloning in 646 languages.",
+    "Emerging trends highlight RAG tools and AI agents.",
+    "Growing interest in specialized agent abilities."
+  ],
+  "ai-web": [
+    "Anthropic enhances election safeguards for Claude.",
+    "New Singapore office expands Anthropic's presence.",
+    "Articles discuss Claude's role in 2026 US midterms.",
+    "Commitment to responsible AI use in politics confirmed.",
+    "MOU with Singapore government underscores strategic growth.",
+    "Anthropic aims for informed political dialogue with Claude."
+  ],
+  "ai-hn": [
+    "Liquid AI's LFM2.5-24B-A2B models boost on-device agents.",
+    "Discussion around Anthropic's Scion model sparked interest.",
+    "Community highlights security concerns over AI systems.",
+    "Banks shifting AI data center costs discussed.",
+    "Novel AI applications in monitoring systems explored.",
+    "Rapid performance gains in new AI developments noted."
+  ],
+  "ai-arxiv": [
+    "Back-Translation improves low-resource translations.",
+    "Jeva advocates principles for rapid decision-making.",
+    "ChunkAct explores action chunking for agentic robotics.",
+    "New methodologies for evolving LLMs presented.",
+    "Interdisciplinary trends in AI systems highlighted.",
+    "Innovative agentic robotics approaches detailed."
+  ],
+  "ai-community": [
+    "Browser-based AI features enhance dev environments.",
+    "Building Better Agents emphasizes task evaluations.",
+    "AI Avatar app showcases interactive virtual spaces.",
+    "Group chat with only AIs engaging in humor created.",
+    "Developers discuss AI-generated content oversight.",
+    "Effective AI tools explored for production use."
+  ]
+}
