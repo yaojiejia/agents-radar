@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.302",
+    "OpenAI Codex had releases for rust-v0.164.0-alpha",
+    "OpenClaw saw 122 new issues filed",
+    "llama.cpp gained 43 closed issues",
+    "vLLM merged 34 PRs in the last 24 hours",
+    "GitHub Copilot CLI released 3 updates"
+  ],
+  "ai-trending": [
+    "huggingface/transformers stars rose by +1,200",
+    "K-Dense-AI/scientific-agent-skills gained 1,158 stars",
+    "tensorflow/tensorflow hits 201,062 stars",
+    "pytorch/pytorch continues growing with +780 stars",
+    "mksglu/context-mode trending with new AI features",
+    "K-Dense-AI library enhances AI agents with 177 skills"
+  ],
+  "ai-web": [
+    "Anthropic publishes report on AI expectations gap",
+    "New research on ECDSA curve origins released",
+    "Anthropic's employment dynamics insights shared",
+    "Commitment to independent AI model evaluations announced",
+    "New article on quantum circuit efficiency published",
+    "Anthropic updates on AI deployment challenges"
+  ],
+  "ai-hn": [
+    "Claude reveals ECDSA curve origins article gains 654 points",
+    "Discussion on quantum circuit optimization heats up",
+    "Insights on Claude Code's review process shared",
+    "Community engages in ethical AI practices debates",
+    "Interest in AI's labor market impact grows",
+    "Researchers discuss generative model advancements"
+  ],
+  "ai-arxiv": [
+    "New research combines LLMs with robotic manipulation",
+    "Study on LLM evaluation across languages published",
+    "Generating diverse scientific ideas with LLMs explored",
+    "Gemini 4 Argon agents coordinate in complex tasks",
+    "Advancements in multi-agent system robustness discussed",
+    "Research highlights multi-modal understanding in AI"
+  ],
+  "ai-community": [
+    "Dev.to highlights tools for managing AI coding agents",
+    "Discussion on trusting AI app builders emerges",
+    "Strategies for coding assistants in large repos shared",
+    "Emerging tools for automating AI tasks discuss productivity",
+    "Focus on agentic AI lessons gaining traction",
+    "Tech community navigates AI integration challenges"
+  ]
+}
