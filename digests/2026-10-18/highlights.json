@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Ollama released v0.40.7-rc0 with major updates.",
+    "Gemini CLI announced v0.66.0-nightly release.",
+    "OpenAI Codex merged 9 PRs and closed 2 issues.",
+    "OpenClaw saw 133 new issues and 110 closed.",
+    "Claude Code gained 179 new stars today.",
+    "Qwen Code added 23 new issues, totaling 28,546 stars."
+  ],
+  "ai-trending": [
+    "Claude Code noted as a top project with 151,746 stars.",
+    "VoiceStudio gained 2,125 stars, popular for local AI.",
+    "StablyAI's Orca making waves in AI job search tools.",
+    "Hacker News discussed DeepSeek-v4.1 performance tweaks.",
+    "MadsLorentzen's AI job search project catching attention.",
+    "Scientific agent skills gaining traction in AI infrastructure."
+  ],
+  "ai-web": [
+    "Anthropic released 5 articles on AI and employment.",
+    "Highlights include AI's impact on hiring at Anthropic.",
+    "New research on cryptographic standards published.",
+    "Articles emphasize AI's role in reshaping work structures.",
+    "Predictions about societal impacts of AI revealed.",
+    "Quantum circuits advancements showcased by Anthropic."
+  ],
+  "ai-hn": [
+    "DeepSeek-v4.1 release sparked intense discussions.",
+    "Claude's research on ECDSA curve origins trending.",
+    "Transformers’ associative memory concept debated.",
+    "New AI models drawing community skepticism and excitement.",
+    "AI’s workforce impact raised awareness among developers.",
+    "Innovative features in latest AI model releases discussed."
+  ],
+  "ai-community": [
+    "Developers share prompt engineering techniques.",
+    "AI’s role in boosting productivity highlighted.",
+    "AI is reshaping everyday tasks in the tech sector.",
+    "Cultural impacts of AI discussed through humorous articles.",
+    "Insight on automation enhancing job value shared.",
+    "AI's ethical considerations raised in community discussions."
+  ]
+}
