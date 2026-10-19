@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.303 today.",
+    "OpenClaw launched v2026.10.5 update.",
+    "vLLM version 0.32.0 is now available.",
+    "Ollama faces a critical cloud response issue.",
+    "OpenCode sees 216,595 stars total.",
+    "Gemini CLI added a new release today."
+  ],
+  "ai-trending": [
+    "MadsLorentzen's AI job search gained 2,232 stars.",
+    "VoiceStudio gained 2,082 stars for voice cloning.",
+    "career-ops-hq aids job applications with AI.",
+    "Panniantong's Agent-Reach hits 99,076 stars.",
+    "ComfyUI's modular GUI provides AI flexibility.",
+    "Debates on AI regulations ignite community divides."
+  ],
+  "ai-web": [
+    "Anthropic launches Public Benefit Fund initiative.",
+    "5% of shares dedicated to AI safety research.",
+    "Anthropic emphasizes corporate social responsibility.",
+    "Fund aims to mitigate AI's socio-economic impacts.",
+    "New article highlights Anthropic's recent strategy.",
+    "Focus on labor market stability amidst AI changes."
+  ],
+  "ai-hn": [
+    "Hybrid Reasoning Agents paper sparks community interest.",
+    "AI regulations generate polarized discussions today.",
+    "Discussion on transformative AI development theories.",
+    "Sphinx tool quizzes users before shipping code.",
+    "New AI methodologies receive significant attention.",
+    "Community shares innovative AI model performances."
+  ],
+  "ai-hf": [
+    "Qwen3.8-27B model excels in image-text processing.",
+    "Google's embeddinggemma-2 achieves 164,339 downloads.",
+    "Trending models reflect a shift to multimodal applications.",
+    "LiquidAI's LFM2.5-24B engages in diverse conversations.",
+    "MiniCPM-V-4.7-1B offers compact performance for tasks.",
+    "Popularity of image-to-text models continues to rise."
+  ],
+  "ai-community": [
+    "Fine-tuning Qwen3-8B boosts accuracy from 50% to 76%.",
+    "Local AI project helps businesses increase visibility.",
+    "Discussions on AI drift detection risks emerge.",
+    "Hacktoberfest spurs AI tool productivity conversations.",
+    "Developers share practical AI application experiences.",
+    "Concerns over AI accuracy and data management rise."
+  ]
+}
