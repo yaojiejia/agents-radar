@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.304 addressing bugs.",
+    "OpenAI Codex merged PR #55413 for better authentication.",
+    "OpenCode closed 42 issues, showcasing active maintenance.",
+    "Qwen Code added 39 new issues, indicating user engagement.",
+    "llama.cpp merged 25 PRs, enhancing its functionality.",
+    "OpenClaw received 188 new issues, a significant rise."
+  ],
+  "ai-trending": [
+    "ComfyUI gained 1011 stars in a single day.",
+    "ai-job-search project saw 3856 new stars today.",
+    "rufflo's features support multi-agent systems.",
+    "headroom tool compresses AI outputs to save costs.",
+    "Claude Code's growth reflects its developer utility.",
+    "orca eases interactions with various coding agents."
+  ],
+  "ai-web": [
+    "Anthropic's gap report shows 91% AI belief among staff.",
+    "Independent evaluators update enhances trust in AI safety.",
+    "Research report highlights public vs employee AI views.",
+    "Anthropic's jobs report points to workforce concerns.",
+    "New articles explore AI adoption socio-economics.",
+    "Survey reveals differing AI expectations impacts workplace."
+  ],
+  "ai-hn": [
+    "Mistral's time-series models attract significant interest.",
+    "Discussion on shipping AI-generated code abounds.",
+    "Hybrid Reasoning Agents explore latent space applications.",
+    "AI proved the Quasi-Riemann Hypothesis raises questions.",
+    "Vortex Code promises to streamline AI software workflows.",
+    "Community excited about new AI models' capabilities."
+  ],
+  "ai-community": [
+    "Article discusses AI agent issues stemming from systems.",
+    "RepoPilot evaluates GitHub repo safety before cloning.",
+    "Generative AI may slow down experienced engineers' work.",
+    "Concerns raised about AI integration in coding practices.",
+    "Focus on maintaining quality assurance amid rapid coding.",
+    "Developers urged to adopt responsible AI workflows."
+  ]
+}
