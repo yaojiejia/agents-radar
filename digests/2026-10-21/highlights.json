@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.305 today.",
+    "OpenAI Codex published two new releases.",
+    "OpenClaw has 392,683 stars and significant activity.",
+    "Qwen Code saw 34 new issues opened.",
+    "LiteLLM closed 54 issues this period.",
+    "Ollama has gained 184,073 stars."
+  ],
+  "ai-trending": [
+    "MadsLorentzen/ai-job-search empowers job seekers.",
+    "Comfy-Org/ComfyUI offers GUI for diffusion models.",
+    "vllm-project/vllm is optimized for LLM deployment.",
+    "New project MadsLorentzen/ai-job-search gains 3,861 stars.",
+    "Comfy-Org/ComfyUI rose by 1,206 stars today.",
+    "AI workflows are being enhanced with new agents."
+  ],
+  "ai-hn": [
+    "DeepInfer framework boosts performance for DeepSeek models.",
+    "Claude aids in designing protein binders.",
+    "Community discusses Anthropic's financial situation.",
+    "Excitement around AI's role in drug design.",
+    "Focus on ethical implications of AI technologies.",
+    "Innovative uses in specialized AI tasks gain attention."
+  ],
+  "ai-arxiv": [
+    "Safety Mid-Training integrates safety into LLMs.",
+    "New method for efficient LLM communication proposed.",
+    "Papers emphasize novel approaches for AI efficiency.",
+    "Benchmarks aim to reduce biases in AI applications.",
+    "Significant advances in multi-modal frameworks noted.",
+    "Collaborative agent systems are gaining more traction."
+  ],
+  "ai-community": [
+    "Building a tool for reusable knowledge bases discussed.",
+    "Claude's impact on development skills questioned.",
+    "AI quality evaluation pipelines are in focus.",
+    "Local AI frameworks are generating developer interest.",
+    "AI agents' role in programming is evolving rapidly.",
+    "Trustworthiness in AI models is a current concern."
+  ]
+}
