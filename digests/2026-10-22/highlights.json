@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.307 and v2.1.306.",
+    "OpenAI Codex released rust-v0.164.0-alpha.10.",
+    "OpenClaw saw a surge in new issues to 132.",
+    "Qwen Code received 41 new issues today.",
+    "OpenCode closed 11 issues in the last 24 hours.",
+    "Hermes Agent merged 2 PRs today."
+  ],
+  "ai-trending": [
+    "vllm highlights high throughput for LLM inference.",
+    "headroom gains traction in AI infrastructure tools.",
+    "Graphify integrates retrieval-augmented generation.",
+    "Projects focused on AI agents are trending.",
+    "Efficiency tools for language models are on the rise.",
+    "Strong interest in tools enhancing AI usability."
+  ],
+  "ai-web": [
+    "Anthropic announced Enterprise Frontier Safeguards.",
+    "Christopher Stubbs joins Anthropic's Long-Term Trust.",
+    "OpenAI updated with articles on scaling AI research.",
+    "New content includes 17 articles from Anthropic.",
+    "Enterprise EFS aims to boost AI model privacy.",
+    "Growing focus on ethical AI with new guidelines."
+  ],
+  "ai-hn": [
+    "OpenAI integrates models with Google Cloud.",
+    "Claude Duet release sparks interest in collaboration.",
+    "AI agents used in new biotech research.",
+    "Industry ethics concerns raised over military contracts.",
+    "Hacker News buzzes with discussions on AI tools.",
+    "Community reactions to Claude Duet's features."
+  ],
+  "ai-arxiv": [
+    "New paper on multi-token prediction for LLMs.",
+    "Research on LLMs improving feature selection published.",
+    "Exploring agentic on-policy distillation challenges.",
+    "Focus on multimodal integration in AI systems.",
+    "Advancements in generative models highlighted.",
+    "Discussing energy efficiency in large-scale models."
+  ],
+  "ai-community": [
+    "Idempotency issues with AI agents discussed.",
+    "Concerns on AI agent behavior and security raised.",
+    "Debate over coding costs and AI's impact ongoing.",
+    "New models showcase potential application improvements.",
+    "Community shares insights on agent implementation.",
+    "AI's role in diversifying dev.to topics explored."
+  ]
+}
