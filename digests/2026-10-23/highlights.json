@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.309 and v2.1.308.",
+    "OpenAI Codex merged important PRs for managed configs.",
+    "OpenClaw closed 420 issues with 223 merged PRs.",
+    "Qwen Code saw 40 new issues submitted today.",
+    "OpenCode closed 27 issues and merged 15 PRs.",
+    "Hermes Agent gained 40 new issues and flexible adaptability."
+  ],
+  "ai-trending": [
+    "AnythingLLM empowers local-first AI experiences.",
+    "MeiliSearch offers AI-powered hybrid search APIs.",
+    "LlamaIndex streamlines document processing workflows.",
+    "Agent-Reach scores jobs against CVs effectively.",
+    "Daily Stock Analysis enables automated notifications.",
+    "Milvus enhances vector database performance."
+  ],
+  "ai-web": [
+    "Anthropic claims LLMs enable large-scale software verification.",
+    "OpenAI announces rollout of ChatGPT with Uber.",
+    "Anthropic invites guest investigators for life sciences.",
+    "Research on LLMs automating formal proofs is groundbreaking.",
+    "New collaboration seeks to enhance software reliability.",
+    "Updates on OpenAI's Decisions API reveal new features."
+  ],
+  "ai-hn": [
+    "LLMs are paving the way for better software verification.",
+    "AI finds 42.9% of patients with coronary inflammation.",
+    "Community debates AI's role in medical diagnostics.",
+    "Discussions focus on AI ethics and human interaction.",
+    "Tools like OpenShell enhance engineering collaboration.",
+    "New deep learning frameworks spark innovative strategies."
+  ],
+  "ai-arxiv": [
+    "New LLMs improve long-context reasoning from zero data.",
+    "LLM co-evolution framework showcases evolving capabilities.",
+    "Quant-Arena benchmarks LLMs for financial contexts.",
+    "Research highlights efficiency in data handling techniques.",
+    "Reinforcement learning boosts LLM performance in dynamics.",
+    "Adaptive methods are key for enhancing AI agents."
+  ],
+  "ai-community": [
+    "Developers tackle operational efficiency in AI models.",
+    "Security concerns over prompt injections discussed.",
+    "Direct AI communication can improve outcomes significantly.",
+    "Duplicate API requests pose hidden pitfalls for developers.",
+    "Retry loops can be costly in AI workflows.",
+    "Quality checks for AI content ensure better reliability."
+  ]
+}
