@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.310.",
+    "OpenAI Codex launched three new versions today.",
+    "OpenClaw opened 152 new issues in 24 hours.",
+    "Hermes Agent gained 24 new issues recently.",
+    "Qwen Code closed 10 issues today.",
+    "Ollama merged 7 pull requests this week."
+  ],
+  "ai-trending": [
+    "tensorflow hits 201,202 stars in AI infrastructure.",
+    "AutoGPT gains traction with 187,719 stars now.",
+    "huggingface/transformers at 168,047 stars continues growing.",
+    "PyTorch maintained at 105,021 stars, remains popular.",
+    "hermes-agent stars increased to 256,534 today.",
+    "Significant growth in community engagement around AutoGPT."
+  ],
+  "ai-web": [
+    "Anthropic released 86 new articles today.",
+    "'LLM-discovered 0 days' details AI in cybersecurity.",
+    "OpenAI shared two new operational articles today.",
+    "Research on nuclear safeguards for AI published today.",
+    "AI safety discussions highlighted in new Anthropic content.",
+    "Innovative AI developments emphasized in recent articles."
+  ],
+  "ai-hn": [
+    "AI surpasses doctors in disease diagnosis accuracy.",
+    "Ethical implications of AI in healthcare debated today.",
+    "OpenShell provides safer runtime for AI agents.",
+    "Community reacts to AI tools' impact on education.",
+    "Discussion on AI models' take on human behavior ongoing.",
+    "Mixed reactions to AI's role in creative writing noted."
+  ],
+  "ai-arxiv": [
+    "Framework for reliable AI decisions introduced.",
+    "Study examines trust calibration with confident LLMs.",
+    "New meta-reinforcement learning agent framework proposed.",
+    "Research on AI efficiency and architecture published.",
+    "Selective auditing in AI processes discussed.",
+    "Contributions aim to improve AI regulatory compliance."
+  ],
+  "ai-community": [
+    "AI ethical implications discussed in tech communities.",
+    "AI outputs examined for creative writing impacts.",
+    "Local AI projects showcased for personal wellness.",
+    "Misconceptions on AI literary awards critiqued.",
+    "AI notification management project revealed.",
+    "Integration strategies for developers highlighted."
+  ]
+}
