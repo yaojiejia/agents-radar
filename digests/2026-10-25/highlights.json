@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.67.0-nightly.",
+    "GitHub Copilot CLI published two new releases.",
+    "OpenCode has 33 new issues reported.",
+    "OpenClaw closed 86 issues in the last 24 hours.",
+    "Claude Code hit 153,288 stars.",
+    "Qwen Code gained 23 new issues."
+  ],
+  "ai-trending": [
+    "Cloudflare's security-audit-skill gained 2264 stars.",
+    "NVIDIA's OpenShell reached 896 new stars today.",
+    "AWS agent toolkit facilitates development on AWS.",
+    "Cindy AI agent added 477 stars in one day.",
+    "AI agents focus on security and operational efficiency.",
+    "Innovations in AI tools draw substantial community interest."
+  ],
+  "ai-hn": [
+    "Neural chip research could enhance AI cognition.",
+    "Debate on AI's impact on traditional media industries.",
+    "Discussion on understanding AI-generated language.",
+    "Exploration of AI model transparency gains traction.",
+    "Automation's effect on job loss sparks lively debate.",
+    "New tools for model interpretability attract attention."
+  ],
+  "ai-community": [
+    "AI transforms urgency in software security strategies.",
+    "Personal productivity enhanced by new AI models.",
+    "Innovative tools for note-taking using AI revealed.",
+    "Ethical challenges of AI generators under scrutiny.",
+    "AI's role in compliance and optimization emphasized.",
+    "Developers focus on fine-tuning AI performance."
+  ]
+}
