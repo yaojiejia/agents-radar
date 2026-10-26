@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.67.0-nightly.",
+    "Qwen Code launched v0.26.1-nightly.",
+    "OpenCode merged significant PR #58743.",
+    "Claude Code gained 14 new issues reported.",
+    "OpenClaw closed 68 issues in the last 24h.",
+    "Ollama reached 184,757 stars on GitHub."
+  ],
+  "ai-trending": [
+    "VoiceStudio gained over 1,500 stars in one day.",
+    "makecindy/cindy emerges as a popular AI agent.",
+    "huggingface/transformers continues to lead in ML frameworks.",
+    "tensorflow/tensorflow supports a wide array of ML models.",
+    "pytorch/pytorch remains a favorite among developers.",
+    "AI tools enhancing productivity are trending today."
+  ],
+  "ai-hn": [
+    "CNN model outperforms LLMs in skin cancer diagnosis.",
+    "OpenAI and Anthropic announced price reductions.",
+    "Concerns rise over AI adoption's economic impact.",
+    "Neural chip decodes brain interactions breakthrough.",
+    "Community debates longevity of AI models' effectiveness.",
+    "Discussion on AI governance and ownership accountability."
+  ],
+  "ai-hf": [
+    "Qwen3.8-27B model excels in image-text tasks.",
+    "Flint model gains popularity for dialogue systems.",
+    "Spark-X2.6-4B offers robust text generation capabilities.",
+    "Multimodal models are trending on Hugging Face.",
+    "Community shows interest in fine-tuning existing models.",
+    "Qwen3.8-27B achieves 7.76M downloads."
+  ],
+  "ai-community": [
+    "Hacktoberfest encourages open-source AI solutions.",
+    "Three Times My Test Failed highlights AI validation.",
+    "Slowth Money aids users in managing finance with AI.",
+    "Postmortem on AI bill ownership challenges released.",
+    "LazyWins turns laziness into a productivity reward.",
+    "Ethics and accountability in AI are heavily discussed."
+  ]
+}
