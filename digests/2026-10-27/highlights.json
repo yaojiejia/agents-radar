@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Ollama released v0.40.12-rc0 with new features.",
+    "Claude Code announced v2.1.311 with critical updates.",
+    "OpenAI Codex released several updates and key PRs.",
+    "OpenClaw had 164 new issues and 286 merged PRs.",
+    "Qwen Code gained 31 new issues in the last 24 hours.",
+    "Gemini CLI made 4 merges, reflecting active development."
+  ],
+  "ai-trending": [
+    "VoiceStudio gains traction for voice capabilities.",
+    "Cindy project trending for instant AI agent deployment.",
+    "SkillSpector offers AI agent security scanning tools.",
+    "Hallmark captures user interest with design innovations.",
+    "OpenBot creates local-first AI interactions.",
+    "Strong community interest in new AI agent frameworks."
+  ],
+  "ai-web": [
+    "Anthropic files S-1 for IPO, marking a new phase.",
+    "OpenAI introduces workplace tools enhancing accessibility.",
+    "ChatGPT expands workplace applications for users.",
+    "New content on scientific collaboration released by OpenAI.",
+    "Anthropic aims for Nasdaq listing under symbol 'ANT'.",
+    "OpenAI enhances user accessibility through new updates."
+  ],
+  "ai-hn": [
+    "OpenAI reveals discoveries in math impacting AI.",
+    "Exponential Time Hypothesis proven false, sparking debate.",
+    "Community eager to discuss AI implications of findings.",
+    "Math discoveries encourage collaboration with AI tools.",
+    "Research on computational limits ignites AI algorithm talks.",
+    "OpenAI's breakthroughs viewed as milestones for AI's future."
+  ],
+  "ai-arxiv": [
+    "New methods for crystal structure prediction proposed.",
+    "Exploration of representation formation in neural networks.",
+    "Adversarial frameworks analyzed in online learning.",
+    "Federated learning frameworks improve model adaptability.",
+    "Research integrates domain knowledge into AI modeling.",
+    "Advancements in material discovery through AI methods."
+  ],
+  "ai-community": [
+    "Developers highlight AI tools' impact on productivity.",
+    "Concerns over AI agents' security vulnerabilities discussed.",
+    "Antivirus solutions for AI agents gaining attention.",
+    "Context engineering emphasized for AI agent efficiency.",
+    "New game leverages AI for engaging gaming mechanics.",
+    "Shift in focus from prompt to context engineering noted."
+  ]
+}
