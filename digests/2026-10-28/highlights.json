@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.312 today.",
+    "OpenAI Codex launched rust-v0.166.0-alpha.4.",
+    "OpenClaw added 120 new issues in last 24h.",
+    "LiteLLM released v1.106.5.",
+    "Qwen Code gained 23 new issues recently.",
+    "OpenCode has reached 222,402 stars."
+  ],
+  "ai-trending": [
+    "DeepTutor offers personalized AI tutoring.",
+    "Openbot focuses on local-first AI collaboration.",
+    "ECC emphasizes performance optimization for agents.",
+    "huggingface/transformers has 168,259 total stars.",
+    "TensorFlow remains a top choice for ML frameworks.",
+    "Advanced workflows are trending in AI tools today."
+  ],
+  "ai-web": [
+    "Anthropic expanded partnership with GSA.",
+    "IPO filing signals Anthropic's market readiness.",
+    "40% discount on Claude for government entities.",
+    "Significant savings for government on AI adoption.",
+    "OpenAI's update limited to ChatGPT integration.",
+    "Growing government collaboration with Anthropic."
+  ],
+  "ai-hn": [
+    "Claude's training on pirated texts sparks debate.",
+    "Community discusses AI's implications in law enforcement.",
+    "Vulnerability detection research using Claude shared.",
+    "Ethical sourcing of AI training data questioned.",
+    "Popularity of AI models remains a hot topic.",
+    "Concerns over biases in AI discussed on platform."
+  ],
+  "ai-arxiv": [
+    "DCKV improves memory efficiency in LLMs.",
+    "LLMs' capability to grade mathematical proofs explored.",
+    "Gradient-based data selection technique proposed.",
+    "Research on agent development in complex environments.",
+    "Personalized interactions via speakers enhanced.",
+    "Real-world applications of LLMs are advancing."
+  ],
+  "ai-community": [
+    "AI tools enhancing development workflows discussed.",
+    "Testing compliance in AI-driven projects emphasized.",
+    "Self-hosting AI solutions gaining popularity.",
+    "Philosophical questions on AI decision-making posed.",
+    "Plugin ensures AI code fixes are tested first.",
+    "Finalizing software projects remains a challenge."
+  ]
+}
