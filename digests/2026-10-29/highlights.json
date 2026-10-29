@@ -1,0 +1,18 @@
+{
+  "ai-digest": [
+    "Ollama released v0.40.13 with updates.",
+    "Qwen Code launched v0.26.3 and SDK TypeScript v0.1.25.",
+    "OpenClaw saw 166 new issues in the last 24 hours.",
+    "Claude Code gained 29 new issues today, totaling 153,756 stars.",
+    "OpenAI Codex closed 2 issues and merged 50 PRs today.",
+    "vLLM closed 44 issues, showing ongoing community activity."
+  ],
+  "ai-trending": [
+    "DeepTutor gained 2,371 stars, focusing on personalized learning.",
+    "open-webui launched, simplifying AI model interactions.",
+    "langchain-ai's platform supports streamlined AI workflows.",
+    "thedotmack's claude-mem enhances AI agent memory capabilities.",
+    "Noshty/Nanobot is a customizable personal AI agent.",
+    "makecindy highlights user-friendly AI solutions emerging."
+  ]
+}
