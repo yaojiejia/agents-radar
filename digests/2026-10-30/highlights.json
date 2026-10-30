@@ -1,0 +1,26 @@
+{
+  "ai-digest": [
+    "Claude Code v2.1.314 released with improvements.",
+    "OpenAI Codex rust-v0.166.0 enhances stability.",
+    "OpenClaw faces significant issue surges with 226 new.",
+    "OpenCode gains 23 new issues and 4 new releases.",
+    "Gemini CLI saw 9 merged PRs in the last 24 hours.",
+    "vLLM introduces 22 merged PRs amidst 29 new issues."
+  ],
+  "ai-trending": [
+    "HKUDS/DeepTutor gains traction in personalized tutoring.",
+    "milind-soni/OpenMausBot shows advancements in automation.",
+    "open-webui/open-webui reaches 157,189 stars today.",
+    "langchain-ai/langchain simplifies AI workflows.",
+    "Graphify-Labs/graphify converts code into knowledge graphs.",
+    "mem0ai/mem0 provides memory infrastructure for AI agents."
+  ],
+  "ai-web": [
+    "Anthropic promotes AI for Science initiative.",
+    "OpenAI updates model specs to address misalignment.",
+    "Claude Code best practices enhance developer support.",
+    "Stable interfaces for managed agents emphasized by Anthropic.",
+    "AI for Science initiative promotes collaboration.",
+    "Governance partnerships expanded by Anthropic."
+  ]
+}
