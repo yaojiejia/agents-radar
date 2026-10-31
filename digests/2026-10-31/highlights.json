@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.67.0-nightly.20261031",
+    "Claude Code updated to v2.1.316",
+    "OpenCode released multiple versions: v2.2.5",
+    "OpenClaw has 393k stars with 167 new issues",
+    "vLLM merged 35 PRs in the last 24 hours",
+    "Hermes Agent gained 27 new issues today"
+  ],
+  "ai-trending": [
+    "claude-mem gained 1,140 stars today",
+    "DeepTutor surpassed 2,200 stars today",
+    "OpenMausBot launched as a VM for bot democratization",
+    "OpenBot allows AI agents to work autonomously",
+    "Skills project improves engineer-AI interactions",
+    "thedotmack's project leads AI agent memory trends"
+  ],
+  "ai-web": [
+    "Anthropic released research on managed agents",
+    "OpenAI reports on community safety for teenagers",
+    "Claude models enhance long-running agent capabilities",
+    "New articles enhance understanding of AI training",
+    "OpenAI's focus on safety protocols expands",
+    "Anthropic confronts vulnerabilities in software"
+  ],
+  "ai-hn": [
+    "Security issues found in Claude Code extension",
+    "Cisco offers unlimited AI tokens for legacy code rewrite",
+    "Discussion on deskilling in tech roles grows",
+    "Mistral Large 4 model weights released",
+    "New continual learning framework for LLMs discussed",
+    "Community excitement around AI openness and research"
+  ],
+  "ai-arxiv": [
+    "LLM safety training addressed with template approaches",
+    "New method for watermarking LLM outputs proposed",
+    "Multi-agent systems enhance decision-making processes",
+    "Advancements in learning and memory retrieval models",
+    "Research tackles multilingual safety alignment",
+    "Innovative approaches for AI-driven collaboration"
+  ],
+  "ai-community": [
+    "Successful strategies for attracting project contributors",
+    "Performance issues in model offloading analyzed",
+    "Automation's impact on open-source maintainers discussed",
+    "Cultural remembrance meets AI innovation in submissions",
+    "Insights into local language model experimentation shared",
+    "Hidden vulnerabilities in AI plugins raise concerns"
+  ]
+}
