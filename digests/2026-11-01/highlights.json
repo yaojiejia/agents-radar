@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.67.0-nightly.20261101.g6814e00d6",
+    "GitHub Copilot CLI released v1.0.106-1",
+    "OpenClaw merged 178 PRs in the latest update",
+    "Claude Code remains the top repository with 154,080 stars",
+    "OpenCode saw 18 new issues and closed 23 today",
+    "Hermes Agent received 38 new issues this week"
+  ],
+  "ai-trending": [
+    "thedotmack/claude-mem gained 1,723 stars today",
+    "infiniflow/ragflow attracted 1,012 new stars",
+    "unclecode/crawl4ai grew by 1,293 stars today",
+    "HKUDS/DeepTutor focuses on personalized learning",
+    "AI frameworks see increased interdisciplinary interest",
+    "New agent capabilities emphasize collaboration skills"
+  ],
+  "ai-web": [
+    "Anthropic released insights on Claude usage studies",
+    "The article encourages independent AI research access",
+    "Transparency initiative highlights societal impact efforts",
+    "Anthropic aims to reshape AI research accessibility",
+    "New content from Anthropic enhances public understanding",
+    "Research emphasizes ethical AI application development"
+  ],
+  "ai-hn": [
+    "Mistral Large 4 release sparks safety discussions",
+    "AI ethics issues dominate conversations among users",
+    "Sleep framework innovates LLM knowledge retention",
+    "Concerns raised over AI's impact on tech job market",
+    "Community reacts to Mistral's transparency initiative",
+    "Debate over AI-driven malware implications continues"
+  ],
+  "ai-community": [
+    "AI projects focus on 'ghosts' of legacy code practices",
+    "Humorous take on AI aiding in codebase management",
+    "New function identified AI collusion effectively",
+    "Validation of ML systems gains significant attention",
+    "Exploration of ethical challenges in AI designs",
+    "AI tools aim to enhance productivity and security"
+  ]
+}
