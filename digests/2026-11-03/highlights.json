@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Claude Code v2.1.317 released with enhancements.",
+    "OpenAI Codex rust-v0.167.0-alpha.4 launched today.",
+    "OpenClaw reported 145 new issues in 24 hours.",
+    "Qwen Code closed 14 issues and merged 10 PRs.",
+    "vLLM saw 48 new issues in the last day.",
+    "Hermes Agent added 27 new issues and 5 closures."
+  ],
+  "ai-trending": [
+    "thedotmack/claude-mem gains 1803 stars today.",
+    "D4Vinci/Scrapling enhances AI with real-time data.",
+    "vercel-labs/agent-desktop rises by 2275 stars.",
+    "max-sixty/worktrunk shows need for agent workflows.",
+    "AI agent projects lead GitHub trending today.",
+    "thedotmack/claude-mem enhances agent session coherence."
+  ],
+  "ai-web": [
+    "Claude accelerates research in theoretical physics.",
+    "Professor Schwartz adapted methods for Claude's use.",
+    "New articles from Anthropic detail career advancements.",
+    "OpenAI adds 6 articles, focusing on internal updates.",
+    "Claude's performance boosts productivity for researchers.",
+    "Research articles showcase AI's role in complex tasks."
+  ],
+  "ai-hn": [
+    "Anthropic's AI use now exceeds employee compensation.",
+    "Discussions raise ethical concerns in AI scaling.",
+    "LongCat-2.5 introduces multimodal advancements.",
+    "Oracle files for $20B to finance AI expansion.",
+    "Community engaged in sustainability discussions.",
+    "Excitement grows around scaling AI practices."
+  ],
+  "ai-community": [
+    "Focus on AI agents' memory and self-correction issues.",
+    "Dev.to highlights deterministic safety in AI workflows.",
+    "Exploration of AI self-correction by Kenielzep.",
+    "Critique on AI's role in code reviews from cyclopt.",
+    "Tutorials emphasize practical AI applications today.",
+    "Discussions address transparency in AI responses."
+  ]
+}
