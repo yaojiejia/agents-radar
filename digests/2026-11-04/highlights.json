@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code releases v2.1.318 with updates.",
+    "OpenAI Codex publishes rust-v0.168.0-alpha.1.",
+    "OpenClaw sees 156 new issues in the last 24 hours.",
+    "Hermes Agent closes 3 issues and merges 2 PRs.",
+    "llama.cpp reports 10 releases with recent updates.",
+    "OpenCode closes 33 issues, highlighting community activity."
+  ],
+  "ai-trending": [
+    "thedotmack/claude-mem gains over 1,100 stars today.",
+    "vercel-labs/agent-desktop focuses on AI automation.",
+    "huggingface/transformers remains a top library with 168k stars.",
+    "JustVugg/colibri's star count jumps by 802 today.",
+    "tensorflow/tensorflow is still a staple with 201k stars.",
+    "D4Vinci/Scrapling sees increased interest among developers."
+  ],
+  "ai-web": [
+    "Anthropic showcases FlashProve for model trustworthiness.",
+    "OpenAI strengthens corporate structure, focuses on engineering.",
+    "New research on provable inference is published by Anthropic.",
+    "OpenAI releases multiple updates, total 1,107 articles now.",
+    "Trust in AI interactions is a growing focus for companies.",
+    "Corporate advancements signal competition amid AI innovations."
+  ],
+  "ai-hn": [
+    "Fujifilm boosts tape production amid AI data storage demand.",
+    "Postman's AI plugins spark privacy and trust discussions.",
+    "Google's policy on AI access in schools generates debate.",
+    "Communities respond positively to generative AI math primer.",
+    "Embedding circuits in neural networks discussed on HN.",
+    "Kairos platform demo showcases risk and fraud decisioning."
+  ],
+  "ai-arxiv": [
+    "New method reduces reward hacking in LLMs proposed.",
+    "Study on retrieval efficiency challenges previous assumptions.",
+    "Tokenization myths debunked in new research paper.",
+    "Innovations in reasoning strategies for adaptive AI explored.",
+    "Neural network performance implications discussed.",
+    "Length and competition dynamics in language models analyzed."
+  ],
+  "ai-community": [
+    "Vague prompts can lead to costly AI errors, says article.",
+    "Insights on AI document processing costs shared online.",
+    "Mental health impact of AI supervision addressed in Dev.to.",
+    "AI bill surges observed without clear cost tracking.",
+    "Developers discuss intricacies of ML development processes.",
+    "Exploration of advanced AI architectures featured in Lobste.rs."
+  ]
+}
