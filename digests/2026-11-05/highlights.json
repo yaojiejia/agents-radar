@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.168.0-alpha.3.",
+    "Gemini CLI launched v0.68.0-preview.0.",
+    "New issue in Qwen Code about CI failures.",
+    "OpenClaw gained 139 new issues in the past 24h.",
+    "Claude Code reached 154,567 stars on GitHub.",
+    "GitHub Copilot CLI closed 8 issues recently."
+  ],
+  "ai-trending": [
+    "NVIDIA's auto-ontology gained 2,050 stars today.",
+    "vercel-labs/agent-desktop surged with 2,470 stars.",
+    "D4Vinci's Scrapling framework reached 2,005 stars.",
+    "github/spec-kit toolbox is trending for developers.",
+    "Demand for semantic reasoning tools is growing.",
+    "New frameworks enhance usability in AI workflows."
+  ],
+  "ai-web": [
+    "Anthropic published research on vault particles.",
+    "OpenAI announced five new articles this week.",
+    "Claude aided in mapping proteins in new research.",
+    "New articles reflect OpenAI's evolving focus.",
+    "Anthropic's article highlights AI in scientific inquiry.",
+    "OpenAI diversifies topics in recent publications."
+  ],
+  "ai-hn": [
+    "Progress on provable inference for LLMs gains attention.",
+    "AI tech raises concerns over cybersecurity practices.",
+    "OpenAI's image processing in 'Images 2.6' excites users.",
+    "Controversies surrounding AI applications spark debates.",
+    "Community discusses ethical implications of AI.",
+    "Advancements in AI reliability are being celebrated."
+  ],
+  "ai-arxiv": [
+    "New paper on LLM author impersonation published.",
+    "Study on aligning AI models with user preferences.",
+    "Research on suppressing misaligned LLM behaviors.",
+    "Innovative techniques for agent-based decision-making.",
+    "Focus on AI bias reduction in recent studies.",
+    "Applications of AI in urban robotics explored."
+  ],
+  "ai-community": [
+    "AI tooling discussions highlight coding challenges.",
+    "Observability in AI decision-making is crucial.",
+    "Realities of AI in coding practices debated.",
+    "Weight-space programming gains traction among devs.",
+    "Deterministic AI architectures are trending.",
+    "AI's impact on job markets is critically examined."
+  ]
+}
