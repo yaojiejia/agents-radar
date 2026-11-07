@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "LiteLLM released v1.108.2 (LTS)",
+    "Claude Code launched v2.1.319",
+    "OpenAI Codex merged 50 PRs today",
+    "OpenClaw saw 112 new issues filed",
+    "Gemini CLI merged 13 PRs in 24 hours",
+    "Unsloth closed 100 issues recently"
+  ],
+  "ai-trending": [
+    "NVIDIA's auto-ontology gained 2,015 stars today",
+    "cloudflare/security-audit-skill hit 2,548 stars",
+    "mattpocock/skills added 2,070 stars",
+    "google/skills project increased by 534 stars",
+    "AI agents for security audits are trending",
+    "New frameworks enhancing AI agent capabilities"
+  ],
+  "ai-web": [
+    "Anthropic released six articles on AI advancements",
+    "OpenAI discussed AI's role in wet lab science",
+    "Claude contributes to scientific modeling",
+    "Agent memory design insights published",
+    "AI capabilities for scientific applications highlighted",
+    "Case studies on Claude in science shared"
+  ],
+  "ai-hn": [
+    "AI is accelerating research discussions thriving today",
+    "Memorilla model enhances LLM memory captured attention",
+    "Launch HN: Rivet orchestrates agents on S3",
+    "Community debates AI's security implications",
+    "OpenAI tools spurring both excitement and skepticism",
+    "Discussion on models' societal impacts gaining traction"
+  ],
+  "ai-arxiv": [
+    "New papers on LLM interpretability published",
+    "Research on AI-Scientist platforms emerging",
+    "LLMs enhance EEG sleep stage classification",
+    "User embeddings linked to behavioral modes",
+    "Parallel decoding methods in diffusion models proposed",
+    "Integration techniques for ML frameworks unveiled"
+  ],
+  "ai-community": [
+    "Hacktoberfest AI winners celebrated in new article",
+    "Claude Code user's data leak raises privacy concerns",
+    "Cost analysis of self-hosting LLMs discussed",
+    "AI's impact on data privacy practices examined",
+    "Developers focused on model improvements post-security issue",
+    "Insights on architecture behind AI agents shared"
+  ]
+}
