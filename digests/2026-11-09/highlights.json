@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Qwen Code released sdk-typescript-v0.1.29",
+    "OpenClaw released v2026.11.2",
+    "Claude Code logged a new issue about a bug",
+    "OpenCode has 225,545 stars and 18 new issues",
+    "Qwen Code closed 4 issues and merged 5 PRs",
+    "Hermes Agent has 261,793 stars with 20 new issues"
+  ],
+  "ai-trending": [
+    "sherlock-project gains attention for username hunting",
+    "milind-soni/OpenMausBot sees 1439 new stars",
+    "huggingface/transformers leads with 168,668 stars",
+    "pytorch/pytorch remains pivotal with 105,267 stars",
+    "ai-agents field growing with innovative frameworks",
+    "anthropics/claude-quickstarts boosts generative AI tools"
+  ],
+  "ai-hn": [
+    "Goldman Sachs pulls Claude Code from its traders",
+    "Discussion on AI reliability in financial sectors",
+    "Community concerns over AI privacy and ethics",
+    "Components of Agent Memory sparks community interest",
+    "Memorilla introduces new memory architecture for LLMs",
+    "Debate on AI adoption in sensitive industries rises"
+  ],
+  "ai-hf": [
+    "Lightricks/LTX-2.5 gains 11,137 likes and 2.6M downloads",
+    "Qwen3.8-27B sees significant user engagement",
+    "DeepSeek-V4-Pro-Qwen3.5 model excels in narrative generation",
+    "Arete-27B showcases enhanced capabilities",
+    "Qwen family models trend for multimodal tech",
+    "Innovations in image-to-3D and video synthesis grow"
+  ],
+  "ai-community": [
+    "Security concerns over AI tools dominate discussions",
+    "Dev articles explore LLM limitations and cost",
+    "Blockchain for securing AI agents gains interest",
+    "Best practices for ambiguous AI behavior discussed",
+    "Seedance review processes outlined for better productivity",
+    "Prompt injection risks in AI applications highlighted"
+  ]
+}
