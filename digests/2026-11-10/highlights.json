@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.322 and v2.1.321",
+    "Hermes Agent launched v0.23.1",
+    "OpenClaw saw 180 new issues reported",
+    "OpenCode closed 7 issues and merged 21 PRs",
+    "vLLM merged 46 PRs and closed 17 issues",
+    "Ollama closed 12 issues, showing active maintenance."
+  ],
+  "ai-trending": [
+    "anthropics/skills gained 1038 stars today",
+    "meta/astryx saw a rise of 3278 stars",
+    "anthropics/claude-quickstarts adding 551 stars",
+    "vercel-labs/agent-browser increased by 916 stars",
+    "milind-soni/OpenMausBot grew by 1587 stars",
+    "career-ops-hq/career-ops hit 81,519 stars."
+  ],
+  "ai-web": [
+    "Claude can design electronic prototypes",
+    "Progress made in provable inference methods",
+    "Latest OpenAI articles focus on enterprise solutions",
+    "New insights on hardware design automation",
+    "Research collaboration with Diode Computers",
+    "Advancements in AI capabilities and infrastructure."
+  ],
+  "ai-hn": [
+    "Claude Fable 5.2 release generating excitement",
+    "Fable 5.2 scores 65 on Artificial Analysis benchmark",
+    "Muse Ember emphasizes efficiency in AI models",
+    "Community discussing AI model performance improvements",
+    "Concerns over market stability amid AI credit stress",
+    "Innovations in AI technology leading discussions."
+  ],
+  "ai-community": [
+    "AI security discussions on prompt injection risks",
+    "Debates on AI's impact on developer roles",
+    "Top AI agent gateways overview gaining traction",
+    "Infrastructure improvements reduce page load times",
+    "Planning for developers' future in AI environments",
+    "Nuances of AI agent effectiveness explored today."
+  ]
+}
