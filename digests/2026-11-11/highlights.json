@@ -1,0 +1,18 @@
+{
+  "ai-digest": [
+    "OpenAI Codex releases rust-v0.169.0-alpha.9",
+    "Gemini CLI launches v0.69.0-preview.0",
+    "OpenCode has 23 new issues reported today",
+    "Claude Code surpasses 155,000 stars",
+    "Hermes Agent sees 16 new issues",
+    "LiteLLM reports 44 new issues in the last 24h"
+  ],
+  "ai-trending": [
+    "Anthropic's skills project gains 1,679 new stars",
+    "Home Assistant AI project integrates multiple assistants",
+    "Hugging Face Transformers reaches 168,755 stars",
+    "TensorFlow sustains relevance with ongoing community support",
+    "PyTorch remains popular for deep learning innovation",
+    "Rapid interest in agent-centric AI tools continues"
+  ]
+}
