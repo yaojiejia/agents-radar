@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released multiple new versions.",
+    "LiteLLM unveiled v1.110.0-rc.2 for testing.",
+    "OpenClaw closed 215 issues, leading in resolutions.",
+    "Claude Code hits 155K stars today.",
+    "Gemini CLI merged 5 PRs, showing active development.",
+    "OpenCode maintains high engagement with 226K stars."
+  ],
+  "ai-trending": [
+    "daily_stock_analysis integrates real-time news.",
+    "affaan-m/ECC focuses on AI agents performance.",
+    "Google's Gemini Decisions API sparks developer interest.",
+    "huggingface/transformers leads with 168K stars.",
+    "langchain-ai/langchain popular for AI workflows.",
+    "tensorflow remains a robust ML framework with updates."
+  ],
+  "ai-hn": [
+    "United Airlines bans AI agents for bookings.",
+    "Gemini Decisions API aims to enhance decision-making.",
+    "RAG technologies see advances in retrieval methods.",
+    "Community debates AI's role in customer service.",
+    "Optimism and caution mix over Gemini API applications.",
+    "Exploring LLMs' capabilities generates community interest."
+  ],
+  "ai-arxiv": [
+    "New methods for optimizing model training proposed.",
+    "LLMs show potential in neuro-symbolic reasoning.",
+    "Changing standards in LLM evaluations discussed.",
+    "Papers examine agent-based interactions advancements.",
+    "Research highlights efficiency in reinforcement learning.",
+    "Cross-domain applications for LLMs explored extensively."
+  ],
+  "ai-community": [
+    "Dev.to debates AI productivity claims in QA teams.",
+    "Concerns over maintainability of AI-generated code.",
+    "Unintended data storage issues with AI sessions discussed.",
+    "Security vulnerabilities in AI systems highlighted.",
+    "New methods for safer AI integration suggested.",
+    "Impact of AI on future software development examined."
+  ]
+}
