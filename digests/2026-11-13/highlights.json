@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Qwen Code released updates: v0.27.3, sdk-typescript.",
+    "OpenAI Codex merged 49 PRs, enhancing functionality.",
+    "Claude Opus 4 and Sonnet 4 launched, boosting coding.",
+    "OpenClaw had 127 new issues, reflecting active engagement.",
+    "Hermes Agent closed 3 issues, showing stability.",
+    "vLLM merged 36 PRs, continuing its development."
+  ],
+  "ai-trending": [
+    "OpenAI's Codex Security CLI sees 643 new stars today.",
+    "Qwen Code adds 151 stars, indicating developer interest.",
+    "TensorFold focuses on optimizing AI performance.",
+    "Growing popularity of tools like CopilotKit's OpenBot.",
+    "Sure personal finance app gains traction among users.",
+    "AI agents are enhancing coding efficiency in projects."
+  ],
+  "ai-web": [
+    "Claude Opus 4 is now the top coding model available.",
+    "Anthropic files for IPO, signalling growth ambitions.",
+    "New capabilities in Claude models enhance memory and reasoning.",
+    "Claude Code tool is now available for developers.",
+    "Latest model improvements focus on practical collaboration.",
+    "Improved tool usage in Claude enhances user experience."
+  ],
+  "ai-hn": [
+    "Gemini 4 Hydrogen gains major attention in AI community.",
+    "Community abuzz over tools for smaller device AI accessibility.",
+    "Debate sparked by Anthropic's potential IPO impact.",
+    "Concerns raised over Apple's app review process.",
+    "Clarity on Gemini 4's features outlined by Google.",
+    "Developers discuss the implications of AI advancements."
+  ],
+  "ai-arxiv": [
+    "New paper proposes training-free long-context solutions.",
+    "Reformulation strategies shown to boost model performance.",
+    "EvoX framework introduces new agent operation policies.",
+    "Enhancements in human-agent interaction explored.",
+    "Innovative training techniques for large language models.",
+    "Real-world AI applications dominate recent research."
+  ],
+  "ai-community": [
+    "Conversations about AI agent performance intensify.",
+    "Tech community critiques dependence on complex models.",
+    "Strategies for effective AI tool implementation discussed.",
+    "Concerns over performance costs in AI applications.",
+    "Impact of AI agents on productivity is a shared theme.",
+    "MCP's simplicity raises critiques among developers."
+  ]
+}
