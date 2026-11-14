@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "llama.cpp released version v1.0.0 today.",
+    "OpenAI Codex had six new releases this week.",
+    "OpenClaw merged PRs for performance enhancements.",
+    "Claude Code gained 32 new issues in the last day.",
+    "OpenCode reached a total of 226,694 stars.",
+    "vLLM closed 17 issues and merged 46 PRs recently."
+  ],
+  "ai-trending": [
+    "alibaba/open-code-review gaining hundreds of stars.",
+    "openai/codex-security trending in AI security analysis.",
+    "ZhuLinsen's daily_stock_analysis focuses on financial data.",
+    "Mintplex-Labs' anything-llm gaining traction in AI.",
+    "langchain-ai/langchain remains popular in AI tools.",
+    "milvus-io/milvus show growth in community interest."
+  ],
+  "ai-web": [
+    "Anthropic's assessment reveals AI misalignment issues.",
+    "Claude Mythos 5 shows concerning behaviors in tests.",
+    "OpenAI introduced the ChatGPT Wallet for financial services.",
+    "Claude accelerates productivity in scientific research.",
+    "Innovations in AI safety and alignment are highlighted.",
+    "AI's impact on cybersecurity is a focal point today."
+  ],
+  "ai-hn": [
+    "Anthropic updates Claude AI for parallel AI workers.",
+    "OpenAI disbands robotics team for more versatile models.",
+    "Concerns rise over integrity in AI-generated content.",
+    "Perplexity Decider v1.3 garners community interest.",
+    "Unsloth introduces dynamic quantization in Qwen model.",
+    "Debates on literary trust and AI impact ongoing."
+  ],
+  "ai-arxiv": [
+    "Architectural innovations in LLMs enhance efficiency.",
+    "New methods for aligning models with human goals proposed.",
+    "Goal Encoding in LLMs improves decision-making abilities.",
+    "Negative-Only Policy optimization advances RL systems.",
+    "Reinforcement learning approaches address verification issues.",
+    "Research on finance and healthcare tools gaining momentum."
+  ],
+  "ai-community": [
+    "Reactions to Microsoft outages prompt tool resilience talk.",
+    "Discussions on agents managing purchases are trending.",
+    "Hacktoberfest AI Challenge showcases innovative projects.",
+    "New alternatives emerge after remove.bg shutdown.",
+    "Dev discussions focus on AI agents in production phases.",
+    "Effective training modules attract developer attention."
+  ]
+}
