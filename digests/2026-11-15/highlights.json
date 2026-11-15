@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "OpenClaw releases v2026.11.5-beta.3",
+    "Qwen Code launches v0.27.2-nightly.20261113.6f754be654",
+    "OpenAI Codex merges 23 pull requests today",
+    "Claude Code sees 30 new issues reported",
+    "Hermes Agent hosts 22 new issues today",
+    "vLLM achieves 27 merged pull requests this period"
+  ],
+  "ai-trending": [
+    "alibaba/open-code-review gains 893 stars today",
+    "ZhuLinsen/daily_stock_analysis hits 72,274 stars",
+    "career-ops-hq/career-ops reaches 82,604 stars",
+    "hugohe3/ppt-master now at 76,853 stars",
+    "tradermonty/claude-trading-skills adds 553 stars",
+    "ashhart/TensorFold accumulates 37 new stars today"
+  ],
+  "ai-hn": [
+    "Nvidia faces allegations of engineered GPU scarcity",
+    "AI aids in unlocking Gödel's profound mathematical works",
+    "Faster Retrieval paper gains traction in AI research",
+    "Video sparks debate on stagnation in software development",
+    "Community discusses energy consumption in generative AI",
+    "Concerns raised over ethical AI applications in literature"
+  ],
+  "ai-community": [
+    "Guidelines for coding agents shared among developers",
+    "Remove.bg replacement tools tested by users",
+    "KV cache fix improves LLM performance discussions",
+    "Security concerns around AI models highlighted",
+    "Users exchange insights on enhancing AI tool functionality",
+    "Impact of coding agents on developer productivity debated"
+  ]
+}
