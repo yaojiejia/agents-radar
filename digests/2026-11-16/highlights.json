@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.171.0-alpha.7.",
+    "Qwen Code unveiled releases including v0.27.4.",
+    "OpenClaw gained 112 new issues in 24 hours.",
+    "Claude Code reached 155,797 stars today.",
+    "GitHub Copilot CLI closed 5 issues recently.",
+    "Hermes Agent has 21 new issues reported."
+  ],
+  "ai-trending": [
+    "Univer adds 988 stars after SDK launch.",
+    "Claude-BugHunter gains 98 stars for bug hunting.",
+    "Claude trading skills project gains 706 stars.",
+    "AG-UI project received 355 stars for UI protocol.",
+    "Plannotator gained 866 stars managing agent workflows.",
+    "New AI tools focused on collaboration trending."
+  ],
+  "ai-hn": [
+    "Community debates AI's job market impact.",
+    "Positional embeddings article scores 210 points.",
+    "AI energy use on non-English content discussed.",
+    "Discussions on AI-generated code being open source.",
+    "AI efficiencies in coding attract significant attention.",
+    "Regulatory challenges for AI technologies explored."
+  ],
+  "ai-hf": [
+    "Qwen3.8-27B model excels in image-text tasks.",
+    "DeepSeek-V4-Pro-Qwen3.5 gains 27,037 downloads.",
+    "New Qwen turbo variant enhances text generation.",
+    "Many models released for multimodal generation.",
+    "MiniMaxAI series trending in generative tools.",
+    "Qwen family continues to dominate on Hugging Face."
+  ],
+  "ai-community": [
+    "Agent protocols and automation discussed widely.",
+    "AI in project management tools gains focus.",
+    "Articles on security measures in AI development.",
+    "Quality assurance automation emphasized in Jira article.",
+    "Exciting hackathon projects showcasing creativity.",
+    "Markov Chain model built from scratch shared."
+  ]
+}
