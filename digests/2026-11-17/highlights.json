@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.326 with improvements.",
+    "Hermes Agent announced versions v0.23.2 and v0.23.1.",
+    "OpenClaw gained 111 new issues in the last 24 hours.",
+    "OpenCode added 29 new issues and closed 22 today.",
+    "GitHub Copilot CLI closed 14 issues recently.",
+    "LiteLLM merged 111 PRs, showcasing active development."
+  ],
+  "ai-trending": [
+    "AG-UI garners attention for UI agent-user interactions.",
+    "Claude BugHunter enhances code security with automation.",
+    "NVIDIA/SkillEvaluator gains 873 stars for skill evaluation.",
+    "Alibaba's open-code-review tool sees 951 new stars.",
+    "mvanhorn/last30days-skill attracts 135 new stars today.",
+    "Community focuses on versatile AI agents for workflows."
+  ],
+  "ai-web": [
+    "Anthropic commits $10M to Canadian AI research.",
+    "New Singapore office to bolster Asia-Pacific operations.",
+    "Launch of $5M grant for AI's impact on user wellbeing.",
+    "8 new articles published by Anthropic today.",
+    "OpenAI released 8 articles, details lacking.",
+    "Anthropic strengthens brand through local partnerships."
+  ],
+  "ai-hn": [
+    "Claude Mythos slashed AMD GPU onboarding to 3 days.",
+    "Discussion on ethical data collection and online safety.",
+    "Developers seek alternatives for secure coding agents.",
+    "Concern about AI-generated content in safety discussions.",
+    "Debate on increasing accessibility of AI tools.",
+    "State of AI deployments across platforms is trending."
+  ],
+  "ai-arxiv": [
+    "Study reveals link between specification and LLM accuracy.",
+    "Research audits LLM deployment in hiring processes.",
+    "Entropy-guided alignment reduces hallucinations in VLMs.",
+    "New architectures enhance efficiency of large language models.",
+    "Ethical implications of AI training data explored.",
+    "Healthcare applications of AI show promising advancements."
+  ],
+  "ai-community": [
+    "Focus on AI agent architectures for coding efficiency.",
+    "Governance discussions on AI agents in organizations.",
+    "Reliability of code review tools is under examination.",
+    "Articles highlight AI's rapid code generation capabilities.",
+    "Insights shared on the Agentic Loop in AI coding.",
+    "Control layers needed for safer AI-driven coding."
+  ]
+}
