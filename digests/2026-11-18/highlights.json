@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.327.",
+    "OpenAI Codex had multiple releases this week.",
+    "OpenClaw released v2026.11.5.",
+    "OpenCode gained 40 new issues today.",
+    "GitHub Copilot CLI closed 12 issues today.",
+    "Gemini CLI merged 6 PRs in the last day."
+  ],
+  "ai-trending": [
+    "Claude-BugHunter focuses on security analysis.",
+    "Alibaba's open-code-review tool gains 763 stars.",
+    "dream-num/univer SDK supports AI office tools.",
+    "Last30days-skill synthesizes data from multiple sources.",
+    "AI tools shifting focus to code review improvements.",
+    "Projects enhancing dev automation trending today."
+  ],
+  "ai-web": [
+    "Anthropic launched Claude for Excel updates.",
+    "Automating financial analysis with Claude enhancements.",
+    "OpenAI's news hints at sales model advancements.",
+    "Claude assists in formal software verification now.",
+    "LLMs being explored for software safety evaluations.",
+    "New models introduced for law applications by OpenAI."
+  ],
+  "ai-hn": [
+    "Community debates AI's impact on search traffic.",
+    "OpenAI unveils GPT-6.2, excitement and concern abound.",
+    "AI coding agents shift bottlenecks to code review.",
+    "Google's AI reduces search traffic by 40%.",
+    "Discussion on OpenAI’s performance regressions continues.",
+    "Research highlights workflow changes in software dev."
+  ],
+  "ai-arxiv": [
+    "Research on LLM alignment and evaluation advances.",
+    "Cultural nuances in AI applications gaining traction.",
+    "Worldviews in LLMs explored for better alignment.",
+    "New evaluation benchmark for African cultural relevance.",
+    "Innovative methods for autonomous systems presented.",
+    "Focus on efficiency in multimodal interactions growing."
+  ],
+  "ai-community": [
+    "Concerns over AI agent reliability surface among devs.",
+    "Security challenges in AI coding practices discussed.",
+    "Generative AI's mathematics integrated into development.",
+    "Job security fears amid AI advancements explored.",
+    "A cautionary tale on API key leak prevention.",
+    "AI agents generate 17 million pull requests monthly."
+  ]
+}
