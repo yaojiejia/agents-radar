@@ -1,0 +1,42 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released rust-v0.173.0-alpha.1",
+    "OpenClaw gained 156 new issues over 24 hours",
+    "OpenCode closed 25 issues; 18 PRs merged",
+    "Gemini CLI launched three new versions",
+    "Claude Code surpassed 156,352 stars",
+    "Hermes Agent released updates with 25 new issues"
+  ],
+  "ai-trending": [
+    "Claude-BugHunter showcases skills for vulnerability assessment",
+    "firecrawl enhances AI capabilities with knowledge infrastructures",
+    "minimind enables compact training of LLMs",
+    "openvinotoolkit's OpenVINO gains 246 stars",
+    "career-ops streamlines AI job application processes",
+    "Google's Gemini 4 Neon model tops Models Engineering Index"
+  ],
+  "ai-hn": [
+    "Anthropic's Nasdaq debut stirs industry discussions",
+    "Gemini 4 Neon model lauded for significant advancements",
+    "Claude solves black hole physics problems",
+    "Community debates AI's ethical implications",
+    "Ongoing discussions on AI and job market transformations",
+    "Stock market reactions to AI advancements are heavily analyzed"
+  ],
+  "ai-arxiv": [
+    "LLMs enhance formal software verification workflows",
+    "Validation-driven deployment for LLMs proposed",
+    "Study reveals biases in LLM outputs",
+    "Self-replicating language models raise philosophical questions",
+    "Regulatory frameworks impact ethical AI discussions",
+    "Multimodal capabilities are trending in LLM research"
+  ],
+  "ai-community": [
+    "AI security discussions highlight practical implementations",
+    "Team-wide AI adoption approaches detailed in new article",
+    "Efficient RAG architectures explored in community articles",
+    "Critique on using LLMs for simple decision-making tasks",
+    "Insights shared on personal experiences with automation tools",
+    "Concerns raised on AI-generated tests' validity"
+  ]
+}
