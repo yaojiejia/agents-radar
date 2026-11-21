@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Claude Code released v2.1.330",
+    "OpenAI Codex launched rust-v0.173.0-alpha.4",
+    "Qwen Code released version v0.28.3",
+    "OpenClaw added 175 new issues",
+    "llama.cpp closed 45 PRs in 24h",
+    "OpenAI Codex merged 45 PRs today"
+  ],
+  "ai-trending": [
+    "Claude-BugHunter excels in AI security",
+    "minimind accelerates large model training",
+    "openvino updates boost AI inference",
+    "cursor/plugins enhance agent application",
+    "mvanhorn's skill synthesizes platform info",
+    "HKUDS/nanobot reaches 50,240 stars"
+  ],
+  "ai-web": [
+    "Anthropic details LLMs in software verification",
+    "Anthropic's IPO raised $93.5 billion",
+    "OpenAI introduces Medchembench",
+    "LLMs automate code security processes",
+    "IPO closes amid heightened market interest",
+    "Anthropic's advancements transform software practices"
+  ],
+  "ai-hn": [
+    "Inkling 2 Mini spurs debate on AI implications",
+    "Anthropic IPO raises market concerns",
+    "Language Models Can Rewrite Their Own Weights",
+    "Claude solves black hole physics problems",
+    "AI-designed CPU architecture innovation",
+    "Community discusses AI in scientific inquiry"
+  ],
+  "ai-arxiv": [
+    "LLMs proving effective in vulnerability detection",
+    "Post-training changes affect LLM interpretation",
+    "New insights on detecting deception in LLMs",
+    "Reinforcement learning optimizes diffusion models",
+    "Multimodal integration showcases significant advances",
+    "Game design innovations highlight AI engagement"
+  ],
+  "ai-community": [
+    "AI safety discussions dominate today's posts",
+    "Generative models impact coding and cybersecurity",
+    "Community urges scrutiny of AI limitations",
+    "Discounting AI outputs' reliability discussed",
+    "AI energy management explored in article",
+    "Scam detection tool tested on multiple AI platforms"
+  ]
+}
