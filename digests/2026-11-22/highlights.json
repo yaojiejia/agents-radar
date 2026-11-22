@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.71.0-nightly.20261122",
+    "GitHub Copilot CLI versions v1.0.115-6 and v1.0.115-5 out",
+    "Claude Code reaches 156,584 stars on GitHub",
+    "OpenAI Codex closes 8 issues and merges 25 PRs",
+    "Qwen Code adds 27 new issues, reaches 30,850 stars",
+    "OpenClaw merges 173 PRs, has 395,001 stars"
+  ],
+  "ai-trending": [
+    "Claude-BugHunter leads vulnerability management tools",
+    "Firecrawl gains 1006 stars, enhancing AI knowledge access",
+    "OpenVINO toolkit sees 200 new stars for model deployment",
+    "Nanobot aims for personal automation versatility",
+    "CowAgent offers open-source personal AI assistant",
+    "Minimind shows rapid AI model training advancements"
+  ],
+  "ai-hn": [
+    "OpenRouter boosts data retention practices amid debates",
+    "LLMs can read executables, sparking developer interest",
+    "Claude addresses black hole physics, impressing researchers",
+    "Anthropic’s IPO prompts discussions on AI market risks",
+    "Nasdaq suffers losses amid AI sell-off concerns",
+    "Developers explore long-term implications of AI safety"
+  ],
+  "ai-community": [
+    "Challenges in AI agent orchestration discussed by developers",
+    "AI safety and reliability impact highlighted in discussions",
+    "Real-time payment fraud detection improvements noted",
+    "Multi-agent systems efficiency examined using AWS",
+    "Data privacy worries in AI supply chains raised",
+    "Innovative AI solutions discussed in tech communities"
+  ]
+}
