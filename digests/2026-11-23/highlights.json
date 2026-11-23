@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Gemini CLI released v0.71.0-nightly.20261123",
+    "Qwen Code improved desktop functionalities in v0.28.4",
+    "Critical bug reported in OpenClaw affecting use cases",
+    "OpenCode leads with 34 new issues and 15 closures",
+    "Claude Code tops with 156,718 stars and 23 new issues",
+    "OpenAI Codex merges 30 PRs and closes 10 issues"
+  ],
+  "ai-trending": [
+    "Claude-BugHunter gains 1,700 stars today",
+    "firecrawl sees momentum with 915 new stars",
+    "OpenVINO™ toolkit optimizes AI inference",
+    "firecrawl enhances agent knowledge infrastructure",
+    "AI agents gain attention in community discussions",
+    "Bug hunting tools redefine AI security protocols"
+  ],
+  "ai-web": [
+    "OpenAI released two articles on perplexity today",
+    "No new content from Anthropic reported today",
+    "OpenAI focuses on measuring intelligence metrics",
+    "New articles emphasize complexity in AI research",
+    "Content reflects strategic narrative on intelligence",
+    "OpenAI's message highlights importance of clarity"
+  ],
+  "ai-hn": [
+    "Guide on local AI tools generates significant interest",
+    "Community debates AI's environmental impact intensifying",
+    "Perplexity metrics spark discussions among researchers",
+    "Language models can now self-update weights",
+    "Innovative training processes discussed among developers",
+    "Ethical concerns raised about AI advancements"
+  ],
+  "ai-hf": [
+    "Qwen3.8-27B excels in image-text interactions",
+    "Inkling-2-Mini gains popularity for multimodal tasks",
+    "Qwen models dominate trending lists this week",
+    "Voice-isolator meets demand for audio enhancements",
+    "Qwen3.8-27B sees millions of downloads",
+    "Multimodal capabilities rise in AI popularity this week"
+  ],
+  "ai-community": [
+    "Focus on AI model safety and performance discussions",
+    "Cost-effectiveness of AI solutions under evaluation",
+    "RAG models face reliability challenges under load",
+    "Insights on AI job application processes shared",
+    "Local AI code review tools emphasize bug prevention",
+    "Practical guide on improving development workflows"
+  ]
+}
