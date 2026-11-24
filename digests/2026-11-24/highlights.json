@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "vLLM released version 0.20.0 with improvements.",
+    "Claude Code introduced release v2.1.331.",
+    "OpenCode merged 9 notable PRs today.",
+    "OpenClaw saw 143 new issues and 155 closed.",
+    "Hermes Agent gained 20 new issues, closed 11.",
+    "llama.cpp released 10 updates, now at 136,114 stars."
+  ],
+  "ai-trending": [
+    "Claude-BugHunter trending with daily star growth.",
+    "firecrawl gains 924 stars, enhancing AI agent data access.",
+    "minimind showcases easy LLM training for developers.",
+    "OpenVINO™ toolkit optimized AI inference helps performance.",
+    "Firecrawl enables intelligent data extraction via API.",
+    "mvanhorn's project summarizes data across multiple platforms."
+  ],
+  "ai-web": [
+    "Anthropic article explores AI's role in business.",
+    "Survey of 58 firms highlights AI increasing productivity.",
+    "AI automation seen boosting workforce rather than cutting jobs.",
+    "Businesses leverage coding agents for non-technical roles.",
+    "Insights reinforce AI as an enabler of growth.",
+    "Working with AI report released by Anthropic."
+  ],
+  "ai-hn": [
+    "LLMs can now detect prior concept injections.",
+    "GLM-5.4 introduces enhanced coding capabilities.",
+    "Declare is a UI language for your AI projects.",
+    "New AI tools focus on integration and security.",
+    "Community discusses reliability and safety in LLMs.",
+    "Open-source project Shirudo addresses AI security issues."
+  ],
+  "ai-arxiv": [
+    "SARA assists auditors using LLMs for sustainability.",
+    "Bridging gap between natural language and RTL code.",
+    "Generative engines show output inconsistencies.",
+    "Focus on improving AI's decision-making abilities.",
+    "Research targets robust generalization in complex contexts.",
+    "User intent understanding is crucial for interaction."
+  ],
+  "ai-community": [
+    "Debate on AI tools' performance beyond metrics grows.",
+    "Articles explore software automation implementations.",
+    "New perspectives on agent tool registries emerge.",
+    "Coordination issues among multiple agents discussed.",
+    "Developers assess AI capabilities in real-world scenarios.",
+    "Engaging experiments rank AI systems' unique traits."
+  ]
+}
