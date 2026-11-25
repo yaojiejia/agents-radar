@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "Ollama released v1.109.5 and v1.112.0-rc.1",
+    "GitHub Copilot CLI updates to v1.0.116-4",
+    "OpenAI Codex merged significant PRs recently",
+    "OpenClaw had 148 new issues reported today",
+    "OpenCode gained 33 stars and 14 closed issues",
+    "Qwen Code saw a rise with 35 new issues"
+  ],
+  "ai-trending": [
+    "OpenVINO toolkit gains 185 stars today",
+    "Firecrawl knowledge infrastructure up 991 stars",
+    "AI agents project rising in popularity this week",
+    "User-friendly LLM training tools trending",
+    "Enhanced AI infrastructure frameworks gaining traction",
+    "Retrieval-augmented generation shows significant interest"
+  ],
+  "ai-web": [
+    "Anthropic's Alignment team releases new research",
+    "OpenAI showcases GPT-6 in protein design",
+    "New AI content from Anthropic focuses on safety",
+    "Interpretability team updates make AI operations clearer",
+    "New publications emphasize AI compliance and ethics",
+    "OpenAI's advancements highlight scientific AI applications"
+  ],
+  "ai-hn": [
+    "Community discusses breakthroughs in matrix multiplication",
+    "GPT-6's protein design capabilities stir excitement",
+    "Concerns over Anthropic's IPO performance shared",
+    "Debate on transparency in generative models ongoing",
+    "Matrix multiplication efficiency could impact ML",
+    "Discussion on AI model constraints and ethical implications"
+  ],
+  "ai-arxiv": [
+    "New methods for efficient LLM inference released",
+    "Bias in LLMs addressed in new auditing paper",
+    "Innovations in multitask learning for robotics emerge",
+    "Techniques for flexible policy adaptation detailed",
+    "Research highlights need for interpreting AI systems",
+    "Papers emphasize efficiency in LLM training"
+  ],
+  "ai-community": [
+    "AI coding agents boost output but slow PR reviews",
+    "Article discusses hallucinations in AI release notes",
+    "Strategies for improving AI workflow retention highlighted",
+    "Impact of AI tools on code quality examined",
+    "Community explores AI advancements in software dev",
+    "Offline-first React Native app development discussed"
+  ]
+}
