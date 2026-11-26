@@ -1,0 +1,50 @@
+{
+  "ai-digest": [
+    "OpenAI Codex released version rust-v0.174.0-alpha.7",
+    "GitHub Copilot CLI announced multiple releases",
+    "Claude Code gained 38 new issues today",
+    "OpenClaw closed 105 issues in the last 24 hours",
+    "llama.cpp merged 44 PRs recently",
+    "Hermes Agent added 25 new issues in a day"
+  ],
+  "ai-trending": [
+    "firecrawl project enhances AI knowledge infrastructure",
+    "minimind enables quick LLM training in two hours",
+    "cursor/plugins gains 416 stars in one day",
+    "openvinotoolkit's OpenVINO™ supports model optimization",
+    "last30days-skill provides multifaceted AI capabilities",
+    "Panniantong/Agent-Reach expands AI agent workflows"
+  ],
+  "ai-web": [
+    "Anthropic launched article on API migration to Rust",
+    "New article details efficiency improvements in Messages API",
+    "Migration aims to boost reliability in live systems",
+    "Rust adoption reflects trend towards efficient programming",
+    "Article discusses challenges in system migrations",
+    "Focus on code verification and system safety"
+  ],
+  "ai-hn": [
+    "GPT-6 shows new protein-design capabilities",
+    "Community excited by GPT-6 implications for biotech",
+    "Debates arise over AI ethics in creative industries",
+    "Concerns voiced against AI toy bans in New York",
+    "New study disproves polynomial Hirsch conjecture",
+    "AI features in Photoshop spark significant discussion"
+  ],
+  "ai-arxiv": [
+    "Survey highlights ethics of LLMs in telecommunications",
+    "Repairing trust in distilled language models discussed",
+    "ZeroHero portrays innovative LLM training approach",
+    "Papers address challenges of model trustworthiness",
+    "Advancements in multi-agent systems outlined",
+    "Studies emphasize decision-focused fine-tuning methods"
+  ],
+  "ai-community": [
+    "Concerns grow over AI model safety and reliability",
+    "Developers share insights on optimizing AI tools",
+    "Discussions focus on AI agent memory systems",
+    "Benchmarks for AI models are actively explored",
+    "In-depth teardown of privacy-focused photo editor published",
+    "New tests reveal limitations in AI agent behavior"
+  ]
+}
