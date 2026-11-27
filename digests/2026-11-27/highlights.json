@@ -1,0 +1,43 @@
+{
+  "ai-digest": [
+    "llama.cpp released v1.1.0 with several updates.",
+    "OpenAI Codex merged PR to improve TUI status timer.",
+    "OpenClaw had significant activity with new issue #206081.",
+    "OpenCode gained 26 new issues and closed 7 today.",
+    "Hermes Agent closed 7 issues amidst ongoing developments.",
+    "vLLM merged 35 PRs and resolved 65 issues recently."
+  ],
+  "ai-trending": [
+    "Claude-BugHunter gained +1597 stars today.",
+    "firecrawl trending with +1046 stars for data integration.",
+    "OpenVINO saw +176 stars focusing on AI inference.",
+    "minimind showcases rapid advancements in LLM tools.",
+    "Growing demand for custom AI solutions noted in trends.",
+    "User interest shifts towards smarter AI agent workflows."
+  ],
+  "ai-hn": [
+    "Hacker News discussions focus on AI agent limitations.",
+    "High interest in the ethics of AI tool usage emerging.",
+    "Research on matrix multiplication exponent sparks debate.",
+    "Uncertainty in machine learning concepts discussed.",
+    "Self-hosting AI solutions gaining traction among users.",
+    "Cybersecurity concerns linked to new AI technologies.",
+    "AI methodology innovations inspire community excitement."
+  ],
+  "ai-arxiv": [
+    "Survey on LLMs in telecom highlights security issues.",
+    "Trustworthiness in distilled language models explored.",
+    "New research on harmful shifts in foundation models.",
+    "Interpretability in AI systems gains significant attention.",
+    "Advances in task-oriented learning for multi-agent systems.",
+    "AI's reasoning capabilities from text analysis highlighted."
+  ],
+  "ai-community": [
+    "Challenges in long context handling for LLMs discussed.",
+    "Impact of silent LLM upgrades on project outcomes noted.",
+    "Importance of data integrity in medical record evaluation.",
+    "Emerging trends in Retrieval-Augmented Generation systems.",
+    "Effective prompt engineering emphasized for model efficiency.",
+    "Critical discussions on AI tool complexities among developers."
+  ]
+}
