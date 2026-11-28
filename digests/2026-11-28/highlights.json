@@ -1,0 +1,34 @@
+{
+  "ai-digest": [
+    "OpenAI Codex merged 23 PRs this week.",
+    "GitHub Copilot CLI released v1.0.118-2 updates.",
+    "Claude Code adds 27 new issues and 157k stars.",
+    "OpenClaw saw 165 new issues and 395k stars.",
+    "Gemini CLI has 109k stars, no new updates today.",
+    "Qwen Code opened 31 new issues, totaling 31 today."
+  ],
+  "ai-trending": [
+    "OpenVINO toolkit gained 151 new stars today.",
+    "Claude-BugHunter added 1608 stars in one day.",
+    "Cursor plugins repository increased by 243 stars.",
+    "Firecrawl project trending with 822 new stars.",
+    "Last30Days-skill gathered 675 new stars.",
+    "AI agents are key in enhanced data scraping tools."
+  ],
+  "ai-hn": [
+    "Google's DeepCrossAttention achieves 3x speed boost.",
+    "Prospero offers bloat-free AI coding solutions.",
+    "SessionGraph visualizes coding sessions interactively.",
+    "Discussion on AI ethics following eviction controversy.",
+    "Community excited over model architecture advancements.",
+    "Concerns rise over AI's influence in personal lives."
+  ],
+  "ai-community": [
+    "AI in development cuts sprint time by 30%.",
+    "AI tools introduced new bugs alongside faster outputs.",
+    "Building an OS showcases technical AI integration.",
+    "Personal AI dependency raises productivity concerns.",
+    "Formally verifiable programming languages discussed.",
+    "Developers share challenges with AI agent outputs."
+  ]
+}
